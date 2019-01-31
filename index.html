@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Crafting Recipes</title>
+<link rel="icon" href="../Redwood_2.png">
+</head>
+<body>
+
+<div class="navbar">
+<div class="srchbar"><input type="text" class="searchbar" id="myInput" onkeyup="myFunction()" placeholder="Search.."></div>
+<a href="#basiccr">Basic Crafting Recipes</a>
+<a href="#crtools">Crafting Recipes with Tools</a>
+<a href="#coloring">Coloring Items with Dye</a>
+<a href="#cooking">Cooking</a>
+<a href="#cutting">Cut-O-Matik</a>
+<a href="#forging">Forging Items</a>
+<a href="#extraction">Ingredient Extraction</a>
+<a href="#distill">Distillation</a>
+</div>
+
+<table id="t01">
+  <tr><th id="basiccr" colspan="3">Basic Crafting Recipes</th></tr>
+  <tr><td><img src="images/mud.png"><br>Mud</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/dirt.png"></div>Dirt</span></td></tr>
+  
+  <tr><td><img src="images/soil.png"><br>Soil</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/dirt.png"></div>2x Dirt</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/tree_leaves.png"></div>Tree Leaves</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span></td></tr>
+  
+  <tr><td><img src="images/quicksand.png"><br>Quicksand</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/sand.png"></div>2x Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/mud.png"></div>Mud</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span></td></tr>
+  
+  <tr><td><img src="images/string.png"><br>String</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/grass.png"></div>2x Grass</span></td></tr>
+  
+  <tr><td><img src="images/string.png"><br>String</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/trop_grass.png"></div>2x Tropical Grass</span></td></tr>
+  
+  <tr><td><img src="images/rope.png"><br>Rope</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/string.png"></div>3x String</span></td></tr>
+  
+  <tr><td><img src="images/stone_brick.png"><br>Stone Brick</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone.png"></div>4x Stone</span></td></tr>
+  
+  <tr><td><img src="images/stone_block.png"><br>Stone Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone.png"></div>3x Stone</span></td></tr>
+  
+  <tr><td><img src="images/clay_brick.png"><br>Clay Brick</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>4x Clay Lump</span></td></tr>
+  
+  <tr><td><img src="images/clay_block.png"><br>Clay Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>3x Clay Lump</span></td></tr>
+  
+  <tr><td><img src="images/sandstone.png"><br>Sandstone</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/sand.png"></div>3x Sand</span></td></tr>
+  
+  <tr><td><img src="images/iron_block.png"><br>Iron Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/iron.png"></div>3x Iron</span></td></tr>
+  
+  <tr><td><img src="images/coal_block.png"><br>Coal Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/coal.png"></div>3x Coal</span></td></tr>
+  
+  <tr><td><img src="images/grey_checkers.png"><br>Grey Checkers</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone.png"></div>2x Stone</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/coal.png"></div>2x Coal</span></td></tr>
+  
+  <tr><td><img src="images/grey_checkers.png"><br>Grey Checkers</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone.png"></div>2x Stone</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/coal_block.png"></div>Coal Block</span></td></tr>
+  
+  <tr><td><img src="images/grey_checkers.png"><br>Grey Checkers</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone_block.png"></div>Stone Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/coal_block.png"></div>Coal Block</span></td></tr>
+  
+  <tr><td><img src="images/white_plaster.png"><br>White Plaster</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone.png"></div>2x Stone</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span></td></tr>
+  
+  <tr><td><img src="images/white_stripe_road.png"><br>White Stripe Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/white_divider_road_1.png"><br>White Divider Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/white_divider_road_2.png"><br>White Divider Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/white_curve_road_1.png"><br>White Curve Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/white_curve_road_2.png"><br>White Curve Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/white_curve_road_3.png"><br>White Curve Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/white_curve_road_4.png"><br>White Curve Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/yellow_stripe_road.png"><br>Yellow Stripe Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+  
+  <tr><td><img src="images/yellow_divider_road_1.png"><br>Yellow Divider Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+  
+  <tr><td><img src="images/yellow_divider_road_2.png"><br>Yellow Divider Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+  
+  <tr><td><img src="images/yellow_curve_road_1.png"><br>Yellow Curve Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+  
+  <tr><td><img src="images/yellow_curve_road_2.png"><br>Yellow Curve Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+  
+  <tr><td><img src="images/yellow_curve_road_3.png"><br>Yellow Curve Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+  
+  <tr><td><img src="images/yellow_curve_road_4.png"><br>Yellow Curve Road</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wet_cement.png"></div>Wet Cement</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+  
+  <tr><td><img src="images/pedestrians_only.png"><br>Pedestrians Only</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/gizmo.png"></div>3x Gizmo</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/steel_block.png"></div>Steel Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span></td></tr>
+  
+  <tr><td><img src="images/red_brick.png"><br>Red Brick</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/stone.png"></div>Stone</span></td></tr>
+  
+  <tr><td><img src="images/dark_brick.png"><br>Dark Brick</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/stone.png"></div>Stone</span></td></tr>
+  
+  <tr><td><img src="images/blue_brick.png"><br>Blue Brick</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/stone.png"></div>Stone</span></td></tr>
+  
+  <tr><td><img src="images/sandy_block.png"><br>Sandy Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/sand.png"></div>3x Sand</span></td></tr>
+  
+  <tr><td><img src="images/sandy_brick.png"><br>Sandy Brick</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/sand.png"></div>4x Sand</span></td></tr>
+  
+  <tr><td><img src="images/gold_block.png"><br>Gold Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/gold.png"></div>3x Gold</span></td></tr>
+  
+  <tr><td><img src="images/silver_block.png"><br>Silver Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/silver.png"></div>3x Silver</span></td></tr>
+  
+  <tr><td><img src="images/cobblestone.png"><br>Cobblestone</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone.png"></div>5x Stone</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/mud.png"></div>Mud</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>Clay Lump</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span></td></tr>
+  
+  <tr><td><img src="images/spike_floor.png"><br>Spike Floor</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/metal_plate.png"></div>Metal Plate</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/thorns.png"></div>Thorns</span></td></tr>
+  
+  <tr><td><img src="images/spike_floor.png"><br>Spike Floor</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/metal_plate.png"></div>Metal Plate</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></td></tr>
+  
+  <tr><td><img src="images/nest.png"><br>Nest</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wild_egg.png"></div>Wild Egg</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sticks.png"></div>2x Sticks</span></td></tr>
+  
+  <tr><td><img src="images/bouncy_block.png"><br>Bouncy Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/rubber.png"></div>4x Rubber</span></td></tr>
+  
+  <tr><td><img src="images/glue.png"><br>Glue</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/rubber.png"></div>3x Rubber</span></td></tr>
+  
+  <tr><td><img src="images/desk_pot.png"><br>Desk Pot</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>2x Clay Lump</span></td></tr>
+  
+  <tr><td><img src="images/round_neck_pot.png"><br>Round Neck Pot</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>2x Clay Lump</span></td></tr>
+  
+  <tr><td><img src="images/round_pot.png"><br>Round Pot</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>3x Clay Lump</span></td></tr>
+  
+  <tr><td><img src="images/white_lattice.png"><br>White Lattice</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/wood_lattice.png"></div>Wood Lattice</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/crude_signpost.png"><br>Crude Signpost</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span></td></tr>
+  
+  <tr><td><img src="images/warning_sign.png"><br>Warning Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+  
+  <tr><td><img src="images/stop_sign.png"><br>Stop Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span></td></tr>
+  
+  <tr><td><img src="images/left_sign.png"><br>Left Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/right_sign.png"><br>Right Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/up_sign.png"><br>Up Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/down_sign.png"><br>Down Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></td></tr>
+  
+  <tr><td><img src="images/open_sign.png"><br>Open Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span></td></tr>
+  
+  <tr><td><img src="images/closed_sign.png"><br>Closed Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span></td></tr>
+  
+  <tr><td><img src="images/red_official_sign.png"><br>Red Official Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span></td></tr>
+  
+  <tr><td><img src="images/green_official_sign.png"><br>Green Official Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/green_dye.png"></div>Green Dye</span></td></tr>
+  
+  <tr><td><img src="images/black_official_sign.png"><br>Black Official Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span></td></tr>
+  
+  <tr><td><img src="images/hint_sign.png"><br>Hint Sign</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span></td></tr>
+  
+  <tr><td><img src="images/varnish.png"><br>Varnish</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/solvent.png"></div>Solvent</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/pine_resin.png"></div>Pine Resin</span></td></tr>
+  
+  <tr><td><img src="images/fancy_wood.png"><br>Fancy Wood</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/new_wood_block.png"></div>New Wood Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span></td></tr>
+  
+  <tr><td><img src="images/full_watering_can.png"><br>Full Watering Can</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/watering_can.png"></div>Watering Can</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span></td></tr>
+  
+  <tr><td><img src="images/full_deluxe_watering_can.png"><br>Full Deluxe<br> Watering Can</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/deluxe_watering_can.png"></div>Deluxe<br> Watering Can</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/water.png"></div>2x Water</span></td></tr>
+  
+  <tr><td><img src="images/haunted_lamp_1.png"><br>Haunted Lamp I</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/full_plasm_trap.png"></div>Full Plasm Trap</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/spirit_lamp_1.png"></div>Spirit Lamp I</span></td></tr>
+  
+  <tr><td><img src="images/haunted_lamp_2.png"><br>Haunted Lamp II</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/full_plasm_trap.png"></div>Full Plasm Trap</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/spirit_lamp_2.png"></div>Spirit Lamp II</span></td></tr>
+  
+  <tr><td><img src="images/haunted_lamp_3.png"><br>Haunted Lamp III</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/full_plasm_trap.png"></div>Full Plasm Trap</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/spirit_lamp_3.png"></div>Spirit Lamp III</span></td></tr>
+  
+  <tr><td><img src="images/stone_hammer.png"><br>Stone Hammer</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone.png"></div>Stone</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/string.png"></div>String</span></td></tr>
+  
+  <tr><td><img src="images/mortar_and_pestle.png"><br>Mortar and Pestle</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stone.png"></div>Stone</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>2x Clay Lump</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span></td></tr>
+  
+  <tr><td><img src="images/workbench.png"><br>Workbench</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/iron.png"></div>2x Iron</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sticks.png"></div>2x Sticks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/stone_block.png"></div>2x Stone Block</span></td></tr>
+  
+  <tr><td><img src="images/expert_workbench.png"><br>Expert Workbench</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/iron.png"></div>2x Iron</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sticks.png"></div>2x Sticks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/stone_block.png"></div>2x Stone Block</span></td></tr>
+  
+  <tr><td><img src="images/tech_workbench.png"><br>Tech Workbench</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/iron.png"></div>2x Iron</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/steel_gear.png"></div>2x Steel Gear</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/spring.png"></div>2x Spring</span></td></tr>
+  
+  <tr><td><img src="images/wizards_workbench.png"><br>Wizard's Workbench</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/iron.png"></div>2x Iron</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/captured_fairy.png"></div>Captured Fairy</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/ruby.png"></div>Ruby</span></td></tr>
+  
+  <tr><td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/cloth.png"></div>Cloth</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/cotton.png"></div>Cotton</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/string.png"></div>String</span></td></tr>
+  
+  <tr><td><img src="images/persian_rug.png"><br>Persian Rug</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/cotton.png"></div>3x Cotton</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span></td></tr>
+  
+  <tr><td><img src="images/cloth.png"><br>Cloth</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/cotton.png"></div>3x Cotton</span></td></tr>
+  
+  <tr><td><img src="images/gizmo.png"><br>Gizmo</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/gold.png"></div>Gold</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glass.png"></div>Glass</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></td></tr>
+  
+  <tr><td><img src="images/magnet.png"><br>Magnet</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/gizmo.png"></div>3x Gizmo</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/iron.png"></div>Iron</span></td></tr>
+  
+  <tr><td><img src="images/steel_hammer.png"><br>Steel Hammer</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/steel_block.png"></div>Steel Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span></td></tr>
+  
+  <tr><td><img src="images/steel_block.png"><br>Steel Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/refined_iron.png"></div>2x Refined Iron</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span></td></tr>
+  
+  <tr><td><img src="images/stainless_steel_block.png"><br>Stainless<br> Steel Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/silver.png"></div>Silver</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/refined_steel.png"></div>2x Refined Steel</span></td></tr>
+  
+  <tr><td><img src="images/qbee_bomb.png"><br>QBee Bomb</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/harm_wand.png"></div>Harm Wand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/bomb.png"></div>Bomb</span></td></tr>
+  
+  <tr><td><img src="images/trick_dice.png"><br>Trick Dice</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/bomb.png"></div>Bomb</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/dice.png"></div>Dice</span></td></tr>
+
+  <tr><td><img src="images/bomb.png"><br>Bomb</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/refined_iron_ball.png"></div>Refined Iron Ball</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/boom_powder.png"></div>Boom Powder</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/fuse.png"></div>Fuse</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span></td></tr>
+  
+  <tr><td><img src="images/boom_powder.png"><br>Boom Powder</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/sulfur.png"></div>Sulfur</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/mineral_deposit.png"></div>Mineral Deposit</span></td></tr>
+  
+   <tr><td><img src="images/fuse.png"><br>Fuse</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/fiber_rope.png"></div>Fiber Rope</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/boom_powder.png"></div>Boom Powder</span></td></tr>
+  
+  <tr><td><img src="images/fiber_rope.png"><br>Fiber Rope</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/fiber.png"></div>6x Fiber</span></td></tr>
+  
+  <tr><td><img src="images/warp_anchor.png"><br>Warp Anchor</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/basic_bumper.png"></div>Basic Bumper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/checkpoint.png"></div>Checkpoint</span></td></tr>
+  
+  <tr><td><img src="images/life_block.png"><br>Life Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stainless_steel_block.png"></div>Stainless<br> Steel Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/healing_block.png"></div>Healing Block</span></td></tr>
+  
+  <tr><td><img src="images/checkpoint.png"><br>Checkpoint</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stainless_steel_block.png"></div>Stainless<br> Steel Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/life_block.png"></div>Life Block</span></td></tr>
+  
+  <tr><td><img src="images/checkpoint_bumper.png"><br>Checkpoint Bumper</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/basic_bumper.png"></div>Basic Bumper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/life_block.png"></div>Life Block</span></td></tr>
+  
+  <tr><td><img src="images/healing_block.png"><br>Healing Block</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/stainless_steel_block.png"></div>Stainless<br> Steel Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/gizmo.png"></div>Gizmo</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/heal_wand.png"></div>Heal Wand</span></td></tr>
+  
+  <tr><td><img src="images/heal_bumper.png"><br>Heal Bumper</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/basic_bumper.png"></div>Basic Bumper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/gizmo.png"></div>Gizmo</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/heal_wand.png"></div>Heal Wand</span></td></tr>
+
+  <tr><td><img src="images/password_sentry.png"><br>Password Sentry</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/basic_sentry.png"></div>Basic Sentry</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/emerald.png"></div>Emerald</span></td></tr>
+
+  <tr><td><img src="images/friend_sentry.png"><br>Friend Sentry</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/basic_sentry.png"></div>Basic Sentry</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/ruby.png"></div>Ruby</span></td></tr>
+
+  <tr><td><img src="images/personal_sentry.png"><br>Personal Sentry</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/basic_sentry.png"></div>Basic Sentry</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/diamond.png"></div>Diamond</span></td></tr>
+
+  <tr><td><img src="images/basic_sentry.png"><br>Basic Sentry</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/life_force.png"></div>Life Force</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/decorative_mask.png"></div>Decorative Mask</span></td></tr>
+  
+  <tr><td><img src="images/life_force.png"><br>Life Force</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/crushed_artifact.png"></div>Crushed Artifact</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/cloudy_potion.png"></div>Cloudy Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/empty_jar.png"></div>Empty Jar</span></td></tr>
+  
+  <tr><td><img src="images/wet_paste.png"><br>Wet Paste</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/pink_coral.png"></div>Pink Coral</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span></td></tr>
+
+  <tr><td><img src="images/wet_cement.png"><br>Wet Cement</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/lava.png"></div>Lava</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span></td></tr>
+  
+  <tr><td><img src="images/snot.png"><br>Snot</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/bouncy_block.png"></div>Bouncy Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/solvent.png"></div>2x Solvent</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>3x Yellow Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/green_dye.png"></div>Green Dye</span></td></tr>
+  
+  <tr><td><img src="images/green_goop.png"><br>Green Goop</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/bouncy_block.png"></div>Bouncy Block</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/solvent.png"></div>2x Solvent</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/green_dye.png"></div>3x Green Dye</span></td></tr>
+  
+  <tr><td><img src="images/phantom_foam.png"><br>Phantom Foam</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/cloudy_potion.png"></div>Cloudy Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/ghost_dust.png"></div>6x Ghost Dust</span></td></tr>
+  
+  <tr><td><img src="images/green_fadey_foam.png"><br>5x Green Fadey Foam</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/cloudy_potion.png"></div>Cloudy Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/ghost_dust.png"></div>Ghost Dust</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/green_dye.png"></div>Green Dye</span></td></tr>
+
+  <tr><td><img src="images/blue_fadey_foam.png"><br>5x Blue Fadey Foam</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/cloudy_potion.png"></div>Cloudy Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/ghost_dust.png"></div>Ghost Dust</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span></td></tr>
+  
+    <tr><td><img src="images/red_fadey_foam.png"><br>5x Red Fadey Foam</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/cloudy_potion.png"></div>Cloudy Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/ghost_dust.png"></div>Ghost Dust</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span></td></tr>
+  
+  <tr><td><img src="images/knock_back_wand.png"><br>1500x Knock Back Wand</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/silvery_wand.png"></div>Silvery Wand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/magical_potion.png"></div>Magical Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/gold_magic_gem.png"></div>Gold<br> Magic Gem</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/blue_magic_gem.png"></div>Blue<br> Magic Gem</span></td></tr>
+  
+  <tr><td><img src="images/harm_wand.png"><br>1500x Harm Wand</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/golden_wand.png"></div>Golden Wand</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/magical_potion.png"></div>Magical Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/bones.png"></div>Bones</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/red_magic_gem.png"></div>Red<br> Magic Gem</span></td></tr>
+  
+  <tr><td><img src="images/silvery_wand.png"><br>Silvery Wand</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/whittled_stick.png"></div>Whittled Stick</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/silver.png"></div>Silver</span></td></tr>
+  
+  <tr><td><img src="images/golden_wand.png"><br>Golden Wand</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/whittled_stick.png"></div>Whittled Stick</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/gold.png"></div>Gold</span></td></tr>
+
+  <tr><td><img src="images/magical_potion.png"><br>Magical Potion</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/cloudy_potion.png"></div>Cloudy Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/ghost_gum.png"></div>4x Ghost Gum</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/purple_magic_gem.png"></div>Purple<br>Magic Gem</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/solvent.png"></div>Solvent</span></td></tr>
+  
+  <tr><td><img src="images/cloudy_potion.png"><br>Cloudy Potion</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/sunny_potion.png"></div>Sunny Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/spicy_potion.png"></div>Spicy Potion</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/fiery_potion.png"></div>Fiery Potion</span></td></tr>
+  
+  <tr><td><img src="images/book_of_cu.png"><br>Book of Cu</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/paper.png"></div>6x Paper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span></td></tr>
+  
+  <tr><td><img src="images/book_of_bic.png"><br>Book of Bic</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/paper.png"></div>6x Paper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span></td></tr>
+  
+  <tr><td><img src="images/book_of_cas.png"><br>Book of Cas</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/paper.png"></div>6x Paper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span></td></tr>
+  
+  <tr><td><img src="images/book_of_Tles.png"><br>Book of Tles</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/paper.png"></div>6x Paper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/charcoal.png"></div>Charcoal</span></td></tr>
+  
+  <tr><td><img src="images/green_paper_lantern.png"><br>Green Paper Lantern</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/paper.png"></div>Paper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/green_dye.png"></div>Green Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/candle.png"></div>Candle</span></td></tr>
+  
+  <tr><td><img src="images/blue_paper_lantern.png"><br>Blue Paper Lantern</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/paper.png"></div>Paper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/candle.png"></div>Candle</span></td></tr>
+  
+  <tr><td><img src="images/red_paper_lantern.png"><br>Red Paper Lantern</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/paper.png"></div>Paper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/candle.png"></div>Candle</span></td></tr>
+  
+  <tr><td><img src="images/purple_paper_lantern.png"><br>Purple Paper Lantern</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/paper.png"></div>Paper</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/purple_dye.png"></div>Purple Dye</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/candle.png"></div>Candle</span></td></tr>
+  
+  <tr><td><img src="images/torch.png"><br>Torch</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/cloth.png"></div>Cloth</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span></td></tr>
+  
+  <tr><td><img src="images/candle.png"><br>Candle</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/beeswax.png"></div>2x Beeswax</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/string.png"></div>String</span></td></tr>
+  
+  <tr><td><img src="images/distiller.png"><br>Distiller</td>
+  <td colspan="3"><span id="ITEMCARD"><div><img src="images/steel_cauldron.png"></div>2x Steel Cauldron</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/rubber_hose.png"></div>Rubber Hose</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/red_brick.png"></div>2x Red Brick</span></td></tr>
+  
+  <tr><th id="crtools" colspan="3">Crafting Recipes with Tools</th></tr>
+  <tr><td><img src="images/metal_plate.png"><br>Metal Plate</td>
+  <td><img src="images/any_hammer.png"><br>Any Hammer</td>
+  <td><span id="ITEMCARD"><div><img src="images/iron.png"></div>3x Iron</span></td></tr>
+  
+  <tr><td><img src="images/saw.png"><br>Saw</td>
+  <td><img src="images/any_hammer.png"><br>Any Hammer</td>
+  <td><span id="ITEMCARD"><div><img src="images/iron.png"></div>Iron</span>
+  <span id="ITEMCARD" style="line-height: 60px;"><b>+</b></span>
+  <span id="ITEMCARD"><div><img src="images/palm_trunk.png"></div>Palm Trunk</span></td></tr>
+  
+</table>
+</body>
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("t01");
+  tr = table.getElementsByTagName("tr");
+
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
