@@ -7,25 +7,25 @@ html{
 	background-repeat: repeat;
 	padding: 0;
 }
-table#t01  {
+#recipeTable  {
 	position: relative;
     width:50%;
 	margin-left: -25%;
 	margin-top: 0px;
 	left: 50%;
-	top: 60px;
+	top: 10px;
 	text-align: center;
 	font-weight: bold;
 }
-table#t01 tr:nth-child(even) {
+#recipeTable tr:nth-child(even) {
     background-color: #eee;
 	font-family: "zubuntu";
 }
-table#t01 tr:nth-child(odd) {
+#recipeTable tr:nth-child(odd) {
     background-color: #fff;
 	font-family: "zubuntu";
 }
-table#t01 td:nth-child(1) {
+#recipeTable td:nth-child(1) {
 	width: 100px;
 }
 th, td {
@@ -35,7 +35,7 @@ th, td {
 	align-items: center;
 	align-content: center;
 }
-table#t01 th {
+#recipeTable th {
     background-color: #494949;
     color: white;
 }
@@ -74,11 +74,21 @@ table#t01 th {
 .searchbar:focus{
 	color: black;
 }
+.tableDiv {
+	overflow-y: scroll;
+	position: absolute;
+	width: 100%;
+	height: calc(100% - 47px);
+	top: 47px;
+	left:0px;
+	align-items: right;
+}
 .navbar {
 	overflow: hidden;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
+	height: ;
 	top: 0px;
 	left:0px;
 	background-color: #262626;
@@ -111,7 +121,7 @@ table#t01 th {
 	height: 0px;
 	width: 0px;
 }
-table#t01  {
+#recipeTable  {
 	position: relative;
     width:100%;
 	margin-top: 0px;
@@ -130,7 +140,7 @@ table#t01  {
 	font-size: 10px;
 }
 img {
-    width: 20px;
+    height: 20px;
 }
 }
 	

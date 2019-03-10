@@ -10,7 +10,7 @@
 <body>
 
 <div class="navbar">
-<input type="text" class="searchbar" id="myInput" onkeyup="myFunction()" placeholder="Search..">
+<input type="text" class="searchbar" id="searchInput" onkeyup="searchRecipe()" placeholder="Search for Recipe..">
 <div class="links">
 <a href="#basiccr">Basic Crafting Recipes</a>
 <a href="#crtools">Crafting Recipes with Tools</a>
@@ -24,8 +24,8 @@
 </div>
 </div>
 
-
-<table id="t01">
+<div class="tableDiv">
+<table id="recipeTable">
   <tr><th id="basiccr" colspan="3">Basic Crafting Recipes</th></tr>
   <tr><td><img src="images/mud.png"><br>Mud</td>
   <td colspan="3"><span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span>
@@ -974,32 +974,1387 @@
   <span id="ITEMCARD"><div><img src="images/steel_block.png"></div>Steel Block</span>
   <span id="PLUS"><b>+</b></span>
   <span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span></td></tr>
+
+  <tr><td><img src="images/steel_cauldron.png"><br>Steel Cauldron</td>
+<td><img src="images/steel_hammer.png"><br>Steel Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/steel_block.png"></div>Steel Block</span></tr>
+
+<tr><td><img src="images/mirror.png"><br>Mirror</td>
+<td><img src="images/steel_hammer.png"><br>Steel Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/glue.png"></div>2x Glue</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glass.png"></div>Glass</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/steel_block.png"></div>Steel Block</span></tr>
+
+<tr><td><img src="images/rubber_hose.png"><br>Rubber Hose</td>
+<td><img src="images/knife.png"><br>Knife</td>
+<td><span id="ITEMCARD"><div><img src="images/vulcanized_rubber.png"></div>2x Vulcanized Rubber</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span></tr>
+
+<tr><td><img src="images/rubber_band.png"><br>Rubber Band</td>
+<td><img src="images/knife.png"><br>Knife</td>
+<td><span id="ITEMCARD"><div><img src="images/vulcanized_rubber.png"></div>2x Vulcanized Rubber</span></tr>
+
+<tr><td><img src="images/white_pants.png"><br>White Pants</td>
+<td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+<td><span id="ITEMCARD"><div><img src="images/cloth.png"></div>2x Cloth</span></tr>
+
+<tr><td><img src="images/white_shirt.png"><br>White Shirt</td>
+<td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+<td><span id="ITEMCARD"><div><img src="images/cloth.png"></div>2x Cloth</span></tr>
+
+<tr><td><img src="images/rope_ladder.png"><br>Rope Ladder</td>
+<td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+<td><span id="ITEMCARD"><div><img src="images/rope.png"></div>5x Rope</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/ribbon.png"><br>Ribbon</td>
+<td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+<td><span id="ITEMCARD"><div><img src="images/cloth.png"></div>Cloth</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/chick_hat.png"><br>Chick Hat</td>
+<td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+<td><span id="ITEMCARD"><div><img src="images/egg_hat.png"></div>2x Egg Hat</span></tr>
+
+<tr><td><img src="images/chicken_hat.png"><br>Chicken Hat</td>
+<td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+<td><span id="ITEMCARD"><div><img src="images/chick_hat.png"></div>2x Chick Hat</span></tr>
+
+<tr><td><img src="images/mattress.png"><br>Mattress</td>
+<td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>2x Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cloth.png"></div>Cloth</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cotton.png"></div>2x Cotton</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span></tr>
+
+<tr><td><img src="images/double_mattress.png"><br>Double Mattress</td>
+<td><img src="images/sewing_kit.png"><br>Sewing Kit</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>4x Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cloth.png"></div>2x Cloth</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cotton.png"></div>4x Cotton</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>2x New Wood Planks</span></tr>
+
+<tr><td><img src="images/fancy_table.png"><br>Fancy Table</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>2x New Wood Planks</span></tr>
+
+<tr><td><img src="images/fancy_chair.png"><br>Fancy Chair</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span></tr>
+
+<tr><td><img src="images/fancy_cabinet.png"><br>Fancy Cabinet</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/iron.png"></div>Iron</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span></tr>
+
+<tr><td><img src="images/throne.png"><br>Throne</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/gold.png"></div>Gold</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cloth.png"></div>Cloth</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>2x New Wood Planks</span></tr>
+
+<tr><td><img src="images/park_bench.png"><br>Park Bench</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/iron_pole.png"></div>Iron Pole</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span></tr>
+
+<tr><td><img src="images/lil'_bed.png"><br>Lil' Bed</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/cloth.png"></div>5x Cloth</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span></tr>
+
+<tr><td><img src="images/small_desk.png"><br>Small Desk</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/iron_pole.png"></div>Iron Pole</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span></tr>
+
+<tr><td><img src="images/shop_display.png"><br>Shop Display</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/cloth.png"></div>5x Cloth</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>4x Glue</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span></tr>
+
+<tr><td><img src="images/decorative_mask.png"><br>Decorative Mask</td>
+<td><img src="images/knife.png"><br>Knife</td>
+<td><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/fiber.png"></div>Fiber</span></tr>
+
+<tr><td><img src="images/shop_sign.png"><br>Shop Sign</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span></tr>
+
+<tr><td><img src="images/drinks_sign.png"><br>Drinks Sign</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span></tr>
+
+<tr><td><img src="images/chest_sign.png"><br>Chest Sign</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/orange_dye.png"></div>Orange Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span></tr>
+
+<tr><td><img src="images/home_sign.png"><br>Home Sign</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/green_dye.png"></div>Green Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span></tr>
+
+<tr><td><img src="images/pulse_bomb.png"><br>3-5x Pulse Bomb</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/porcelain.png"></div>Porcelain</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/vulcanized_rubber.png"></div>Vulcanized Rubber</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/magnet.png"></div>Magnet</span></tr>
+
+<tr><td><img src="images/mecho-spikes_blue.png"><br>Mecho-Spikes Blue</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/spike_floor.png"></div>Spike Floor</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/steel_gear.png"></div>3x Steel Gear</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber_band.png"></div>2x Rubber Band</span></tr>
+
+<tr><td><img src="images/mecho-spikes_yellow.png"><br>Mecho-Spikes Yellow</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/spike_floor.png"></div>Spike Floor</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/steel_gear.png"></div>3x Steel Gear</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber_band.png"></div>2x Rubber Band</span></tr>
+
+<tr><td><img src="images/horizontal_acceloring.png"><br>Horizontal AcceloRing</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>4x Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/magnet.png"></div>4x Magnet</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber_hose.png"></div>Rubber Hose</span></tr>
+
+<tr><td><img src="images/vertical_acceloring.png"><br>Vertical AcceloRing</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>4x Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/magnet.png"></div>4x Magnet</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber_hose.png"></div>Rubber Hose</span></tr>
+
+<tr><td><img src="images/extractor.png"><br>Extractor</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>2x Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/steel_gear.png"></div>4x Steel Gear</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber_hose.png"></div>Rubber Hose</span></tr>
+
+<tr><td><img src="images/wind_machine.png"><br>Wind Machine</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/horizontal_acceloring.png"></div>2x Horizontal AcceloRing</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>2x Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cloud.png"></div>Cloud</span></tr>
+
+<tr><td><img src="images/laser_cutter.png"><br>Laser Cutter</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/diamond.png"></div>Diamond</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/magnet.png"></div>2x Magnet</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/gizmo.png"></div>2x Gizmo</span></tr>
+
+<tr><td><img src="images/cash_register.png"><br>Cash Register</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/gizmo.png"></div>4x Gizmo</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>2x Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/spring.png"></div>6x Spring</span></tr>
+
+<tr><td><img src="images/rehydrator.png"><br>Rehydrator</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>2x Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>4x Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber_hose.png"></div>4x Rubber Hose</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/water.png"></div>4x Water</span></tr>
+
+<tr><td><img src="images/cut-o-matik_5000!.png"><br>Cut-O-Matik 5000!</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>6x Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/steel_gear.png"></div>6x Steel Gear</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/spring.png"></div>6x Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/gizmo.png"></div>6x Gizmo</span></tr>
+
+<tr><td><img src="images/phone.png"><br>Phone</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/magnet.png"></div>2x Magnet</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/gizmo.png"></div>4x Gizmo</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/spring.png"></div>3x Spring</span></tr>
+
+<tr><td><img src="images/radio.png"><br>Radio</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/glass.png"></div>Glass</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/gizmo.png"></div>4x Gizmo</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/stainless_steel_plate.png"></div>Stainless Steel Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/spring.png"></div>3x Spring</span></tr>
+
+<tr><td><img src="images/half_diamond.png"><br>2x Half Diamond</td>
+<td><img src="images/laser_cutter.png"><br>Laser Cutter</td>
+<td><span id="ITEMCARD"><div><img src="images/diamond.png"></div>Diamond</span></tr>
+
+<tr><td><img src="images/diamond_stairs.png"><br>Diamond Stairs</td>
+<td><img src="images/laser_cutter.png"><br>Laser Cutter</td>
+<td><span id="ITEMCARD"><div><img src="images/diamond.png"></div>2x Diamond</span></tr>
+
+<tr><td><img src="images/half_ruby.png"><br>2x Half Ruby</td>
+<td><img src="images/laser_cutter.png"><br>Laser Cutter</td>
+<td><span id="ITEMCARD"><div><img src="images/ruby.png"></div>Ruby</span></tr>
+
+<tr><td><img src="images/ruby_stairs.png"><br>Ruby Stairs</td>
+<td><img src="images/laser_cutter.png"><br>Laser Cutter</td>
+<td><span id="ITEMCARD"><div><img src="images/ruby.png"></div>2x Ruby</span></tr>
+
+<tr><td><img src="images/half_emerald.png"><br>2x Half Emerald</td>
+<td><img src="images/laser_cutter.png"><br>Laser Cutter</td>
+<td><span id="ITEMCARD"><div><img src="images/emerald.png"></div>Emerald</span></tr>
+
+<tr><td><img src="images/emerald_stairs.png"><br>Emerald Stairs</td>
+<td><img src="images/laser_cutter.png"><br>Laser Cutter</td>
+<td><span id="ITEMCARD"><div><img src="images/emerald.png"></div>2x Emerald</span></tr>
+
+<tr><td><img src="images/note.png"><br>A Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>3x Porcelain</span></tr>
+
+<tr><td><img src="images/sharpnote.png"><br>A# Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/coal.png"></div>3x Coal</span></tr>
+
+<tr><td><img src="images/note.png"><br>B Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>3x Porcelain</span></tr>
+
+<tr><td><img src="images/note.png"><br>C Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>3x Porcelain</span></tr>
+
+<tr><td><img src="images/sharpnote.png"><br>C# Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/coal.png"></div>3x Coal</span></tr>
+
+<tr><td><img src="images/note.png"><br>D Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>3x Porcelain</span></tr>
+
+<tr><td><img src="images/sharpnote.png"><br>D# Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/coal.png"></div>3x Coal</span></tr>
+
+<tr><td><img src="images/note.png"><br>E Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>3x Porcelain</span></tr>
+
+<tr><td><img src="images/note.png"><br>F Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>3x Porcelain</span></tr>
+
+<tr><td><img src="images/sharpnote.png"><br>F# Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/coal.png"></div>3x Coal</span></tr>
+
+<tr><td><img src="images/note.png"><br>G Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>3x Porcelain</span></tr>
+
+<tr><td><img src="images/sharpnote.png"><br>G# Note</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/string.png"></div>String</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/coal.png"></div>3x Coal</span></tr>
+
+<tr><td><img src="images/basic_bumper.png"><br>Basic Bumper</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/gizmo.png"></div>3x Gizmo</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/spring.png"></div>6x Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber.png"></div>6x Rubber</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>Porcelain</span></tr>
+
+<tr><td><img src="images/dice.png"><br>Dice</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/basic_bumper.png"></div>Basic Bumper</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/porcelain.png"></div>3x Porcelain</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/coal.png"></div>3x Coal</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/black_marble_half_block.png"><br>2x Black Marble Half Block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/black_marble.png"></div>Black Marble</span></tr>
+
+<tr><td><img src="images/white_marble_half_block.png"><br>2x White Marble Half Block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/white_marble.png"></div>White Marble</span></tr>
+
+<tr><td><img src="images/blue_marble_half_block.png"><br>2x Blue Marble Half Block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/blue_marble.png"></div>Blue Marble</span></tr>
+
+<tr><td><img src="images/black_marble_stairs.png"><br>Black Marble Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/black_marble.png"></div>2x Black Marble</span></tr>
+
+<tr><td><img src="images/white_marble_stairs.png"><br>White Marble Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/white_marble.png"></div>2x White Marble</span></tr>
+
+<tr><td><img src="images/blue_marble_stairs.png"><br>Blue Marble Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/blue_marble.png"></div>2x Blue Marble</span></tr>
+
+<tr><td><img src="images/black_marble_column.png"><br>Black Marble Column</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/black_marble.png"></div>2x Black Marble</span></tr>
+
+<tr><td><img src="images/white_marble_column.png"><br>White Marble Column</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/white_marble.png"></div>2x White Marble</span></tr>
+
+<tr><td><img src="images/blue_marble_column.png"><br>Blue Marble Column</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/blue_marble.png"></div>2x Blue Marble</span></tr>
+
+<tr><td><img src="images/mosaic_half_block.png"><br>2x Mosaic Half Block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/mosaic_floor.png"></div>Mosaic Floor</span></tr>
+
+<tr><td><img src="images/mosaic_stairs.png"><br>Mosaic Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/mosaic_floor.png"></div>2x Mosaic Floor</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/terracotta_half_block.png"><br>2x Terracotta Half Block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/terracotta_tiles.png"></div>Terracotta Tiles</span></tr>
+
+<tr><td><img src="images/terracotta_stairs.png"><br>Terracotta Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/terracotta_tiles.png"></div>2x Terracotta Tiles</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/persian_rug_half_block.png"><br>2x Persian Rug Half Block</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/persian_rug.png"></div>Persian Rug</span></tr>
+
+<tr><td><img src="images/persian_rug_stairs.png"><br>Persian Rug Stairs</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/persian_rug_half_block.png"></div>Persian Rug Half Block</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>4x Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>2x Glue</span></tr>
+
+<tr><td><img src="images/stone_column.png"><br>Stone Column</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/stone_block.png"></div>2x Stone Block</span></tr>
+
+<tr><td><img src="images/stone_fence.png"><br>Stone Fence</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/stone_block.png"></div>2x Stone Block</span></tr>
+
+<tr><td><img src="images/fancy_road.png"><br>Fancy Road</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/stone_block.png"></div>2x Stone Block</span></tr>
+
+<tr><td><img src="images/stone_cross.png"><br>Stone Cross</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/stone_block.png"></div>Stone Block</span></tr>
+
+<tr><td><img src="images/finial_stone.png"><br>Finial Stone</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/stone_block.png"></div>Stone Block</span></tr>
+
+<tr><td><img src="images/finial_sandstone.png"><br>Finial Sandstone</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sandy_block.png"></div>Sandy Block</span></tr>
+
+<tr><td><img src="images/sandstone_block_column.png"><br>Sandstone Block Column</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sandy_brick.png"></div>2x Sandy Brick</span></tr>
+
+<tr><td><img src="images/sandstone_column.png"><br>Sandstone Column</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sandy_block.png"></div>2x Sandy Block</span></tr>
+
+<tr><td><img src="images/stone_brick_cap.png"><br>Stone Brick Cap</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/stone_brick.png"></div>Stone Brick</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/stone.png"></div>Stone</span></tr>
+
+<tr><td><img src="images/stone_stairs.png"><br>Stone Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/stone_block.png"></div>2x Stone Block</span></tr>
+
+<tr><td><img src="images/red_brick_stairs.png"><br>Red Brick Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/red_brick.png"></div>2x Red Brick</span></tr>
+
+<tr><td><img src="images/colored_checker_stair.png"><br>Colored Checker Stair</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/any_color_checker.png"></div>2x Any Color Checker</span></tr>
+
+<tr><td><img src="images/colored_plaster_stair.png"><br>Colored Plaster Stair</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/any_color_plaster.png"></div>2x Any Color Plaster</span></tr>
+
+<tr><td><img src="images/sandy_brick_stairs.png"><br>Sandy Brick Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sandy_brick.png"></div>2x Sandy Brick</span></tr>
+
+<tr><td><img src="images/sandy_block_stairs.png"><br>Sandy Block Stairs</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sandy_block.png"></div>2x Sandy Block</span></tr>
+
+<tr><td><img src="images/clay_brick_cap.png"><br>Clay Brick Cap</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/clay_brick.png"></div>Clay Brick</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>Clay Lump</span></tr>
+
+<tr><td><img src="images/terracotta_tiles.png"><br>Terracotta Tiles</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/clay_lump.png"></div>3x Clay Lump</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/iron.png"></div>Iron</span></tr>
+
+<tr><td><img src="images/stone_half_block.png"><br>2x Stone Half Block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/stone_block.png"></div>Stone Block</span></tr>
+
+<tr><td><img src="images/colored_half_checker.png"><br>2x Colored Half Checker</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/any_color_checker.png"></div>Any Color Checker</span></tr>
+
+<tr><td><img src="images/colored_half_plaster.png"><br>2x Colored Half Plaster</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/any_color_plaster.png"></div>Any Color Plaster</span></tr>
+
+<tr><td><img src="images/half_clay.png"><br>2x Half Clay</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/clay_block.png"></div>Clay Block</span></tr>
+
+<tr><td><img src="images/half_mesa.png"><br>2x Half Mesa</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/mesa.png"></div>Mesa</span></tr>
+
+<tr><td><img src="images/half_coral.png"><br>2x Half Coral</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/pink_coral.png"></div>Pink Coral</span></tr>
+
+<tr><td><img src="images/half_dirt.png"><br>2x Half Dirt</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/dirt.png"></div>Dirt</span></tr>
+
+<tr><td><img src="images/half_sand_block.png"><br>2x Half Sand Block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sand.png"></div>Sand</span></tr>
+
+<tr><td><img src="images/half_sandy_block.png"><br>2x Half Sandy block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sandy_block.png"></div>Sandy Block</span></tr>
+
+<tr><td><img src="images/half_sandstone.png"><br>2x Half Sandstone</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sandstone.png"></div>Sandstone</span></tr>
+
+<tr><td><img src="images/half_sandy_brick.png"><br>2x Half Sandy Brick</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/sandy_brick.png"></div>Sandy Brick</span></tr>
+
+<tr><td><img src="images/mosaic_floor.png"><br>Mosaic Floor</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/red_glass.png"></div>2x Red Glass</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_glass.png"></div>2x Blue Glass</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>4x Glue</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/stone_block.png"></div>Stone Block</span></tr>
+
+<tr><td><img src="images/sink.png"><br>Sink</td>
+<td><img src="images/wrench.png"><br>Wrench</td>
+<td><span id="ITEMCARD"><div><img src="images/porcelain.png"></div>2x Porcelain</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span></tr>
+
+<tr><td><img src="images/toilet.png"><br>Toilet</td>
+<td><img src="images/wrench.png"><br>Wrench</td>
+<td><span id="ITEMCARD"><div><img src="images/porcelain.png"></div>4x Porcelain</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber.png"></div>Rubber</span></tr>
+
+<tr><td><img src="images/fridge.png"><br>Fridge</td>
+<td><img src="images/wrench.png"><br>Wrench</td>
+<td><span id="ITEMCARD"><div><img src="images/ice.png"></div>Ice</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/metal_plate.png"></div>3x Metal Plate</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/rubber.png"></div>Rubber</span></tr>
+
+<tr><td><img src="images/stove.png"><br>Stove</td>
+<td><img src="images/wrench.png"><br>Wrench</td>
+<td><span id="ITEMCARD"><div><img src="images/coal.png"></div>Coal</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/pipe.png"></div>Pipe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/metal_plate.png"></div>2x Metal Plate</span></tr>
+
+<tr><td><img src="images/house_lamp.png"><br>House Lamp</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/porcelain.png"></div>Porcelain</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cloth.png"></div>Cloth</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/gizmo.png"></div>2x Gizmo</span></tr>
+
+<tr><td><img src="images/office_lamp.png"><br>Office Lamp</td>
+<td><img src="images/screwdriver.png"><br>Screwdriver</td>
+<td><span id="ITEMCARD"><div><img src="images/porcelain.png"></div>Porcelain</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/spring.png"></div>Spring</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/gizmo.png"></div>2x Gizmo</span></tr>
+
+<tr><td><img src="images/old_wood_block.png"><br>Old Wood Block</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>2x Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/new_wood_block.png"><br>New Wood Block</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>2x New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/old_wood_table.png"><br>Old Wood Table</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>2x Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/old_wood_chair.png"><br>Old Wood Chair</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/new_wood_table.png"><br>New Wood Table</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>2x New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/new_wood_chair.png"><br>New Wood Chair</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/red_sofa.png"><br>Red Sofa</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>3x Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cotton.png"></div>3x Cotton</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/blue_sofa.png"><br>Blue Sofa</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>3x Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cotton.png"></div>3x Cotton</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/wood_ladder.png"><br>Wood Ladder</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>3x Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/white_fence.png"><br>White Fence</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>2x Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span></tr>
+
+<tr><td><img src="images/cedar_fence.png"><br>Cedar Fence</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>2x Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/old_fence.png"><br>Old Fence</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/dead_tree.png"></div>Dead Tree</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sticks.png"></div>2x Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/wood_stairs.png"><br>Wood Stairs</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>2x Wood Planks</span></tr>
+
+<tr><td><img src="images/new_wood_stairs.png"><br>New Wood Stairs</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>2x New Wood Planks</span></tr>
+
+<tr><td><img src="images/wood_lattice.png"><br>Wood Lattice</td>
+<td><img src="images/knife.png"><br>Knife</td>
+<td><span id="ITEMCARD"><div><img src="images/sticks.png"></div>6x Sticks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/crate.png"><br>Crate</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>6x New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/varnish.png"></div>Varnish</span></tr>
+
+<tr><td><img src="images/barrel.png"><br>Barrel</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>2x Glue</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/iron.png"></div>6x Iron</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>6x New Wood Planks</span></tr>
+
+<tr><td><img src="images/old_wood_column.png"><br>Old Wood Column</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>4x Wood Planks</span></tr>
+
+<tr><td><img src="images/new_wood_column.png"><br>New Wood Column</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>4x New Wood Planks</span></tr>
+
+<tr><td><img src="images/old_wood_shelves.png"><br>Old Wood Shelves</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>3x Wood Planks</span></tr>
+
+<tr><td><img src="images/new_wood_shelves.png"><br>New Wood Shelves</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>3x New Wood Planks</span></tr>
+
+<tr><td><img src="images/night_table.png"><br>Night Table</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/iron.png"></div>Iron</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>3x New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span></tr>
+
+<tr><td><img src="images/3_legged_stool.png"><br>3 Legged Stool</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>2x New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span></tr>
+
+<tr><td><img src="images/chest.png"><br>Chest</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>3x Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/iron.png"></div>Iron</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/old_cabinet.png"><br>Old Cabinet</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>2x Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/new_cabinet.png"><br>New Cabinet</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/tacks.png"></div>Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/new_wood_planks.png"></div>2x New Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/farm_hive.png"><br>Farm Hive</td>
+<td><img src="images/any_hammer.png"><br>Any Hammer</td>
+<td><span id="ITEMCARD"><div><img src="images/wood_planks.png"></div>2x Wood Planks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tacks.png"></div>2x Tacks</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/beeswax.png"></div>6x Beeswax</span></tr>
+
+<tr><td><img src="images/whittled_stick.png"><br>Whittled Stick</td>
+<td><img src="images/knife.png"><br>Knife</td>
+<td><span id="ITEMCARD"><div><img src="images/sticks.png"></div>Sticks</span></tr>
+
+<tr><td><img src="images/big_jack_i.png"><br>Big Jack I</td>
+<td><img src="images/knife.png"><br>Knife</td>
+<td><span id="ITEMCARD"><div><img src="images/pumpkin.png"></div>Pumpkin</span></tr>
+
+<tr><td><img src="images/big_jack_ii.png"><br>Big Jack II</td>
+<td><img src="images/knife.png"><br>Knife</td>
+<td><span id="ITEMCARD"><div><img src="images/pumpkin.png"></div>Pumpkin</span></tr>
+
+<tr><td><img src="images/sticks.png"><br>2-4x Sticks</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/any_tree_top.png"></div>Any Tree Top</span></tr>
+
+<tr><td><img src="images/bark_block.png"><br>Bark Block</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/tree_trunk.png"></div>6x Tree Trunk</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/bark_block.png"><br>Bark Block</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/pine_trunk.png"></div>6x Pine Trunk</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/glue.png"></div>Glue</span></tr>
+
+<tr><td><img src="images/wood_planks.png"><br>Wood Planks</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span></tr>
+
+<tr><td><img src="images/new_wood_planks.png"><br>New Wood Planks</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span></tr>
+
+<tr><td><img src="images/wood_post.png"><br>Wood Post</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/any_trunk.png"></div>Any Trunk</span></tr>
+
+<tr><td><img src="images/half_grass.png"><br>2x Half Grass</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/grass.png"></div>Grass</span></tr>
+
+<tr><td><img src="images/half_mountain_grass.png"><br>2x Half Mountain Grass</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/mountain_grass.png"></div>Mountain Grass</span></tr>
+
+<tr><td><img src="images/half_snow_block.png"><br>2x Half Snow Block</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/snow.png"></div>Snow</span></tr>
+
+<tr><td><img src="images/half_tropic_grass.png"><br>2x Half Tropic Grass</td>
+<td><img src="images/saw.png"><br>Saw</td>
+<td><span id="ITEMCARD"><div><img src="images/tropical_grass.png"></div>Tropical Grass</span></tr>
+
+<tr><td><img src="images/half_mountain_block.png"><br>2x Half Mountain Block</td>
+<td><img src="images/chisel.png"><br>Chisel</td>
+<td><span id="ITEMCARD"><div><img src="images/mountain.png"></div>Mountain</span></tr>
+
+<tr><td><img src="images/red_dye.png"><br>5-10x Red Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/red_flower.png"></div>2x Red Flower</span></tr>
+
+<tr><td><img src="images/blue_dye.png"><br>5-10x Blue Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/blue_flower.png"></div>2x Blue Flower</span></tr>
+
+<tr><td><img src="images/yellow_dye.png"><br>5-10x Yellow Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/yellow_flower.png"></div>2x Yellow Flower</span></tr>
+
+<tr><td><img src="images/orange_dye.png"><br>5-10x Orange Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/red_flower.png"></div>Red Flower</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yellow_flower.png"></div>Yellow Flower</span></tr>
+
+<tr><td><img src="images/green_dye.png"><br>5-10x Green Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/blue_flower.png"></div>Blue Flower</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yellow_flower.png"></div>Yellow Flower</span></tr>
+
+<tr><td><img src="images/purple_dye.png"><br>5-10x Purple Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/red_flower.png"></div>Red Flower</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_flower.png"></div>Blue Flower</span></tr>
+
+<tr><td><img src="images/pink_dye.png"><br>5-10x Pink Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/white_flower.png"></div>White Flower</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/red_flower.png"></div>Red Flower</span></tr>
+
+<tr><td><img src="images/pink_dye.png"><br>5-10x Pink Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/pink_flower.png"></div>Pink Flower</span></tr>
+
+<tr><td><img src="images/white_dye.png"><br>5-10x White Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/white_flower.png"></div>2x White Flower</span></tr>
+
+<tr><td><img src="images/black_dye.png"><br>5-10x Black Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/red_flower.png"></div>Red Flower</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_flower.png"></div>Blue Flower</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yellow_flower.png"></div>Yellow Flower</span></tr>
+
+<tr><td><img src="images/black_dye.png"><br>15-25x Black Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/coal.png"></div>Coal</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/oil.png"></div>Oil</span></tr>
+
+<tr><td><img src="images/red_dye.png"><br>10-15x Red Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/yumberry.png"></div>Yumberries</span></tr>
+
+<tr><td><img src="images/yellow_dye.png"><br>10-15x Yellow Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/sunberry.png"></div>Sunberries</span></tr>
+
+<tr><td><img src="images/green_dye.png"><br>10-15x Green Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/chiliberry.png"></div>Chiliberries</span></tr>
+
+<tr><td><img src="images/blue_dye.png"><br>10-15x Blue Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/frostberry.png"></div>Frostberries</span></tr>
+
+<tr><td><img src="images/orange_dye.png"><br>10-15x Orange Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/yumberry.png"></div>Yumberries</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sunberry.png"></div>Sunberries</span></tr>
+
+<tr><td><img src="images/green_dye.png"><br>10-15x Green Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/frostberry.png"></div>Frostberries</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sunberry.png"></div>Sunberries</span></tr>
+
+<tr><td><img src="images/purple_dye.png"><br>10-15x Purple Dye</td>
+<td><img src="images/mortar_and_pestle.png"><br>Mortar And Pestle</td>
+<td><span id="ITEMCARD"><div><img src="images/frostberry.png"></div>Frostberries</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yumberry.png"></div>Yumberries</span></tr>
   
   <tr><th id="coloring" colspan="3">Coloring Items with Dye</th></tr>
+
+  <tr><td><img src="images/orange_dye.png"><br>Orange Dye</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+
+<tr><td><img src="images/green_dye.png"><br>Green Dye</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+
+<tr><td><img src="images/purple_dye.png"><br>Purple Dye</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span></td></tr>
+
+<tr><td><img src="images/pink_dye.png"><br>Pink Dye</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span></td></tr>
+
+<tr><td><img src="images/black_dye.png"><br>Black Dye</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yellow_dye.png"></div>Yellow Dye</span></td></tr>
+
+<tr><td><img src="images/grey_tutu.png"><br>Grey Tutu</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_tutu.png"></div>Any Color Tutu</span></td></tr>
+
+<tr><td><img src="images/grey_shirt.png"><br>Grey Shirt</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_shirt.png"></div>Any Color Shirt</span></td></tr>
+
+<tr><td><img src="images/grey_pants.png"><br>Grey Pants</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_pants.png"></div>Any Color Pants</span></td></tr>
+
+<tr><td><img src="images/grey_cowl.png"><br>Grey Cowl</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_cowl.png"></div>Any Color Cowl</span></td></tr>
+
+<tr><td><img src="images/grey_robe.png"><br>Grey Robe</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_robe.png"></div>Any Color Robe</span></td></tr>
+
+<tr><td><img src="images/grey_flower_skirt.png"><br>Grey Flower Skirt</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/black_dye.png"></div>Black Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/white_dye.png"></div>White Dye</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_flower_skirt.png"></div>Any Color Flower Skirt</span></td></tr>
+
+<tr><td><img src="images/colored_checker.png"><br>Colored Checker</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/colored_checker.png"></div>Any Color Checker</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/colored_half_checker.png"><br>Colored Half Checker</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/colored_half_checker.png"></div>Any Color Half Checker</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/colored_checker_stair.png"><br>Colored Checker Stair</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/colored_checker_stair.png"></div>Any Color Checker Stair</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/colored_plaster.png"><br>Colored Plaster</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/colored_plaster.png"></div>Any Color Plaster</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/colored_half_plaster.png"><br>Colored Half Plaster</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/colored_half_plaster.png"></div>Any Color Half Plaster</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/colored_plaster_stair.png"><br>Colored Plaster Stair</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/colored_plaster_stair.png"></div>Any Color Plaster Stair</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/colored_glass.png"><br>Colored Glass</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/colored_glass.png"></div>Any Color Glass</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/any_color_pants.png"><br>Colored Pants</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/any_color_pants.png"></div>Any Color Pants</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/any_color_shirt.png"><br>Colored Shirt</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/any_color_shirt.png"></div>Any Color Shirt</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/any_color_tutu.png"><br>Colored Tutu</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/any_color_tutu.png"></div>Any Color Tutu</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/any_color_cowl.png"><br>Colored Cowl</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/any_color_cowl.png"></div>Any Color Cowl</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/any_color_robe.png"><br>Colored Robe</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/any_color_robe.png"></div>Any Color Robe</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/any_color_flower_skirt.png"><br>Colored Flower Skirt</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/any_color_flower_skirt.png"></div>Any Color Flower Skirt</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/any_color_dye.png"></div>Any Color Dye</span></td></tr>
+
+<tr><td><img src="images/red_sofa.png"><br>Red Sofa</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/blue_sofa.png"></div>Blue Sofa</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span></td></tr>
+
+<tr><td><img src="images/blue_sofa.png"><br>Blue Sofa</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/red_sofa.png"></div>Red Sofa</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span></td></tr>
+
+<tr><td><img src="images/blue_baseball_cap.png"><br>Blue Baseball Cap</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/red_baseball_cap.png"></div>Red Baseball Cap</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/blue_dye.png"></div>Blue Dye</span></td></tr>
+
+<tr><td><img src="images/red_baseball_cap.png"><br>Red Baseball Cap</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/blue_baseball_cap.png"></div>Blue Baseball Cap</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/red_dye.png"></div>Red Dye</span></td></tr>
+
   <tr><th id="cooking" colspan="3">Cooking</th></tr>
+
+  <tr><td><img src="images/mud_cake.png"><br>Mud Cake</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/farm_egg.png"></div>2x Farm Egg</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sugar.png"></div>Sugar</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/flour.png"></div>Flour</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/mud.png"></div>Mud</span></td></tr>
+
+<tr><td><img src="images/corn_bread.png"><br>Corn Bread</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/flour.png"></div>Flour</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/corn.png"></div>Corn</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sugar.png"></div>Sugar</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/farm_egg.png"></div>2x Farm Egg</span></td></tr>
+
+<tr><td><img src="images/sunny_side_up_eggs.png"><br>Sunny Side Up Eggs</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/farm_egg.png"></div>2x Farm Egg</span></td></tr>
+
+<tr><td><img src="images/veggie_omelette.png"><br>Veggie Omelette</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/farm_egg.png"></div>3x Farm Egg</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/eggplant.png"></div>Eggplant</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tomato.png"></div>Tomato</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/potato.png"></div>Potato</span></td></tr>
+
+<tr><td><img src="images/scrambled_eggs.png"><br>Scrambled Eggs</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/farm_egg.png"></div>3x Farm Egg</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/full_milk_jug.png"></div>Full Milk Jug</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cooking_oil.png"></div>Cooking Oil</span></td></tr>
+
+<tr><td><img src="images/fries.png"><br>Fries</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/potato.png"></div>3x Potato</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/tomato.png"></div>Tomato</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sugar.png"></div>Sugar</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/cooking_oil.png"></div>Cooking Oil</span></td></tr>
+
+<tr><td><img src="images/yumberry_cake.png"><br>Yumberry Cake</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/flour.png"></div>Flour</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/honey.png"></div>2x Honey</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/full_milk_jug.png"></div>Full Milk Jug</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/yumberries.png"></div>Yumberries</span></td></tr>
+
+<tr><td><img src="images/chiliberry_cake.png"><br>Chiliberry Cake</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/flour.png"></div>Flour</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sugar.png"></div>2x Sugar</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/full_milk_jug.png"></div>Full Milk Jug</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/chiliberries.png"></div>Chiliberries</span></td></tr>
+
+<tr><td><img src="images/mashed_potatoes.png"><br>Mashed Potatoes</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/potato.png"></div>6x Potato</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/full_milk_jug.png"></div>2x Full Milk Jug</span></td></tr>
+
+<tr><td><img src="images/frostberry_pie.png"><br>Frostberry Pie</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/frostberries.png"></div>3x Frostberries</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/honey.png"></div>2x Honey</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/full_milk_jug.png"></div>Full Milk Jug</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/flour.png"></div>Flour</span></td></tr>
+
+<tr><td><img src="images/carrot_cake.png"><br>Carrot Cake</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/carrot.png"></div>4x Carrot</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/flour.png"></div>Flour</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/ice.png"></div>Ice</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/sugar.png"></div>Sugar</span></td></tr>
+
+<tr><td><img src="images/carrot_soup.png"><br>Carrot Soup</td>
+<td colspan="3"><span id="ITEMCARD"><div><img src="images/carrot.png"></div>3x Carrot</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/water.png"></div>Water</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/fern.png"></div>Fern</span>
+<span id="PLUS"><b>+</b></span>
+<span id="ITEMCARD"><div><img src="images/farm_egg.png"></div>Farm Egg</span></td></tr>
+
   <tr><th id="cutting" colspan="3">Cut-O-Matik</th></tr>
   <tr><th id="forging" colspan="3">Forging Items</th></tr>
   <tr><th id="extraction" colspan="3">Ingredient Extraction</th></tr>
   <tr><th id="distill" colspan="3">Distillation</th></tr>
   <tr><th id="eastereggs" colspan="3">Easter Eggs</th></tr>
 </table>
+</div>
 </body>
 
 <script>
 
-var toggleBtn = document.querySelector('.sidebar-toggle');
-var sidebar = document.querySelector('.sidebar');
-
-toggleBtn.addEventListener('click', function() {
-  toggleBtn.classList.toggle('is-closed');
-  sidebar.classList.toggle('is-closed');
-})
-
-function myFunction() {
+function searchRecipe() {
   var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
+  input = document.getElementById("searchInput");
   filter = input.value.toUpperCase();
-  table = document.getElementById("t01");
+  table = document.getElementById("recipeTable");
   tr = table.getElementsByTagName("tr");
 
   for (i = 0; i < tr.length; i++) {
@@ -1014,11 +2369,4 @@ function myFunction() {
     }
   }
 }
-</script>
-<!-- Default Statcounter code for CCRecipes https://ccrecipes.github.io/ -->
-<script type="text/javascript">
-var sc_project=11939056; 
-var sc_invisible=1; 
-var sc_security="7d306a64"; 
-var sc_https=1; 
 </script>
