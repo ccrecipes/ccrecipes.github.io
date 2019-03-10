@@ -6,6 +6,11 @@ html{
 	background-position: left top;
 	background-repeat: repeat;
 	padding: 0;
+	font-family: "zubuntu";
+}
+@font-face {
+  font-family: zubuntu;
+  src: url('Ubuntu-R.ttf')  format('truetype');
 }
 #recipeTable  {
 	position: relative;
