@@ -28,6 +28,9 @@ html{
 #recipeTable td:nth-child(1) {
 	width: 100px;
 }
+#recipeTable td:nth-child(2) {
+	width: 100px;
+}
 th, td {
     padding: 15px;
     text-align: center;
