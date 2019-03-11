@@ -134,10 +134,10 @@ th, td {
 }
 #recipeTable  {
 	position: relative;
-    width:100%;
+    width: calc(100% - 50px);
 	margin-top: 0px;
 	margin-left: 0px;
-	left: 0%;
+	left: 50px;
 	font-size: 7px;
 }
 #recipeTable td:nth-last-child {
