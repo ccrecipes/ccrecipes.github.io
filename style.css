@@ -138,7 +138,7 @@ th, td {
 	margin-top: 0px;
 	margin-right: 0px;
 	right: 0%;
-	font-size: 7px;
+	font-size: 7px !important;
 }
 #recipeTable td:nth-last-child {
 	width: 50px;
