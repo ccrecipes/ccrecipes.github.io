@@ -149,7 +149,7 @@ th, td {
 #ITEMCARD {
     position: relative;
 	bottom: 0px;
-    padding: 5px;
+    padding: 1px;
     margin: 2px 2px 2px 2px;
 	display: table-cell;
 	min-height: 90px;
