@@ -6,10 +6,10 @@ html{
 	background-position: left top;
 	background-repeat: repeat;
 	padding: 0;
-	font-family: "zubuntu";
+	font-family: "ubuntu";
 }
 @font-face {
-  font-family: zubuntu;
+  font-family: ubuntu;
   src: url('Ubuntu-R.ttf')  format('truetype');
 }
 #recipeTable  {
@@ -24,13 +24,13 @@ html{
 }
 #recipeTable tr:nth-child(even) {
     background-color: #eee;
-	font-family: "zubuntu";
+	font-family: "ubuntu";
 }
 #recipeTable tr:nth-child(odd) {
     background-color: #fff;
-	font-family: "zubuntu";
+	font-family: "ubuntu";
 }
-#recipeTable td:nth-child(1) {
+#recipeTable td:nth-last-child {
 	width: 100px;
 }
 #recipeTable td:nth-child(2) {
@@ -39,7 +39,7 @@ html{
 th, td {
     padding: 15px;
     text-align: center;
-	font-family: "zubuntu";
+	font-family: "ubuntu";
 	align-items: center;
 	align-content: center;
 }
@@ -82,52 +82,55 @@ th, td {
 .searchbar:focus{
 	color: black;
 }
-.tableDiv {
-	overflow-y: scroll;
-	position: absolute;
-	width: 100%;
-	height: calc(100% - 47px);
-	top: 47px;
-	left:0px;
-	align-items: right;
-}
 .navbar {
 	overflow: hidden;
 	position: fixed;
 	z-index: 1;
-	width: 100%;
-	height: ;
+	width: 300px;
+	height: 100%;
 	top: 0px;
-	left:0px;
+	left:-250px;
 	background-color: #262626;
 	align-items: right;
+	transition: 0.4s;
+}
+.navbar:hover {
+	left: 0px;
+}
+.navbar img {
+	position: absolute;
+	height: auto;
+	width: auto;
+	top: 9px;
+	right: 9px;
+	filter: invert(100%);
 }
 .navbar a {
 	position: relative;
-	display: table-cell;
-	height: 47px;
-	width: auto;
+	display: block;
+	width: 250px;
 	vertical-align: middle;
 	color: white;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding:20px 5px;
 	text-decoration: none;
-	font-size: 0.9vw;
+	font-size: 12px;
 	font-weight: bold;
+	border-bottom: 1px solid #6b6b6b;
 }
+
 .links {
 	position: relative;
-	float: right;
+	width: 250px;
+	overflow: hidden;
 }
 .navbar a:hover{
 	background-color: black;
 	color: white;
 }
 @media screen and (max-width:700px) {
-	.links {
-	visibility: hidden;
-	height: 0px;
-	width: 0px;
+.links {
+	height: 90%;
+	overflow-y: scroll;
 }
 #recipeTable  {
 	position: relative;
