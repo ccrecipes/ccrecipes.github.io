@@ -141,10 +141,10 @@ th, td {
 	font-size: 7px;
 }
 #recipeTable td:nth-last-child {
-	width: 50px;
+	width: 30px;
 }
 #recipeTable td:nth-child(2) {
-	width: 50px;
+	width: 30px;
 }
 #ITEMCARD {
     position: relative;
