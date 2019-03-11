@@ -140,6 +140,12 @@ th, td {
 	right: 0%;
 	font-size: 7px;
 }
+#recipeTable td:nth-last-child {
+	width: 50px;
+}
+#recipeTable td:nth-child(2) {
+	width: 50px;
+}
 #ITEMCARD {
     position: relative;
 	bottom: 0px;
