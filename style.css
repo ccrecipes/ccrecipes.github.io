@@ -134,11 +134,11 @@ th, td {
 }
 #recipeTable  {
 	position: relative;
-    width:85%;
+    width:88%;
 	margin-top: 0px;
 	margin-right: 0px;
 	right: 0%;
-	font-size: 7px !important;
+	font-size: 7px;
 }
 #recipeTable td:nth-last-child {
 	width: 50px;
@@ -154,7 +154,7 @@ th, td {
 	display: table-cell;
 	min-height: 90px;
 	vertical-align: bottom;
-	font-size: 10px;
+	font-size: 7px;
 }
 img {
     height: 20px;
