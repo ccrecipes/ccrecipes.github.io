@@ -6,11 +6,11 @@ html{
 	background-position: left top;
 	background-repeat: repeat;
 	padding: 0;
-	font-family: "ubuntu";
+	font-family: "Calibri";
 }
 @font-face {
-  font-family: ubuntu;
-  src: url('Ubuntu-R.ttf')  format('truetype');
+  font-family: Calibri;
+  src: url('Calibri.ttf')  format('truetype');
 }
 #recipeTable  {
 	position: relative;
@@ -24,11 +24,11 @@ html{
 }
 #recipeTable tr:nth-child(even) {
     background-color: #eee;
-	font-family: "ubuntu";
+	font-family: "Calibri";
 }
 #recipeTable tr:nth-child(odd) {
     background-color: #fff;
-	font-family: "ubuntu";
+	font-family: "Calibri";
 }
 #recipeTable td:nth-last-child(1) {
 	width: 100px;
@@ -37,9 +37,10 @@ html{
 	width: 100px;
 }
 th, td {
+	position: relative;
     padding: 15px;
     text-align: center;
-	font-family: "ubuntu";
+	font-family: "Calibri";
 	align-items: center;
 	align-content: center;
 }
@@ -75,18 +76,36 @@ th, td {
 }
 .searchbar {
 	position: relative;
-	left: 10px;
-	width: 200px;
+	display: table-cell;
+	left: 0px;
+	width: 160px;
 	border: 3px solid #202020;
 	padding: 5px;
 	height: 20px;
 	border-radius: 50px;
 	outline: none;
-	color: #9DBFAF;
+	color: #4c4c4c;
 	vertical-align: middle;
-	margin: 5px 5px 5px 5px;
+	margin: 5px 2px 5px 2px;
+}
+.quantitybar {
+	position: relative;
+	display: table-cell;
+	left: 0px;
+	width: 50px;
+	border: 3px solid #202020;
+	padding: 5px;
+	height: 20px;
+	border-radius: 50px;
+	outline: none;
+	color: #4c4c4c;
+	vertical-align: middle;
+	margin: 5px 2px 5px 2px;
 }
 .searchbar:focus{
+	color: black;
+}
+.quantitybar:focus{
 	color: black;
 }
 .navbar {
@@ -146,6 +165,8 @@ th, td {
 	height: 25px;
 	text-align: center;
 	vertical-align: bottom;
+	padding-left: 1px;
+	padding-right: 1px;
 }
 #CRAFTCARD .quantity {
 	position: absolute;
@@ -159,9 +180,38 @@ th, td {
 	height: 25px;
 	text-align: center;
 	vertical-align: bottom;
+	padding-left: 1px;
+	padding-right: 1px;
 }
 .image {
 	position: relative;
+}
+.OriginalValue {
+	display: none;
+}
+.TimeValue {
+	display: none;
+}
+.zap {
+	height: 15px;
+}
+footer {
+	position: relative;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	top: 15px;
+	padding-bottom: 5px;
+}
+footer a {
+	color: white;
+	text-decoration: none;
+}
+.pin {
+	position: absolute;
+	display: block;
+	top: 2px;
+	right: 2px;
 }
 @media screen and (max-width:700px) {
 .links {
@@ -226,6 +276,9 @@ img {
 	height: 10px;
 	text-align: center;
 	vertical-align: bottom;
+}
+.zap {
+	height: 7px;
 }
 }
 	
