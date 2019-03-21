@@ -1,10 +1,11 @@
 html{
 	background-image:url("bknd.png");
-	background-color: black;
+	background-color: white;
+	background-size: cover;
 	height: 100%;
 	background-attachment: fixed;
-	background-position: left top;
-	background-repeat: repeat;
+	background-position: center;
+	background-repeat: no-repeat;
 	padding: 0;
 	font-family: "Calibri";
 }
@@ -14,20 +15,20 @@ html{
 }
 #recipeTable  {
 	position: relative;
-    width:50%;
-	margin-left: -25%;
-	margin-top: 0px;
-	left: 50%;
 	top: 10px;
+	left: 15px;
+	width: calc(100% - 15px);
 	text-align: center;
 	font-weight: bold;
+	border-collapse: collapse;
+	color: white;
 }
 #recipeTable tr:nth-child(even) {
-    background-color: #eee;
+    background-color: none;
 	font-family: "Calibri";
 }
 #recipeTable tr:nth-child(odd) {
-    background-color: #fff;
+    background-color: rgba(37,84,89,0.8);
 	font-family: "Calibri";
 }
 #recipeTable td:nth-last-child(1) {
@@ -45,8 +46,9 @@ th, td {
 	align-content: center;
 }
 #recipeTable th {
-    background-color: #494949;
+    background-image: linear-gradient(#51bbc6, #39848c);
     color: white;
+    font-size: 18px;
 }
 #ITEMCARD {
     position: relative;
@@ -56,6 +58,10 @@ th, td {
     width: 70px;
     display: table-cell;
 	vertical-align: bottom;
+	user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 }
 #CRAFTCARD {
 	position: relative;
@@ -63,6 +69,10 @@ th, td {
 	width: 100%;
 	height: 100%;
 	text-align: center;
+	user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 }
 #PLUS {
 	position: relative;
@@ -73,13 +83,17 @@ th, td {
 	min-height: 90px;
 	vertical-align: bottom;
 	vertical-align: middle;
+	user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 }
 .searchbar {
 	position: relative;
 	display: table-cell;
 	left: 0px;
-	width: 160px;
-	border: 3px solid #202020;
+	width: 85%;
+	border: 3px solid rgb(37,84,89);
 	padding: 5px;
 	height: 20px;
 	border-radius: 50px;
@@ -92,8 +106,8 @@ th, td {
 	position: relative;
 	display: table-cell;
 	left: 0px;
-	width: 50px;
-	border: 3px solid #202020;
+	width: 85%;
+	border: 3px solid rgb(37,84,89);
 	padding: 5px;
 	height: 20px;
 	border-radius: 50px;
@@ -108,7 +122,7 @@ th, td {
 .quantitybar:focus{
 	color: black;
 }
-.navbar {
+.sidebar {
 	overflow: hidden;
 	position: fixed;
 	z-index: 1;
@@ -119,11 +133,12 @@ th, td {
 	background-color: #262626;
 	align-items: right;
 	transition: 0.4s;
+	display: none;
 }
-.navbar:hover {
+.sidebar:hover {
 	left: 0px;
 }
-.navbar img {
+.sidebar img {
 	position: absolute;
 	height: auto;
 	width: auto;
@@ -131,7 +146,7 @@ th, td {
 	right: 9px;
 	filter: invert(100%);
 }
-.navbar a {
+.sidebar a {
 	position: relative;
 	display: block;
 	width: 250px;
@@ -143,18 +158,41 @@ th, td {
 	font-weight: bold;
 	border-bottom: 1px solid #6b6b6b;
 }
-
+.navbar {
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	left: 0px;
+	top: -30px;
+	height: 100%;
+}
+.navbar a {
+	position: relative;
+	display: block;
+	width: 90%;
+	vertical-align: middle;
+	color: white;
+	padding: 10px 5px;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+.navbar a:hover {
+	background-color: rgba(37,84,89,1)
+}
 .links {
 	position: relative;
-	width: 250px;
 	overflow: hidden;
+	height: 88%;
+	width: 100%;
 }
-.navbar a:hover{
+.sidebar a:hover{
 	background-color: black;
 	color: white;
 }
 #ITEMCARD .quantity {
 	position: absolute;
+	color: black;
 	top: -15px;
 	left: -5px;
 	background-color: white;
@@ -170,6 +208,7 @@ th, td {
 }
 #CRAFTCARD .quantity {
 	position: absolute;
+	color: black;
 	top: -5px;
 	left: 5px;
 	background-color: white;
@@ -195,6 +234,56 @@ th, td {
 .zap {
 	height: 15px;
 }
+.maindiv {
+	position: absolute;
+	width: calc(100% - 158px);
+	height: calc(100% - 160px);
+	left: 79px;
+	background-color: rgba(37,84,89,0.8);
+	top: 85px;
+}
+.table {
+	position: absolute;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: calc(100% + 60px);
+	top: -30px;
+	width: 80%;
+	right: 0px;
+	border-left: solid 1px rgb(37,84,89);
+}
+.topline {
+	position: absolute;
+	background-image: url("images/topline.png");
+	background-repeat: repeat;
+	height: 85px;
+	width: 100%;
+	top: -85px;
+}
+.rightline {
+	position: absolute;
+	background-image: url("images/rightside.png");
+	background-repeat: repeat;
+	height: 100%;
+	width: 79px;
+	right: -79px;
+}
+.leftline {
+	position: absolute;
+	background-image: url("images/leftside.png");
+	background-repeat: repeat;
+	height: 100%;
+	width: 79px;
+	left: -79px;
+}
+.bottomline {
+	position: absolute;
+	background-image: url("images/bottomline.png");
+	background-repeat: repeat;
+	height: 75px;
+	width: 100%;
+	bottom: -75px;
+}
 footer {
 	position: relative;
 	color: white;
@@ -208,23 +297,55 @@ footer a {
 	text-decoration: none;
 }
 .pin {
+	display: none;
+}
+.pin + .pinl {
 	position: absolute;
-	display: block;
-	top: 2px;
 	right: 2px;
+	top: 2px;
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+	z-index: 1;
+	background-image: url("images/pin.png")
 }
-@media screen and (max-width:700px) {
-.links {
-	height: 90%;
-	overflow-y: scroll;
+.pin:checked + .pinl {
+	background-image: url("images/pinned.png")
 }
+::-webkit-scrollbar {
+	width: 7px;
+}
+::-webkit-scrollbar-track {
+	background: none; 
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(37,84,89,0.5); 
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(37,84,89,1); 
+}
+.more {
+	display: none;
+}
+.less {
+	display: none;
+}
+.border {
+	position: absolute;
+	height: 100%;
+	width: 18px;
+	visibility: hidden;
+	right: -18px;
+	background-image: url("images/navbarside.png");
+	background-repeat: repeat;
+}
+@media screen and (max-width:950px) {
 #recipeTable  {
 	position: relative;
-    width: calc(100% - 50px);
-	margin-top: 0px;
-	margin-left: 0px;
-	left: 50px;
+    width: calc(100% - 36px);
 	font-size: 7px;
+	left: 35px;
 }
 #recipeTable td:nth-last-child(1) {
 	width: 30px;
@@ -248,7 +369,7 @@ footer a {
 	height: 100%;
 	text-align: center;
 }
-img {
+img:not(.corner) {
     height: 20px;
 }
 #ITEMCARD .quantity {
@@ -279,6 +400,66 @@ img {
 }
 .zap {
 	height: 7px;
+}
+.navbar {
+	left: -350px;
+	width: 250px;
+	transition: 0.5s;
+	height: calc(100% + 160px);
+	top: -85px;
+	background-color: #466c70;
+}
+.links {
+	height: 80%;
+}
+.searchbar {
+	width: 200px;
+}
+.quantitybar {
+	width: 200px;
+}
+.table {
+	width: 100%;
+	border-left: none;
+}
+.more {
+	position: absolute;
+	display: block;
+	background: none;
+	left: 0px;
+	top: -10px;
+	z-index: 1;
+	border: none;
+}
+.less {
+	position: absolute;
+	display: block;
+	background: none;
+	border: none;
+	top: 12px;
+	right: 0px;
+}
+.border {
+	visibility: visible;
+}
+.maindiv {
+	width: 100%;
+	margin-left: -50%;
+	left: 50%;
+}
+.corner {
+	display: none;
+}
+.rightline {
+	display: none;
+}
+.leftline {
+	display:  none
+}
+.pin + .pinl {
+	background-size: 16px;
+	width: 16px;
+	height: 16px;
 }
 }
 	
