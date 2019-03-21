@@ -11,7 +11,7 @@ html{
 }
 @font-face {
   font-family: Calibri;
-  src: url('Calibri.ttf')  format('truetype');
+  src: url('calibri.ttf') format('truetype');
 }
 #recipeTable  {
 	position: relative;
@@ -343,9 +343,9 @@ footer a {
 @media screen and (max-width:950px) {
 #recipeTable  {
 	position: relative;
-    width: calc(100% - 36px);
+    width: 100%;
 	font-size: 7px;
-	left: 35px;
+	left: 0px;
 }
 #recipeTable td:nth-last-child(1) {
 	width: 30px;
@@ -427,7 +427,7 @@ img:not(.corner) {
 	display: block;
 	background: none;
 	left: 0px;
-	top: -10px;
+	top: -64px;
 	z-index: 1;
 	border: none;
 }
