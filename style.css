@@ -8,10 +8,13 @@ html{
 	background-repeat: no-repeat;
 	padding: 0;
 	font-family: "Calibri";
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
 }
 @font-face {
-  font-family: Calibri;
-  src: url('calibri.ttf') format('truetype');
+	font-family: Calibri;
+	src: url('calibri.ttf') format('truetype');
 }
 #recipeTable  {
 	position: relative;
@@ -24,11 +27,11 @@ html{
 	color: white;
 }
 #recipeTable tr:nth-child(even) {
-    background-color: none;
+	background-color: none;
 	font-family: "Calibri";
 }
 #recipeTable tr:nth-child(odd) {
-    background-color: rgba(37,84,89,0.8);
+	background-color: rgba(37,84,89,0.8);
 	font-family: "Calibri";
 }
 #recipeTable td:nth-last-child(1) {
@@ -39,29 +42,29 @@ html{
 }
 th, td {
 	position: relative;
-    padding: 15px;
-    text-align: center;
+	padding: 15px;
+	text-align: center;
 	font-family: "Calibri";
 	align-items: center;
 	align-content: center;
 }
 #recipeTable th {
-    background-image: linear-gradient(#51bbc6, #39848c);
-    color: white;
-    font-size: 18px;
+	background-image: linear-gradient(#51bbc6, #39848c);
+	color: white;
+	font-size: 18px;
 }
 #ITEMCARD {
-    position: relative;
+	position: relative;
 	bottom: 0px;
-    padding: 5px;
-    margin-bottom: 2px;
-    width: 70px;
-    display: table-cell;
+	padding: 5px;
+	margin-bottom: 2px;
+	width: 70px;
+	display: table-cell;
 	vertical-align: bottom;
 	user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
 }
 #CRAFTCARD {
 	position: relative;
@@ -70,23 +73,23 @@ th, td {
 	height: 100%;
 	text-align: center;
 	user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
 }
 #PLUS {
 	position: relative;
 	bottom: 0px;
-    padding: 5px;
-    margin: 2px 2px 2px 2px;
+	padding: 5px;
+	margin: 2px 2px 2px 2px;
 	display: table-cell;
 	min-height: 90px;
 	vertical-align: bottom;
 	vertical-align: middle;
 	user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
 }
 .searchbar {
 	position: relative;
@@ -341,125 +344,124 @@ footer a {
 	background-repeat: repeat;
 }
 @media screen and (max-width:950px) {
-#recipeTable  {
-	position: relative;
-    width: 100%;
-	font-size: 7px;
-	left: 0px;
+	#recipeTable  {
+		position: relative;
+		width: 100%;
+		font-size: 7px;
+		left: 0px;
+	}
+	#recipeTable td:nth-last-child(1) {
+		width: 30px;
+	}
+	#recipeTable td:nth-last-child(2) {
+		width: 30px;
+	}
+	#ITEMCARD {
+		position: relative;
+		bottom: 0px;
+		padding: 5px;
+		margin-bottom: 1px;
+		width: 30px;
+		display: table-cell;
+		vertical-align: bottom;
+	}
+	#CRAFTCARD {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+	img:not(.corner) {
+		height: 20px;
+	}
+	#ITEMCARD .quantity {
+		position: absolute;
+		top: -5px;
+		left: -5px;
+		background-color: white;
+		border: solid 1px black;
+		border-radius: 50px;
+		min-width: 10px;
+		width: auto;
+		height: 10px;
+		text-align: center;
+		vertical-align: bottom;
+	}
+	#CRAFTCARD .quantity {
+		position: absolute;
+		top: -5px;
+		left: 5px;
+		background-color: white;
+		border: solid 1px black;
+		border-radius: 50px;
+		min-width: 10px;
+		width: auto;
+		height: 10px;
+		text-align: center;
+		vertical-align: bottom;
+	}
+	.zap {
+		height: 7px;
+	}
+	.navbar {
+		left: -350px;
+		width: 250px;
+		transition: 0.5s;
+		height: calc(100% + 160px);
+		top: -85px;
+		background-color: #466c70;
+	}
+	.links {
+		height: 80%;
+	}
+	.searchbar {
+		width: 200px;
+	}
+	.quantitybar {
+		width: 200px;
+	}
+	.table {
+		width: 100%;
+		border-left: none;
+	}
+	.more {
+		position: absolute;
+		display: block;
+		background: none;
+		left: 0px;
+		top: -64px;
+		z-index: 1;
+		border: none;
+	}
+	.less {
+		position: absolute;
+		display: block;
+		background: none;
+		border: none;
+		top: 12px;
+		right: 0px;
+	}
+	.border {
+		visibility: visible;
+	}
+	.maindiv {
+		width: 100%;
+		margin-left: -50%;
+		left: 50%;
+	}
+	.corner {
+		display: none;
+	}
+	.rightline {
+		display: none;
+	}
+	.leftline {
+		display:  none
+	}
+	.pin + .pinl {
+		background-size: 16px;
+		width: 16px;
+		height: 16px;
+	}
 }
-#recipeTable td:nth-last-child(1) {
-	width: 30px;
-}
-#recipeTable td:nth-last-child(2) {
-	width: 30px;
-}
-#ITEMCARD {
-    position: relative;
-	bottom: 0px;
-    padding: 5px;
-    margin-bottom: 1px;
-    width: 30px;
-    display: table-cell;
-	vertical-align: bottom;
-}
-#CRAFTCARD {
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-}
-img:not(.corner) {
-    height: 20px;
-}
-#ITEMCARD .quantity {
-	position: absolute;
-	top: -5px;
-	left: -5px;
-	background-color: white;
-	border: solid 1px black;
-	border-radius: 50px;
-	min-width: 10px;
-	width: auto;
-	height: 10px;
-	text-align: center;
-	vertical-align: bottom;
-}
-#CRAFTCARD .quantity {
-	position: absolute;
-	top: -5px;
-	left: 5px;
-	background-color: white;
-	border: solid 1px black;
-	border-radius: 50px;
-	min-width: 10px;
-	width: auto;
-	height: 10px;
-	text-align: center;
-	vertical-align: bottom;
-}
-.zap {
-	height: 7px;
-}
-.navbar {
-	left: -350px;
-	width: 250px;
-	transition: 0.5s;
-	height: calc(100% + 160px);
-	top: -85px;
-	background-color: #466c70;
-}
-.links {
-	height: 80%;
-}
-.searchbar {
-	width: 200px;
-}
-.quantitybar {
-	width: 200px;
-}
-.table {
-	width: 100%;
-	border-left: none;
-}
-.more {
-	position: absolute;
-	display: block;
-	background: none;
-	left: 0px;
-	top: -64px;
-	z-index: 1;
-	border: none;
-}
-.less {
-	position: absolute;
-	display: block;
-	background: none;
-	border: none;
-	top: 12px;
-	right: 0px;
-}
-.border {
-	visibility: visible;
-}
-.maindiv {
-	width: 100%;
-	margin-left: -50%;
-	left: 50%;
-}
-.corner {
-	display: none;
-}
-.rightline {
-	display: none;
-}
-.leftline {
-	display:  none
-}
-.pin + .pinl {
-	background-size: 16px;
-	width: 16px;
-	height: 16px;
-}
-}
-	
