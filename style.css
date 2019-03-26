@@ -8,6 +8,9 @@ html{
 	background-repeat: no-repeat;
 	padding: 0;
 	font-family: "Calibri";
+	-moz-user-select: none;
+    	-webkit-user-select: none;
+    	-o-user-select: none;
 }
 @font-face {
   font-family: Calibri;
