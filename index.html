@@ -14,7 +14,9 @@
 		<div class="navbar">
 			<button class="less" onclick="closeNavbar()"><img src="images/less.png"></button>
 			<div class="border"></div>
-			<input type="text" maxlength="4" class="quantitybar" id="quantityInput" onkeyup="multiply()" placeholder="Quantity">
+			<form onsubmit="return multiply();" class="my-form">
+			<input type="text" maxlength="4" class="quantitybar" id="quantityInput" placeholder="Quantity">
+		</form>
 			<input type="text" class="searchbar" id="searchInput" onkeyup="searchRecipe()" placeholder="Search for Recipe..">
 			<div class="links">
 				<a href="#basiccr">Basic Crafting Recipes</a>
