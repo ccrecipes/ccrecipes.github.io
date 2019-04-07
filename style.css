@@ -60,7 +60,7 @@ th, td {
 	margin-bottom: 2px;
 	width: 70px;
 	display: table-cell;
-	vertical-align: bottom;
+	vertical-align: top;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
@@ -227,6 +227,10 @@ th, td {
 }
 .image {
 	position: relative;
+	min-height: 65px;
+}
+img:not(.corner){
+	max-height: 65px;
 }
 .OriginalValue {
 	display: none;
