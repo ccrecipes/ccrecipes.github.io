@@ -225,9 +225,12 @@ th, td {
 	padding-left: 1px;
 	padding-right: 1px;
 }
-.image {
+#ITEMCARD .image {
 	position: relative;
 	min-height: 65px;
+}
+#CRAFTCARD .image {
+	position: relative;
 }
 img:not(.corner){
 	max-height: 65px;
