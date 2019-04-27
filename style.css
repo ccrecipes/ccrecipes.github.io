@@ -395,6 +395,10 @@ footer a {
 		text-align: center;
 		vertical-align: bottom;
 	}
+	#ITEMCARD .image {
+	position: relative;
+	min-height: 25px;
+}
 	#CRAFTCARD .quantity {
 		position: absolute;
 		top: -5px;
