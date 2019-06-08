@@ -286,15 +286,17 @@ img:not(.corner){
 	left: 0px;
 }
 footer {
-	position: relative;
-	color: white;
+	position: absolute;
+	color: #2a4ea3;
 	font-size: 12px;
 	text-align: center;
-	top: 15px;
+	bottom: 0px;
+	right: 10px;
 	padding-bottom: 5px;
 }
 footer a {
-	color: white;
+	color: #2a4ea3;
+	font-weight: bold;
 	text-decoration: none;
 }
 .pin {
