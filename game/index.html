@@ -1,0 +1,760 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<style>
+	@font-face {
+		font-family: "Luckiest-Guy";
+		src: url("luckiestguy.ttf") format("truetype");
+	}
+
+	body {
+		margin: 0px;
+		user-select: none;
+		overflow: hidden;
+	}
+	.scene {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		transform: translate(-50%);
+		top: 0%;
+		left: 50%;
+		transition-duration: 0.2s;
+		overflow: hidden;
+	}
+
+	.bg {
+		position: absolute;
+		height: 4000px;
+		width: 4000px;
+		transform-style: preserve-3d;
+		transform: rotateX(-45deg) rotateY(45deg);
+		top: Calc(50% - 13px);
+		left: Calc(50% - 2066px);
+	}
+
+	.bg_face {
+		background-image: url("forest_bg.png");
+		transform: rotateX( 90deg) rotateZ(0deg) translate(50%, -50%);
+		height: 100%;
+		width: 100%;
+	}
+
+
+	.cube {
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		transform-style: preserve-3d;
+		top:Calc(0% - 251px);
+		left:Calc(50% + 26px);
+		transition-duration: 0.1s;
+	}
+
+	.cube__face {
+		position: absolute;
+	}
+	.vignette {
+		position: absolute;
+		transform: translateY(-128px);
+		height: 128px;
+		width: 128px;
+		box-shadow: inset 0px 0px 50px -25px rgba(142, 132, 78, 0.37);
+
+	}
+	.cube__face--front  {transform: rotateY(0deg) rotateZ(0deg) translate(50%, -50%); filter: brightness(80%);top: 128px;transition-duration: 0.1s;z-index:3; }
+	.cube__face--back  {transform: rotateY(180deg) rotateZ(0deg) translate(-50%, -50%) translateZ(128px); filter: brightness(80%);top: 128px;transition-duration: 0.1s;z-index:2; }
+	.cube__face--left   {transform: rotateY(-90deg) translate(-50%, -50%); filter: brightness(120%); top:128px;transition-duration: 0.1s;z-index:3;}
+	.cube__face--right   {transform: rotateY(90deg) translate(50%, -50%) translateZ(128px); filter: brightness(120%); top:128px;transition-duration: 0.1s;z-index:2;}
+	.cube__face--top    {transform: rotateX( 90deg) rotateZ(0deg) translate(50%, -50%);transition-duration: 0.1s;z-index:4; }
+	.cube__face--bottom    {transform: rotateX( 90deg) rotateZ(90deg) translate(-50%, -50%); box-shadow: 0px 0px 100px -10px;top:128px;transition-duration: 0.1s;z-index:1;}
+	.cube { transform: translate(-50%, -50%) rotateX(-45deg) rotateY(45deg); }
+
+	.cube__face img {
+		height: 128px;
+		width: 128px;
+	}
+
+
+	.gift {
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		transform-style: preserve-3d;
+		top:Calc(0% - 251px);
+		left:Calc(50% - 245px);
+		transition-duration: 0.1s;
+	}
+
+	.gift__face {
+		position: absolute;
+	}
+	.gift__face--front  {transform: rotateY(0deg) rotateZ(0deg) translate(50%, -50%); filter: brightness(80%);top: 128px;transition-duration: 0.2s;z-index:3; }
+	.gift__face--back  {transform: rotateY(180deg) rotateZ(0deg) translate(-50%, -50%) translateZ(128px); filter: brightness(80%);top: 128px;transition-duration: 0.2s;z-index:2; }
+	.gift__face--left   {transform: rotateY(-90deg) translate(-50%, -50%); filter: brightness(120%); top:128px;transition-duration: 0.2s;z-index:3;}
+	.gift__face--right   {transform: rotateY(90deg) translate(50%, -50%) translateZ(128px); filter: brightness(120%); top:128px;transition-duration: 0.2s;z-index:2;}
+	.gift__face--top    {transform: rotateX( 90deg) rotateZ(-90deg) translate(50%, 50%);transition-duration: 0.2s;z-index:4; }
+	.gift__face--bottom    {transform: rotateX( 90deg) rotateZ(90deg) translate(-50%, -50%); box-shadow: 0px 0px 100px -10px;top:128px;transition-duration: 0.2s;z-index:1;}
+	.gift { transform: translate(-50%, -50%) rotateX(-45deg) rotateY(45deg); }
+
+	.gift__face img {
+		height: 128px;
+		width: 128px;
+	}
+
+
+	.pet {
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		transform-style: preserve-3d;
+		top:Calc(0% - 251px);
+		left:Calc(50% + 298px);
+		transition-duration: 0.1s;
+	}
+
+	.pet__face {
+		position: absolute;
+	}
+	.pet__face--front  {transform: rotateY(0deg) rotateZ(0deg) translate(50%, -50%); filter: brightness(80%);top: 128px;transition-duration: 0.1s;z-index:3; }
+	.pet__face--back  {transform: rotateY(180deg) rotateZ(0deg) translate(-50%, -50%) translateZ(128px); filter: brightness(80%);top: 128px;transition-duration: 0.1s;z-index:2; }
+	.pet__face--left   {transform: rotateY(-90deg) translate(-50%, -50%); filter: brightness(120%); top:128px;transition-duration: 0.1s;z-index:3;}
+	.pet__face--right   {transform: rotateY(90deg) translate(50%, -50%) translateZ(128px); filter: brightness(120%); top:128px;transition-duration: 0.1s;z-index:2;}
+	.pet__face--top    {transform: rotateX( 90deg) rotateZ(-90deg) translate(50%, 50%);transition-duration: 0.1s;z-index:4; }
+	.pet__face--bottom    {height: 128px; width: 128px; transform: rotateX( 90deg) rotateZ(90deg) translate(-50%, -50%); box-shadow: 0px 0px 100px -10px;top:128px;transition-duration: 0.1s;z-index:1;background-color: rgba(0,0,0,0.5);}
+	.pet { transform: translate(-50%, -50%) rotateX(-45deg) rotateY(45deg); }
+
+	.pet__face img {
+		height: 128px;
+		width: 128px;
+	}
+
+	.money_bg {
+		position: absolute;
+		height: 70px;
+		width: 100%;
+		font-family: 'Helvetica';
+		font-size: 25px;
+		color: #ffffff;
+		text-shadow:
+		0px 2px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+		box-shadow: inset 0px 200px 50px -200px rgba(0,0,0,0.75);
+		font-weight: bold;
+		pointer-events: none;
+	}
+
+	.money_bg img {
+		position: absolute;
+		height: 40px;
+		left: -40px;
+		top: -5px;
+	}
+	#money {
+		position: relative;
+		float: right;
+	}
+	.moneylabel {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		right: 0%;
+		top: 60%;
+	}
+
+	.break_prog {
+		position: absolute;
+		width: 99px;
+		height: 19px;
+		transform: translate(-50%);
+		left: 50%;
+		top: Calc(50% - 100px);
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.break_prog img {
+		position: absolute;
+		width: 100%;
+	}
+
+	.break_prog_pet {
+		position: absolute;
+		width: 99px;
+		height: 19px;
+		transform: translate(-50%);
+		left: 50%;
+		top: Calc(50% - 121px);
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.break_prog_pet img {
+		position: absolute;
+		width: 100%;
+	}
+
+	.full_break {
+		clip: rect(0px, 0px, 19px, 0px);
+		transition-duration: 2000ms;
+		transition-timing-function: linear;
+	}
+
+	.full_break_pet {
+		clip: rect(0px, 0px, 19px, 0px);
+		transition-duration: 2000ms;
+		transition-timing-function: linear;
+	}
+
+	.float-c {
+		position: absolute;
+		color: white;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		font-family: "Helvetica";
+		font-size: 20px;
+		opacity: 1;
+		font-weight: bold;
+		text-shadow:
+		2px 2px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	}
+
+	.float-c img{
+		height: 25px;
+	}
+
+	.offline-c {
+		position: absolute;
+		color: white;
+		top: Calc(50% - 42px);
+		left: Calc(50% - 271px);
+		transform: translate(-50%,-50%);
+		font-family: "Helvetica";
+		font-size: 20px;
+		opacity: 1;
+		font-weight: bold;
+		text-shadow:
+		2px 2px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	}
+
+	.offline-c img{
+		height: 25px;
+	}
+
+	.window {
+		position: absolute;
+		background-color: #80d9e1;
+		height: 80%;
+		width: 60%;
+		transform: translate(-50%, -50%) scale(0,0);
+		top: 50%;
+		left: 50%;
+		z-index: 100;
+		display: none;
+		transition-duration: 0s;
+	}
+
+	.window_outline {
+		display:inline-block;
+		overflow:hidden;
+		background-image:url(window.png);
+	}
+
+	.sh_lt {
+		position: absolute;
+		transform: translate(-100%, -100%);
+		top: 0px;
+		left: 0px;
+		width: 40px;
+		height: 50px;
+	}
+	.sh_rt {
+		position: absolute;
+		background-position: -47px 0px;
+		transform: translate(100%, -100%);
+		top: 0px;
+		right: 1px;
+		width: 50px;
+		height: 50px;
+	}
+	.sh_lb {
+		position: absolute;
+		background-position: 0px -75px;
+		transform: translate(-100%, 100%);
+		bottom: 0px;
+		left: 0px;
+		width: 40px;
+		height: 45px;
+	}
+	.sh_rb {
+		position: absolute;
+		background-position: -47px -75px;
+		transform: translate(100%, 100%);
+		bottom: 0px;
+		right: 1px;
+		width: 50px;
+		height: 45px;
+	}
+	.sh_l {
+		position: absolute;
+		background-image: url("window_l.png");
+		transform: translate(-100%, 0%);
+		top: 0px;
+		left: 0px;
+		width: 40px;
+		height: 100%;
+	}
+	.sh_b {
+		position: absolute;
+		background-image: url("window_b.png");
+		transform: translate(0%, 100%);
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		height: 45px;
+	}
+	.sh_r {
+		position: absolute;
+		background-image: url("window_r.png");
+		background-repeat: repeat-y;
+		transform: translate(100%, 0%);
+		top: 0px;
+		right: 1px;
+		width: 50px;
+		height: 100%;
+	}
+	.sh_t {
+		position: absolute;
+		background-image: url("window_t.png");
+		transform: translate(0%, -100%);
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 50px;
+	}
+
+	.window_title {
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		font-weight: 900;
+		font-family: "Helvetica";
+		top: -5px;
+		font-size: 35px;
+		color: #fff;
+		text-shadow: 2px 2px 0px #6fc0c7;
+	}
+
+	.shop_scene {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: none;
+	}
+
+	.shop_area {
+		position: absolute;
+		width: Calc(100% + 38px);
+		height: Calc(100% - 105px);
+		left: 50%;
+		top: 50px;
+		background-color: #fff;
+		transform: translate(-50%);
+		box-shadow: inset 0px -18px 10px -18px rgba(0,0,0,0.75);
+		overflow-y: scroll;
+	}
+
+	.travel_scene {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: none;
+	}
+
+	.travel_area {
+		position: absolute;
+		width: Calc(100% + 38px);
+		height: Calc(100% - 105px);
+		left: 50%;
+		top: 50px;
+		background-color: #fff;
+		transform: translate(-50%);
+		box-shadow: inset 0px -18px 10px -18px rgba(0,0,0,0.75);
+		overflow-y: scroll;
+	}
+
+	.window_button {
+		position: absolute;
+		transform: translate(-50%);
+		left: 50%;
+		bottom: -8px;
+		height: 50px;
+		background-color: #fff;
+		border-radius: 50px;
+		width: 200px;
+		text-align: center;
+		font-size: 30px;
+		cursor: pointer;
+	}
+
+	.window_button img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		font-family: "Helvetica";
+	}
+
+	.shop_icon {
+		position: absolute;
+		left: 20px;
+		bottom: 20px;
+		border-radius: 50%;
+		background-color: #80d9e1;
+		height: 80px;
+		width: 80px;
+		cursor: pointer;
+	}
+	.shop_icon img {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		left: 50%;
+		height: 100px;
+		width: 100px;
+	}
+
+	.shop_icon div {
+		position: absolute;
+		transform: translate(-50%);
+		left: 50%;
+		bottom: -10px;
+		color: #fff;
+		font-family: "Luckiest-Guy";
+		text-shadow:
+		0px 2px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+		font-size: 25px;
+	}
+
+	.travel_icon {
+		position: absolute;
+		right: 20px;
+		bottom: 20px;
+		border-radius: 50%;
+		background-color: #80d9e1;
+		height: 80px;
+		width: 80px;
+		cursor: pointer;
+	}
+	.travel_icon img {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		left: 50%;
+		height: 100px;
+		width: 100px;
+	}
+
+	.travel_icon div {
+		position: absolute;
+		transform: translate(-50%);
+		left: 50%;
+		bottom: -10px;
+		color: #fff;
+		font-family: "Luckiest-Guy";
+		text-shadow:
+		0px 2px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+		font-size: 25px;
+	}
+
+	.shop_item {
+		position: relative;
+		height: 85px;
+		width: Calc(50% - 15px);
+		background-color: rgba(0,0,0,0.3);
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		border-radius: 20px;
+		box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+		cursor: pointer;
+	}
+
+	.shop_item:nth-child(odd) {
+		float: left;
+		margin-right: 5px !important;
+	}
+
+	.shop_item:nth-child(even) {
+		float: right;
+		margin-left: 5px !important;
+	}
+
+	.shop_item img {
+		margin-top: 5px;
+		margin-left: 5px;
+		transition-duration: 0.3s;
+	}
+
+	.item_level {
+		position: absolute;
+		left: 42px;
+		bottom: 5px;
+		font-family: "Luckiest-Guy";
+		transform: translate(-50%);
+		color: #fff;
+		text-shadow:
+		0px 2px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+
+	}
+
+	.item_title {
+		position: absolute;
+		left: 85px;
+		top: 7px;
+		font-family: "Helvetica";
+		font-size: 19px;
+		font-weight: bold;
+		color: #fff;
+		text-shadow:
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+
+	}
+
+	.item_price {
+		position: absolute;
+		left: 105px;
+		top: 30px;
+		font-family: "Helvetica";
+		font-weight: bold;
+	}
+
+	.item_cubit {
+		position: absolute;
+		left: 105px;
+		top: 30px;
+		font-family: "Helvetica";
+		font-weight: bold;
+	}
+
+	.item_cubit img {
+		position: absolute;
+		height: 20px;
+		top: -5px;
+		left: -25px;
+	}
+
+	.item_desc {
+		position: absolute;
+		left: 85px;
+		top: 55px;
+		font-family: "Helvetica";
+		color: #404040;
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.error {
+		animation: error 0.8s 1;
+	}
+
+	.float-e {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		z-index: 999;
+		font-family: "Helvetica";
+		color: #e62e2e;
+		font-weight: bold;
+		pointer-events: none;
+		letter-spacing: 1px;
+		text-shadow:
+		-1px -1px 0 #4f0000,  
+		1px -1px 0 #4f0000,
+		-1px 1px 0 #4f0000,
+		1px 1px 0 #4f0000;
+	}
+
+	@keyframes error {
+		0% {color: #fff;}
+		16% {color: #f00;}
+		33% {color: #fff;}
+		49% {color: #f00;}
+		66% {color: #fff;}
+		82% {color: #f00;}
+		100% {color: #fff;}
+
+	}
+
+	.offline_sign {
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		color: #fff;
+		text-shadow:
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+		font-family: "Helvetica";
+		font-weight: bold;
+		text-align: center;
+		font-size: 20px;
+
+	}
+
+	.offline_sign img {
+		height: 30px;
+		width: auto;
+		margin-right: 5px;
+	}
+
+</style>
+
+
+<body>
+	<div class="scene">
+		<div class="bg">
+			<div class="bg_face"></div>
+		</div>
+		<div class="cube">
+			<div class="cube__face cube__face--front"><img src=""><div class="vignette"></div></div>
+			<div class="cube__face cube__face--left"><img src=""><div class="vignette"></div></div>
+			<div class="cube__face cube__face--right"><img src=""><div class="vignette"></div></div>
+			<div class="cube__face cube__face--back"><img src=""><div class="vignette"></div></div>
+			<div class="cube__face cube__face--top"><img src=""><div class="vignette"></div></div>
+			<div class="cube__face cube__face--bottom"><img src=""><div class="vignette"></div></div>   
+		</div>
+
+		<div class="pet">
+			<div class="pet__face pet__face--front"><img src="blocks/pet_front.png"><div class="vignette"></div></div>
+			<div class="pet__face pet__face--left"><img src="blocks/pet_left.png"><div class="vignette"></div></div>
+			<div class="pet__face pet__face--right"><img src="blocks/pet_side.png"><div class="vignette"></div></div>
+			<div class="pet__face pet__face--back"><img src="blocks/pet_side.png"><div class="vignette"></div></div>
+			<div class="pet__face pet__face--top"><img src="blocks/pet_top.png"><div class="vignette"></div></div>
+			<div class="pet__face pet__face--bottom"><div class="vignette"></div></div>   
+		</div>
+	</div>
+	<div class="gift">
+			<div class="gift__face gift__face--front"><img src="blocks/gift.png"><div class="vignette"></div></div>
+			<div class="gift__face gift__face--left"><img src="blocks/gift.png"><div class="vignette"></div></div>
+			<div class="gift__face gift__face--right"><img src="blocks/gift.png"><div class="vignette"></div></div>
+			<div class="gift__face gift__face--back"><img src="blocks/gift.png"><div class="vignette"></div></div>
+			<div class="gift__face gift__face--top"><img src="blocks/gift_top.png"><div class="vignette"></div></div>
+			<div class="gift__face gift__face--bottom"><img src="blocks/gift.png"><div class="vignette"></div></div>   
+		</div>
+	<div class="break_prog">
+		<img class="empty_break" src="break_empty.png">
+		<img class="full_break" src="break_full.png">
+	</div>
+	<div class="break_prog_pet">
+		<img class="empty_break_pet" src="break_empty.png">
+		<img class="full_break_pet" src="break_full_pet.png">
+	</div>
+	<div class="money_bg">
+		<div class="moneylabel"><img src="cubit.png"><div id="money">0</div></div>
+	</div>
+	<div class="shop_icon"><img src="icon_shop.png"><div>SHOP</div></div>
+
+	<div class="travel_scene">
+		<div class="travel window">
+			<i class="sh_l"></i>
+			<i class="sh_r"></i>
+			<i class="sh_b"></i>
+			<i class="sh_t"></i>
+			<i class="sh_lt window_outline"></i>
+			<i class="sh_lb window_outline"></i>
+			<i class="sh_rt window_outline"></i>
+			<i class="sh_rb window_outline"></i>
+			<div class="window_title"><img src="cubit.png" height="30px"> TRAVEL <img src="cubit.png" height="30px"></div>
+			<div class="window_button travel_button"><img src="done.png"></div>
+
+			<div class="shop_area">
+			</div>
+</div>
+	</div>
+	
+	<div class="shop_scene">
+		<div class="shop window">
+			<i class="sh_l"></i>
+			<i class="sh_r"></i>
+			<i class="sh_b"></i>
+			<i class="sh_t"></i>
+			<i class="sh_lt window_outline"></i>
+			<i class="sh_lb window_outline"></i>
+			<i class="sh_rt window_outline"></i>
+			<i class="sh_rb window_outline"></i>
+			<div class="window_title"><img src="cubit.png" height="30px"> SHOP <img src="cubit.png" height="30px"></div>
+			<div class="window_button shop_button"><img src="done.png"></div>
+
+
+			<div class="shop_area">
+				<div id="speed_mine" class="shop_item">
+					<img src="mine_perk.png">
+					<div class="item_level">LVL. 0</div>
+					<div class="item_title">Faster Mining</div>
+					<div class="item_cubit"><img src="cubit.png"></div><div class="item_price">100</div>
+					<div class="item_desc">Allows you to mine blocks <b>5% faster</b>!</div>
+				</div>
+
+				<div id="more_cubits" class="shop_item">
+					<img src="cubit_perk.png">
+					<div class="item_level">LVL. 0</div>
+					<div class="item_title">More Cubits</div>
+					<div class="item_cubit"><img src="cubit.png"></div><div class="item_price">500</div>
+					<div class="item_desc"><b>+1 Cubit</b> to each block mined!</div>
+				</div>
+
+				<div id="pet_perk" class="shop_item">
+					<img src="pet_perk.png">
+					<div class="item_level">LVL. 0</div>
+					<div class="item_title">Doog Pet</div>
+					<div class="item_cubit"><img src="cubit.png"></div><div class="item_price">1000</div>
+					<div class="item_desc"><b>Mines blocks</b> for you!</div>
+				</div>
+
+				<div id="luck_perk" class="shop_item">
+					<img src="luck_perk.png">
+					<div class="item_level">LVL. 0</div>
+					<div class="item_title">Lucky</div>
+					<div class="item_cubit"><img src="cubit.png"></div><div class="item_price">300</div>
+					<div class="item_desc"><b>+2%</b> chance of dropping <b>double cubits</b>!</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="jquery.js"></script>
+	<script src="nicernumbers.js"></script>
+	<script src="secure-ls.min.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
