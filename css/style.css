@@ -24,7 +24,6 @@ html {
 	-moz-user-drag: none;
 	-o-user-drag: none;
 	touch-action: manipulation;
-	pointer-events: none;
 }
 
 img {
