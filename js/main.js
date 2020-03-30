@@ -9,6 +9,10 @@ function zoomOutMobile() {
 
 zoomOutMobile();
 
+$(document).on("dragstart", function() {
+     return false;
+});
+
 function isCraftable(item) {
     for (recipe in basic) {
         if (basic[recipe]["item"]["item"] == item) {
