@@ -116,7 +116,7 @@ $(".item_recipe").on("click", function (e) {
                     item_image = "images/" + item_name.split(" ").join("_").toLowerCase() + ".png";
                 }
                 if (isCraftable(item_name)) {
-                    $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" craftable = \"" + item_name + "\"><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/steel_hammer.png\"></div></div>");
+                    $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/steel_hammer.png\"></div></div>");
                 } else {
                     $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" ><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
                 }
@@ -190,7 +190,7 @@ function itemClickEvent() {
 
             for (indexes2 in index2) {
                 for (recipes in basic[index2[indexes2]]["recipe"]) {
-                    $(".display_recipe").append("<br><div id=\"recipe_" + recipe_num + "\"  class=\"recipe_wrapper\"></div>");
+                    $(".display_recipe").append("<div id=\"recipe_" + recipe_num + "\"  class=\"recipe_wrapper\"><p class=\"close_recipe\">✕</p></div>");
                     for (item in basic[index2[indexes2]]["recipe"][recipes]) {
                         item_name = basic[index2[indexes2]]["recipe"][recipes][item]["item"];
                         item_amount = basic[index2[indexes2]]["recipe"][recipes][item]["amount"];
@@ -200,7 +200,7 @@ function itemClickEvent() {
                             item_image = "images/" + item_name.split(" ").join("_").toLowerCase() + ".png";
                         }
                         if (isCraftable(item_name)) {
-                            $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" craftable = \"" + item_name + "\"><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/steel_hammer.png\"></div></div>");
+                            $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/steel_hammer.png\"></div></div>");
                         } else {
                             $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" ><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
                         }
@@ -234,6 +234,7 @@ function itemClickEvent() {
             }
             hideOnes();
             itemClickEvent();
+            close_recipe_function()
             $(".crafted_recipe_item").on("click", function () {
                 curr_recipe_num = parseInt($(this).attr("recipe_num"));
                 curr_amount = parseInt($(this).find(".crafted_amount").text());
@@ -244,6 +245,23 @@ function itemClickEvent() {
             $(".display_recipe").animate({ scrollTop: $('.display_recipe').prop("scrollHeight") }, 500);
         }
 
+    })
+}
+
+function close_recipe_function() {
+    $(".close_recipe").unbind("click");
+    $(".close_recipe").on("click", function () {
+        close_item = $(this).parent().find(".crafted_recipe_item > p").text();
+        index_close = displayed_recipes.indexOf(close_item);
+        displayed_recipes.splice(index_close, 1);
+        for (item in $(".recipe_wrapper").toArray()) {
+            if ($(".recipe_wrapper:eq(" + item + ")").find(".crafted_recipe_item > p").text() == close_item) {
+                $(".recipe_wrapper:eq(" + item + ")").attr("to_remove", "");
+            }
+            $(".item_recipe_shown[item=\"" + close_item + "\"]").attr("craftable", "");
+        }
+        $(".recipe_wrapper[to_remove]").remove();
+        itemClickEvent();
     })
 }
 
