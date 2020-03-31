@@ -432,6 +432,16 @@ body {
 	box-shadow: 3px 3px 2px rgba(0, 0, 0, .3);
 }
 
+.close_recipe {
+	position: absolute;
+	top: 5px;
+	right: 7px;
+	margin: 0px;
+	font-family: Calibri;
+	font-weight: bold;
+	cursor: pointer;
+}
+
 form input[type="range"] {
 	position: relative;
 	display: inline-block;
