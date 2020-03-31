@@ -21,7 +21,8 @@
 
 <body>
     <div class="navbar">
-        <input type="text" spellcheck="false" onkeyup="filterRecipes()" id="filterInput" placeholder="Search for item...">
+        <input type="text" onkeyup="filterRecipes()" id="filterInput" placeholder="Search for item..."><img
+            class="show_bookmark" title="Show Bookmarked recipes only!" src="images/bookmark_empty.png">
         <div class="links">
             <a href="#basic_recipes" title="Basic Crafting Recipes"><img src="images/anvil.png"></a>
             <a href="#tool_recipes" title="Crafting Recipes with Tools"><img src="images/workbench.png"></a>
@@ -98,9 +99,9 @@
                     </div>
                     <form class="filter_quantity">
                         <div class="stepQuantity" id="stepDown">-</div>
-                        <input id="quantity" type="number" min="0" max="1000">
+                        <input id="quantity" type="number" min="0" max="20000">
                         <div class="stepQuantity" id="stepUp">+</div>
-                        <input id="slider_quantity" min="0" max="1000" type="range">
+                        <input id="slider_quantity" min="0" max="20000" type="range">
                         <input type="image" alt="Submit" src="images/confirm_amount.png">
                     </form>
                 </div>
