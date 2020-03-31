@@ -7385,24 +7385,24 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 1",
                 "image": "images/eggs/egg1.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 2",
                 "image": "images/eggs/egg2.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 3",
                 "image": "images/eggs/egg3.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 4",
         "image": "images/eggs/egg4.png"
     }, "type": "eastereggs"
 },
@@ -7411,24 +7411,24 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 5",
                 "image": "images/eggs/egg5.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 6",
                 "image": "images/eggs/egg6.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 7",
                 "image": "images/eggs/egg7.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 8",
         "image": "images/eggs/egg8.png"
     }, "type": "eastereggs"
 },
@@ -7437,24 +7437,24 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 9",
                 "image": "images/eggs/egg9.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 10",
                 "image": "images/eggs/egg10.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 11",
                 "image": "images/eggs/egg11.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 12",
         "image": "images/eggs/egg12.png"
     }, "type": "eastereggs"
 },
@@ -7463,24 +7463,24 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 1",
                 "image": "images/eggs/egg1.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 3",
                 "image": "images/eggs/egg3.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 6",
                 "image": "images/eggs/egg6.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 13",
         "image": "images/eggs/egg13.png"
     }, "type": "eastereggs"
 },
@@ -7489,24 +7489,24 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 9",
                 "image": "images/eggs/egg9.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 11",
                 "image": "images/eggs/egg11.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 2",
                 "image": "images/eggs/egg2.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 14",
         "image": "images/eggs/egg14.png"
     }, "type": "eastereggs"
 },
@@ -7515,24 +7515,24 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 5",
                 "image": "images/eggs/egg5.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 7",
                 "image": "images/eggs/egg7.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 10",
                 "image": "images/eggs/egg10.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 21",
         "image": "images/eggs/egg21.png"
     }, "type": "eastereggs"
 },
@@ -7541,24 +7541,24 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 1",
                 "image": "images/eggs/egg1.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 5",
                 "image": "images/eggs/egg5.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 9",
                 "image": "images/eggs/egg9.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 15",
         "image": "images/eggs/egg15.png"
     }, "type": "eastereggs"
 },
@@ -7567,24 +7567,24 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 2",
                 "image": "images/eggs/egg2.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 6",
                 "image": "images/eggs/egg6.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 10",
                 "image": "images/eggs/egg10.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 16",
         "image": "images/eggs/egg16.png"
     }, "type": "eastereggs"
 },
@@ -7593,19 +7593,19 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 4",
                 "image": "images/eggs/egg4.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 8",
                 "image": "images/eggs/egg8.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 17",
         "image": "images/eggs/egg17.png"
     }, "type": "eastereggs"
 },
@@ -7614,19 +7614,19 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 12",
                 "image": "images/eggs/egg12.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 13",
                 "image": "images/eggs/egg13.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 18",
         "image": "images/eggs/egg18.png"
     }, "type": "eastereggs"
 },
@@ -7635,19 +7635,19 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 14",
                 "image": "images/eggs/egg14.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 21",
                 "image": "images/eggs/egg21.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 19",
         "image": "images/eggs/egg19.png"
     }, "type": "eastereggs"
 },
@@ -7656,19 +7656,19 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 15",
                 "image": "images/eggs/egg15.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 16",
                 "image": "images/eggs/egg16.png"
             }
         ]
     ],
     "item": {
         "amount": 1,
-        "item": "",
+        "item": "Easter Egg 20",
         "image": "images/eggs/egg20.png"
     }, "type": "eastereggs"
 },
@@ -7677,22 +7677,22 @@ basic = [{
         [
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 17",
                 "image": "images/eggs/egg17.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 18",
                 "image": "images/eggs/egg18.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 19",
                 "image": "images/eggs/egg19.png"
             },
             {
                 "amount": 1,
-                "item": "",
+                "item": "Easter Egg 20",
                 "image": "images/eggs/egg20.png"
             }
         ]
