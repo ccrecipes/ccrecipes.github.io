@@ -1,17 +1,6 @@
 bookmarked = [];
 bm_only = 0;
 
-function zoomOutMobile() {
-    var viewport = document.querySelector('meta[name="viewport"]');
-
-    if (viewport) {
-        viewport.content = "initial-scale=0.1";
-        viewport.content = "width=1360";
-    }
-}
-
-zoomOutMobile();
-
 $(document).on("dragstart", function () {
     return false;
 });
