@@ -1,7 +1,5 @@
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     $("#filterInput").css("width", "125px");
-    $(".craft_arrow").css("min-width", "50px");
-    $(".item_recipe_shown").css("min-width", "90px");
     $(".links").css({
         "width": "Calc(100% - 185px)",
         "position": "absolute",
@@ -179,6 +177,10 @@ $(".item_recipe").on("click", function (e) {
 })
 
 function itemClickEvent() {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        $(".craft_arrow").css("min-width", "50px");
+        $(".item_recipe_shown").css("min-width", "90px");
+    }
     $(".item_recipe_shown[craftable]").on("click", function () {
         clicked_on = $("p", this).text();
         if (!displayed_recipes.includes(clicked_on)) {
