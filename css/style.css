@@ -374,7 +374,7 @@ body {
 	display: inline-block;
 }
 
-.craft_arrow img {
+.craft_arrow img:not(.tool_image):not(.station_image) {
 	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 50%;
@@ -598,13 +598,18 @@ form input[type="image"] {
 
 .tool_image {
 	position: absolute;
-	top: 22% !important;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	position: absolute;
+	top: 22%;
 	height: 45px;
 }
 
 .station_image {
 	position: absolute;
-	top: 78% !important;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 78%;
 	height: 45px;
 }
 
