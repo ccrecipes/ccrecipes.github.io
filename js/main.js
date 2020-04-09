@@ -1,5 +1,7 @@
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     $("#filterInput").css("width", "125px");
+    $(".craft_arrow").css("min-width", "50px");
+    $(".item_recipe_shown").css("min-width", "90px");
     $(".links").css({
         "width": "Calc(100% - 185px)",
         "position": "absolute",
