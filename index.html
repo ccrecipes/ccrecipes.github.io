@@ -14,102 +14,106 @@
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <title>Cubic Castles Crafting Recipes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafting Recipes</title>
     <link rel="icon" href="images/steel_hammer.png">
     <meta name="description" content="All crafting recipes for Cubic Castles blocks and items!">
 </head>
 
 <body>
-    <div class="navbar">
-        <input type="text" onkeyup="filterRecipes()" id="filterInput" placeholder="Search for item..."><img
-            class="show_bookmark" title="Show Bookmarked recipes only!" src="images/bookmark_empty.png">
-        <div class="links">
-            <a href="#basic_recipes" title="Basic Crafting Recipes"><img src="images/anvil.png"></a>
-            <a href="#tool_recipes" title="Crafting Recipes with Tools"><img src="images/workbench.png"></a>
-            <a href="#coloring_recipes" title="Coloring Items with Dye"><img src="images/any_color_dye.png"></a>
-            <a href="#cooking_recipes" title="Cooking"><img src="images/stove.png"></a>
-            <a href="#cutting_recipes" title="Cut-O-Matik"><img src="images/cut-o-matik_5000!.png"></a>
-            <a href="#forging_recipes" title="Forging Items"><img src="images/forge.png"></a>
-            <a href="#extraction_recipes" title="Ingredient Extraction"><img src="images/extractor.png"></a>
-            <a href="#distill_recipes" title="Distillation"><img src="images/distiller.png"></a>
-            <a href="#eastereggs_recipes" title="Easter Pow Gift Crafting"><img
-                    src="images/eggs/easter_pow_gift.png"></a>
-            <a href="#candies_recipes" title="Ultimate Candy Crafting"><img src="images/candies/ultimate_candy.png"></a>
-        </div>
-    </div>
-    <div class="all_recipes">
-        <div id="basic_recipes" class="recipes">
-            <div class="header"><img src="images/anvil.png"> BASIC CRAFTING RECIPES <img src="images/anvil.png"></div>
-        </div>
-        <div id="tool_recipes" class="recipes">
-            <div class="header"><img src="images/workbench.png"> CRAFTING RECIPES WITH TOOLS <img
-                    src="images/workbench.png">
+    <div id="maincontent">
+        <div class="navbar">
+            <input type="text" onkeyup="filterRecipes()" id="filterInput" placeholder="Search for item..."><img
+                class="show_bookmark" title="Show Bookmarked recipes only!" src="images/bookmark_empty.png">
+            <div class="links">
+                <a href="#basic_recipes" title="Basic Crafting Recipes"><img src="images/anvil.png"></a>
+                <a href="#tool_recipes" title="Crafting Recipes with Tools"><img src="images/workbench.png"></a>
+                <a href="#coloring_recipes" title="Coloring Items with Dye"><img src="images/any_color_dye.png"></a>
+                <a href="#cooking_recipes" title="Cooking"><img src="images/stove.png"></a>
+                <a href="#cutting_recipes" title="Cut-O-Matik"><img src="images/cut-o-matik_5000!.png"></a>
+                <a href="#forging_recipes" title="Forging Items"><img src="images/forge.png"></a>
+                <a href="#extraction_recipes" title="Ingredient Extraction"><img src="images/extractor.png"></a>
+                <a href="#distill_recipes" title="Distillation"><img src="images/distiller.png"></a>
+                <a href="#eastereggs_recipes" title="Easter Pow Gift Crafting"><img
+                        src="images/eggs/easter_pow_gift.png"></a>
+                <a href="#candies_recipes" title="Ultimate Candy Crafting"><img
+                        src="images/candies/ultimate_candy.png"></a>
             </div>
         </div>
-        <div id="coloring_recipes" class="recipes">
-            <div class="header"><img src="images/any_color_dye.png"> COLORING ITEMS WITH DYE<img
-                    src="images/any_color_dye.png">
-            </div>
-        </div>
-        <div id="cooking_recipes" class="recipes">
-            <div class="header"><img src="images/stove.png"> COOKING <img src="images/stove.png">
-            </div>
-        </div>
-        <div id="cutting_recipes" class="recipes">
-            <div class="header"><img src="images/cut-o-matik_5000!.png"> CUT-O-MATIK <img
-                    src="images/cut-o-matik_5000!.png">
-            </div>
-        </div>
-        <div id="forging_recipes" class="recipes">
-            <div class="header"><img src="images/forge.png"> FORGING ITEMS <img src="images/forge.png">
-            </div>
-        </div>
-        <div id="extraction_recipes" class="recipes">
-            <div class="header"><img src="images/extractor.png"> INGREDIENT EXTRACTION <img src="images/extractor.png">
-            </div>
-        </div>
-        <div id="distill_recipes" class="recipes">
-            <div class="header"><img src="images/distiller.png"> DISTILLATION <img src="images/distiller.png">
-            </div>
-        </div>
-        <div id="eastereggs_recipes" class="recipes">
-            <div class="header"><img src="images/eggs/easter_pow_gift.png"> EASTER EGGS <img
-                    src="images/eggs/easter_pow_gift.png">
-            </div>
-        </div>
-        <div id="candies_recipes" class="recipes">
-            <div class="header"><img src="images/candies/ultimate_candy.png"> HALLOWEEN CANDIES <img
-                    src="images/candies/ultimate_candy.png">
-            </div>
-        </div>
-        <footer>Made by <a href="https://forums2.cubiccastles.com/index.php?p=/profile/27/Kewbin"
-                target="_blank">Kewbin</a></footer>
-        <div class="shown_recipes">
-            <div id="window" class="window">
-                <img class="exit" src="images/exit.png">
-                <div class="recipe_header" style="box-shadow: 0px 2px #ff9100">
-                    <img src="">
-                    <p></p>
+        <div class="all_recipes">
+            <div id="basic_recipes" class="recipes">
+                <div class="header"><img src="images/anvil.png"> BASIC CRAFTING RECIPES <img src="images/anvil.png">
                 </div>
-                <div class="display_recipe"></div>
-                <div class="set_quantity">
+            </div>
+            <div id="tool_recipes" class="recipes">
+                <div class="header"><img src="images/workbench.png"> CRAFTING RECIPES WITH TOOLS <img
+                        src="images/workbench.png">
+                </div>
+            </div>
+            <div id="coloring_recipes" class="recipes">
+                <div class="header"><img src="images/any_color_dye.png"> COLORING ITEMS WITH DYE<img
+                        src="images/any_color_dye.png">
+                </div>
+            </div>
+            <div id="cooking_recipes" class="recipes">
+                <div class="header"><img src="images/stove.png"> COOKING <img src="images/stove.png">
+                </div>
+            </div>
+            <div id="cutting_recipes" class="recipes">
+                <div class="header"><img src="images/cut-o-matik_5000!.png"> CUT-O-MATIK <img
+                        src="images/cut-o-matik_5000!.png">
+                </div>
+            </div>
+            <div id="forging_recipes" class="recipes">
+                <div class="header"><img src="images/forge.png"> FORGING ITEMS <img src="images/forge.png">
+                </div>
+            </div>
+            <div id="extraction_recipes" class="recipes">
+                <div class="header"><img src="images/extractor.png"> INGREDIENT EXTRACTION <img
+                        src="images/extractor.png">
+                </div>
+            </div>
+            <div id="distill_recipes" class="recipes">
+                <div class="header"><img src="images/distiller.png"> DISTILLATION <img src="images/distiller.png">
+                </div>
+            </div>
+            <div id="eastereggs_recipes" class="recipes">
+                <div class="header"><img src="images/eggs/easter_pow_gift.png"> EASTER EGGS <img
+                        src="images/eggs/easter_pow_gift.png">
+                </div>
+            </div>
+            <div id="candies_recipes" class="recipes">
+                <div class="header"><img src="images/candies/ultimate_candy.png"> HALLOWEEN CANDIES <img
+                        src="images/candies/ultimate_candy.png">
+                </div>
+            </div>
+            <footer>Made by <a href="https://forums2.cubiccastles.com/index.php?p=/profile/27/Kewbin"
+                    target="_blank">Kewbin</a></footer>
+            <div class="shown_recipes">
+                <div id="window" class="window">
+                    <img class="exit" src="images/exit.png">
                     <div class="recipe_header" style="box-shadow: 0px 2px #ff9100">
                         <img src="">
-                        <p>SET AMOUNT</p>
+                        <p></p>
                     </div>
-                    <form class="filter_quantity">
-                        <div class="stepQuantity" id="stepDown">-</div>
-                        <input id="quantity" type="number" min="0" max="20000">
-                        <div class="stepQuantity" id="stepUp">+</div>
-                        <input id="slider_quantity" min="0" max="20000" type="range">
-                        <input type="image" alt="Submit" src="images/confirm_amount.png">
-                    </form>
+                    <div class="display_recipe"></div>
+                    <div class="set_quantity">
+                        <div class="recipe_header" style="box-shadow: 0px 2px #ff9100">
+                            <img src="">
+                            <p>SET AMOUNT</p>
+                        </div>
+                        <form class="filter_quantity">
+                            <div class="stepQuantity" id="stepDown">-</div>
+                            <input id="quantity" type="number" min="0" max="20000">
+                            <div class="stepQuantity" id="stepUp">+</div>
+                            <input id="slider_quantity" min="0" max="20000" type="range">
+                            <input type="image" alt="Submit" src="images/confirm_amount.png">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="rotate_device"><img src="images/rotate_device.png"></div>
     <script src="js/jquery.js"></script>
     <script src="js/recipes.js"></script>
     <script src="js/main.js"></script>
