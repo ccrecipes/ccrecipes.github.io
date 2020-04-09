@@ -1,3 +1,20 @@
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    $("#filterInput").css("width", "125px");
+    $(".links").css({
+        "width": "Calc(100% - 185px)",
+        "position": "absolute",
+        "left": "185px",
+        "overflow-x": "scroll",
+        "white-space": "nowrap",
+        "top": "0px"
+    });
+    $(".navbar a").css({
+        "display": "inline-block",
+        "white-space": "normal",
+        "float": "none"
+    })
+}
+
 bookmarked = [];
 bm_only = 0;
 
