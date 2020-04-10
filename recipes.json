@@ -3929,7 +3929,7 @@
         "item": {
             "amount": 1,
             "item": "Cut-O-Matik 5000!",
-            "texture": "cut_o_matik"
+            "texture": "cut_o_matik_5000"
         },
         "type": "tool"
     },
