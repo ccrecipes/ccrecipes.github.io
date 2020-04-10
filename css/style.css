@@ -10,11 +10,6 @@ html {
 	src: url('../ttf/luckiest-guy.ttf') format('truetype');
 }
 
-@font-face {
-	font-family: Calibri;
-	src: url('../ttf/calibri.ttf') format('truetype');
-}
-
 * {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -42,7 +37,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: rgb(0, 0, 44);
-	background-image: url(../images/stars.png);
+	background-image: url(../images/ui/stars.png);
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
@@ -112,6 +107,13 @@ body {
 		0px 1px 0 rgb(0, 0, 0),
 		0px -1px rgb(0, 0, 0),
 		1px 1px 0 rgb(0, 0, 0);
+}
+
+.item_recipe span {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 30%;
 }
 
 .item_recipe img:not(.bookmark):not(.bookmark_filled) {
@@ -308,6 +310,13 @@ body {
 		0px 1px 0 rgb(0, 0, 0),
 		0px -1px rgb(0, 0, 0),
 		1px 1px 0 rgb(0, 0, 0);
+}
+
+.item_recipe_shown span {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 30%;
 }
 
 .item_recipe_shown img {
