@@ -4,7 +4,7 @@ bm_only = 0;
 $.ajax({
     'async': false,
     'global': true,
-    'url': "/ccrecipes_new/recipes.json",
+    'url': "recipes.json",
     'dataType': "json",
     'success': function (data) {
         basic = data;
