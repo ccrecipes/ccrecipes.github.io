@@ -1,0 +1,168 @@
+<html>
+
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(0, 0, 44);
+        background-image: url(stars.png);
+    }
+
+    @font-face {
+        font-family: 'Luckiest Guy';
+        src: url('luckiest-guy.ttf') format('truetype');
+    }
+
+    table {
+        position: relative;
+        transform: translate(-50%);
+        left: 50%;
+        width: 90%;
+        text-align: center;
+        border-radius: 10px;
+        background: linear-gradient(165deg, rgb(19, 48, 136) 19%, rgb(19, 78, 180) 20%, rgb(19, 78, 180) 80%, rgba(19, 48, 136) 81%);
+        box-shadow: 2px 2px rgb(0, 29, 80), 5px 5px rgba(0, 0, 0, .5);
+        border-collapse: collapse;
+    }
+
+
+    td {
+        font-family: 'Luckiest Guy';
+        color: white;
+        font-size: 25px;
+        text-shadow:
+            -1px -1px 0 rgb(0, 0, 0),
+            -1px 0px 0 rgb(0, 0, 0),
+            1px -1px 0 rgb(0, 0, 0),
+            1px 0px 0 rgb(0, 0, 0),
+            -1px 1px 0 rgb(0, 0, 0),
+            0px 1px 0 rgb(0, 0, 0),
+            0px -1px rgb(0, 0, 0),
+            1px 1px 0 rgb(0, 0, 0),
+            2px 2px 0 rgb(0, 0, 0),
+            1px 2px 0 rgb(0, 0, 0),
+            0px 2px 0 rgb(0, 0, 0),
+            -1px 2px 0 rgb(0, 0, 0),
+            2px 1px 0 rgb(0, 0, 0),
+            2px 0px 0 rgb(0, 0, 0),
+            2px -1px 0 rgb(0, 0, 0);
+        border-top: 2px solid rgb(255, 255, 255, .1);
+    }
+
+    td img {
+        height: 100px;
+    }
+
+    th img {
+        height: 50px;
+    }
+
+    .sizes {
+        position: relative;
+        text-align: center;
+        font-family: 'Luckiest Guy';
+        color: white;
+        margin: 20px
+    }
+
+    .size {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Luckiest Guy';
+        color: white;
+    }
+
+    .sizes input {
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 20;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+
+<body>
+    <div class="sizes">
+        <div class="size">WIDTH<br>
+            <input type="number" id="room_width" onkeyup="room_price()" value="33">
+        </div>
+        x
+        <div class="size">LENGTH<br>
+            <input type="number" id="room_length" onkeyup="room_price()" value="33">
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <th width="15%"></th>
+            <th width="28%"><img src="icon_cubits.png" alt="Cubits"></th>
+            <th width="28%"><img src="merchant.png" alt="Merchant"></th>
+            <th width="28%"><img src="merchant.png" alt="Merchant"><img src="merchant.png" alt="Merchant"></th>
+        </tr>
+        <tr>
+            <td><img src="icon_rooms.png" alt="Rooms"></td>
+            <td class="room_price"></td>
+            <td class="room_price_1"></td>
+            <td class="room_price_2"></td>
+        </tr>
+        <tr>
+            <td><img src="icon_realm.png" alt="Realms"></td>
+            <td class="realm_price"></td>
+            <td class="realm_price_1"></td>
+            <td class="realm_price_2"></td>
+        </tr>
+    </table>
+    <script src="jquery.js"></script>
+    <script>
+        function numberStyle(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+        }
+        function room_price() {
+            x = parseInt($("#room_width").val());
+            if (isNaN(x)) {
+                x = 0;
+            }
+            y = parseInt($("#room_length").val());
+            if (isNaN(y)) {
+                y = 0;
+            }
+            c = Math.floor(((x + y) / 20) + 15);
+
+            room = (x * c) + (y * c);
+            $(".room_price").text(numberStyle(room));
+            $(".room_price_1").text(numberStyle(Math.floor(room / 100 * 95)));
+            $(".room_price_2").text(numberStyle(Math.floor(room / 100 * 90)));
+
+            c = Math.floor(((x + y) / 20) + 25);
+
+            realm = (x * c) + (y * c) + 2500;
+            $(".realm_price").text(numberStyle(realm));
+            $(".realm_price_1").text(numberStyle(Math.floor(realm / 100 * 95)));
+            $(".realm_price_2").text(numberStyle(Math.floor(realm / 100 * 90)));
+        }
+        room_price();
+
+        $("input").on("focusout", function () {
+            if (isNaN(parseInt($(this).val()))) {
+                $(this).val(0);
+            }
+        })
+
+    </script>
+</body>
+
+</html>
