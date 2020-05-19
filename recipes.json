@@ -8620,5 +8620,159 @@
         },
         "type": "candies",
         "station": "Stove"
-    }
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "QFlu",
+                    "image": "images/bugs/qflu.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "Spikenosis",
+                    "image": "images/bugs/spikenosis.png"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Thermometer",
+            "image": "images/bugs/thermometer.png"
+        },
+        "type": "bugs",
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Sindrome",
+                    "image": "images/bugs/sindrome.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "QBeria",
+                    "image": "images/bugs/qberia.png"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Sooth Salve",
+            "image": "images/bugs/sooth_salve.png"
+        },
+        "type": "bugs",
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Raybee",
+                    "image": "images/bugs/raybee.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "QBolee",
+                    "image": "images/bugs/qbolee.png"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Spray Kleen",
+            "image": "images/bugs/spray_kleen.png"
+        },
+        "type": "bugs",
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Noroboro",
+                    "image": "images/bugs/noroboro.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "Phagee",
+                    "image": "images/bugs/phagee.png"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Tissue",
+            "image": "images/bugs/tissue.png"
+        },
+        "type": "bugs",
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Thermometer",
+                    "image": "images/bugs/thermometer.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sooth Salve",
+                    "image": "images/bugs/sooth_salve.png"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Compound X",
+            "image": "images/bugs/compound_x.png"
+        },
+        "type": "bugs",
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Spray Kleen",
+                    "image": "images/bugs/spray_kleen.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tissue",
+                    "image": "images/bugs/tissue.png"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Compound Y",
+            "image": "images/bugs/compound_y.png"
+        },
+        "type": "bugs",
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Compound X",
+                    "image": "images/bugs/compound_x.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "Compound Y",
+                    "image": "images/bugs/compound_y.png"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Simple Mask",
+            "image": "images/bugs/simple_mask.png"
+        },
+        "type": "bugs",
+    },
 ]
