@@ -8641,7 +8641,7 @@
             "item": "Thermometer",
             "image": "images/bugs/thermometer.png"
         },
-        "type": "bugs",
+        "type": "bugs"
     },
     {
         "recipe": [
@@ -8663,7 +8663,7 @@
             "item": "Sooth Salve",
             "image": "images/bugs/sooth_salve.png"
         },
-        "type": "bugs",
+        "type": "bugs"
     },
     {
         "recipe": [
@@ -8685,7 +8685,7 @@
             "item": "Spray Kleen",
             "image": "images/bugs/spray_kleen.png"
         },
-        "type": "bugs",
+        "type": "bugs"
     },
     {
         "recipe": [
@@ -8707,7 +8707,7 @@
             "item": "Tissue",
             "image": "images/bugs/tissue.png"
         },
-        "type": "bugs",
+        "type": "bugs"
     },
     {
         "recipe": [
@@ -8729,7 +8729,7 @@
             "item": "Compound X",
             "image": "images/bugs/compound_x.png"
         },
-        "type": "bugs",
+        "type": "bugs"
     },
     {
         "recipe": [
@@ -8751,7 +8751,7 @@
             "item": "Compound Y",
             "image": "images/bugs/compound_y.png"
         },
-        "type": "bugs",
+        "type": "bugs"
     },
     {
         "recipe": [
@@ -8773,6 +8773,6 @@
             "item": "Simple Mask",
             "image": "images/bugs/simple_mask.png"
         },
-        "type": "bugs",
+        "type": "bugs"
     }
 ]
