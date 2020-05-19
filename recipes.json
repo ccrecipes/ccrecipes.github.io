@@ -8796,7 +8796,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "N95 Mask (TBD)",
+            "item": "N95 Mask",
             "image": "images/bugs/n95_mask.png"
         },
         "type": "bugs"
