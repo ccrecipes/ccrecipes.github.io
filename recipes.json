@@ -8778,7 +8778,20 @@
     {
         "recipe": [
             [
-                
+               {
+                    "amount": 1,
+                    "item": "Compound X",
+                    "image": "images/bugs/compound_x.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "Compound Y",
+                    "image": "images/bugs/compound_y.png"
+                },
+                {
+                    "amount": 1,
+                    "item": "Cotton",
+                }
             ]
         ],
         "item": {
