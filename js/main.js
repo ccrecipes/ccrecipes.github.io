@@ -384,3 +384,7 @@ $("#slider_quantity").on("input", function () {
     values = $(this).val();
     $("#quantity").val(values);
 })
+
+function closeNotif() {
+    $(".notification").css("display", "none");
+}
