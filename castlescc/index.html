@@ -1,0 +1,519 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/textures.css">
+    <meta charset="utf-8">
+</head>
+<style>
+    body {
+        overflow: hidden;
+    }
+
+    iframe {
+        border: none;
+    }
+
+    #recipes {
+        position: absolute;
+        width: auto;
+        display: none;
+        min-width: 600px;
+        height: 80%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        overflow: hidden;
+        background: rgba(50, 87, 91, 0.9);
+        box-shadow: inset 0px 0px 20px -10px black;
+        border-radius: 30px;
+        -webkit-user-select: none;
+        /* Safari */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* IE10+/Edge */
+        user-select: none;
+        /* Standard */
+        border: 3px solid white;
+    }
+
+    .recipe-list-viewport {
+        position: relative;
+        height: Calc(100% - 126px);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .recipe-row {
+        position: relative;
+        border-bottom: 1px solid white;
+        height: 98px;
+        padding: 0px 15px;
+    }
+
+    .item {
+        float: left;
+        text-align: center;
+        font-family: Calibri;
+        font-weight: bold;
+        color: white;
+        margin: 10px 0px;
+        padding: 0px 5px;
+    }
+
+    .recipe {
+        float: right !important;
+        border-left: 1px solid white;
+        padding-left: 20px !important;
+        cursor: pointer;
+    }
+
+    .tool {
+        float: right !important;
+        width: 70px;
+        padding-left: 10% !important;
+    }
+
+    .item-bck {
+        position: relative;
+        background: rgb(55, 183, 197);
+        transform: translate(-50%);
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        margin-bottom: 5px;
+        left: 50%;
+        z-index: 0;
+    }
+
+    .item-bck span {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+
+    .item-name {
+        visibility: hidden;
+        position: absolute;
+        background-color: rgb(5, 17, 19);
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        padding: 1px 5px;
+        top: 5px !important;
+        width: max-content;
+        max-width: 80px;
+    }
+
+    .item-bck:hover .item-name {
+        visibility: visible;
+    }
+
+    .links {
+        width: Calc(100% - 40px);
+        margin: 0px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .links a {
+        display: flex;
+        background: rgb(22, 77, 83);
+        color: white;
+        text-decoration: none;
+        font-family: Calibri;
+        font-weight: bold;
+        padding: 4px 8px;
+        border-radius: 8px;
+        margin: 3px;
+        border: 2px white solid;
+    }
+
+    .links a:hover {
+        background: rgb(16, 58, 63);
+    }
+
+    .links img {
+        transform: translate(-50%, -50%);
+        position: relative;
+        top: 50%;
+        left: 50%;
+        max-height: 45px !important;
+        max-width: 45px;
+
+    }
+
+    #filterInput {
+        position: relative;
+        width: Calc(100% - 40px);
+        background: none;
+        border: none;
+        border-bottom: 2px solid white;
+        margin: 5px 20px 20px 20px;
+        padding: 5px;
+        color: white;
+        transition-duration: 0.5s;
+    }
+
+    #filterInput:focus {
+        outline: none;
+    }
+
+    ::placeholder {
+        color: white;
+        opacity: 0.8;
+        /* Firefox */
+    }
+
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: white;
+    }
+
+    ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: white;
+    }
+
+    .recipes-icon {
+        position: absolute;
+        height: 36px;
+        top: 79px;
+        left: 4px;
+        filter: drop-shadow(0px 0px 2px #1f1f1f);
+
+    }
+
+    #wall {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    .pinned-recipes {
+        position: absolute;
+        top: 135px;
+        height: Calc(100% - 135px);
+        right: 10px;
+        overflow: hidden;
+        -webkit-user-select: none;
+        /* Safari */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* IE10+/Edge */
+        user-select: none;
+        /* Standard */
+    }
+
+    .pinned-recipe {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        width: 100px;
+        transition-duration: 0.5s;
+    }
+
+    .item-pin {
+        position: relative;
+        display: flex;
+        margin: -15px;
+    }
+
+    .item-bck-pin {
+        position: relative;
+        background: rgba(55, 183, 197, 1);
+        transform: translate(-50%) scale(.5);
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        left: 50%;
+        z-index: 0;
+    }
+
+    .item-bck-pin span {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+
+    .item-pin p {
+        position: absolute;
+        font-family: calibri;
+        font-weight: bold;
+        left: 25%;
+        color: white;
+        text-shadow: 1px 1px black,
+            1px 0px black,
+            1px -1px black,
+            0px -1px black,
+            -1px -1px black,
+            -1px 0px black,
+            -1px 1px black,
+            0px 1px black;
+    }
+
+    .recipe-pin {
+        position: relative;
+        display: flex !important;
+    }
+
+    .recipe-pin .item-bck-pin {
+        transform: translate(-50%) scale(0.8) !important;
+    }
+
+    .pinned-recipe-row {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background: rgba(29, 106, 114, 0.4);
+        padding: 5px 0px;
+        border-radius: 10px;
+        width: 160px;
+        margin-bottom: 10px;
+        min-height: 48px;
+    }
+
+    .recipe-pin p {
+        top: -10px;
+    }
+
+    .close {
+        position: absolute;
+        display: block;
+        top: 0px;
+        right: 5px;
+        color: white;
+        margin: 0px;
+    }
+
+    .tool-pin {
+        position: absolute;
+        bottom: 10px;
+        right: 40px;
+        transform: scale(.4);
+        z-index: 1;
+    }
+</style>
+
+<body>
+    <iframe id="game" name="game" allow="fullscreen"
+        style="position:absolute; left:0px; top:0px; width:100%; height:100%" src="https://castles.cc"
+        sandbox="allow-same-origin allow-scripts"></iframe>
+    <div id="wall"></div>
+    <div class="pinned-recipes">
+        <div class="pinned-recipes-content"></div>
+    </div>
+    <img class="recipes-icon" src="../images/tools/steel_hammer.png">
+    <div id="recipes">
+        <div class="links">
+            <a onclick="switchTo('basic')" title="BASIC">BASIC</a>
+            <a onclick="switchTo('tool')" title="ADVANCED">ADVANCED</a>
+            <a onclick="switchTo('coloring')" title="Coloring Items with Dye">COLORING</a>
+            <a onclick="switchTo('cooking')" title="Cooking">COOKING</a>
+            <a onclick="switchTo('cutting')" title="Cut-O-Matik">CUTTING</a>
+            <a onclick="switchTo('forging')" title="Forging Items">FORGING</a>
+            <a onclick="switchTo('extraction')" title="Ingredient Extraction">EXTRACTING</a>
+            <a onclick="switchTo('distill')" title="Distillation">DISTILLATION</a>
+            <a onclick="switchTo('eastereggs')" title="Easter Pow Gift Crafting">EASTER</a>
+            <a onclick="switchTo('candies')" title="Ultimate Candy Crafting">CANDIES</a>
+            <a onclick="switchTo('bugs')" title="Bugs">BUGS</a>
+        </div>
+        <input type="text" onkeyup="filterRecipes()" id="filterInput" placeholder="Search for item...">
+        <div class="recipe-list-viewport">
+            <div id="recipe-list">
+                <div id="basic_recipes" class="category"></div>
+                <div id="tool_recipes" class="category" style="display:none"></div>
+                <div id="coloring_recipes" class="category" style="display:none"></div>
+                <div id="cooking_recipes" class="category" style="display:none"></div>
+                <div id="cutting_recipes" class="category" style="display:none"></div>
+                <div id="forging_recipes" class="category" style="display:none"></div>
+                <div id="extraction_recipes" class="category" style="display:none"></div>
+                <div id="distill_recipes" class="category" style="display:none"></div>
+                <div id="eastereggs_recipes" class="category" style="display:none"></div>
+                <div id="candies_recipes" class="category" style="display:none"></div>
+                <div id="bugs_recipes" class="category" style="display:none"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/dragscroll.js"></script>
+<script>
+
+
+    var scrollArea = new ScrollBooster({
+        viewport: document.querySelector(".pinned-recipes"),
+        content: document.querySelector(".pinned-recipes-content"),
+        direction: "vertical",
+        scrollMode: "transform"
+    });
+
+    var scrollAreaRecipes = new ScrollBooster({
+        viewport: document.querySelector(".recipe-list-viewport"),
+        content: document.querySelector("#recipe-list"),
+        direction: "vertical",
+        scrollMode: "native"
+    });
+
+    var hidden = true;
+    $.ajax({
+        'async': false,
+        'global': true,
+        'url': "../recipes.json",
+        'dataType': "json",
+        'success': function (data) {
+            basic = data;
+        }
+    });
+
+    function filterRecipes() {
+        filterInput = $("#filterInput").val().toUpperCase();
+        recipe_divs = $(".recipe").toArray();
+        for (item in recipe_divs) {
+            textvalue = recipe_divs[item].textContent;
+            if (textvalue.toUpperCase().indexOf(filterInput) == -1) {
+                recipe_divs[item].parentElement.style.display = "none";
+                recipe_divs[item].parentElement.style.visibility = "hidden"
+            } else {
+                recipe_divs[item].parentElement.style.display = "block";
+                recipe_divs[item].parentElement.style.visibility = "visible"
+            }
+        }
+        scrollAreaRecipes.updateMetrics();
+    }
+
+    $()
+
+    function switchTo(cat) {
+        $(".category").css("display", "none");
+        $("#" + cat + "_recipes").css("display", "block");
+        scrollAreaRecipes.updateMetrics();
+    }
+
+    for (tree in basic) {
+        recipe_type = basic[tree]["type"];
+        recipes = basic[tree]["recipe"];
+        for (recipe in recipes) {
+            $("#" + recipe_type + "_recipes").append('<div class="recipe-row"></div>');
+            for (item in basic[tree]["recipe"][recipe]) {
+                item_name = basic[tree]["recipe"][recipe][item]["item"];
+                if (basic[tree]["recipe"][recipe][item]["displayName"] != undefined) {
+                    item_name = basic[tree]["recipe"][recipe][item]["displayName"];
+                } else {
+                    item_name = basic[tree]["recipe"][recipe][item]["item"];
+                }
+                if (basic[tree]["recipe"][recipe][item]["texture"] != undefined) {
+                    image_name = basic[tree]["recipe"][recipe][item]["texture"];
+                } else {
+                    image_name = item_name.toLowerCase().replaceAll(" ", "_");
+                }
+                item_quant = basic[tree]["recipe"][recipe][item]["amount"];
+                $(".recipe-row").last().append('<div class="item"><div class="item-bck"><span class="item-name">' + item_name + '</span><span class="' + image_name + ' sprite" /></div>' + item_quant + '</div>')
+            }
+
+
+
+
+            if (basic[tree]["item"]["displayName"] != undefined) {
+                item_name = basic[tree]["item"]["displayName"];
+            } else {
+                item_name = basic[tree]["item"]["item"];
+            }
+            if (basic[tree]["item"]["texture"] != undefined) {
+                image_name = basic[tree]["item"]["texture"];
+            } else {
+                image_name = item_name.toLowerCase().replaceAll(" ", "_");
+            }
+            item_quant = basic[tree]["item"]["amount"];
+            $(".recipe-row").last().append('<div class="item recipe"><div recipe-id=' + tree + ' class="item-bck"><span class="item-name">' + item_name + '</span><span class="' + image_name + ' sprite" /></div>' + item_quant + '</div>');
+
+
+
+
+            if (basic[tree]["tool"] != undefined) {
+                item_name = basic[tree]["tool"];
+                image_name = item_name.toLowerCase().replaceAll(" ", "_");
+                $(".recipe-row").last().append('<div class="item tool"><div class="item-bck"><span class="item-name">' + item_name + '</span><span class="' + image_name + ' sprite" /></div></div>');
+            }
+        }
+    };
+
+    $(".recipes-icon").on("click", function () {
+        if (hidden) {
+            $("#wall").css("display", "block");
+            $("#recipes").css("display", "block");
+            hidden = false;
+            scrollAreaRecipes.updateMetrics();
+            focusInput = setInterval(function () {
+                $("#filterInput").focus();
+            }, 10)
+        } else {
+            $("#wall").css("display", "none");
+            $("#recipes").css("display", "none");
+            hidden = true;
+            clearInterval(focusInput);
+        }
+    });
+
+    $("#wall").on("click", function () {
+        if (!hidden) {
+            $("#wall").css("display", "none");
+            $("#recipes").css("display", "none");
+            hidden = true;
+        }
+    });
+
+    $(".recipe > .item-bck").on("click", function () {
+        recipe_id = $(this).attr("recipe-id");
+        recipes = basic[recipe_id]["recipe"];
+        for (recipe in recipes) {
+            $(".pinned-recipes-content").append('<div class="pinned-recipe-row"><div class="pinned-recipe"></div></div>');
+            for (item in basic[recipe_id]["recipe"][recipe]) {
+                item_name = basic[recipe_id]["recipe"][recipe][item]["item"];
+                if (basic[recipe_id]["recipe"][recipe][item]["texture"] != undefined) {
+                    image_name = basic[recipe_id]["recipe"][recipe][item]["texture"];
+                } else {
+                    image_name = item_name.toLowerCase().replaceAll(" ", "_");
+                }
+                item_quant = basic[recipe_id]["recipe"][recipe][item]["amount"];
+                $(".pinned-recipe").last().append('<div class="item-pin"><div class="item-bck-pin"><span class="' + image_name + ' sprite" /></div><p>' + item_quant + '</p></div>')
+            }
+
+
+            item_name = basic[recipe_id]["item"]["item"];
+            if (basic[recipe_id]["item"]["texture"] != undefined) {
+                image_name = basic[recipe_id]["item"]["texture"];
+            } else {
+                image_name = item_name.toLowerCase().replaceAll(" ", "_");
+            }
+            item_quant = basic[recipe_id]["item"]["amount"];
+            $(".pinned-recipe-row").last().append('<div class="item-pin recipe-pin"><div class="item-bck-pin"><span class="' + image_name + ' sprite" /></div><p>' + item_quant + '</p></div>');
+
+
+
+            if (basic[recipe_id]["tool"] != undefined) {
+                item_name = basic[recipe_id]["tool"];
+                image_name = item_name.toLowerCase().replaceAll(" ", "_");
+                $(".pinned-recipe-row").last().append('<div class="item-pin tool-pin"><span class="' + image_name + ' sprite" /></div>');
+            }
+
+            $(".pinned-recipe-row").last().append("<p class='close'>✖</p>");
+        }
+        $(".close").on("click", function () {
+            $(this).parent().remove();
+            scrollArea.updateMetrics()
+        });
+        scrollArea.updateMetrics()
+    });
+
+</script>
+
+</html>

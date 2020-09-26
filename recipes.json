@@ -8114,24 +8114,28 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 1",
-                    "image": "images/eggs/egg1.png"
+                    "texture":"egg1",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 2",
-                    "image": "images/eggs/egg2.png"
+                    "texture":"egg2",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 3",
-                    "image": "images/eggs/egg3.png"
+                    "texture":"egg3",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 4",
-            "image": "images/eggs/egg4.png"
+                    "texture":"egg4",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8141,24 +8145,28 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 5",
-                    "image": "images/eggs/egg5.png"
+                    "texture":"egg5",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 6",
-                    "image": "images/eggs/egg6.png"
+                    "texture":"egg6",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 7",
-                    "image": "images/eggs/egg7.png"
+                    "texture":"egg7",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 8",
-            "image": "images/eggs/egg8.png"
+                    "texture":"egg8",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8168,24 +8176,28 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 9",
-                    "image": "images/eggs/egg9.png"
+                    "texture":"egg9",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 10",
-                    "image": "images/eggs/egg10.png"
+                    "texture":"egg10",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 11",
-                    "image": "images/eggs/egg11.png"
+                    "texture":"egg11",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 12",
-            "image": "images/eggs/egg12.png"
+                    "texture":"egg12",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8195,24 +8207,28 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 1",
-                    "image": "images/eggs/egg1.png"
+                    "texture":"egg1",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 3",
-                    "image": "images/eggs/egg3.png"
+                    "texture":"egg3",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 6",
-                    "image": "images/eggs/egg6.png"
+                    "texture":"egg6",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 13",
-            "image": "images/eggs/egg13.png"
+                    "texture":"egg13",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8222,24 +8238,28 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 9",
-                    "image": "images/eggs/egg9.png"
+                    "texture":"egg9",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 11",
-                    "image": "images/eggs/egg11.png"
+                    "texture":"egg11",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 2",
-                    "image": "images/eggs/egg2.png"
+                    "texture":"egg2",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 14",
-            "image": "images/eggs/egg14.png"
+                    "texture":"egg14",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8249,24 +8269,28 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 5",
-                    "image": "images/eggs/egg5.png"
+                    "texture":"egg5",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 7",
-                    "image": "images/eggs/egg7.png"
+                    "texture":"egg7",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 10",
-                    "image": "images/eggs/egg10.png"
+                    "texture":"egg10",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 21",
-            "image": "images/eggs/egg21.png"
+                    "texture":"egg21",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8276,24 +8300,28 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 1",
-                    "image": "images/eggs/egg1.png"
+                    "texture":"egg1",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 5",
-                    "image": "images/eggs/egg5.png"
+                    "texture":"egg5",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 9",
-                    "image": "images/eggs/egg9.png"
+                    "texture":"egg9",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 15",
-            "image": "images/eggs/egg15.png"
+                    "texture":"egg15",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8303,24 +8331,28 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 2",
-                    "image": "images/eggs/egg2.png"
+                    "texture":"egg2",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 6",
-                    "image": "images/eggs/egg6.png"
+                    "texture":"egg6",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 10",
-                    "image": "images/eggs/egg10.png"
+                    "texture":"egg10",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 16",
-            "image": "images/eggs/egg16.png"
+                    "texture":"egg16",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8330,19 +8362,22 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 4",
-                    "image": "images/eggs/egg4.png"
+                    "texture":"egg4",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 8",
-                    "image": "images/eggs/egg8.png"
+                    "texture":"egg8",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 17",
-            "image": "images/eggs/egg17.png"
+                    "texture":"egg17",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8352,19 +8387,22 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 12",
-                    "image": "images/eggs/egg12.png"
+                    "texture":"egg12",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 13",
-                    "image": "images/eggs/egg13.png"
+                    "texture":"egg13",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 18",
-            "image": "images/eggs/egg18.png"
+                    "texture":"egg18",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8374,19 +8412,22 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 14",
-                    "image": "images/eggs/egg14.png"
+                    "texture":"egg14",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 21",
-                    "image": "images/eggs/egg21.png"
+                    "texture":"egg21",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 19",
-            "image": "images/eggs/egg19.png"
+                    "texture":"egg19",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8396,19 +8437,22 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 15",
-                    "image": "images/eggs/egg15.png"
+                    "texture":"egg15",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 16",
-                    "image": "images/eggs/egg16.png"
+                    "texture":"egg16",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
             "item": "Easter Egg 20",
-            "image": "images/eggs/egg20.png"
+                    "texture":"egg20",
+                    "displayName":"Easter Egg"
         },
         "type": "eastereggs"
     },
@@ -8418,29 +8462,32 @@
                 {
                     "amount": 1,
                     "item": "Easter Egg 17",
-                    "image": "images/eggs/egg17.png"
+                    "texture":"egg17",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 18",
-                    "image": "images/eggs/egg18.png"
+                    "texture":"egg18",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 19",
-                    "image": "images/eggs/egg19.png"
+                    "texture":"egg19",
+                    "displayName":"Easter Egg"
                 },
                 {
                     "amount": 1,
                     "item": "Easter Egg 20",
-                    "image": "images/eggs/egg20.png"
+                    "texture":"egg20",
+                    "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Easter Pow Gift",
-            "image": "images/eggs/easter_pow_gift.png"
+            "item": "Easter Pow Gift"
         },
         "type": "eastereggs"
     },
@@ -8449,16 +8496,14 @@
             [
                 {
                     "amount": 1,
-                    "item": "Chocolate Caramel",
-                    "image": "images/candies/chocolate_caramel.png"
+                    "item": "Chocolate Caramel"
                 }
             ]
         ],
         "time": "15 Minutes",
         "item": {
             "amount": 1,
-            "item": "Melted Chocolate",
-            "image": "images/candies/melted_chocolate.png"
+            "item": "Melted Chocolate"
         },
         "type": "candies",
         "station": "Stove"
@@ -8468,16 +8513,14 @@
             [
                 {
                     "amount": 1,
-                    "item": "Hard Peppermint",
-                    "image": "images/candies/hard_peppermint.png"
+                    "item": "Hard Peppermint"
                 }
             ]
         ],
         "time": "10 Seconds",
         "item": {
             "amount": 1,
-            "item": "Peppermint Dust",
-            "image": "images/candies/peppermint_dust.png"
+            "item": "Peppermint Dust"
         },
         "type": "candies",
         "station": "Extractor"
@@ -8487,16 +8530,14 @@
             [
                 {
                     "amount": 1,
-                    "item": "Jawsifier",
-                    "image": "images/candies/jawsifier.png"
+                    "item": "Jawsifier"
                 }
             ]
         ],
         "time": "15 Minutes",
         "item": {
             "amount": 1,
-            "item": "Candy Syrup",
-            "image": "images/candies/candy_syrup.png"
+            "item": "Candy Syrup"
         },
         "type": "candies",
         "station": "Stove"
@@ -8506,16 +8547,14 @@
             [
                 {
                     "amount": 1,
-                    "item": "Coconut Cruncher",
-                    "image": "images/candies/coconut_cruncher.png"
+                    "item": "Coconut Cruncher"
                 }
             ]
         ],
         "time": "10 Seconds",
         "item": {
             "amount": 1,
-            "item": "Coconut Shavings",
-            "image": "images/candies/coconut_shavings.png"
+            "item": "Coconut Shavings"
         },
         "type": "candies",
         "station": "Extractor"
@@ -8525,21 +8564,18 @@
             [
                 {
                     "amount": 1,
-                    "item": "Melted Chocolate",
-                    "image": "images/candies/melted_chocolate.png"
+                    "item": "Melted Chocolate"
                 },
                 {
                     "amount": 1,
-                    "item": "Peppermint Dust",
-                    "image": "images/candies/peppermint_dust.png"
+                    "item": "Peppermint Dust"
                 }
             ]
         ],
         "time": "15 Minutes",
         "item": {
             "amount": 1,
-            "item": "Mint Chocolate",
-            "image": "images/candies/mint_chocolate.png"
+            "item": "Mint Chocolate"
         },
         "type": "candies",
         "station": "Stove"
@@ -8549,21 +8585,18 @@
             [
                 {
                     "amount": 1,
-                    "item": "Candy Syrup",
-                    "image": "images/candies/candy_syrup.png"
+                    "item": "Candy Syrup"
                 },
                 {
                     "amount": 1,
-                    "item": "Coconut Shavings",
-                    "image": "images/candies/coconut_shavings.png"
+                    "item": "Coconut Shavings"
                 }
             ]
         ],
         "time": "15 Minutes",
         "item": {
             "amount": 1,
-            "item": "Coco Candy",
-            "image": "images/candies/coco_candy.png"
+            "item": "Coco Candy"
         },
         "type": "candies",
         "station": "Stove"
@@ -8573,21 +8606,18 @@
             [
                 {
                     "amount": 1,
-                    "item": "Turkish Treat",
-                    "image": "images/candies/turkish_treat.png"
+                    "item": "Turkish Treat"
                 },
                 {
                     "amount": 1,
-                    "item": "Orange Delight",
-                    "image": "images/candies/orange_delight.png"
+                    "item": "Orange Delight"
                 }
             ]
         ],
         "time": "15 Minutes",
         "item": {
             "amount": 1,
-            "item": "Gooey Delight",
-            "image": "images/candies/gooey_delight.png"
+            "item": "Gooey Delight"
         },
         "type": "candies",
         "station": "Stove"
@@ -8597,26 +8627,22 @@
             [
                 {
                     "amount": 1,
-                    "item": "Mint Chocolate",
-                    "image": "images/candies/mint_chocolate.png"
+                    "item": "Mint Chocolate"
                 },
                 {
                     "amount": 1,
-                    "item": "Coco Candy",
-                    "image": "images/candies/coco_candy.png"
+                    "item": "Coco Candy"
                 },
                 {
                     "amount": 1,
-                    "item": "Gooey Delight",
-                    "image": "images/candies/gooey_delight.png"
+                    "item": "Gooey Delight"
                 }
             ]
         ],
         "time": "15 Minutes",
         "item": {
             "amount": 1,
-            "item": "Ultimate Candy",
-            "image": "images/candies/ultimate_candy.png"
+            "item": "Ultimate Candy"
         },
         "type": "candies",
         "station": "Stove"
@@ -8626,20 +8652,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "QFlu",
-                    "image": "images/bugs/qflu.png"
+                    "item": "QFlu"
                 },
                 {
                     "amount": 1,
-                    "item": "Spikenosis",
-                    "image": "images/bugs/spikenosis.png"
+                    "item": "Spikenosis"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Thermometer",
-            "image": "images/bugs/thermometer.png"
+            "item": "Thermometer"
         },
         "type": "bugs"
     },
@@ -8648,20 +8671,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "Sindroome",
-                    "image": "images/bugs/sindroome.png"
+                    "item": "Sindroome"
                 },
                 {
                     "amount": 1,
-                    "item": "QBeria",
-                    "image": "images/bugs/qberia.png"
+                    "item": "QBeria"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Sooth Salve",
-            "image": "images/bugs/sooth_salve.png"
+            "item": "Sooth Salve"
         },
         "type": "bugs"
     },
@@ -8670,20 +8690,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "Raybee",
-                    "image": "images/bugs/raybee.png"
+                    "item": "Raybee"
                 },
                 {
                     "amount": 1,
-                    "item": "QBolee",
-                    "image": "images/bugs/qbolee.png"
+                    "item": "QBolee"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Spray Kleen",
-            "image": "images/bugs/spray_kleen.png"
+            "item": "Spray Kleen"
         },
         "type": "bugs"
     },
@@ -8692,20 +8709,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "Noroboro",
-                    "image": "images/bugs/noroboro.png"
+                    "item": "Noroboro"
                 },
                 {
                     "amount": 1,
-                    "item": "Phagee",
-                    "image": "images/bugs/phagee.png"
+                    "item": "Phagee"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Tissue",
-            "image": "images/bugs/tissue.png"
+            "item": "Tissue"
         },
         "type": "bugs"
     },
@@ -8714,20 +8728,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "Thermometer",
-                    "image": "images/bugs/thermometer.png"
+                    "item": "Thermometer"
                 },
                 {
                     "amount": 1,
-                    "item": "Sooth Salve",
-                    "image": "images/bugs/sooth_salve.png"
+                    "item": "Sooth Salve"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Compound X",
-            "image": "images/bugs/compound_x.png"
+            "item": "Compound X"
         },
         "type": "bugs"
     },
@@ -8736,20 +8747,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "Spray Kleen",
-                    "image": "images/bugs/spray_kleen.png"
+                    "item": "Spray Kleen"
                 },
                 {
                     "amount": 1,
-                    "item": "Tissue",
-                    "image": "images/bugs/tissue.png"
+                    "item": "Tissue"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Compound Y",
-            "image": "images/bugs/compound_y.png"
+            "item": "Compound Y"
         },
         "type": "bugs"
     },
@@ -8758,20 +8766,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "Compound X",
-                    "image": "images/bugs/compound_x.png"
+                    "item": "Compound X"
                 },
                 {
                     "amount": 1,
-                    "item": "Compound Y",
-                    "image": "images/bugs/compound_y.png"
+                    "item": "Compound Y"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Simple Mask",
-            "image": "images/bugs/simple_mask.png"
+            "item": "Simple Mask"
         },
         "type": "bugs"
     },
@@ -8780,13 +8785,11 @@
             [
                {
                     "amount": 1,
-                    "item": "Compound X",
-                    "image": "images/bugs/compound_x.png"
+                    "item": "Compound X"
                 },
                 {
                     "amount": 1,
-                    "item": "Compound Y",
-                    "image": "images/bugs/compound_y.png"
+                    "item": "Compound Y"
                 },
                 {
                     "amount": 1,
@@ -8796,8 +8799,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "N95 Mask",
-            "image": "images/bugs/n95_mask.png"
+            "item": "N95 Mask"
         },
         "type": "bugs"
     }
