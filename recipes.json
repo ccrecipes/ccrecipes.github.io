@@ -4209,7 +4209,7 @@
         "tool": "Chisel",
         "item": {
             "amount": 2,
-            "item": "Black Marble"
+            "item": "Black Marble Half Block"
         },
         "type": "tool"
     },
@@ -4225,7 +4225,7 @@
         "tool": "Chisel",
         "item": {
             "amount": 2,
-            "item": "White Marble"
+            "item": "White Marble Half Block"
         },
         "type": "tool"
     },
@@ -4241,7 +4241,7 @@
         "tool": "Chisel",
         "item": {
             "amount": 2,
-            "item": "Blue Marble"
+            "item": "Blue Marble Half Block"
         },
         "type": "tool"
     },
