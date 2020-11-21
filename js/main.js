@@ -11,6 +11,16 @@ $.ajax({
     }
 });
 
+$.ajax({
+    'async': false,
+    'global': true,
+    'url': "images.json",
+    'dataType': "json",
+    'success': function (data) {
+        image_data = data;
+    }
+});
+
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     $("#filterInput").css("width", "125px");
@@ -69,7 +79,7 @@ for (recipe in basic) {
         if (basic[recipe]["item"]["texture"] != undefined) {
             item_image = basic[recipe]["item"]["texture"];
         } else {
-            item_image = item_name.split(" ").join("_").toLowerCase();
+            item_image = image_data[item_name];
         }
         $("#" + recipe_type + "_recipes").append("<div class=\"item_recipe\"><img class=\"bookmark\" src=\"images/ui/bookmark_empty.png\"><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p></div>");
     }
@@ -144,7 +154,7 @@ $(".item_recipe").on("click", function (e) {
                     if (basic[index[indexes]]["recipe"][recipes][item]["texture"] != undefined) {
                         item_image = basic[index[indexes]]["recipe"][recipes][item]["texture"];
                     } else {
-                        item_image = item_name.split(" ").join("_").toLowerCase();
+                        item_image = image_data[item_name];
                     }
                     if (isCraftable(item_name)) {
                         $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
@@ -165,7 +175,7 @@ $(".item_recipe").on("click", function (e) {
                 if (basic[index[indexes]]["item"]["texture"] != undefined) {
                     item_image = basic[index[indexes]]["item"]["texture"];
                 } else {
-                    item_image = item_name.split(" ").join("_").toLowerCase();
+                    item_image = image_data[item_name];
                 }
                 $("#recipe_" + recipe_num).append("<div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div><br>");
             }
@@ -247,7 +257,7 @@ function itemClickEvent() {
                             if (basic[index2[indexes2]]["recipe"][recipes][item]["texture"] != undefined) {
                                 item_image = basic[index2[indexes2]]["recipe"][recipes][item]["texture"];
                             } else {
-                                item_image = item_name.split(" ").join("_").toLowerCase();
+                                item_image = image_data[item_name];
                             }
                             if (isCraftable(item_name)) {
                                 $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
@@ -281,7 +291,7 @@ function itemClickEvent() {
                         if (basic[index2[indexes2]]["item"]["texture"] != undefined) {
                             item_image = basic[index2[indexes2]]["item"]["texture"];
                         } else {
-                            item_image = item_name.split(" ").join("_").toLowerCase();
+                            item_image = image_data[item_name];
                         }
                         $("#recipe_" + recipe_num).append("<div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div><br>");
                     }

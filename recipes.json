@@ -1272,7 +1272,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Mortar and Pestle"
+            "item": "Mortar And Pestle"
         },
         "type": "basic"
     },
@@ -1380,8 +1380,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Wizard's Workbench",
-            "texture": "wizards_workbench"
+            "item": "Wizard's Workbench"
         },
         "type": "basic"
     },
@@ -2285,7 +2284,8 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Book of Cu"
+            "item": "Book of Cu",
+            "texture": "book_of_cu"
         },
         "type": "basic"
     },
@@ -2304,7 +2304,8 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Book of Bic"
+            "item": "Book of Bic",
+            "texture": "book_of_bic"
         },
         "type": "basic"
     },
@@ -2323,7 +2324,8 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Book of Cas"
+            "item": "Book of Cas",
+            "texture": "book_of_cas"
         },
         "type": "basic"
     },
@@ -2342,7 +2344,8 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Book of Tles"
+            "item": "Book of Tles",
+            "texture": "book_of_tles"
         },
         "type": "basic"
     },
@@ -3431,8 +3434,7 @@
         "tool": "Any Hammer",
         "item": {
             "amount": 1,
-            "item": "Lil' Bed",
-            "texture": "lil_bed"
+            "item": "Lil' Bed"
         },
         "type": "tool"
     },
@@ -3928,8 +3930,7 @@
         "tool": "Screwdriver",
         "item": {
             "amount": 1,
-            "item": "Cut-O-Matik 5000!",
-            "texture": "cut_o_matik_5000"
+            "item": "Cut-O-Matik 5000!"
         },
         "type": "tool"
     },
@@ -4109,7 +4110,8 @@
         "tool": "Screwdriver",
         "item": {
             "amount": 1,
-            "item": "Note"
+            "item": "Note",
+            "texture": "note"
         },
         "type": "tool"
     },
@@ -4137,7 +4139,8 @@
         "tool": "Screwdriver",
         "item": {
             "amount": 1,
-            "item": "Sharp Note"
+            "item": "Sharp Note",
+            "texture": "sharp_note"
         },
         "type": "tool"
     },
@@ -5641,8 +5644,7 @@
         "tool": "Any Hammer",
         "item": {
             "amount": 1,
-            "item": "3 Legged Stool",
-            "texture": "three_legged_stool"
+            "item": "3 Legged Stool"
         },
         "type": "tool"
     },
@@ -6543,8 +6545,7 @@
             [
                 {
                     "amount": 1,
-                    "item": "Any Color Plaster Stair",
-                    "texture": "colored_plaster_stair"
+                    "item": "Any Color Plaster Stair"
                 },
                 {
                     "amount": 1,
@@ -6563,8 +6564,7 @@
             [
                 {
                     "amount": 1,
-                    "item": "Any Color Glass",
-                    "texture": "colored_glass"
+                    "item": "Any Color Glass"
                 },
                 {
                     "amount": 1,
@@ -7104,8 +7104,7 @@
         "time": "45 Minutes",
         "item": {
             "amount": 5,
-            "item": "Sculpty Stone",
-            "texture": "stone_block"
+            "item": "Sculpty Stone"
         },
         "type": "cutting",
         "station": "Cut-O-Matik 5000!"
@@ -7122,8 +7121,7 @@
         "time": "45 Minutes",
         "item": {
             "amount": 5,
-            "item": "Sculpty Dirt",
-            "texture": "dirt"
+            "item": "Sculpty Dirt"
         },
         "type": "cutting",
         "station": "Cut-O-Matik 5000!"
@@ -7140,8 +7138,7 @@
         "time": "45 Minutes",
         "item": {
             "amount": 5,
-            "item": "Sculpty Grass",
-            "texture": "grass"
+            "item": "Sculpty Grass"
         },
         "type": "cutting",
         "station": "Cut-O-Matik 5000!"
@@ -7192,8 +7189,7 @@
         "time": "45 Minutes",
         "item": {
             "amount": 5,
-            "item": "Sculpty Coal",
-            "texture": "coal_block"
+            "item": "Sculpty Coal"
         },
         "type": "cutting",
         "station": "Cut-O-Matik 5000!"
@@ -7210,8 +7206,7 @@
         "time": "45 Minutes",
         "item": {
             "amount": 5,
-            "item": "Sculpty Bark",
-            "texture": "bark_block"
+            "item": "Sculpty Bark"
         },
         "type": "cutting",
         "station": "Cut-O-Matik 5000!"
@@ -7228,8 +7223,7 @@
         "time": "45 Minutes",
         "item": {
             "amount": 5,
-            "item": "Sculpty Iron",
-            "texture": "iron_block"
+            "item": "Sculpty Iron"
         },
         "type": "cutting",
         "station": "Cut-O-Matik 5000!"
@@ -7246,8 +7240,7 @@
         "time": "45 Minutes",
         "item": {
             "amount": 5,
-            "item": "Sculpty Clay",
-            "texture": "clay_block"
+            "item": "Sculpty Clay"
         },
         "type": "cutting",
         "station": "Cut-O-Matik 5000!"
@@ -7264,8 +7257,7 @@
         "time": "45 Minutes",
         "item": {
             "amount": 5,
-            "item": "Sculpty Sand",
-            "texture": "sand"
+            "item": "Sculpty Sand"
         },
         "type": "cutting",
         "station": "Cut-O-Matik 5000!"
@@ -8028,7 +8020,8 @@
             [
                 {
                     "amount": 1,
-                    "item": "Any Artifact"
+                    "item": "Any Artifact",
+                    "texture": "any_artifact"
                 }
             ]
         ],
@@ -8487,7 +8480,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Easter Pow Gift"
+            "item": "Easter Pow Gift!"
         },
         "type": "eastereggs"
     },
@@ -8496,7 +8489,8 @@
             [
                 {
                     "amount": 1,
-                    "item": "Chocolate Caramel"
+                    "item": "Chocolate Caramel",
+                    "texture": "chocolate_caramel"
                 }
             ]
         ],
@@ -8513,7 +8507,8 @@
             [
                 {
                     "amount": 1,
-                    "item": "Hard Peppermint"
+                    "item": "Hard Peppermint",
+                    "texture": "hard_peppermint"
                 }
             ]
         ],
@@ -8530,7 +8525,8 @@
             [
                 {
                     "amount": 1,
-                    "item": "Jawsifier"
+                    "item": "Jawsifier",
+                    "texture": "jawsifier"
                 }
             ]
         ],
@@ -8547,7 +8543,8 @@
             [
                 {
                     "amount": 1,
-                    "item": "Coconut Cruncher"
+                    "item": "Coconut Cruncher",
+                    "texture": "coconut_cruncher"
                 }
             ]
         ],
@@ -8568,7 +8565,8 @@
                 },
                 {
                     "amount": 1,
-                    "item": "Peppermint Dust"
+                    "item": "Peppermint Dust",
+                    "texture": "peppermint_dust"
                 }
             ]
         ],
@@ -8606,11 +8604,13 @@
             [
                 {
                     "amount": 1,
-                    "item": "Turkish Treat"
+                    "item": "Turkish Treat",
+                    "texture": "turkish_treat"
                 },
                 {
                     "amount": 1,
-                    "item": "Orange Delight"
+                    "item": "Orange Delight",
+                    "texture": "orange_delight"
                 }
             ]
         ],
@@ -8652,11 +8652,14 @@
             [
                 {
                     "amount": 1,
-                    "item": "QFlu"
+                    "item": "QFlu",
+                    "texture": "qflu"
+
                 },
                 {
                     "amount": 1,
-                    "item": "Spikenosis"
+                    "item": "Spikenosis",
+                    "texture": "spikenosis"
                 }
             ]
         ],
@@ -8671,11 +8674,13 @@
             [
                 {
                     "amount": 1,
-                    "item": "Sindroome"
+                    "item": "Sindroome",
+                    "texture": "sindrome"
                 },
                 {
                     "amount": 1,
-                    "item": "QBeria"
+                    "item": "QBeria",
+                    "texture": "qberia"
                 }
             ]
         ],
@@ -8690,11 +8695,13 @@
             [
                 {
                     "amount": 1,
-                    "item": "Raybee"
+                    "item": "Raybee",
+                    "texture": "raybee"
                 },
                 {
                     "amount": 1,
-                    "item": "QBolee"
+                    "item": "QBolee",
+                    "texture": "qbolee"
                 }
             ]
         ],
@@ -8709,11 +8716,13 @@
             [
                 {
                     "amount": 1,
-                    "item": "Noroboro"
+                    "item": "Noroboro",
+                    "texture": "noroboro"
                 },
                 {
                     "amount": 1,
-                    "item": "Phagee"
+                    "item": "Phagee",
+                    "texture": "phagee"
                 }
             ]
         ],
@@ -8802,5 +8811,366 @@
             "item": "N95 Mask"
         },
         "type": "bugs"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 2,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 2,
+                    "item": "String"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Hunting Net"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Hunting Net"
+                },
+                {
+                    "amount": 4,
+                    "item": "Turkey Berry"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Green Deluxe Hunting Net"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Bush"
+                },
+                {
+                    "amount": 1,
+                    "item": "Turkey Berry"
+                },
+                {
+                    "amount": 1,
+                    "item": "Soil"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Hunting Bush"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Gentlefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Gentlefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Parrotfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Parrotfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Beakfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Beakfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Qbeefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Qbeefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Toothfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Toothfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Spudfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Spudfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Bigeye"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Bigeye Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Wailfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Wailfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Raw Drumstick"
+                },
+                {
+                    "amount": 1,
+                    "item": "Chiliberries"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tomato"
+                },
+                {
+                    "amount": 1,
+                    "item": "Flour"
+                }
+            ]
+        ],
+        "time": "15 Minutes",
+        "item": {
+            "amount": 1,
+            "item": "BBQ Drumstick"
+        },
+        "type": "new",
+        "station": "Stove"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Raw Wing"
+                },
+                {
+                    "amount": 1,
+                    "item": "Chiliberries"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tomato"
+                },
+                {
+                    "amount": 1,
+                    "item": "Cooking Oil"
+                }
+            ]
+        ],
+        "time": "15 Minutes",
+        "item": {
+            "amount": 1,
+            "item": "BBQ Wing"
+        },
+        "type": "new",
+        "station": "Stove"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Pumpkin Skin"
+                },
+                {
+                    "amount": 1,
+                    "item": "Flour"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tomato"
+                },
+                {
+                    "amount": 1,
+                    "item": "Water"
+                }
+            ]
+        ],
+        "time": "15 Minutes",
+        "item": {
+            "amount": 1,
+            "item": "Pumpkin Puree"
+        },
+        "type": "new",
+        "station": "Stove"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Pumpkin Slice"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 1,
+                    "item": "Cooking Oil"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tomato"
+                }
+            ]
+        ],
+        "time": "15 Minutes",
+        "item": {
+            "amount": 1,
+            "item": "Roast Pumpkin"
+        },
+        "type": "new",
+        "station": "Stove"
     }
 ]
