@@ -118,10 +118,12 @@ $(".show_bookmark").on("click", function () {
     }
 })
 
-$(".item_recipe").on("click", function (e) {
+$(".item_recipe").on("click",  function (e) {
     if (e.target == $(this).find(".bookmark, .bookmark_filled")[0]) {
         return false;
     }
+    $(".all_recipes").css("display","none");
+    $(".window").css("display","block");
     displayed_recipes = [];
     $(".all_recipes").css("overflow-y", "hidden");
     recipe_num = 0;
@@ -139,16 +141,49 @@ $(".item_recipe").on("click", function (e) {
     }
     for (indexes in index) {
         for (recipes in basic[index[indexes]]["recipe"]) {
-            $(".display_recipe").append("<div id=\"recipe_" + recipe_num + "\" class=\"recipe_wrapper\"></div>");
+            $(".display_recipe").append("<div id=\"recipe_" + recipe_num + "\" class=\"recipe_wrapper\"><div class=\"crafting\"></div></div>");
+
+            item_name = basic[index[indexes]]["item"]["item"];
+            item_amount = basic[index[indexes]]["item"]["amount"];
+            if (basic[index[indexes]]["item"]["image"] != undefined) {
+                item_image = basic[index[indexes]]["item"]["image"];
+                $("#recipe_" + recipe_num).append("<div class=\"stats\" id=\"stats_"+recipe_num+"\"></div><div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
+            } else {
+                if (basic[index[indexes]]["item"]["texture"] != undefined) {
+                    item_image = basic[index[indexes]]["item"]["texture"];
+                } else {
+                    item_image = image_data[item_name];
+                }
+                $("#recipe_" + recipe_num).append("<div class=\"stats\" id=\"stats_"+recipe_num+"\"></div><div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
+            }
+
+            if (basic[index[indexes]]["tool"] != undefined) {
+                tool_used = basic[index[indexes]]["tool"];
+                tool_image = "images/tools/" + tool_used.split(" ").join("_").toLowerCase() + ".png";
+                $("#stats_" + recipe_num).append("<div class=\"tool_used\">" + tool_used + " <img alt=\"" + tool_used + "\" class=\"tool_image\" src=\"" + tool_image + "\"></div>");
+            }
+            if (basic[index[indexes]]["station"] != undefined) {
+                station_used = basic[index[indexes]]["station"];
+                station_image = "images/stations/" + station_used.split(" ").join("_").toLowerCase() + ".png";
+                $("#stats_" + recipe_num).append("<div class=\"station_used\">" + station_used + " <img alt=\"" + station_used + "\" class=\"station_image\" src=\"" + station_image + "\"></div>");
+            }
+            if (basic[index[indexes]]["time"] != undefined) {
+                time_used = basic[index[indexes]]["time"];
+                $("#stats_" + recipe_num).append("<div class=\"time_used\">" + time_used + " <img class=\"clock_image\" src=\"images/stations/clock.png\"></div>");
+            }
+
+
+            $("#recipe_" + recipe_num).append("<br>")
+
             for (item in basic[index[indexes]]["recipe"][recipes]) {
                 item_name = basic[index[indexes]]["recipe"][recipes][item]["item"];
                 item_amount = basic[index[indexes]]["recipe"][recipes][item]["amount"];
                 if (basic[index[indexes]]["recipe"][recipes][item]["image"] != undefined) {
                     item_image = basic[index[indexes]]["recipe"][recipes][item]["image"];
                     if (isCraftable(item_name)) {
-                        $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><img alt=\"" + item_name + "\" src=\"" + item_image + "\"></span><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
+                        $("#recipe_" + recipe_num + " > .crafting").append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><span class=\"item-name\">" + item_name + "</span><img alt=\"" + item_name + "\" src=\"" + item_image + "\"></span><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
                     } else {
-                        $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" ><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
+                        $("#recipe_" + recipe_num + " > .crafting").append("<div class=\"item_recipe_shown\" ><span class=\"item-name\">" + item_name + "</span><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
                     }
                 } else {
                     if (basic[index[indexes]]["recipe"][recipes][item]["texture"] != undefined) {
@@ -157,43 +192,13 @@ $(".item_recipe").on("click", function (e) {
                         item_image = image_data[item_name];
                     }
                     if (isCraftable(item_name)) {
-                        $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
+                        $("#recipe_" + recipe_num + " > .crafting").append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><span class=\"item-name\">" + item_name + "</span><span class='" + item_image + " sprite'></span><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
                     } else {
-                        $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" ><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
+                        $("#recipe_" + recipe_num + " > .crafting").append("<div class=\"item_recipe_shown\" ><span class=\"item-name\">" + item_name + "</span><span class='" + item_image + " sprite'></span><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
                     }
                 }
             }
 
-            $("#recipe_" + recipe_num).append("<div class=\"craft_arrow\" id=\"craft_arrow_" + recipe_num + "\"><img src=\"images/ui/craft_arrow.png\"></div>");
-
-            item_name = basic[index[indexes]]["item"]["item"];
-            item_amount = basic[index[indexes]]["item"]["amount"];
-            if (basic[index[indexes]]["item"]["image"] != undefined) {
-                item_image = basic[index[indexes]]["item"]["image"];
-                $("#recipe_" + recipe_num).append("<div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div><br>");
-            } else {
-                if (basic[index[indexes]]["item"]["texture"] != undefined) {
-                    item_image = basic[index[indexes]]["item"]["texture"];
-                } else {
-                    item_image = image_data[item_name];
-                }
-                $("#recipe_" + recipe_num).append("<div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div><br>");
-            }
-
-            if (basic[index[indexes]]["tool"] != undefined) {
-                tool_used = basic[index[indexes]]["tool"];
-                tool_image = "images/tools/" + tool_used.split(" ").join("_").toLowerCase() + ".png";
-                $("#craft_arrow_" + recipe_num).append("<img alt=\"" + tool_used + "\" class=\"tool_image\" src=\"" + tool_image + "\">");
-            }
-            if (basic[index[indexes]]["station"] != undefined) {
-                station_used = basic[index[indexes]]["station"];
-                station_image = "images/stations/" + station_used.split(" ").join("_").toLowerCase() + ".png";
-                $("#craft_arrow_" + recipe_num).append("<img alt=\"" + station_used + "\" class=\"station_image\" src=\"" + station_image + "\">");
-            }
-            if (basic[index[indexes]]["time"] != undefined) {
-                time_used = basic[index[indexes]]["time"];
-                $("#craft_arrow_" + recipe_num).append("<div class=\"time_used\">" + time_used + "</div>");
-            }
             $("#slider_quantity").attr({ "value": item_amount, "step": item_amount });
             $("#quantity").attr({ "value": item_amount, "step": item_amount });
             recipe_num++;
@@ -211,6 +216,8 @@ $(".item_recipe").on("click", function (e) {
     });
 
     $(".exit").on("click", function () {
+        $(".all_recipes").css("display","block");
+        $(".window").css("display","none");
         $(".display_recipe").empty();
         $(".shown_recipes").css("display", "none");
         $(".all_recipes").css("overflow-y", "scroll");
@@ -219,12 +226,8 @@ $(".item_recipe").on("click", function (e) {
 })
 
 function itemClickEvent() {
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        $(".craft_arrow").css("min-width", "50px");
-        $(".item_recipe_shown").css("min-width", "90px");
-    }
     $(".item_recipe_shown[craftable]").on("click", function () {
-        clicked_on = $("p", this).text();
+        clicked_on = $(this).attr("item");
         if (!displayed_recipes.includes(clicked_on)) {
             displayed_recipes.push(clicked_on);
             init_amount = parseInt($(".amount", this).attr("init_val"));
@@ -241,17 +244,54 @@ function itemClickEvent() {
             }
 
             for (indexes2 in index2) {
+
+
                 for (recipes in basic[index2[indexes2]]["recipe"]) {
-                    $(".display_recipe").append("<div id=\"recipe_" + recipe_num + "\"  class=\"recipe_wrapper\"><p class=\"close_recipe\">✕</p></div>");
+
+
+
+                    $(".display_recipe").append("<div id=\"recipe_" + recipe_num + "\" class=\"recipe_wrapper\"><div class=\"crafting\"></div></div>");
+
+                    item_name = basic[index2[indexes2]]["item"]["item"];
+                    item_amount = basic[index2[indexes2]]["item"]["amount"];
+                    if (basic[index2[indexes2]]["item"]["image"] != undefined) {
+                        item_image = basic[index2[indexes2]]["item"]["image"];
+                        $("#recipe_" + recipe_num).append("<div class=\"stats\" id=\"stats_"+recipe_num+"\"></div><div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
+                    } else {
+                        if (basic[index2[indexes2]]["item"]["texture"] != undefined) {
+                            item_image = basic[index2[indexes2]]["item"]["texture"];
+                        } else {
+                            item_image = image_data[item_name];
+                        }
+                        $("#recipe_" + recipe_num).append("<div class=\"stats\" id=\"stats_"+recipe_num+"\"></div><div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
+                    }
+
+                    if (basic[index2[indexes2]]["tool"] != undefined) {
+                        tool_used = basic[index2[indexes2]]["tool"];
+                        tool_image = "images/tools/" + tool_used.split(" ").join("_").toLowerCase() + ".png";
+                        $("#stats_" + recipe_num).append("<div class=\"tool_used\">" + tool_used + " <img alt=\"" + tool_used + "\" class=\"tool_image\" src=\"" + tool_image + "\"></div>");
+                    }
+                    if (basic[index2[indexes2]]["station"] != undefined) {
+                        station_used = basic[index2[indexes2]]["station"];
+                        station_image = "images/stations/" + station_used.split(" ").join("_").toLowerCase() + ".png";
+                        $("#stats_" + recipe_num).append("<div class=\"station_used\">" + station_used + " <img alt=\"" + station_used + "\" class=\"station_image\" src=\"" + station_image + "\"></div>");
+                    }
+                    if (basic[index2[indexes2]]["time"] != undefined) {
+                        time_used = basic[index2[indexes2]]["time"];
+                        $("#stats_" + recipe_num).append("<div class=\"time_used\">" + time_used + " <img class=\"clock_image\" src=\"images/stations/clock.png\"></div>");
+                    }
+
+
+
                     for (item in basic[index2[indexes2]]["recipe"][recipes]) {
                         item_name = basic[index2[indexes2]]["recipe"][recipes][item]["item"];
                         item_amount = basic[index2[indexes2]]["recipe"][recipes][item]["amount"];
                         if (basic[index2[indexes2]]["recipe"][recipes][item]["image"] != undefined) {
                             item_image = basic[index2[indexes2]]["recipe"][recipes][item]["image"];
                             if (isCraftable(item_name)) {
-                                $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><img alt=\"" + item_name + "\" src=\"" + item_image + "\"></span><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
+                                $("#recipe_" + recipe_num + " > .crafting").append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><span class=\"item-name\">" + item_name + "</span><img alt=\"" + item_name + "\" src=\"" + item_image + "\"></span><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
                             } else {
-                                $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" ><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
+                                $("#recipe_" + recipe_num + " > .crafting").append("<div class=\"item_recipe_shown\" ><span class=\"item-name\">" + item_name + "</span><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
                             }
                         } else {
                             if (basic[index2[indexes2]]["recipe"][recipes][item]["texture"] != undefined) {
@@ -260,41 +300,14 @@ function itemClickEvent() {
                                 item_image = image_data[item_name];
                             }
                             if (isCraftable(item_name)) {
-                                $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
+                                $("#recipe_" + recipe_num + " > .crafting").append("<div class=\"item_recipe_shown\" item=\"" + item_name + "\" craftable = \"" + item_name + "\"><span class=\"item-name\">" + item_name + "</span><span class='" + item_image + " sprite'></span><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div><div class=\"craftable_icon\"><img src=\"images/tools/steel_hammer.png\"></div></div>");
                             } else {
-                                $("#recipe_" + recipe_num).append("<div class=\"item_recipe_shown\" ><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
+                                $("#recipe_" + recipe_num + " > .crafting").append("<div class=\"item_recipe_shown\" ><span class=\"item-name\">" + item_name + "</span><span class='" + item_image + " sprite'></span><div class=\"amount\" init_val=" + item_amount + ">" + item_amount + "</div></div>");
                             }
                         }
 
                     }
-                    $("#recipe_" + recipe_num).append("<div class=\"craft_arrow\" id=\"craft_arrow_" + recipe_num + "\"><img src=\"images/ui/craft_arrow.png\"></div>");
-                    if (basic[index2[indexes2]]["tool"] != undefined) {
-                        tool_used = basic[index2[indexes2]]["tool"];
-                        tool_image = "images/tools/" + tool_used.split(" ").join("_").toLowerCase() + ".png";
-                        $("#craft_arrow_" + recipe_num).append("<img alt=\"" + tool_used + "\" class=\"tool_image\" src=\"" + tool_image + "\">");
-                    }
-                    if (basic[index2[indexes2]]["station"] != undefined) {
-                        station_used = basic[index2[indexes2]]["station"];
-                        station_image = "images/stations/" + station_used.split(" ").join("_").toLowerCase() + ".png";
-                        $("#craft_arrow_" + recipe_num).append("<img alt=\"" + station_used + "\" class=\"station_image\" src=\"" + station_image + "\">");
-                    }
-                    if (basic[index2[indexes2]]["time"] != undefined) {
-                        time_used = basic[index2[indexes2]]["time"];
-                        $("#craft_arrow_" + recipe_num).append("<div class=\"time_used\">" + time_used + "</div>");
-                    }
-                    item_name = basic[index2[indexes2]]["item"]["item"];
-                    item_amount = basic[index2[indexes2]]["item"]["amount"];
-                    if (basic[index2[indexes2]]["item"]["image"] != undefined) {
-                        item_image = basic[index2[indexes2]]["item"]["image"];
-                        $("#recipe_" + recipe_num).append("<div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><img alt=\"" + item_name + "\" src=\"" + item_image + "\"><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div><br>");
-                    } else {
-                        if (basic[index2[indexes2]]["item"]["texture"] != undefined) {
-                            item_image = basic[index2[indexes2]]["item"]["texture"];
-                        } else {
-                            item_image = image_data[item_name];
-                        }
-                        $("#recipe_" + recipe_num).append("<div recipe_num=\"" + recipe_num + "\" class=\"item_recipe_shown crafted_recipe_item\" ><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p><div class=\"amount crafted_amount\" init_val=" + item_amount + ">" + item_amount + "</div></div><br>");
-                    }
+                    
                     $("#quantity_" + recipe_num).attr({ "value": item_amount, "step": item_amount });
                     recipe_num++;
                 }
