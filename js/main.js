@@ -23,19 +23,12 @@ $.ajax({
 
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    $("#filterInput").css("width", "125px");
-    $(".links").css({
-        "width": "Calc(100% - 185px)",
-        "position": "absolute",
-        "left": "185px",
-        "overflow-x": "scroll",
-        "white-space": "nowrap",
-        "top": "0px"
-    });
-    $(".navbar a").css({
-        "display": "inline-block",
-        "white-space": "normal",
-        "float": "none"
+    $(".burger a").on("click", function() {
+        $(".hide_burger").unbind("click");
+        $(".hide_burger").toggleClass("show_burger");
+        $(".hide_burger").toggleClass("hide_burger");
+        $(".burger").css("top","-150px");
+        showBurger();
     })
 }
 
@@ -131,8 +124,7 @@ $(".item_recipe").on("click",  function (e) {
     displayed_recipes.push(clicked_on);
     item_image = $(this).find("img:not(.bookmark):not(.bookmark_filled)").first().attr("src");
     index = [];
-    $(".window > .recipe_header > p").text(clicked_on);
-    $(".window > .recipe_header > img").attr("src", item_image);
+    $(".window > .recipe_header > p").text("⬅ BACK");
     $(".shown_recipes").css("display", "block");
     for (recipe in basic) {
         if (basic[recipe]["item"]["item"] == clicked_on) {
@@ -411,3 +403,25 @@ $("#slider_quantity").on("input", function () {
 function closeNotif() {
     $(".notification").css("display", "none");
 }
+
+function showBurger() {
+    $(".show_burger").on("click", function() {
+        $(this).unbind("click");
+        $(this).toggleClass("show_burger");
+        $(this).toggleClass("hide_burger");
+        $(".burger").css("top","50px");
+        hideBurger();
+    });
+}
+
+function hideBurger(){
+    $(".hide_burger").on("click", function() {
+        $(this).unbind("click");
+        $(this).toggleClass("show_burger");
+        $(this).toggleClass("hide_burger");
+        $(".burger").css("top","-150px");
+        showBurger();
+    });
+}
+
+showBurger();

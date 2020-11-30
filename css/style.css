@@ -40,7 +40,20 @@ body {
 	background-image: url(../images/ui/stars.png);
 }
 
+@media screen and (min-width: 767px) {
+	.navbar:hover + .burger {
+		top: 50px;
+	}
+
+	.burger:hover {
+		top: 50px;
+	}
+}
+
 @media screen and (max-width: 767px) {
+	.burger_arrow {
+		display: block !important;
+	}
 	.notification img{
 		display: none;
 	}
@@ -665,7 +678,7 @@ form input[type="image"] {
 
 .navbar {
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	width: 100%;
 	left: 0px;
 	top: 0px;
@@ -674,7 +687,7 @@ form input[type="image"] {
 	box-shadow: 0px 8px 5px rgba(0, 0, 0, .5);
 }
 
-.navbar a {
+.burger a {
 	position: relative;
 	display: block;
 	width: 50px;
@@ -688,20 +701,45 @@ form input[type="image"] {
 	margin-right: 10px;
 }
 
-.navbar a:hover {
+.burger a:hover {
 	background-color: #4b7bec65;
 }
 
+.burger {
+	position: fixed;
+	width: 100%;
+	top: -150px;
+	background: rgb(0, 12, 65);
+	box-shadow: 0px 8px 5px rgba(0, 0, 0, .5);
+	z-index: 2;
+	transition-duration: 0.3s;
+}
+
+.burger_arrow {
+	height: 25px;
+	top: 15px;
+	left: 15px;
+	position: absolute;
+	float: left;
+	filter: invert(1);
+	transition-duration: 0.3s;
+	display: none;
+}
+
+.hide_burger {
+	transform: rotate(180deg);
+}
+
 .links {
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	float: right;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .links img {
 	transform: translate(-50%, -50%);
-	position: absolute;
+	position: relative;
+	display: flex;
 	top: 50%;
 	left: 50%;
 	max-height: 45px !important;
@@ -709,21 +747,36 @@ form input[type="image"] {
 
 }
 
-#filterInput {
+.searchbar {
 	position: relative;
 	display: table-cell;
-	left: 0px;
-	width: 200px;
+	left: 50%;
+	width: Calc(100% - 140px);
+	transform: translate(-50%);
 	padding: 5px;
 	height: 25px;
-	border: solid 1px #1c346d;
-	outline: none;
-	color: #4c4c4c;
 	vertical-align: middle;
-	margin: 5px 2px 5px 2px;
+	
 	float: left;
-	border-radius: 5px;
-	border: solid 2px #1f3a7a;
+}
+
+.searchbar img {
+	position: absolute;
+	height: 25px;
+	margin: 5px 2px 5px 2px;
+	filter: invert(1);
+}
+
+#filterInput {
+	position: absolute;
+	color: white;
+	padding-left: 40px;
+	background: transparent;
+	outline: none;
+	height: 100%;
+	width: Calc(100% - 40px);
+	border: none;
+	border-bottom: solid 2px white;
 }
 
 .tool_image {
@@ -813,8 +866,9 @@ footer a {
 	position: relative;
 	height: 34px;
 	z-index: 1;
-	margin: 7px 2px;
+	margin: 7px;
 	cursor: pointer;
+	float: right;
 }
 
 .notification {

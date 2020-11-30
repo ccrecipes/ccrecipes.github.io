@@ -33,8 +33,11 @@
 <body>
     <div id="maincontent">
         <div class="navbar">
-            <input type="text" onkeyup="filterRecipes()" id="filterInput" placeholder="Search for item..."><img
+            <img class="burger_arrow show_burger" src="images/ui/burger_arrow.png">
+            <div class="searchbar"><img src="images/ui/magglass.png"><input type="text" onkeyup="filterRecipes()" onclick="this.select()" id="filterInput" placeholder="Search for item..."></div><img
                 class="show_bookmark" title="Show Bookmarked recipes only!" src="images/ui/bookmark_empty.png">
+        </div>
+        <div class="burger">
             <div class="links">
                 <a href="#new_recipes" title="NEW Crafting Recipes"><img src="images/stations/new.png"></a>
                 <a href="#basic_recipes" title="Basic Crafting Recipes"><img src="images/stations/anvil.png"></a>
@@ -125,8 +128,7 @@
             </div>
         </div>
         <div id="window" class="window">
-                    <img class="exit" src="images/ui/exit.png">
-                    <div class="recipe_header" style="box-shadow: 0px 2px #ff9100">
+                    <div class="recipe_header exit" style="box-shadow: 0px 2px #ff9100">
                         <img src="">
                         <p></p>
                     </div>
