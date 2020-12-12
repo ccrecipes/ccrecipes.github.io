@@ -8565,8 +8565,7 @@
                 },
                 {
                     "amount": 1,
-                    "item": "Peppermint Dust",
-                    "texture": "peppermint_dust"
+                    "item": "Peppermint Dust"
                 }
             ]
         ],
