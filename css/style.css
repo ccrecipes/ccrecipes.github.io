@@ -113,6 +113,31 @@ body {
 		transform: scale(0.7);
 		margin: -5px;
 	}
+
+	.on_android {
+		width: 100% !important;
+		height: 100%;
+		z-index: 999;
+		top: 0px;
+		left: 0px;
+		background: rgba(0,0,0,.7);
+	}
+
+	.on_android a img {
+		position: absolute;
+		width: auto !important;
+		max-width: 75%;
+		max-height: 100%;
+		transform: translate(-50%, -50%);
+		top: 50% !important;
+		left: 50% !important;
+	}
+	.android_exit {
+		position: absolute;
+		height: 45px !important;
+		top: 2px;
+		right: 2px;
+	}
 }
 
 .all_recipes {
@@ -914,4 +939,23 @@ footer a {
 	top: 50%;
 	transform: translate(0%, -50%);
 
+}
+
+.on_android {
+	position: fixed;
+	width: 200px;
+	bottom: 10px;
+	right: 20px;
+	z-index: 999;
+}
+
+.on_android a img {
+	width: 200px;
+}
+
+.android_exit {
+	position: absolute;
+	height: 30px;
+	top: 2px;
+	right: 2px;
 }

@@ -424,4 +424,8 @@ function hideBurger(){
     });
 }
 
+$(".android_exit").on("click", function() {
+    $(".on_android").css("display","none");
+})
+
 showBurger();
