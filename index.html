@@ -11,6 +11,20 @@
 
         gtag('config', 'UA-149921965-3');
     </script>
+    <script>
+/**
+* Function that captures a click on an outbound link in Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+* using 'navigator.sendBeacon' in browser that support it.
+*/
+var captureOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
@@ -147,7 +161,7 @@
                         </form>
                     </div>
                 </div>
-        <div class="on_android"><a href="https://play.google.com/store/apps/details?id=com.kewgames.ccrecipes"><img src="images/on_android.png"></a><img class="android_exit" src="images/ui/exit.png"></div>
+        <div class="on_android"><a href="https://play.google.com/store/apps/details?id=com.kewgames.ccrecipes" onclick="captureOutboundLink('https://play.google.com/store/apps/details?id=com.kewgames.ccrecipes'); return false;"><img src="images/on_android.png"></a><img class="android_exit" src="images/ui/exit.png"></div>
         <div class="notification" style="display:none;"><img src="images/ui/icon_hollas.png">
             <div class="n_content">
                 <p><b>
