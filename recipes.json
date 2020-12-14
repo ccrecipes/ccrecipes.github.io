@@ -1176,6 +1176,251 @@
     {
         "recipe": [
             [
+               {
+                    "amount": 2,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 2,
+                    "item": "String"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Hunting Net"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Hunting Net"
+                },
+                {
+                    "amount": 4,
+                    "item": "Turkey Berry"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Green Deluxe Hunting Net"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Bush"
+                },
+                {
+                    "amount": 1,
+                    "item": "Turkey Berry"
+                },
+                {
+                    "amount": 1,
+                    "item": "Soil"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Hunting Bush"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Gentlefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Gentlefish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Parrotfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Parrotfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Beakfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Beakfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Qbeefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Qbeefish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Toothfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Toothfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Spudfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Spudfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Bigeye"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Bigeye Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Wailfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Wailfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
                 {
                     "amount": 1,
                     "item": "Full Plasm Trap"
@@ -7096,6 +7341,122 @@
         "recipe": [
             [
                 {
+                    "amount": 1,
+                    "item": "Raw Drumstick"
+                },
+                {
+                    "amount": 1,
+                    "item": "Chiliberries"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tomato"
+                },
+                {
+                    "amount": 1,
+                    "item": "Flour"
+                }
+            ]
+        ],
+        "time": "15 Minutes",
+        "item": {
+            "amount": 1,
+            "item": "BBQ Drumstick"
+        },
+        "type": "cooking",
+        "station": "Stove"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Raw Wing"
+                },
+                {
+                    "amount": 1,
+                    "item": "Chiliberries"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tomato"
+                },
+                {
+                    "amount": 1,
+                    "item": "Cooking Oil"
+                }
+            ]
+        ],
+        "time": "15 Minutes",
+        "item": {
+            "amount": 1,
+            "item": "BBQ Wing"
+        },
+        "type": "cooking",
+        "station": "Stove"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Pumpkin Skin"
+                },
+                {
+                    "amount": 1,
+                    "item": "Flour"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tomato"
+                },
+                {
+                    "amount": 1,
+                    "item": "Water"
+                }
+            ]
+        ],
+        "time": "15 Minutes",
+        "item": {
+            "amount": 1,
+            "item": "Pumpkin Puree"
+        },
+        "type": "cooking",
+        "station": "Stove"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Pumpkin Slice"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 1,
+                    "item": "Cooking Oil"
+                },
+                {
+                    "amount": 1,
+                    "item": "Tomato"
+                }
+            ]
+        ],
+        "time": "15 Minutes",
+        "item": {
+            "amount": 1,
+            "item": "Roast Pumpkin"
+        },
+        "type": "cooking",
+        "station": "Stove"
+    },
+    {
+        "recipe": [
+            [
+                {
                     "amount": 5,
                     "item": "Stone Block"
                 }
@@ -8565,7 +8926,8 @@
                 },
                 {
                     "amount": 1,
-                    "item": "Peppermint Dust"
+                    "item": "Peppermint Dust",
+                    "texture": "peppermint_dust"
                 }
             ]
         ],
@@ -8814,38 +9176,90 @@
     {
         "recipe": [
             [
-               {
-                    "amount": 2,
-                    "item": "Sticks"
-                },
-                {
-                    "amount": 2,
-                    "item": "String"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Hunting Net"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-               {
-                    "amount": 1,
-                    "item": "Hunting Net"
-                },
                 {
                     "amount": 4,
-                    "item": "Turkey Berry"
+                    "item": "Plastic Wrap"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Green Deluxe Hunting Net"
+            "item": "Recycled Plastic"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Old Can"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Recycled Aluminum"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Old Can"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Crushed Cans"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Seaweed"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Seaweed Block"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Old Boot"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Leather"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Sea Slug"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Fabulous Slug"
         },
         "type": "new"
     },
@@ -8854,30 +9268,7 @@
             [
                {
                     "amount": 1,
-                    "item": "Bush"
-                },
-                {
-                    "amount": 1,
-                    "item": "Turkey Berry"
-                },
-                {
-                    "amount": 1,
-                    "item": "Soil"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Hunting Bush"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-               {
-                    "amount": 1,
-                    "item": "Gentlefish"
+                    "item": "Elffish"
                 },
                 {
                     "amount": 1,
@@ -8891,7 +9282,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Gentlefish Trophy"
+            "item": "Elffish Trophy"
         },
         "type": "new"
     },
@@ -8900,7 +9291,7 @@
             [
                {
                     "amount": 1,
-                    "item": "Parrotfish"
+                    "item": "Santafish"
                 },
                 {
                     "amount": 1,
@@ -8914,262 +9305,8 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Parrotfish Trophy"
+            "item": "Santafish Trophy"
         },
         "type": "new"
-    },
-    {
-        "recipe": [
-            [
-               {
-                    "amount": 1,
-                    "item": "Beakfish"
-                },
-                {
-                    "amount": 1,
-                    "item": "Fancy Wood"
-                },
-                {
-                    "amount": 1,
-                    "item": "Gold"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Beakfish Trophy"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-               {
-                    "amount": 1,
-                    "item": "Qbeefish"
-                },
-                {
-                    "amount": 1,
-                    "item": "Fancy Wood"
-                },
-                {
-                    "amount": 1,
-                    "item": "Gold"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Qbeefish Trophy"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-               {
-                    "amount": 1,
-                    "item": "Toothfish"
-                },
-                {
-                    "amount": 1,
-                    "item": "Fancy Wood"
-                },
-                {
-                    "amount": 1,
-                    "item": "Gold"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Toothfish Trophy"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-               {
-                    "amount": 1,
-                    "item": "Spudfish"
-                },
-                {
-                    "amount": 1,
-                    "item": "Fancy Wood"
-                },
-                {
-                    "amount": 1,
-                    "item": "Gold"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Spudfish Trophy"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-               {
-                    "amount": 1,
-                    "item": "Bigeye"
-                },
-                {
-                    "amount": 1,
-                    "item": "Fancy Wood"
-                },
-                {
-                    "amount": 1,
-                    "item": "Gold"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Bigeye Trophy"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-               {
-                    "amount": 1,
-                    "item": "Wailfish"
-                },
-                {
-                    "amount": 1,
-                    "item": "Fancy Wood"
-                },
-                {
-                    "amount": 1,
-                    "item": "Gold"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Wailfish Trophy"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Raw Drumstick"
-                },
-                {
-                    "amount": 1,
-                    "item": "Chiliberries"
-                },
-                {
-                    "amount": 1,
-                    "item": "Tomato"
-                },
-                {
-                    "amount": 1,
-                    "item": "Flour"
-                }
-            ]
-        ],
-        "time": "15 Minutes",
-        "item": {
-            "amount": 1,
-            "item": "BBQ Drumstick"
-        },
-        "type": "new",
-        "station": "Stove"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Raw Wing"
-                },
-                {
-                    "amount": 1,
-                    "item": "Chiliberries"
-                },
-                {
-                    "amount": 1,
-                    "item": "Tomato"
-                },
-                {
-                    "amount": 1,
-                    "item": "Cooking Oil"
-                }
-            ]
-        ],
-        "time": "15 Minutes",
-        "item": {
-            "amount": 1,
-            "item": "BBQ Wing"
-        },
-        "type": "new",
-        "station": "Stove"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Pumpkin Skin"
-                },
-                {
-                    "amount": 1,
-                    "item": "Flour"
-                },
-                {
-                    "amount": 1,
-                    "item": "Tomato"
-                },
-                {
-                    "amount": 1,
-                    "item": "Water"
-                }
-            ]
-        ],
-        "time": "15 Minutes",
-        "item": {
-            "amount": 1,
-            "item": "Pumpkin Puree"
-        },
-        "type": "new",
-        "station": "Stove"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Pumpkin Slice"
-                },
-                {
-                    "amount": 1,
-                    "item": "Sticks"
-                },
-                {
-                    "amount": 1,
-                    "item": "Cooking Oil"
-                },
-                {
-                    "amount": 1,
-                    "item": "Tomato"
-                }
-            ]
-        ],
-        "time": "15 Minutes",
-        "item": {
-            "amount": 1,
-            "item": "Roast Pumpkin"
-        },
-        "type": "new",
-        "station": "Stove"
     }
 ]
