@@ -138,6 +138,11 @@ body {
 		top: 2px;
 		right: 2px;
 	}
+
+	.share_link {
+		max-width: 100% !important;
+		width: 90% !important;
+	}
 }
 
 .all_recipes {

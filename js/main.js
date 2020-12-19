@@ -506,7 +506,9 @@ $(".android_exit").on("click", function() {
 
 $(".share").on("click", function(){
 	$(".share_window").css("display","block");
-	$("#link-to-share").select();
+	linkElement = document.getElementById("link-to-share");
+	linkElement.select();
+	linkElement.setSelectionRange(0, 99999);
 	document.execCommand("copy");
 	$("#link-to-share").prop("disabled",true);
 })
