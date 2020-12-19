@@ -2358,7 +2358,7 @@
             ]
         ],
         "item": {
-            "amount": 1,
+            "amount": 1500,
             "item": "Knock Back Wand"
         },
         "type": "basic"
@@ -2385,7 +2385,7 @@
             ]
         ],
         "item": {
-            "amount": 1,
+            "amount": 1500,
             "item": "Harm Wand"
         },
         "type": "basic"
@@ -2412,7 +2412,7 @@
             ]
         ],
         "item": {
-            "amount": 1,
+            "amount": 2000,
             "item": "Heal Wand"
         },
         "type": "basic",
