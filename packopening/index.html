@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+	html {
+		background: linear-gradient(180deg, rgba(225,244,255,1) 0%, rgba(151,205,255,1) 100%);
+		height: 100%;
+	}
+	body {
+		margin: 0;
+	}
+	.info {
+		transition-duration: 0.6s;
+		font-family: "Lilita One";
+		font-size: 20px;
+		text-align: center;
+		width: 100%;
+		color: black;
+	}
+	.packs {
+		position: absolute;
+		transition-duration: 0.6s;
+		font-family: "Lilita One";
+		font-size: 10px;
+		text-align: center;
+		width: 100%;
+		color: black;
+		top: Calc(50% + 120px);
+	}
+	.cards {
+		position: absolute;
+		display: flex;
+		flex-wrap: wrap;
+		width: 360px;
+		transform: translate(-50%, -50%);
+		top: Calc(50% - 22px);
+		left: 50%;
+		justify-content: center;
+	}
+	.flip_card {
+		margin: 10px;
+		position: relative;
+		width: 100px;
+		height: 100px;
+		transition: transform 0.6s;
+		transform-style: preserve-3d;
+		cursor: pointer;
+	}
+	.flip_card_front, .flip_card_back {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		backface-visibility: hidden;
+		background-size: 100px 100px;
+	}
+	.flip_card_front {
+		background-image: url(card_front.png);
+		transform: rotateY(180deg);
+	}
+	.rare {
+		background-image: url(card_rare.png) !important;
+	}
+	.flip_card_back {
+		background-image: url(card_back.png);
+	}
+
+	.flip_card_front img {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		left: 50%;
+	}
+	.button {
+		position: absolute;
+		width: 150px;
+		height: 55px;
+		background-size: 150px 55px;
+		cursor: pointer;
+		top: Calc(50% + 150px);
+	}
+	.claim {
+		transform: translate(-100%, 0);
+		left: 49%;
+		background-image: url("claim.png");
+		display: none;
+	}
+	.buy_another {
+		background-image: url("buy_another.png");
+		left: 51%;
+		display: none;
+	}
+	.cfm {
+		background-image: url("cfm.png");
+		left: 51%;
+	}
+	.buy_another > span {
+		position: absolute;
+		transform: translate(0, -50%);
+		top: 50%;
+		left: 100%;
+		transition-duration: 0.6s;
+		font-family: "Lilita One";
+		font-size: 20px;
+		color: black;
+		width: 100%;
+	}
+	.buy_another > span > img {
+		height: 20px;
+		vertical-align: middle;
+	}
+	.claim:hover .popuptext{
+		visibility: visible;
+	}
+	.popuptext {
+		visibility: hidden;
+		width: 160px;
+		background-color: #000;
+		color: #fff;
+		text-align: center;
+		border-radius: 6px;
+		padding: 8px 0;
+		position: absolute;
+		z-index: 1;
+		top: 50%;
+		right: 105%;
+		transform: translate(0, -50%);
+		font-family: Arial;
+		font-size: 12px;
+	}
+	.popuptext::after {
+		content: "";
+		position: absolute;
+		bottom: 50%;
+		left: 100%;
+		transform: translate(0, 50%);
+		border-width: 5px;
+		border-style: solid;
+		border-color: transparent transparent transparent #000;
+	}
+</style>
+<body onmousedown="return false">
+	<div class="cards">
+		<p class="info"></p>
+	</div>
+	<div class="button claim"><span class="popuptext" id="myPopup">This button would usually lead back to the Cubit Store page.</span></div>
+	<div class="button buy_another" onclick="start()"><span>1500<img src="icon_cubits.png"></span></div>
+	<div class="button cfm" onclick="chooseForMe()"></div>
+	<p class="packs"></p>
+	<script src="jquery.js"></script>
+	<script>
+		blocks = {"common":[31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,54,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,72,73,74,75,76,77,78,79,80,81,83,84,85,86,87,88],"rare":[53,55,71,82]};
+		wears = {"common":[1,2,3,5,6,8,9,10,12,13,14,19,20,21,22,23,24,25,26,27,28,29,30],"rare":[4,7,11,15,16,17,18,]};
+
+		
+		cardsPerLine = 3;
+		numCards = 6;
+		packsOpened = 0;
+
+
+
+		function start() {
+			packsOpened++;
+			$(".packs").text("PACKS OPENED: "+packsOpened);
+			$(".claim").css("display","none");
+			$(".buy_another").css("display","none");
+			$(".cfm").css("display","block");
+			chooseFM = false;
+			console.log(packsOpened);
+			clicks = 3;
+			$(".flip_card").remove();
+			wearCard = randint(0, numCards-1)
+			cards = [];
+			rares = [];
+			blocksInPack = [];
+			for(i=0; i<numCards; i++){
+				rarity = randint(1,100);
+				if(i == wearCard){
+					if(rarity <= 2 || packsOpened % 10 == 0){
+						cards.push(wears["rare"][randint(0,wears["rare"].length - 1)]);
+						rares.push(i.toString());
+					} else {
+						cards.push(wears["common"][randint(0,wears["common"].length - 1)]);
+					}
+				} else {
+					addBlock(i, rarity);
+				}
+			}
+			updClicks();
+			$(".cards").css("width",cardsPerLine*120+"px");
+			for(card in cards){
+				if(rares.includes(card.toString())){
+					$(".cards").append("<div class=\"flip_card unchosen\">\
+						<div class=\"flip_card_front rare\"><img src='img/"+cards[card]+".png'></div>\
+						<div class=\"flip_card_back\"></div>\
+						</div>");
+				} else {
+					$(".cards").append("<div class=\"flip_card unchosen\">\
+						<div class=\"flip_card_front\"><img src='img/"+cards[card]+".png'></div>\
+						<div class=\"flip_card_back\"></div>\
+						</div>");
+				}
+
+			}
+
+
+
+			$(".flip_card").on("click", function(){
+				$(this).css("transform","rotateY(180deg)");
+				$(this).removeClass("unchosen");
+				$(this).addClass("chosen");
+				clicks-=1
+				updClicks();
+				if(chooseFM){
+					chooseForMe();
+				} else {
+					$(".cfm").css("display","none");
+				}
+			});
+		}
+
+		function addBlock(i, rarity){
+			if(rarity <= 2){
+				blockID = randint(0,blocks["rare"].length - 1);
+				if(blocksInPack.includes(blockID.toString())){
+					addBlock(i);
+				} else {
+					cards.push(blocks["rare"][blockID]);
+					rares.push(i.toString());
+					blocksInPack.push(blockID.toString());
+				}
+			} else {
+				blockID = randint(0,blocks["common"].length - 1);
+				if(blocksInPack.includes(blockID.toString())){
+					addBlock(i);
+				} else {
+					cards.push(blocks["common"][blockID]);
+					blocksInPack.push(blockID.toString());
+				}
+
+			}
+		}
+
+		start();
+		
+
+		function updClicks(){
+			$(".info").css("opacity","1");
+			switch(clicks){
+				case 0:
+				$(".info").text("ALL CARDS CHOSEN");
+				choseAll();
+				break;
+				case 1:
+				$(".info").text("CHOOSE "+clicks+" MORE CARD");
+				break;
+
+				default:
+				$(".info").text("CHOOSE "+clicks+" MORE CARDS");
+				break;
+			}
+		}
+
+		function choseAll(){
+			$(".buy_another").css("display","block");
+			$(".cfm").css("display","none");
+			$(".claim").css("display","block");
+			$(".flip_card").unbind("click");
+			$(".info").css("opacity","0");
+			$(".chosen").css("transform","rotateY(180deg) scale(1.1)");
+			$(".unchosen").css({"transform":"rotateY(180deg)"});
+			$(".unchosen > .flip_card_front").css({"filter":"brightness(0.2)"});
+		}
+
+		function randint(start, end) {
+			randinterger = Math.floor(Math.random() * (end - start + 1)) + start;;
+			return randinterger;
+		}
+
+		function chooseForMe() {
+			chooseFM = true;
+			elemArray = $(".unchosen").toArray();
+			$(".unchosen").eq(randint(0,elemArray.length - 1)).click();
+		}
+
+	</script>
+</body>
+</html>
