@@ -271,6 +271,96 @@
         "recipe": [
             [
                 {
+                    "amount": 4,
+                    "item": "Plastic Wrap"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Recycled Plastic"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Old Can"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Recycled Aluminum"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Old Can"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Crushed Cans"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Seaweed"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Seaweed Block"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Old Boot"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Leather"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 4,
+                    "item": "Sea Slug"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Fabulous Slug"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+                {
                     "amount": 1,
                     "item": "Wet Cement"
                 },
@@ -1415,6 +1505,52 @@
         "item": {
             "amount": 1,
             "item": "Wailfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Elffish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Elffish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Santafish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Santafish Trophy"
         },
         "type": "basic"
     },
@@ -2777,6 +2913,10 @@
                 {
                     "amount": 3,
                     "item": "Iron"
+                },
+                {
+                    "amount": 1,
+                    "item": "Iron Block"
                 }
             ]
         ],
@@ -3052,22 +3192,6 @@
         "item": {
             "amount": 1,
             "item": "Street Light"
-        },
-        "type": "tool"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Iron Block"
-                }
-            ]
-        ],
-        "tool": "Any Hammer",
-        "item": {
-            "amount": 2,
-            "item": "Metal Plate"
         },
         "type": "tool"
     },
@@ -4083,7 +4207,7 @@
                     "item": "Magnet"
                 },
                 {
-                    "amount": 2,
+                    "amount": 6,
                     "item": "Gizmo"
                 }
             ]
@@ -9175,99 +9299,9 @@
     {
         "recipe": [
             [
-                {
-                    "amount": 4,
-                    "item": "Plastic Wrap"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Recycled Plastic"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 4,
-                    "item": "Old Can"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Recycled Aluminum"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 4,
-                    "item": "Old Can"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Crushed Cans"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 4,
-                    "item": "Seaweed"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Seaweed Block"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 4,
-                    "item": "Old Boot"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Leather"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 4,
-                    "item": "Sea Slug"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Fabulous Slug"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
-            [
                {
                     "amount": 1,
-                    "item": "Elffish"
+                    "item": "Angelfish"
                 },
                 {
                     "amount": 1,
@@ -9281,7 +9315,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Elffish Trophy"
+            "item": "Angelfish Trophy"
         },
         "type": "new"
     },
@@ -9290,7 +9324,7 @@
             [
                {
                     "amount": 1,
-                    "item": "Santafish"
+                    "item": "Circlefish"
                 },
                 {
                     "amount": 1,
@@ -9304,7 +9338,812 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Santafish Trophy"
+            "item": "Circlefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Crystalfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Crystalfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Fancyfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Fancyfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Firefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Firefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Flatfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Flatfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Frostfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Frostfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Goldenfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Goldenfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Lazyfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Lazyfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Magmafish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Magmafish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "OneEyedfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "OneEyedfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Robofish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Robofish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Seaweedfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Seaweedfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Silverfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Silverfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Slimefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Slimefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Spikyfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Spikyfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Squarefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Squarefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "ThreeEyedfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "ThreeEyedfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Trianglefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Trianglefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Unicornfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Unicornfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Yellow Boxfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Yellow Boxfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Arcticfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Arcticfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Camerafish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Camerafish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Cowfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Cowfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Fewbeefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Fewbeefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Guardianfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Guardianfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Icefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Icefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Mewbeefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Mewbeefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Pigfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Pigfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Piratefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Piratefish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Rainbowfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Rainbowfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Senseifish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Senseifish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Snowfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Snowfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stingfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Stingfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Surferfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Surferfish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Torpedofish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Torpedofish Trophy"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Big Whale"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Big Whale Trophy"
         },
         "type": "new"
     }
