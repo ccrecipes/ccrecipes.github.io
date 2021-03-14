@@ -233,8 +233,10 @@
       			$("#quantity").attr({ "value": item_amount, "step": item_amount });
       			recipe_num++;
       		}
-		$(".item_recipe_shown").css({"background":"linear-gradient(165deg, rgb(195 101 202) 19%, rgb(227 128 255) 20%, rgb(227 138 228) 80%, rgb(195 101 202) 81%)","box-shadow":"2px 2px rgb(101 50 105), 5px 5px rgb(0 0 0 / 50%)"});
-      	}
+		if(pink){
+			$(".item_recipe_shown").css({"background":"linear-gradient(165deg, rgb(195 101 202) 19%, rgb(227 128 255) 20%, rgb(227 138 228) 80%, rgb(195 101 202) 81%)","box-shadow":"2px 2px rgb(101 50 105), 5px 5px rgb(0 0 0 / 50%)"});
+		}
+		}
 
       	hideOnes();
       	itemClickEvent();
