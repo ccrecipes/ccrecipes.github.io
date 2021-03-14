@@ -60,6 +60,15 @@
       function filterRecipes() {
       	filterInput = $("#filterInput").val().toUpperCase();
       	recipe_divs = $(".item_recipe").toArray();
+	if(filterInput == '"erm"'){
+		$("body").css("background-color","rgb(227 128 255)");
+		$(".navbar").css("background","linear-gradient(99deg, rgb(161 69 169) 19%, rgb(227 138 228) 20%, rgb(227 138 228) 80%, rgb(161 69 169) 81%)");
+		$(".burger").css("background","rgb(161 69 169)");
+		$(".item_recipe").css({"background":"linear-gradient(165deg, rgb(195 101 202) 19%, rgb(227 128 255) 20%, rgb(227 138 228) 80%, rgb(195 101 202) 81%)","box-shadow":"2px 2px rgb(101 50 105), 5px 5px rgb(0 0 0 / 50%)"});
+		$(".item_recipe").hover(function(){
+			$(this).css("box-shadow","2px 2px rgb(101 50 105), 15px 15px 0px -3px rgb(0 0 0 / 50%)")
+		});
+	}
       	for (item in recipe_divs) {
       		textvalue = recipe_divs[item].textContent;
       		if (textvalue.toUpperCase().indexOf(filterInput) == -1 && !bookmarked.includes(textvalue)) {
