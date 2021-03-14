@@ -60,7 +60,7 @@
       function filterRecipes() {
       	filterInput = $("#filterInput").val().toUpperCase();
       	recipe_divs = $(".item_recipe").toArray();
-	if(filterInput == '"erm"'){
+	if(filterInput == '"ERM"'){
 		$("body").css("background-color","rgb(227 128 255)");
 		$(".navbar").css("background","linear-gradient(99deg, rgb(161 69 169) 19%, rgb(227 138 228) 20%, rgb(227 138 228) 80%, rgb(161 69 169) 81%)");
 		$(".burger").css("background","rgb(161 69 169)");
