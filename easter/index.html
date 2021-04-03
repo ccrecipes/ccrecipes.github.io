@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easter Leaderboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        html {
+            overflow: visible;
+        }
+    .leaderboard {
+        position: relative;
+        transform: translate(-50%);
+        left: 50%;
+        margin: 10px;
+    }
+        tr {
+            color: white;
+            font-family: Calibri;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: rgba(255,255,255,.3);
+            margin-top: 5px !important;
+            border-radius: 20px !important;
+            padding: 3px;
+        }
+        tr:nth-child(even) {
+            background-color: transparent !important;
+        }
+        td {
+            padding-right: 10px;
+            margin-top: 20px;
+        }
+        .position {
+            text-align: center;
+            padding-left: 10px;
+        }
+        .playername {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <table class="leaderboard" cellspacing="0"></table>
+</body>
+<script src="jquery.js"></script>
+<script>
+    datasheet = "";
+    $.ajax({ url: 'https://cubiccastles.com/store/easter.php', success: function(data) { datasheet = data.split("<br>");
+    console.log(datasheet[1])
+    
+
+    for(player in datasheet) {
+        if(player == 0){
+            position = /(?<=<color .8,.8,.8>)(.*)(?=<movecursor 68,40>)/.exec(datasheet[player]);
+            //console.log(position[0]);
+            playername = /(?<=<movecursor \+4,\+4>)(.*)(?=<movecursor \+4,\-4>)/.exec(datasheet[player]);
+            //console.log(playername[0]);
+            eggs_collected = /(?<=<movecursor 498,40><color .70,.70,.70>)(.*)/.exec(datasheet[player]);
+            //console.log(eggs_collected[0]);
+            $("table").append("<tr><td class=\"position\">"+position[0]+"</td><td class=\"playername\">"+playername[0]+"</td><td>"+eggs_collected[0]+"</td></tr>");
+        } else {
+            position = /(?<=<color .70,.70,1>)(.*)(?=<movecursor 68,)/.exec(datasheet[player]);
+            //console.log(position[0]);
+            playername = /(?<=<color .20,.20,.50>)(.*)(?=<movecursor 490,)/.exec(datasheet[player]);
+            //console.log(playername[0]);
+            eggs_collected = /(?<=<color .60,.60,.9>)(.*)/.exec(datasheet[player]);
+            //console.log(eggs_collected[0]);
+            $("table").append("<tr><td class=\"position\">"+position[0]+"</td><td class=\"playername\">"+playername[0]+"</td><td>"+eggs_collected[0]+"</td></tr>");
+        }
+    }
+} });
+    
+
+    
+</script>
+</html>
