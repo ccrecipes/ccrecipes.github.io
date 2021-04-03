@@ -73,6 +73,14 @@
             eggs_collected = /(?<=<movecursor 498,40><color .70,.70,.70>)(.*)/.exec(datasheet[player]);
             //console.log(eggs_collected[0]);
             $("table").append("<tr><td class=\"position\">"+position[0]+"</td><td class=\"playername\">"+playername[0]+"</td><td>"+eggs_collected[0]+"</td></tr>");
+        } else if(player == 201) {
+            position = ["∞"];
+            //console.log(position[0]);
+            playername = ["Kewbin"];
+            //console.log(playername[0]);
+            eggs_collected = ["0"];
+            //console.log(eggs_collected[0]);
+            $("table").append("<tr><td class=\"position\">"+position[0]+"</td><td class=\"playername\">"+playername[0]+"</td><td>"+eggs_collected[0]+"</td></tr>");
         } else {
             position = /(?<=<color .70,.70,1>)(.*)(?=<movecursor 68,)/.exec(datasheet[player]);
             //console.log(position[0]);
