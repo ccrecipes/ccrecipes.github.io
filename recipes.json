@@ -2405,6 +2405,53 @@
         },
         "type": "basic"
     },
+    ,
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Rabbitfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Rabbitfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Eggfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Eggfish Trophy"
+        },
+        "type": "basic"
+    }
     {
         "recipe": [
             [
@@ -10147,49 +10194,49 @@
         },
         "type": "bugs"
     },
+    ,
     {
         "recipe": [
             [
                {
                     "amount": 1,
-                    "item": "Rabbitfish"
+                    "item": "Robozilla Metal Plate"
                 },
                 {
                     "amount": 1,
-                    "item": "Fancy Wood"
+                    "item": "Robozilla Ears"
                 },
                 {
-                    "amount": 1,
-                    "item": "Gold"
+                    "amount": 2,
+                    "item": "Steel Block"
+                },
+                {
+                    "amount": 2,
+                    "item": "Steel Gear"
                 }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Rabbitfish Trophy"
-        },
-        "type": "new"
-    },
-    {
-        "recipe": [
+            ],
             [
                {
                     "amount": 1,
-                    "item": "Eggfish"
+                    "item": "Robozilla Visor"
                 },
                 {
                     "amount": 1,
-                    "item": "Fancy Wood"
+                    "item": "Robozilla Bun"
                 },
                 {
-                    "amount": 1,
-                    "item": "Gold"
+                    "amount": 2,
+                    "item": "Steel Block"
+                },
+                {
+                    "amount": 2,
+                    "item": "Steel Gear"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Eggfish Trophy"
+            "item": "RoboZilla Head"
         },
         "type": "new"
     }
