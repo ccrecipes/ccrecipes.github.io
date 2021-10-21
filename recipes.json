@@ -10236,6 +10236,438 @@
             "amount": 1,
             "item": "RoboZilla Head"
         },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 1"
+        },
         "type": "new"
-    }
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 2"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 3"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 4"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 5"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 6"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 7"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 8"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 9"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 10"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 11"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 12"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 13"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 14"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 15"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Stone"
+                },
+                {
+                    "amount": 1,
+                    "item": "Clay Lump"
+                },
+                {
+                    "amount": 1,
+                    "item": "Sand"
+                },
+                {
+                    "amount": 1,
+                    "item": "Coal"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Custom Block 16"
+        },
+        "type": "new"
+    },
 ]
