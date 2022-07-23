@@ -10928,7 +10928,7 @@
             [
                {
                     "amount": 1,
-                    "item": "Bullyfish"
+                    "item": "Luvfish"
                 },
                 {
                     "amount": 1,
@@ -10942,7 +10942,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Luvfish Trophy"
+            "item": "Luv Fish Trophy"
         },
         "type": "basic"
     },
