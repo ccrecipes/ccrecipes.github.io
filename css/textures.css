@@ -10,7 +10,7 @@
 
 */
 
-.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(textures.png);}
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(../images/textures.png);}
 
 .any_artifact {width:68px; height:68px; background-position: -172px -1827px}
 .book_of_bic {width:33px; height:31px; background-position: -891px -0px}
