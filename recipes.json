@@ -10263,7 +10263,7 @@
             "amount": 1,
             "item": "Custom Block 1"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10290,7 +10290,7 @@
             "amount": 1,
             "item": "Custom Block 2"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10317,7 +10317,7 @@
             "amount": 1,
             "item": "Custom Block 3"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10344,7 +10344,7 @@
             "amount": 1,
             "item": "Custom Block 4"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10371,7 +10371,7 @@
             "amount": 1,
             "item": "Custom Block 5"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10398,7 +10398,7 @@
             "amount": 1,
             "item": "Custom Block 6"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10425,7 +10425,7 @@
             "amount": 1,
             "item": "Custom Block 7"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10452,7 +10452,7 @@
             "amount": 1,
             "item": "Custom Block 8"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10479,7 +10479,7 @@
             "amount": 1,
             "item": "Custom Block 9"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10506,7 +10506,7 @@
             "amount": 1,
             "item": "Custom Block 10"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10533,7 +10533,7 @@
             "amount": 1,
             "item": "Custom Block 11"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10560,7 +10560,7 @@
             "amount": 1,
             "item": "Custom Block 12"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10587,7 +10587,7 @@
             "amount": 1,
             "item": "Custom Block 13"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10614,7 +10614,7 @@
             "amount": 1,
             "item": "Custom Block 14"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10641,7 +10641,7 @@
             "amount": 1,
             "item": "Custom Block 15"
         },
-        "type": "new"
+        "type": "basic"
     },
     {
         "recipe": [
@@ -10667,6 +10667,34 @@
         "item": {
             "amount": 1,
             "item": "Custom Block 16"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Any Trunk"
+                },
+                {
+                    "amount": 4,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 2,
+                    "item": "Tacks"
+                },
+                {
+                    "amount": 1,
+                    "item": "White Dye"
+                }
+            ]
+        ],
+        "tool": "Any Hammer",
+        "item": {
+            "amount": 1,
+            "item": "White Wood Picket Fence"
         },
         "type": "new"
     }
