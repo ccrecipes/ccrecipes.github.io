@@ -10673,6 +10673,282 @@
     {
         "recipe": [
             [
+               {
+                    "amount": 1,
+                    "item": "Bullyfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Bullyfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Ancientfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Ancientfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Crazyfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Crazyfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Corpsefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Corpsefish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Bonefish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Bonefish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Halloweenfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Halloweenfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Eelk"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Eelk Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Headlessfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Headlessfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Squid"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Squid Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Eyeballfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Eyeballfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Heartfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Heartfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
+               {
+                    "amount": 1,
+                    "item": "Bullyfish"
+                },
+                {
+                    "amount": 1,
+                    "item": "Fancy Wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "Gold"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Luvfish Trophy"
+        },
+        "type": "basic"
+    },
+    {
+        "recipe": [
+            [
                 {
                     "amount": 1,
                     "item": "Any Trunk"
@@ -10695,6 +10971,54 @@
         "item": {
             "amount": 1,
             "item": "White Wood Picket Fence"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Any Trunk"
+                },
+                {
+                    "amount": 4,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 2,
+                    "item": "Tacks"
+                }
+            ]
+        ],
+        "tool": "Any Hammer",
+        "item": {
+            "amount": 1,
+            "item": "New Wood Picket Fence"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Any Trunk"
+                },
+                {
+                    "amount": 4,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 2,
+                    "item": "Tacks"
+                }
+            ]
+        ],
+        "tool": "Any Hammer",
+        "item": {
+            "amount": 1,
+            "item": "Old Wood Picket Fence"
         },
         "type": "new"
     }
