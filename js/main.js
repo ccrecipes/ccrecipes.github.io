@@ -151,7 +151,7 @@
       	displayed_recipes = [];
       	$(".all_recipes").css("overflow-y", "hidden");
       	recipe_num = 0;
-      	$("#link-to-share").val(window.location.origin + "/?recipe=" + encodeURI(recipeitemname));
+      	$("#link-to-share").val(window.location.origin + "/recipe?recipe=" + encodeURI(recipeitemname));
       	displayed_recipes.push(recipeitemname);
       	index = [];
       	$(".shown_recipes").css("display", "block");
@@ -250,7 +250,7 @@
       	});
 
       	$(".exit").on("click", function () {
-      		window.location.href = "./index.html"
+      		window.location.href = "./"
       	})
       }
 
@@ -259,7 +259,7 @@
       		return false;
       	}
       	clicked_on = $(this).text();
-      	showRecipe(clicked_on);
+      	window.location.href = window.location.origin + "/recipe?recipe=" + encodeURI(clicked_on)
       })
 
 function itemClickEvent() {
