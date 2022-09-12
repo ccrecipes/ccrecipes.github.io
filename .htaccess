@@ -1,1 +1,2 @@
+RewriteEngine on
 RedirectMatch 301 ^/recipe /recipe.html
