@@ -250,19 +250,7 @@
       	});
 
       	$(".exit").on("click", function () {
-      		$(".all_recipes").css("display","block");
-      		$(".navbar").css("display","block");
-      		$(".burger").css("display","block");
-      		$(".window").css("display","none");
-      		$(".display_recipe").empty();
-      		$(".shown_recipes").css("display", "none");
-      		$(".all_recipes").css("overflow-y", "scroll");
-      		$(".set_quantity").css("display", "none");
-      		if(startedAtRecipe) {
-      			(adsbygoogle = window.adsbygoogle || []).push({});
-      			(adsbygoogle = window.adsbygoogle || []).push({});
-      			startedAtRecipe = false;
-      		}
+      		window.location.href = "./index.html"
       	})
       }
 
