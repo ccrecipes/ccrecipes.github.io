@@ -9,7 +9,7 @@
             "name": "Top Hat",
             "price": {
                 "min": 100,
-                "max": 150
+                "max": 200
             },
             "state": "Stable",
             "last_updated": "24/Sep/2022",
