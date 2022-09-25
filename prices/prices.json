@@ -6519,11 +6519,11 @@
             "section": "Valentine Pack",
             "name": "Wuvva Scarf",
             "price": {
-                "min": 6000,
-                "max": 8000
+                "min": 7500,
+                "max": 10000
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_341"
         }
     },
