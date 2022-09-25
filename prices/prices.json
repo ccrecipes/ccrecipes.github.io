@@ -3306,11 +3306,11 @@
             "section": "Discontinued",
             "name": "Furry Delivery Hat",
             "price": {
-                "min": 1500,
-                "max": 2500
+                "min": 2500,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "15/Sep/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_282"
         }
     },
