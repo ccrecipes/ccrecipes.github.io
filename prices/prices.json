@@ -9869,10 +9869,10 @@
             "name": "Skeletal Wings",
             "price": {
                 "min": 40000,
-                "max": 50000
+                "max": 45000
             },
             "state": "Stable",
-            "last_updated": "29/Aug/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_507"
         }
     },
