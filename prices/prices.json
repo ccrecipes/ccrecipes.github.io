@@ -8984,8 +8984,8 @@
             "section": "Halloween Pack",
             "name": "Headlnessness",
             "price": {
-                "min": 920000,
-                "max": 950000
+                "min": 800000,
+                "max": 900000
             },
             "state": "Decreasing",
             "last_updated": "25/Sep/2022",
