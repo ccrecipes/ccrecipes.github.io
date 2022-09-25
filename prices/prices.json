@@ -7760,11 +7760,11 @@
             "section": "Summer Pack",
             "name": "Black Hawaiian Shirt",
             "price": {
-                "min": 40000,
-                "max": 50000
+                "min": 45000,
+                "max": 55000
             },
             "state": "Stable",
-            "last_updated": "26/07/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_310"
         }
     },
