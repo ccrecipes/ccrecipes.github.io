@@ -7726,8 +7726,8 @@
             "section": "Summer Pack",
             "name": "Scuba Mask",
             "price": {
-                "min": 260000,
-                "max": 280000
+                "min": 240000,
+                "max": 260000
             },
             "state": "Decreasing",
             "last_updated": "25/Sep/2022",
