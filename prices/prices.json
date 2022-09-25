@@ -7777,11 +7777,11 @@
             "section": "Summer Pack",
             "name": "Hairy Guy On The Beach Chest",
             "price": {
-                "min": 50000,
-                "max": 60000
+                "min": 55000,
+                "max": 65000
             },
             "state": "Stable",
-            "last_updated": "26/07/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_308"
         }
     },
