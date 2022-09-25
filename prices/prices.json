@@ -12200,7 +12200,7 @@
                 "min": 85000,
                 "max": 95000
             },
-            "state": "Increasing",
+            "state": "Stable",
             "last_updated": "20/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_411"
         }
