@@ -11637,10 +11637,10 @@
             "name": "Winter Umbrella",
             "price": {
                 "min": 35000,
-                "max": 45000
+                "max": 40000
             },
             "state": "Stable",
-            "last_updated": "10/Sep/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_524"
         }
     },
