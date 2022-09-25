@@ -8746,11 +8746,11 @@
             "section": "Halloween Pack",
             "name": "Scythe",
             "price": {
-                "min": 890000,
-                "max": 930000
+                "min": 850000,
+                "max": 900000
             },
             "state": "Decreasing",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_383"
         }
     },
