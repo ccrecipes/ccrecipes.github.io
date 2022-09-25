@@ -7845,11 +7845,11 @@
             "section": "Summer Pack",
             "name": "Pink Bikini Top",
             "price": {
-                "min": 5000,
-                "max": 6000
+                "min": 6000,
+                "max": 7000
             },
             "state": "Stable",
-            "last_updated": "26/07/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_304"
         }
     },
