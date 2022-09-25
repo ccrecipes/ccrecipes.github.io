@@ -9001,11 +9001,11 @@
             "section": "Halloween Pack",
             "name": "Ghost Costume",
             "price": {
-                "min": 500000,
-                "max": 550000
+                "min": 425000,
+                "max": 475000
             },
             "state": "Decreasing",
-            "last_updated": "17/07/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_178"
         }
     },
