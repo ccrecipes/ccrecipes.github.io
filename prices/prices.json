@@ -10823,7 +10823,7 @@
                 "min": 1000000,
                 "max": 1200000
             },
-            "state": "Increasing",
+            "state": "Stable",
             "last_updated": "18/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_141"
         }
