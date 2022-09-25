@@ -6978,11 +6978,11 @@
             "section": "Valentine Pack",
             "name": "Wuvva Umbrella",
             "price": {
-                "min": 3500,
-                "max": 4500
+                "min": 3000,
+                "max": 3500
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_340"
         }
     },
