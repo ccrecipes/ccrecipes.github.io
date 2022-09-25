@@ -192,7 +192,7 @@
                 "min": 400000,
                 "max": 450000
             },
-            "state": "Stable",
+            "state": "Decreasing",
             "last_updated": "20/Sep/2022",
             "url": "ItemIcons_Blocks__Tile/00647_cropped"
         }
