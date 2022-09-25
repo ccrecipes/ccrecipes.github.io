@@ -10191,11 +10191,11 @@
             "section": "Thanksgiving Pack",
             "name": "Trumpet Hat",
             "price": {
-                "min": 390000,
-                "max": 420000
+                "min": 350000,
+                "max": 400000
             },
             "state": "Decreasing",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_516"
         }
     },
