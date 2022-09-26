@@ -70,10 +70,10 @@
     {
         "type": {
             "name": "REDWOOD FOREST CAP",
-            "section": "QUEST ITEM"
+            "section": "QUEST"
         },
         "item": {
-            "section": "Quest Item",
+            "section": "Quest",
             "name": "Redwood Forest Cap",
             "price": {
                 "min": 300,
@@ -10236,17 +10236,17 @@
     {
         "type": {
             "name": "TURKEY HEAD",
-            "section": "EVENT"
+            "section": "THANKSGIVING PACK"
         },
         "item": {
-            "section": "Event",
+            "section": "Thanksgiving Pack",
             "name": "Turkey Head",
             "price": {
-                "min": 10000,
+                "min": 12500,
                 "max": 15000
             },
             "state": "Increasing",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "26/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_321"
         }
     },
