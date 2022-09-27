@@ -9,10 +9,10 @@
             "name": "Top Hat",
             "price": {
                 "min": 100,
-                "max": 200
+                "max": 150
             },
             "state": "Stable",
-            "last_updated": "24/Sep/2022",
+            "last_updated": "27/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_001"
         }
     },
@@ -7996,7 +7996,7 @@
         },
         "item": {
             "section": "Summer Pack",
-            "name": "Grilling Trongs",
+            "name": "Grilling Tongs",
             "price": {
                 "min": 20000,
                 "max": 25000
