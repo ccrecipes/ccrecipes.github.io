@@ -9851,11 +9851,11 @@
             "section": "Halloween Pack",
             "name": "Zombie Pants",
             "price": {
-                "min": 15000,
-                "max": 17500
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_391"
         }
     },
