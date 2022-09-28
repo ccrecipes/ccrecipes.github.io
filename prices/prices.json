@@ -10004,11 +10004,11 @@
             "section": "Halloween Pack",
             "name": "Katanda on Back",
             "price": {
-                "min": 11000,
-                "max": 14000
+                "min": 10000,
+                "max": 13000
             },
             "state": "Stable",
-            "last_updated": "07/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_738"
         }
     },
