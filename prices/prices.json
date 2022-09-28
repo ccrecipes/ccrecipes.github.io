@@ -501,11 +501,11 @@
             "section": "Hat Pack",
             "name": "Bucket Head",
             "price": {
-                "min": 3000,
-                "max": 3500
+                "min": 2500,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_266"
         }
     },
