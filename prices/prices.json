@@ -9086,11 +9086,11 @@
             "section": "Halloween Pack",
             "name": "Werewolf Head",
             "price": {
-                "min": 65000,
-                "max": 70000
+                "min": 60000,
+                "max": 65000
             },
             "state": "Stable",
-            "last_updated": "27/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_320"
         }
     },
