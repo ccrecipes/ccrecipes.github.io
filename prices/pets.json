@@ -315,11 +315,11 @@
             "section": "Halloween Pack",
             "name": "Level 49 Pumpkin Kennel",
             "price": {
-                "min": 550000,
-                "max": 600000
+                "min": 500000,
+                "max": 550000
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Blocks__Tile/00531_cropped"
         }
     },
