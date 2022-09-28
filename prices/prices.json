@@ -12775,11 +12775,11 @@
             "section": "Yuletide Pack 2017",
             "name": "Sled Key",
             "price": {
-                "min": 60000,
-                "max": 70000
+                "min": 55000,
+                "max": 65000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Misc__Tile/177"
         }
     },
