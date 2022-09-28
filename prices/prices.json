@@ -7709,11 +7709,11 @@
             "section": "Summer Pack",
             "name": "UV Shades",
             "price": {
-                "min": 725000,
-                "max": 775000
+                "min": 700000,
+                "max": 750000
             },
             "state": "Stable",
-            "last_updated": "26/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_312"
         }
     },
