@@ -9375,11 +9375,11 @@
             "section": "Halloween Pack",
             "name": "Skull Head",
             "price": {
-                "min": 500,
-                "max": 750
+                "min": 250,
+                "max": 500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_107"
         }
     },
