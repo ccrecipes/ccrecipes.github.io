@@ -12588,11 +12588,11 @@
             "section": "Car",
             "name": "Spudbuggy Key",
             "price": {
-                "min": 12000,
-                "max": 14000
+                "min": 9000,
+                "max": 13000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Misc__Tile/145"
         }
     },
