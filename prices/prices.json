@@ -9307,11 +9307,11 @@
             "section": "Halloween Pack",
             "name": "Sub-Vampire Outfit",
             "price": {
-                "min": 4000,
-                "max": 6000
+                "min": 3500,
+                "max": 4500
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_277"
         }
     },
