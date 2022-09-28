@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test</title>
+</head>
+<style type="text/css">
+  body {
+    background-color: black;
+  }
+
+  .text {
+    position: relative;
+    font-size: 100%;
+    font-family: "Arial";
+    color: white;
+  }
+</style>
+<body>
+  <div>
+    <p id="test" class="text"></p>
+  </div>
+</body>
+  <script src="jquery.js"></script>
+  <script type="text/javascript">
+    fetch('https://ccrecipes.com/prices/prices.json')
+        .then(response => response.json())
+        .then(
+          (json) => {
+            let txt = ""
+            for (item in json) {
+              txt += json[item]["item"]["name"]+": "+json[item]["item"]["price"]["min"]+" - "+json[item]["item"]["price"]["max"]+"<br>";
+              {console.log(json[item]["item"]["name"]+": "+json[item]["item"]["price"]["min"]+" - "+json[item]["item"]["price"]["max"])};
+              document.getElementById('test').innerHTML = txt;
+            }
+          }
+        )
+
+  </script>
+</html>
