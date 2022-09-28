@@ -9630,11 +9630,11 @@
             "section": "Halloween Pack",
             "name": "Skinless Head",
             "price": {
-                "min": 800,
-                "max": 1000
+                "min": 500,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_597"
         }
     },
