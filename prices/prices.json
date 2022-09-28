@@ -7726,11 +7726,11 @@
             "section": "Summer Pack",
             "name": "Scuba Mask",
             "price": {
-                "min": 240000,
-                "max": 260000
+                "min": 220000,
+                "max": 240000
             },
             "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_313"
         }
     },
