@@ -5091,11 +5091,11 @@
             "section": "Event",
             "name": "Golden Egg Costume",
             "price": {
-                "min": 325000,
-                "max": 375000
+                "min": 400000,
+                "max": 500000
             },
-            "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "state": "Increasing",
+            "last_updated": "29/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_673"
         }
     },
@@ -8717,7 +8717,7 @@
             },
             "state": "Stable",
             "last_updated": "17/07/2022",
-            "url": "ItemIcons_Wear__Tile/IMG_676"
+            "url": "ItemIcons_Wear__Tile/IMG_694"
         }
     },
     {
