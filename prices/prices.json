@@ -4938,11 +4938,11 @@
             "section": "April Pack",
             "name": "Clown Mask",
             "price": {
-                "min": 55000,
-                "max": 65000
+                "min": 50000,
+                "max": 60000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "29/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_357"
         }
     },
