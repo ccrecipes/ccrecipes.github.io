@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+</head>
+<style type="text/css">
+
+	body {
+		background-color: black;
+	}
+
+	.list {
+	    text-align: center;
+	}
+
+	.item {
+		position: relative;
+		width: 100px;
+		display: inline-block
+	}
+
+	.item p {
+		position: relative;
+		transform: translate(-50%, 50%);
+		left: 50%;
+		top: 10%;
+		width: 100px;
+		text-align: center;
+		font-size: 100%;
+		font-family: 'Arial';
+		color: white;
+	}
+
+	.item img {
+		position: relative;
+		text-align: center;
+	}
+
+</style>
+<body>
+	<div class="list" id="prices">
+		<p id="test" class="text"></p>
+	</div>
+</body>
+	<script src="jquery.js"></script>
+	<script type="text/javascript">
+		fetch('./prices/prices.json')
+		    .then(response => response.json())
+		    //.then(json => {console.log(json[0].type.name)})
+		    //.then(json => {console.log(json[0].type.name)})
+		    // .then(json => document.getElementById('test2').innerHTML = json[0].type.name)
+		    .then(
+		    	(json) => {
+		    		let txt = ""
+		    		for (item in json) {
+		    			name = json[item]["item"]["name"]+"<br>"+json[item]["item"]["price"]["min"]+" - "+json[item]["item"]["price"]["max"]
+		    			img = "https://www.cubiccastles.com/recipe_html/"+json[item]["item"]["url"]+".png";
+		    			txt += `<div class='item'><img src=${img}><p>${name}</p></div>`;
+		    			//$("p").text(json[item]["type"]["name"])
+		    			//document.getElementById('test').innerHTML = json[item]["type"]["name"];
+		    			//{console.log(json[item]["type"]["name"])};
+		    			//{console.log(json[item]["item"]["name"]+": "+json[item]["item"]["price"]["min"]+" - "+json[item]["item"]["price"]["max"])};
+		    			document.getElementById('prices').innerHTML = txt;
+		    		}
+		    	}
+		    )
+
+	</script>
+</html>
