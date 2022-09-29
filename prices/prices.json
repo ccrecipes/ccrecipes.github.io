@@ -501,11 +501,11 @@
             "section": "Hat Pack",
             "name": "Bucket Head",
             "price": {
-                "min": 3000,
-                "max": 3500
+                "min": 2500,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_266"
         }
     },
@@ -4938,11 +4938,11 @@
             "section": "April Pack",
             "name": "Clown Mask",
             "price": {
-                "min": 55000,
-                "max": 65000
+                "min": 50000,
+                "max": 60000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "29/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_357"
         }
     },
@@ -5142,11 +5142,11 @@
             "section": "Event",
             "name": "Red Balloon",
             "price": {
-                "min": 90000,
-                "max": 100000
+                "min": 85000,
+                "max": 95000
             },
             "state": "Stable",
-            "last_updated": "26/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_208"
         }
     },
@@ -5193,11 +5193,11 @@
             "section": "Easter Pack",
             "name": "Umbrella",
             "price": {
-                "min": 85000,
-                "max": 95000
+                "min": 80000,
+                "max": 90000
             },
             "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_297"
         }
     },
@@ -6468,11 +6468,11 @@
             "section": "Valentine Pack",
             "name": "Cupid's Wings",
             "price": {
-                "min": 85000,
-                "max": 95000
+                "min": 82500,
+                "max": 87500
             },
             "state": "Decreasing",
-            "last_updated": "01/08/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_150"
         }
     },
@@ -7709,11 +7709,11 @@
             "section": "Summer Pack",
             "name": "UV Shades",
             "price": {
-                "min": 725000,
-                "max": 775000
+                "min": 700000,
+                "max": 750000
             },
             "state": "Stable",
-            "last_updated": "26/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_312"
         }
     },
@@ -7726,11 +7726,11 @@
             "section": "Summer Pack",
             "name": "Scuba Mask",
             "price": {
-                "min": 240000,
-                "max": 260000
+                "min": 220000,
+                "max": 240000
             },
             "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_313"
         }
     },
@@ -8083,11 +8083,11 @@
             "section": "Summer Pack",
             "name": "Leather Backpack",
             "price": {
-                "min": 25000,
-                "max": 30000
+                "min": 22000,
+                "max": 25000
             },
             "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_360"
         }
     },
@@ -8134,11 +8134,11 @@
             "section": "Fan Pack",
             "name": "Devil's Halo",
             "price": {
-                "min": 70000,
-                "max": 80000
+                "min": 65000,
+                "max": 70000
             },
             "state": "Stable",
-            "last_updated": "08/Aug/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_711"
         }
     },
@@ -8596,7 +8596,7 @@
                 "min": 7000,
                 "max": 9000
             },
-            "state": "Increasing",
+            "state": "Stable",
             "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_696"
         }
@@ -8763,11 +8763,11 @@
             "section": "Halloween Pack",
             "name": "Skull Balloon",
             "price": {
-                "min": 65000,
-                "max": 75000
+                "min": 60000,
+                "max": 70000
             },
             "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_508"
         }
     },
@@ -9086,11 +9086,11 @@
             "section": "Halloween Pack",
             "name": "Werewolf Head",
             "price": {
-                "min": 65000,
-                "max": 70000
+                "min": 60000,
+                "max": 65000
             },
             "state": "Stable",
-            "last_updated": "27/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_320"
         }
     },
@@ -9307,11 +9307,11 @@
             "section": "Halloween Pack",
             "name": "Sub-Vampire Outfit",
             "price": {
-                "min": 4000,
-                "max": 6000
+                "min": 3500,
+                "max": 4500
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_277"
         }
     },
@@ -9324,11 +9324,11 @@
             "section": "Halloween Pack",
             "name": "Frankenstein Head",
             "price": {
-                "min": 800,
+                "min": 500,
                 "max": 1000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_175"
         }
     },
@@ -9341,11 +9341,11 @@
             "section": "Halloween Pack",
             "name": "Pumpkin Head",
             "price": {
-                "min": 150,
-                "max": 350
+                "min": 200,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "28/Aug/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_176"
         }
     },
@@ -9375,11 +9375,11 @@
             "section": "Halloween Pack",
             "name": "Skull Head",
             "price": {
-                "min": 500,
-                "max": 750
+                "min": 250,
+                "max": 500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_107"
         }
     },
@@ -9545,11 +9545,11 @@
             "section": "Halloween Pack",
             "name": "Medusa Wig",
             "price": {
-                "min": 200,
-                "max": 350
+                "min": 150,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_503"
         }
     },
@@ -9630,11 +9630,11 @@
             "section": "Halloween Pack",
             "name": "Skinless Head",
             "price": {
-                "min": 800,
-                "max": 1000
+                "min": 500,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_597"
         }
     },
@@ -9647,11 +9647,11 @@
             "section": "Halloween Pack",
             "name": "Skinless Shirt",
             "price": {
-                "min": 800,
-                "max": 1000
+                "min": 500,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_598"
         }
     },
@@ -9664,11 +9664,11 @@
             "section": "Halloween Pack",
             "name": "Skinless Pants",
             "price": {
-                "min": 800,
-                "max": 1000
+                "min": 500,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_599"
         }
     },
@@ -9800,11 +9800,11 @@
             "section": "Halloween Pack",
             "name": "Mummy Wrap Pants",
             "price": {
-                "min": 15000,
-                "max": 17500
+                "min": 11000,
+                "max": 13000
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_275"
         }
     },
@@ -9851,11 +9851,11 @@
             "section": "Halloween Pack",
             "name": "Zombie Pants",
             "price": {
-                "min": 15000,
-                "max": 17500
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_391"
         }
     },
@@ -10004,11 +10004,11 @@
             "section": "Halloween Pack",
             "name": "Katanda on Back",
             "price": {
-                "min": 11000,
-                "max": 14000
+                "min": 10000,
+                "max": 13000
             },
             "state": "Stable",
-            "last_updated": "07/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_738"
         }
     },
@@ -10022,10 +10022,10 @@
             "name": "Ninja Shirt",
             "price": {
                 "min": 1500,
-                "max": 2500
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_736"
         }
     },
@@ -10038,11 +10038,11 @@
             "section": "Halloween Pack",
             "name": "Ninja Pants",
             "price": {
-                "min": 6500,
-                "max": 7500
+                "min": 5500,
+                "max": 6500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_737"
         }
     },
@@ -11075,11 +11075,11 @@
             "section": "Yuletide Pack",
             "name": "Toy Soldier Gun",
             "price": {
-                "min": 10000,
-                "max": 13000
+                "min": 9000,
+                "max": 11000
             },
             "state": "Decreasing",
-            "last_updated": "19/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_625"
         }
     },
@@ -11449,11 +11449,11 @@
             "section": "Yuletide Pack",
             "name": "Orange & Yellow Scarf",
             "price": {
-                "min": 90000,
-                "max": 100000
+                "min": 85000,
+                "max": 95000
             },
             "state": "Stable",
-            "last_updated": "27/Aug/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_139"
         }
     },
@@ -12197,11 +12197,11 @@
             "section": "New Year Pack",
             "name": "Firework Backpack",
             "price": {
-                "min": 85000,
-                "max": 95000
+                "min": 80000,
+                "max": 90000
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_411"
         }
     },
@@ -12588,11 +12588,11 @@
             "section": "Car",
             "name": "Spudbuggy Key",
             "price": {
-                "min": 12000,
-                "max": 14000
+                "min": 9000,
+                "max": 13000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Misc__Tile/145"
         }
     },
@@ -12656,11 +12656,11 @@
             "section": "Car",
             "name": "Moon Buggy Key",
             "price": {
-                "min": 30000,
-                "max": 35000
+                "min": 25000,
+                "max": 30000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Misc__Tile/230"
         }
     },
@@ -12775,11 +12775,11 @@
             "section": "Yuletide Pack 2017",
             "name": "Sled Key",
             "price": {
-                "min": 60000,
-                "max": 70000
+                "min": 55000,
+                "max": 65000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "28/Sep/2022",
             "url": "ItemIcons_Misc__Tile/177"
         }
     },
