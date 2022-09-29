@@ -44,16 +44,15 @@
 		<p id="test" class="text"></p>
 	</div>
 </body>
-	<script src="jquery.js"></script>
-	<script type="text/javascript">
-		fetch('./prices/prices.json')
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="prices.json">
+		fetch('./prices.json')
 		    .then(response => response.json())
 		    //.then(json => {console.log(json[0].type.name)})
 		    //.then(json => {console.log(json[0].type.name)})
 		    // .then(json => document.getElementById('test2').innerHTML = json[0].type.name)
 		    .then(
 		    	(json) => {
-		    		let txt = ""
 		    		for (item in json) {
 		    			name = json[item]["item"]["name"]+"<br>"+json[item]["item"]["price"]["min"]+" - "+json[item]["item"]["price"]["max"]
 		    			img = "https://www.cubiccastles.com/recipe_html/"+json[item]["item"]["url"]+".png";
