@@ -4955,11 +4955,11 @@
             "section": "April Pack",
             "name": "Dirt Block Head",
             "price": {
-                "min": 5000,
-                "max": 7000
+                "min": 6000,
+                "max": 8000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_559"
         }
     },
