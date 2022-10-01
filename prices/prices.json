@@ -4904,11 +4904,11 @@
             "section": "April Pack",
             "name": "Jester Pack",
             "price": {
-                "min": 13500,
-                "max": 16500
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_427"
         }
     },
