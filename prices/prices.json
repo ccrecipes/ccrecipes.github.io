@@ -11075,11 +11075,11 @@
             "section": "Yuletide Pack",
             "name": "Toy Soldier Gun",
             "price": {
-                "min": 9000,
-                "max": 11000
+                "min": 7000,
+                "max": 9000
             },
             "state": "Decreasing",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_625"
         }
     },
