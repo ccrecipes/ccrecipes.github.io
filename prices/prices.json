@@ -10412,11 +10412,11 @@
             "section": "Thanksgiving Pack",
             "name": "Acorn Backpack",
             "price": {
-                "min": 500,
-                "max": 1000
+                "min": 350,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_600"
         }
     },
