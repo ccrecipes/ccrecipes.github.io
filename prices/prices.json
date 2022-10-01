@@ -10837,11 +10837,11 @@
             "section": "Yuletide Pack",
             "name": "Krampus Mask 2018",
             "price": {
-                "min": 60000,
-                "max": 70000
+                "min": 55000,
+                "max": 60000
             },
             "state": "Stable",
-            "last_updated": "16/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_402"
         }
     },
