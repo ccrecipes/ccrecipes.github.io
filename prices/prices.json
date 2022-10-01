@@ -11636,11 +11636,11 @@
             "section": "Yuletide Pack",
             "name": "Winter Umbrella",
             "price": {
-                "min": 35000,
-                "max": 40000
+                "min": 30000,
+                "max": 35000
             },
             "state": "Stable",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_524"
         }
     },
