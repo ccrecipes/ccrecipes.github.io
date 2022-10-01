@@ -12792,11 +12792,11 @@
             "section": "Car",
             "name": "Rocket Sled",
             "price": {
-                "min": 125000,
-                "max": 150000
+                "min": 120000,
+                "max": 140000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Misc__Tile/228"
         }
     },
