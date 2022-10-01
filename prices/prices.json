@@ -5193,11 +5193,11 @@
             "section": "Easter Pack",
             "name": "Umbrella",
             "price": {
-                "min": 80000,
-                "max": 90000
+                "min": 90000,
+                "max": 100000
             },
             "state": "Decreasing",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_297"
         }
     },
