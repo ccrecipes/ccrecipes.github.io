@@ -9885,11 +9885,11 @@
             "section": "Halloween Pack",
             "name": "Web Wings",
             "price": {
-                "min": 15000,
-                "max": 17500
+                "min": 13500,
+                "max": 15500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_510"
         }
     },
