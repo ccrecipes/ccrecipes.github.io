@@ -7761,7 +7761,7 @@
             "name": "Black Hawaiian Shirt",
             "price": {
                 "min": 55000,
-                "max": 70000
+                "max": 65000
             },
             "state": "Increasing",
             "last_updated": "01/Oct/2022",
