@@ -12721,7 +12721,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack 2021",
+            "section": "Halloween Pack",
             "name": "Dracu Mobile Key",
             "price": {
                 "min": 30000,
@@ -12738,7 +12738,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack 2021",
+            "section": "Halloween Pack",
             "name": "Floating Witch's Broom Key",
             "price": {
                 "min": 65000,
@@ -12755,7 +12755,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack 2021",
+            "section": "Halloween Pack",
             "name": "Haunted Carriage",
             "price": {
                 "min": 95000,
@@ -12772,7 +12772,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Yuletide Pack 2017",
+            "section": "Yuletide Pack",
             "name": "Sled Key",
             "price": {
                 "min": 55000,
@@ -12806,7 +12806,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Yuletide Pack 2021",
+            "section": "Yuletide Pack",
             "name": "Christmas Key",
             "price": {
                 "min": 7500,
