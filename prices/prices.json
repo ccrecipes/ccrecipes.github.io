@@ -4972,11 +4972,11 @@
             "section": "April Pack",
             "name": "Banana Split Hat",
             "price": {
-                "min": 30000,
-                "max": 35000
+                "min": 25000,
+                "max": 30000
             },
             "state": "Decreasing",
-            "last_updated": "22/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_558"
         }
     },
