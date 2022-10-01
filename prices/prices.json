@@ -8848,11 +8848,11 @@
             "section": "Halloween Pack",
             "name": "Pumpkin Pack",
             "price": {
-                "min": 600000,
-                "max": 700000
+                "min": 500000,
+                "max": 600000
             },
             "state": "Decreasing",
-            "last_updated": "26/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_380"
         }
     },
