@@ -11466,11 +11466,11 @@
             "section": "Yuletide Pack",
             "name": "Blue & White Scarf",
             "price": {
-                "min": 14000,
-                "max": 16000
+                "min": 13500,
+                "max": 15500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_138"
         }
     },
