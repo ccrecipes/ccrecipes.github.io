@@ -4955,7 +4955,7 @@
             "section": "April Pack",
             "name": "Dirt Block Head",
             "price": {
-                "min": 7000,
+                "min": 6000,
                 "max": 8000
             },
             "state": "Stable",
