@@ -5196,7 +5196,7 @@
                 "min": 90000,
                 "max": 100000
             },
-            "state": "Decreasing",
+            "state": "Stable",
             "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_297"
         }
