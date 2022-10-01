@@ -6757,11 +6757,11 @@
             "section": "Valentine Pack",
             "name": "Queen's Crown",
             "price": {
-                "min": 8000,
-                "max": 14000
+                "min": 10000,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "19/Sep/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_417"
         }
     },
