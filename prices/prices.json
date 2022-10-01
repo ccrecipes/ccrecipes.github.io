@@ -10735,11 +10735,11 @@
             "section": "Thanksgiving Pack",
             "name": "Green Deluxe Hunting Net",
             "price": {
-                "min": 800,
-                "max": 1000
+                "min": 1000,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_609"
         }
     },
