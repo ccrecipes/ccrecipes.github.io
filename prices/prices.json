@@ -10786,11 +10786,11 @@
             "section": "Yuletide Pack",
             "name": "Snowman Costume",
             "price": {
-                "min": 15000,
-                "max": 18000
+                "min": 14000,
+                "max": 16000
             },
             "state": "Stable",
-            "last_updated": "18/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_331"
         }
     },
