@@ -12198,10 +12198,10 @@
             "name": "Firework Backpack",
             "price": {
                 "min": 80000,
-                "max": 90000
+                "max": 85000
             },
             "state": "Stable",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_411"
         }
     },
