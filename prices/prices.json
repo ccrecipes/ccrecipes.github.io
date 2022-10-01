@@ -10871,11 +10871,11 @@
             "section": "Yuletide Pack",
             "name": "Krampus Mask 2020",
             "price": {
-                "min": 8500,
-                "max": 10000
+                "min": 7000,
+                "max": 9000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_622"
         }
     },
