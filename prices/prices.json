@@ -10651,10 +10651,10 @@
             "name": "Jeans",
             "price": {
                 "min": 1000,
-                "max": 1500
+                "max": 1250
             },
             "state": "Stable",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_514"
         }
     },
