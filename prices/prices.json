@@ -10514,11 +10514,11 @@
             "section": "Thanksgiving Pack",
             "name": "Pilgrim Pants",
             "price": {
-                "min": 4000,
-                "max": 6000
+                "min": 7500,
+                "max": 12500
             },
             "state": "Stable",
-            "last_updated": "11/Sep/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_327"
         }
     },
