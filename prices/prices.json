@@ -8117,11 +8117,11 @@
             "section": "Summer Pack",
             "name": "Blue Backpack",
             "price": {
-                "min": 30000,
-                "max": 35000
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "26/Sep/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_359"
         }
     },
