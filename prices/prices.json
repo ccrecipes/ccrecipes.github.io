@@ -12333,11 +12333,11 @@
             "section": "Slymecorp Pack",
             "name": "Slymegood Head",
             "price": {
-                "min": 300,
-                "max": 500
+                "min": 200,
+                "max": 400
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "02/Oct/2022",
             "url": ""
         }
     },
