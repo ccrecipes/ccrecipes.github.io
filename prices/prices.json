@@ -12520,11 +12520,11 @@
             "section": "Slymecorp Pack",
             "name": "Pipe Wrench",
             "price": {
-                "min": 7000,
-                "max": 8000
+                "min": 3000,
+                "max": 4000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "02/Oct/2022",
             "url": ""
         }
     },
