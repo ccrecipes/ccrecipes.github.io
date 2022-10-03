@@ -3915,7 +3915,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Sci-fi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Cosmic Cow Head",
             "price": {
                 "min": 10000,
@@ -3932,7 +3932,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Sci-fi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Scanner",
             "price": {
                 "min": 350,
@@ -3949,7 +3949,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Sci-fi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Moonar Helmet",
             "price": {
                 "min": 200,
@@ -3966,7 +3966,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Sci-fi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Modern Astronaut Helmet",
             "price": {
                 "min": 200,
@@ -3983,8 +3983,8 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Sci-fi Pack",
-            "name": "Scifi Astronaut Helmet",
+            "section": "Sci-Fi Pack",
+            "name": "Sci-Fi Astronaut Helmet",
             "price": {
                 "min": 200,
                 "max": 350
@@ -4000,7 +4000,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Sci-fi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Moonar Jacket",
             "price": {
                 "min": 250,
@@ -4017,7 +4017,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Sci-fi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Moonar Pants",
             "price": {
                 "min": 250,
@@ -4034,7 +4034,7 @@
             "section": "SCIFI PACK+"
         },
         "item": {
-            "section": "Sci-fi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Moonar Pack",
             "price": {
                 "min": 200,
@@ -4051,8 +4051,8 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Sci-fi Pack",
-            "name": "Scifi O2 Tank",
+            "section": "Sci-Fi Pack",
+            "name": "Sci-Fi O2 Tank",
             "price": {
                 "min": 200,
                 "max": 400
