@@ -10,7 +10,7 @@
 
 */
 
-.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(../prices/cctest/wearables.png);}
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(wearables.png);}
 
 .IMG_001 {width:49px; height:54px; background-position: -182px -583px}
 .IMG_003 {width:52px; height:55px; background-position: -1262px -583px}
