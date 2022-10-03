@@ -11,10 +11,7 @@ $.ajax({
         //txt += `<div class='item'><img src=${img}></div>`;
         txt = `<div class='item'><span class='${img} sprite'></span></div>`;
         //txt += `<div class='item'><img src=${img}><p>${name}</p></div>`;
-        //{console.log(json[item]["type"]["name"])};
-        //{console.log(json[item]["item"]["name"]+": "+json[item]["item"]["price"]["min"]+" - "+json[item]["item"]["price"]["max"])};
         document.getElementById('prices').innerHTML += txt;
-        console.log(txt)
     }
 
     },
