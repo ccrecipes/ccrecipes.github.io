@@ -18,16 +18,21 @@
 
 	.item {
 		position: relative;
-		width: 100px;
+		height: 150px;
+		width: 110px;
+		margin: 5px;
+		background: linear-gradient(165deg, rgb(19, 48, 136) 19%, rgb(19, 78, 180) 20%, rgb(19, 78, 180) 80%, rgba(19, 48, 136) 81%);
+		box_shadow:  2px 2px rgb(0 29 80), 5px 5px rgb(0 0 0 / 50%);
+		border-radius: 3px;
 		display: inline-block
 	}
 
 	.item p {
-		position: relative;
+		position: absolute;
 		transform: translate(-50%, 50%);
 		left: 50%;
+		top: 30%;
 		width: 100px;
-		bottom: 5%;
 		text-align: center;
 		font-size: 100%;
 		font-family: 'Arial';
@@ -42,9 +47,8 @@
 
 </style>
 <body>
-	<div class="list">
-		<div id="prices">
-			<p id="test" class="text"></p>
+	<div id="prices" class="list">
+		<p id="test" class="text"></p>
 		</div>
 	</div>
 </body>
