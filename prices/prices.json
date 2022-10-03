@@ -3258,8 +3258,8 @@
                 "min": 1100000,
                 "max": 1200000
             },
-            "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "state": "Stable",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_156"
         }
     },
@@ -3273,10 +3273,10 @@
             "name": "Doc's Mirror",
             "price": {
                 "min": 375000,
-                "max": 400000
+                "max": 425000
             },
-            "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "state": "Stable",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_151"
         }
     },
@@ -3289,11 +3289,11 @@
             "section": "Quest",
             "name": "Koala Hat",
             "price": {
-                "min": 225000,
-                "max": 275000
+                "min": 250000,
+                "max": 300000
             },
             "state": "Stable",
-            "last_updated": "15/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_555"
         }
     },
@@ -3351,10 +3351,10 @@
     {
         "type": {
             "name": "SIMPLE MASK",
-            "section": "EVENT"
+            "section": "VIRUS"
         },
         "item": {
-            "section": "Event",
+            "section": "Virus",
             "name": "Simple Mask",
             "price": {
                 "min": 4000,
@@ -3368,10 +3368,10 @@
     {
         "type": {
             "name": "N95 MASK",
-            "section": "EVENT"
+            "section": "VIRUS"
         },
         "item": {
-            "section": "Event",
+            "section": "Virus",
             "name": "N95 Mask",
             "price": {
                 "min": 3000,
@@ -4813,7 +4813,7 @@
     {
         "type": {
             "name": "FOOL'S CAP",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -4830,7 +4830,7 @@
     {
         "type": {
             "name": "LESSER FOOL'S CAP",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -4847,7 +4847,7 @@
     {
         "type": {
             "name": "LEAST FOOL'S CAP",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -4864,7 +4864,7 @@
     {
         "type": {
             "name": "MOTLEY SHIRT",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -4881,7 +4881,7 @@
     {
         "type": {
             "name": "MOTLEY PANTS",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -4898,24 +4898,24 @@
     {
         "type": {
             "name": "JESTER PACK",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
             "name": "Jester Pack",
             "price": {
-                "min": 13500,
-                "max": 16500
+                "min": 15000,
+                "max": 17500
             },
-            "state": "Stable",
-            "last_updated": "17/07/2022",
+            "state": "Increasing",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_427"
         }
     },
     {
         "type": {
             "name": "JESTER'S CANE",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -4932,7 +4932,7 @@
     {
         "type": {
             "name": "CLOWN MASK",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -4949,41 +4949,41 @@
     {
         "type": {
             "name": "DIRT BLOCK HEAD",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
             "name": "Dirt Block Head",
             "price": {
-                "min": 5000,
-                "max": 7000
+                "min": 6000,
+                "max": 8000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_559"
         }
     },
     {
         "type": {
             "name": "BANANA SPLIT HAT",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
             "name": "Banana Split Hat",
             "price": {
-                "min": 30000,
-                "max": 35000
+                "min": 25000,
+                "max": 30000
             },
             "state": "Decreasing",
-            "last_updated": "22/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_558"
         }
     },
     {
         "type": {
             "name": "BEAGLEPUSS",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -5000,7 +5000,7 @@
     {
         "type": {
             "name": "HIPNO SHADEZ",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -5017,7 +5017,7 @@
     {
         "type": {
             "name": "HIPNO SHADES",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -5034,7 +5034,7 @@
     {
         "type": {
             "name": "WORN HAT",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -5051,7 +5051,7 @@
     {
         "type": {
             "name": "BROKEN GLASSES",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
@@ -5068,33 +5068,33 @@
     {
         "type": {
             "name": "HALF HAT",
-            "section": "APRIL PACK"
+            "section": "APRIL"
         },
         "item": {
             "section": "April Pack",
             "name": "Half Hat",
             "price": {
-                "min": 3000,
-                "max": 4500
+                "min": 1500,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_658"
         }
     },
     {
         "type": {
             "name": "GOLDEN EGG COSTUME",
-            "section": "EVENT"
+            "section": "EASTER"
         },
         "item": {
-            "section": "Event",
+            "section": "Easter",
             "name": "Golden Egg Costume",
             "price": {
                 "min": 400000,
                 "max": 500000
             },
-            "state": "Increasing",
+            "state": "Stable",
             "last_updated": "29/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_673"
         }
@@ -5102,10 +5102,10 @@
     {
         "type": {
             "name": "RAINBOW UMBRELLA",
-            "section": "EVENT"
+            "section": "EASTER"
         },
         "item": {
-            "section": "Event",
+            "section": "Easter",
             "name": "Rainbow Umbrella",
             "price": {
                 "min": 500000,
@@ -5119,10 +5119,10 @@
     {
         "type": {
             "name": "ROBOSLYME COSTUME",
-            "section": "EVENT"
+            "section": "EASTER"
         },
         "item": {
-            "section": "Event",
+            "section": "Easter",
             "name": "RoboSlyme Costume",
             "price": {
                 "min": 200000,
@@ -5136,10 +5136,10 @@
     {
         "type": {
             "name": "RED BALLOON",
-            "section": "EVENT"
+            "section": "EASTER"
         },
         "item": {
-            "section": "Event",
+            "section": "Easter",
             "name": "Red Balloon",
             "price": {
                 "min": 85000,
@@ -5153,10 +5153,10 @@
     {
         "type": {
             "name": "ROBOZILLA HEAD",
-            "section": "EVENT"
+            "section": "EASTER"
         },
         "item": {
-            "section": "Event",
+            "section": "Easter",
             "name": "RoboZilla Head",
             "price": {
                 "min": 15000,
@@ -5170,7 +5170,7 @@
     {
         "type": {
             "name": "EASTER UMBRELLA",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5187,24 +5187,24 @@
     {
         "type": {
             "name": "UMBRELLA",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
             "name": "Umbrella",
             "price": {
-                "min": 80000,
-                "max": 90000
+                "min": 90000,
+                "max": 100000
             },
-            "state": "Decreasing",
-            "last_updated": "28/Sep/2022",
+            "state": "Stable",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_297"
         }
     },
     {
         "type": {
             "name": "NEW EASTER UMBRELLA",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5221,7 +5221,7 @@
     {
         "type": {
             "name": "RED CHERRY BLOSSOM UMBRELLA",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5238,7 +5238,7 @@
     {
         "type": {
             "name": "PINK CHERRY BLOSSOM UMBRELLA",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5255,7 +5255,7 @@
     {
         "type": {
             "name": "RED TRADITIONAL UMBRELLA",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5272,7 +5272,7 @@
     {
         "type": {
             "name": "EASTER WAND",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5289,7 +5289,7 @@
     {
         "type": {
             "name": "GREEN FLOWER WAND",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5306,7 +5306,7 @@
     {
         "type": {
             "name": "ORANGE FLOWER WAND",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5323,7 +5323,7 @@
     {
         "type": {
             "name": "CARROT WAND",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5340,7 +5340,7 @@
     {
         "type": {
             "name": "EPIC GREEK ORTHODOX EASTER CROWN",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5357,7 +5357,7 @@
     {
         "type": {
             "name": "BUNNY TOPHAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5374,7 +5374,7 @@
     {
         "type": {
             "name": "EASTER TOPHAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5391,7 +5391,7 @@
     {
         "type": {
             "name": "EASTER BONNET",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5408,7 +5408,7 @@
     {
         "type": {
             "name": "EASTER HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5425,7 +5425,7 @@
     {
         "type": {
             "name": "PURPLE EASTER HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5442,7 +5442,7 @@
     {
         "type": {
             "name": "WHITE BOATER HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5459,7 +5459,7 @@
     {
         "type": {
             "name": "BLUE ANT CAP",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5476,7 +5476,7 @@
     {
         "type": {
             "name": "RED ANT CAP",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5493,7 +5493,7 @@
     {
         "type": {
             "name": "DUCK HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5510,7 +5510,7 @@
     {
         "type": {
             "name": "RABBIT HEAD",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5527,7 +5527,7 @@
     {
         "type": {
             "name": "FROG HEAD",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5544,7 +5544,7 @@
     {
         "type": {
             "name": "MUSHROOM HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5561,7 +5561,7 @@
     {
         "type": {
             "name": "SNAIL BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5578,7 +5578,7 @@
     {
         "type": {
             "name": "LADYBUG HELMET",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5595,7 +5595,7 @@
     {
         "type": {
             "name": "LADYBUG WINGS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5612,7 +5612,7 @@
     {
         "type": {
             "name": "CATERPILLAR HOODIE",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5629,7 +5629,7 @@
     {
         "type": {
             "name": "CATERPILLAR KNAPSACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5646,7 +5646,7 @@
     {
         "type": {
             "name": "BEE HELMET",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5663,7 +5663,7 @@
     {
         "type": {
             "name": "BEE BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5680,7 +5680,7 @@
     {
         "type": {
             "name": "EGG CAP",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5697,7 +5697,7 @@
     {
         "type": {
             "name": "CHICKEN HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5714,7 +5714,7 @@
     {
         "type": {
             "name": "CHICK HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5731,7 +5731,7 @@
     {
         "type": {
             "name": "EGG HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5748,7 +5748,7 @@
     {
         "type": {
             "name": "CARROT HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5765,7 +5765,7 @@
     {
         "type": {
             "name": "I AM A FLOWER",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5782,7 +5782,7 @@
     {
         "type": {
             "name": "LONELY BRANCH",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5799,7 +5799,7 @@
     {
         "type": {
             "name": "CARROT HEADBAND",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5816,7 +5816,7 @@
     {
         "type": {
             "name": "BLUE FAB BUNNY EARS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5833,7 +5833,7 @@
     {
         "type": {
             "name": "PURPLELICOUS BUNNY EARS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5850,7 +5850,7 @@
     {
         "type": {
             "name": "PINKTASTIC BUNNY EARS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5867,7 +5867,7 @@
     {
         "type": {
             "name": "FAB YELLOW BUNNY EARS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5884,7 +5884,7 @@
     {
         "type": {
             "name": "KEEN GREEN BUNNY EARS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5901,24 +5901,24 @@
     {
         "type": {
             "name": "BUNNY PYJAMAS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
             "name": "Bunny Pyjamas",
             "price": {
-                "min": 450000,
-                "max": 500000
+                "min": 400000,
+                "max": 450000
             },
             "state": "Decreasing",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_196"
         }
     },
     {
         "type": {
             "name": "BLUE FLORAL CROWN",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5935,7 +5935,7 @@
     {
         "type": {
             "name": "PURPLE FLORAL CROWN",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5952,7 +5952,7 @@
     {
         "type": {
             "name": "YELLOW FLORAL CROWN",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5969,7 +5969,7 @@
     {
         "type": {
             "name": "PINK FLORAL CROWN",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -5986,7 +5986,7 @@
     {
         "type": {
             "name": "GREEN FLORAL CROWN",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6003,7 +6003,7 @@
     {
         "type": {
             "name": "GARDEN BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6020,7 +6020,7 @@
     {
         "type": {
             "name": "COOKIE BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6037,7 +6037,7 @@
     {
         "type": {
             "name": "BUNNY BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6054,7 +6054,7 @@
     {
         "type": {
             "name": "GREEN EASTER BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6071,7 +6071,7 @@
     {
         "type": {
             "name": "YELLOW EASTER BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6088,7 +6088,7 @@
     {
         "type": {
             "name": "BLUE EASTER BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6105,7 +6105,7 @@
     {
         "type": {
             "name": "RED EASTER BACKPACK",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6122,7 +6122,7 @@
     {
         "type": {
             "name": "PINK RABBIT HOOD",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6139,7 +6139,7 @@
     {
         "type": {
             "name": "PINK RABBIT SHIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6156,7 +6156,7 @@
     {
         "type": {
             "name": "PINK RABBIT PANTS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6173,7 +6173,7 @@
     {
         "type": {
             "name": "BLUE KIMONO SHIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6190,7 +6190,7 @@
     {
         "type": {
             "name": "BLUE KIMONO SKIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6207,7 +6207,7 @@
     {
         "type": {
             "name": "PINK KIMONO SHIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6224,7 +6224,7 @@
     {
         "type": {
             "name": "PINK KIMONO SKIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6241,7 +6241,7 @@
     {
         "type": {
             "name": "EASTER PATTERN SHIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6258,7 +6258,7 @@
     {
         "type": {
             "name": "EASTER EGG SHIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6275,7 +6275,7 @@
     {
         "type": {
             "name": "EGG SUNGLASSES",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6292,7 +6292,7 @@
     {
         "type": {
             "name": "SUNFLOWER GLASSES",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6309,7 +6309,7 @@
     {
         "type": {
             "name": "EGG HEAD",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6326,7 +6326,7 @@
     {
         "type": {
             "name": "BLUE RABBIT HOOD",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6343,7 +6343,7 @@
     {
         "type": {
             "name": "BLUE RABBIT SHIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6360,7 +6360,7 @@
     {
         "type": {
             "name": "BLUE RABBIT PANTS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6377,7 +6377,7 @@
     {
         "type": {
             "name": "FLORAL HAT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6394,7 +6394,7 @@
     {
         "type": {
             "name": "FLORAL SHIRT",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6411,7 +6411,7 @@
     {
         "type": {
             "name": "FLORAL PANTS",
-            "section": "EASTER PACK"
+            "section": "EASTER"
         },
         "item": {
             "section": "Easter Pack",
@@ -6445,7 +6445,7 @@
     {
         "type": {
             "name": "CUPID'S HALO",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6462,24 +6462,24 @@
     {
         "type": {
             "name": "CUPID'S WINGS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
             "name": "Cupid's Wings",
             "price": {
-                "min": 82500,
-                "max": 87500
+                "min": 85000,
+                "max": 90000
             },
-            "state": "Decreasing",
-            "last_updated": "28/Sep/2022",
+            "state": "Stable",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_150"
         }
     },
     {
         "type": {
             "name": "VALENTINE WINGS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6496,7 +6496,7 @@
     {
         "type": {
             "name": "HEART WINGS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6513,7 +6513,7 @@
     {
         "type": {
             "name": "WUVVA SCARF",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6530,7 +6530,7 @@
     {
         "type": {
             "name": "HEART BACKPACK",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6547,7 +6547,7 @@
     {
         "type": {
             "name": "MOUSE BACKPACK",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6564,7 +6564,7 @@
     {
         "type": {
             "name": "STUFF TOY BACKPACK",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6581,7 +6581,7 @@
     {
         "type": {
             "name": "TURTLE BACKPACK",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6598,7 +6598,7 @@
     {
         "type": {
             "name": "WHITE WUVVA SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6615,7 +6615,7 @@
     {
         "type": {
             "name": "PINK WUVVA SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6632,7 +6632,7 @@
     {
         "type": {
             "name": "RED WUVVA SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6649,7 +6649,7 @@
     {
         "type": {
             "name": "HALF HEART LEFT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6666,7 +6666,7 @@
     {
         "type": {
             "name": "HALF HEART RIGHT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6683,7 +6683,7 @@
     {
         "type": {
             "name": "YELLOW PRINCESS TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6700,7 +6700,7 @@
     {
         "type": {
             "name": "YELLOW PRINCESS DRESS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6717,7 +6717,7 @@
     {
         "type": {
             "name": "GREEN PRINCESS TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6734,7 +6734,7 @@
     {
         "type": {
             "name": "GREEN PRINCESS DRESS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6751,24 +6751,24 @@
     {
         "type": {
             "name": "QUEEN'S CROWN",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
             "name": "Queen's Crown",
             "price": {
-                "min": 8000,
-                "max": 14000
+                "min": 10000,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "19/Sep/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_417"
         }
     },
     {
         "type": {
             "name": "KING'S CROWN",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6785,7 +6785,7 @@
     {
         "type": {
             "name": "PANDA HAT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6802,7 +6802,7 @@
     {
         "type": {
             "name": "ALIEN HAT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6819,7 +6819,7 @@
     {
         "type": {
             "name": "FAKE HALO",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6836,7 +6836,7 @@
     {
         "type": {
             "name": "HEART HAT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6853,7 +6853,7 @@
     {
         "type": {
             "name": "APPLE O'LOVE",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6870,7 +6870,7 @@
     {
         "type": {
             "name": "HEART BEADS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6887,7 +6887,7 @@
     {
         "type": {
             "name": "ROMANTIC FLOWER",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6904,7 +6904,7 @@
     {
         "type": {
             "name": "HEART EARS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6921,7 +6921,7 @@
     {
         "type": {
             "name": "HEART TAIL",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6938,7 +6938,7 @@
     {
         "type": {
             "name": "LOVE BALLOON",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6955,7 +6955,7 @@
     {
         "type": {
             "name": "PINK BALLOON",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6972,7 +6972,7 @@
     {
         "type": {
             "name": "WUVVA UMBRELLA",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -6989,7 +6989,7 @@
     {
         "type": {
             "name": "TAKE THIS FLOWER",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7006,7 +7006,7 @@
     {
         "type": {
             "name": "LOVE WAND",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7023,7 +7023,7 @@
     {
         "type": {
             "name": "KNIGHT'S SWORD",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7040,7 +7040,7 @@
     {
         "type": {
             "name": "KNIGHT'S HELMET",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7057,7 +7057,7 @@
     {
         "type": {
             "name": "KNIGHT'S SHIELD",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7074,7 +7074,7 @@
     {
         "type": {
             "name": "TEDDY BEAR HEAD",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7091,7 +7091,7 @@
     {
         "type": {
             "name": "TEDDY BEAR SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7108,7 +7108,7 @@
     {
         "type": {
             "name": "TEDDY BEAR PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7125,7 +7125,7 @@
     {
         "type": {
             "name": "RAINBOW UNICORN TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7142,7 +7142,7 @@
     {
         "type": {
             "name": "RAINBOW UNICORN SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7159,7 +7159,7 @@
     {
         "type": {
             "name": "RAINBOW UNICORN PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7176,7 +7176,7 @@
     {
         "type": {
             "name": "RAINBOW UNICORN TAIL",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7193,7 +7193,7 @@
     {
         "type": {
             "name": "FLOWER TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7210,7 +7210,7 @@
     {
         "type": {
             "name": "FLOWER SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7227,7 +7227,7 @@
     {
         "type": {
             "name": "FLOWER PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7244,7 +7244,7 @@
     {
         "type": {
             "name": "CUTE BEE TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7261,7 +7261,7 @@
     {
         "type": {
             "name": "CUTE BEE SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7278,7 +7278,7 @@
     {
         "type": {
             "name": "CUTE BEE PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7295,7 +7295,7 @@
     {
         "type": {
             "name": "RABBIT M TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7312,7 +7312,7 @@
     {
         "type": {
             "name": "RABBIT M SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7329,7 +7329,7 @@
     {
         "type": {
             "name": "RABBIT M PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7346,7 +7346,7 @@
     {
         "type": {
             "name": "RABBIT F TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7363,7 +7363,7 @@
     {
         "type": {
             "name": "RABBIT F SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7380,7 +7380,7 @@
     {
         "type": {
             "name": "RABBIT F PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7397,7 +7397,7 @@
     {
         "type": {
             "name": "MOTEHR OWL TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7414,7 +7414,7 @@
     {
         "type": {
             "name": "MOTHER OWL SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7431,7 +7431,7 @@
     {
         "type": {
             "name": "MOTHER OWL PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7448,7 +7448,7 @@
     {
         "type": {
             "name": "BABY OWL TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7465,7 +7465,7 @@
     {
         "type": {
             "name": "BABY OWL SHIRT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7482,7 +7482,7 @@
     {
         "type": {
             "name": "BABY OWL PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7499,7 +7499,7 @@
     {
         "type": {
             "name": "RED TOP HAT",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7516,7 +7516,7 @@
     {
         "type": {
             "name": "ROSE ON THE MOUTH",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7533,7 +7533,7 @@
     {
         "type": {
             "name": "RED TUXEDO TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7550,7 +7550,7 @@
     {
         "type": {
             "name": "RED TUXEDO PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7567,7 +7567,7 @@
     {
         "type": {
             "name": "RED DRESS TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7584,7 +7584,7 @@
     {
         "type": {
             "name": "RED DRESS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7601,7 +7601,7 @@
     {
         "type": {
             "name": "HEART UMBRELLA",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7618,7 +7618,7 @@
     {
         "type": {
             "name": "CUPID BOW",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7635,41 +7635,41 @@
     {
         "type": {
             "name": "CUPID WIG",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
             "name": "Cupid Wig",
             "price": {
-                "min": 400,
-                "max": 600
+                "min": 350,
+                "max": 550
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_762"
         }
     },
     {
         "type": {
             "name": "CUPID WINGS 2",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
             "name": "Cupid Wings 2",
             "price": {
-                "min": 3500,
-                "max": 4500
+                "min": 3000,
+                "max": 4000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_763"
         }
     },
     {
         "type": {
             "name": "CUPID TOP",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7686,7 +7686,7 @@
     {
         "type": {
             "name": "CUPID PANTS",
-            "section": "VALENTINE PACK"
+            "section": "VALENTINE"
         },
         "item": {
             "section": "Valentine Pack",
@@ -7703,7 +7703,7 @@
     {
         "type": {
             "name": "UV SHADES",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7720,7 +7720,7 @@
     {
         "type": {
             "name": "SCUBA MASK",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7737,41 +7737,41 @@
     {
         "type": {
             "name": "BLUE HAWAIIAN SHIRT",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
             "name": "Blue Hawaiian Shirt",
             "price": {
-                "min": 170000,
-                "max": 190000
+                "min": 175000,
+                "max": 200000
             },
-            "state": "Decreasing",
-            "last_updated": "20/Sep/2022",
+            "state": "Stable",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_311"
         }
     },
     {
         "type": {
             "name": "BLACK HAWAIIAN SHIRT",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
             "name": "Black Hawaiian Shirt",
             "price": {
-                "min": 45000,
-                "max": 55000
+                "min": 55000,
+                "max": 65000
             },
-            "state": "Stable",
-            "last_updated": "25/Sep/2022",
+            "state": "Increasing",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_310"
         }
     },
     {
         "type": {
             "name": "HAIRY GUY ON THE BEACH CHEST",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7788,7 +7788,7 @@
     {
         "type": {
             "name": "HAIRY GUY ON THE BEACH THONG",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7805,7 +7805,7 @@
     {
         "type": {
             "name": "BLACK BIKINI TOP",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7822,7 +7822,7 @@
     {
         "type": {
             "name": "BLACK BIKINI BOTTOMS",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7839,7 +7839,7 @@
     {
         "type": {
             "name": "PINK BIKINI TOP",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7856,7 +7856,7 @@
     {
         "type": {
             "name": "PINK BIKINI BOTTOMS",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7873,7 +7873,7 @@
     {
         "type": {
             "name": "RED TANKINI TOP",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7890,7 +7890,7 @@
     {
         "type": {
             "name": "RED BIKINI BOTTOMS",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7907,7 +7907,7 @@
     {
         "type": {
             "name": "BLUE TANKINI TOP",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7924,7 +7924,7 @@
     {
         "type": {
             "name": "BLUE BIKINI BOTTOMS",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7941,7 +7941,7 @@
     {
         "type": {
             "name": "YELLOW TANKINI TOP",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7958,7 +7958,7 @@
     {
         "type": {
             "name": "YELLOW BIKINI BOTTOMS",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7975,7 +7975,7 @@
     {
         "type": {
             "name": "FISHING ROD",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -7992,7 +7992,7 @@
     {
         "type": {
             "name": "GRILLING TONGS",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -8009,7 +8009,7 @@
     {
         "type": {
             "name": "RANGER HAT",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -8026,7 +8026,7 @@
     {
         "type": {
             "name": "FISHING HAT",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -8043,7 +8043,7 @@
     {
         "type": {
             "name": "FISHING VEST",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -8060,7 +8060,7 @@
     {
         "type": {
             "name": "FISHING PANTS",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -8077,7 +8077,7 @@
     {
         "type": {
             "name": "LEATHER BACKPACK",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -8094,7 +8094,7 @@
     {
         "type": {
             "name": "CAMO BACKPACK",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
@@ -8111,24 +8111,24 @@
     {
         "type": {
             "name": "BLUE BACKPACK",
-            "section": "SUMMER PACK"
+            "section": "SUMMER"
         },
         "item": {
             "section": "Summer Pack",
             "name": "Blue Backpack",
             "price": {
-                "min": 30000,
-                "max": 35000
+                "min": 20000,
+                "max": 25000
             },
-            "state": "Stable",
-            "last_updated": "26/Sep/2022",
+            "state": "Decreasing",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_359"
         }
     },
     {
         "type": {
             "name": "DEVIL'S HALO",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8145,7 +8145,7 @@
     {
         "type": {
             "name": "RED ANGEL WINGS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8162,7 +8162,7 @@
     {
         "type": {
             "name": "ORANGE ANGEL WINGS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8179,7 +8179,7 @@
     {
         "type": {
             "name": "YELLOW ANGEL WINGS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8196,7 +8196,7 @@
     {
         "type": {
             "name": "GREEN ANGEL WINGS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8213,7 +8213,7 @@
     {
         "type": {
             "name": "CYAN ANGEL WINGS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8230,7 +8230,7 @@
     {
         "type": {
             "name": "BLUE ANGEL WINGS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8247,7 +8247,7 @@
     {
         "type": {
             "name": "VIOLET ANGEL WINGS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8264,7 +8264,7 @@
     {
         "type": {
             "name": "PINK ANGEL WINGS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8281,7 +8281,7 @@
     {
         "type": {
             "name": "DOUBLE SWORD BACK",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8298,7 +8298,7 @@
     {
         "type": {
             "name": "BLACK BEARD",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8315,7 +8315,7 @@
     {
         "type": {
             "name": "WALKING CANE",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8332,7 +8332,7 @@
     {
         "type": {
             "name": "ICE CREAM CONE WAND",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8349,7 +8349,7 @@
     {
         "type": {
             "name": "PENCIL WAND",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8366,7 +8366,7 @@
     {
         "type": {
             "name": "COW HEAD",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8383,7 +8383,7 @@
     {
         "type": {
             "name": "COW SHIRT",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8400,7 +8400,7 @@
     {
         "type": {
             "name": "COW PANTS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8417,7 +8417,7 @@
     {
         "type": {
             "name": "COW'S TAIL",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8434,7 +8434,7 @@
     {
         "type": {
             "name": "JAIL PRISONER'S HAT",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8451,7 +8451,7 @@
     {
         "type": {
             "name": "JAIL PRISONER'S SHIRT",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8468,7 +8468,7 @@
     {
         "type": {
             "name": "JAIL PRISONER'S PANTS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8485,7 +8485,7 @@
     {
         "type": {
             "name": "SAFARI SHIRT",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8502,7 +8502,7 @@
     {
         "type": {
             "name": "SAFARI PANTS",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8519,7 +8519,7 @@
     {
         "type": {
             "name": "SAFETY VEST",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8536,7 +8536,7 @@
     {
         "type": {
             "name": "WATERMELON HAT",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8553,7 +8553,7 @@
     {
         "type": {
             "name": "PINEAPPLE HAT",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8570,7 +8570,7 @@
     {
         "type": {
             "name": "LEMON HAT",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8587,7 +8587,7 @@
     {
         "type": {
             "name": "QBEETS HEADPHONE",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8604,7 +8604,7 @@
     {
         "type": {
             "name": "ENLARGED QBEE HEAD",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8621,7 +8621,7 @@
     {
         "type": {
             "name": "QUEEN CYBORG HEAD",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8638,7 +8638,7 @@
     {
         "type": {
             "name": "CYCLOPS EYE MASK",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8655,7 +8655,7 @@
     {
         "type": {
             "name": "FISH HEAD",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8672,7 +8672,7 @@
     {
         "type": {
             "name": "BLUE VIKING HELMET",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8689,7 +8689,7 @@
     {
         "type": {
             "name": "ANIME PIGTAIL HAIRSTYLE",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8706,7 +8706,7 @@
     {
         "type": {
             "name": "PRINCESS TIARA",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8723,7 +8723,7 @@
     {
         "type": {
             "name": "TINCAN HELMET",
-            "section": "FAN PACK"
+            "section": "FAN"
         },
         "item": {
             "section": "Fan Pack",
@@ -8740,7 +8740,7 @@
     {
         "type": {
             "name": "SCYTHE",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8757,7 +8757,7 @@
     {
         "type": {
             "name": "SKULL BALLOON",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8774,7 +8774,7 @@
     {
         "type": {
             "name": "SPIDERBRELLA",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8791,7 +8791,7 @@
     {
         "type": {
             "name": "PUMPKIN BALLOON",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8808,7 +8808,7 @@
     {
         "type": {
             "name": "JACK-O-BRELLA",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8825,7 +8825,7 @@
     {
         "type": {
             "name": "TRICK OR TREAT BAG",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8842,24 +8842,24 @@
     {
         "type": {
             "name": "PUMPKIN PACK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Pumpkin Pack",
             "price": {
-                "min": 600000,
-                "max": 700000
+                "min": 500000,
+                "max": 600000
             },
             "state": "Decreasing",
-            "last_updated": "26/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_380"
         }
     },
     {
         "type": {
             "name": "EGYPTIAN STAFF",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8876,7 +8876,7 @@
     {
         "type": {
             "name": "PITCHFORK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8893,7 +8893,7 @@
     {
         "type": {
             "name": "WIZARD'S WAND",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8910,7 +8910,7 @@
     {
         "type": {
             "name": "NATURE'S STAFF",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8927,7 +8927,7 @@
     {
         "type": {
             "name": "WITCH'S BROOM",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8944,7 +8944,7 @@
     {
         "type": {
             "name": "HEAD VAMPIRE OUTFIT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8961,7 +8961,7 @@
     {
         "type": {
             "name": "VAMPIRE'S CLOAK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8978,7 +8978,7 @@
     {
         "type": {
             "name": "HEADLNESSNESS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -8995,7 +8995,7 @@
     {
         "type": {
             "name": "GHOST COSTUME",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9012,24 +9012,24 @@
     {
         "type": {
             "name": "SLYME COSTUME",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Slyme Costume",
             "price": {
-                "min": 190000,
-                "max": 210000
+                "min": 165000,
+                "max": 180000
             },
             "state": "Stable",
-            "last_updated": "26/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_177"
         }
     },
     {
         "type": {
             "name": "DINO HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9046,7 +9046,7 @@
     {
         "type": {
             "name": "MONSTER HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9063,7 +9063,7 @@
     {
         "type": {
             "name": "SHARK HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9080,7 +9080,7 @@
     {
         "type": {
             "name": "WEREWOLF HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9097,7 +9097,7 @@
     {
         "type": {
             "name": "PYRAMID HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9114,7 +9114,7 @@
     {
         "type": {
             "name": "TWOBEE HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9131,7 +9131,7 @@
     {
         "type": {
             "name": "BEAKBEE HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9148,7 +9148,7 @@
     {
         "type": {
             "name": "TOOTHBEE HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9165,7 +9165,7 @@
     {
         "type": {
             "name": "CYCLOBEE HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9182,41 +9182,41 @@
     {
         "type": {
             "name": "ALIEN MASK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Alien Mask",
             "price": {
-                "min": 25000,
-                "max": 30000
+                "min": 22500,
+                "max": 27500
             },
             "state": "Stable",
-            "last_updated": "19/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_388"
         }
     },
     {
         "type": {
             "name": "DARK VISITOR",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Dark Visitor",
             "price": {
-                "min": 15000,
-                "max": 18000
+                "min": 14500,
+                "max": 17500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_389"
         }
     },
     {
         "type": {
             "name": "BLACK PLAGUE DOCTOR",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9233,7 +9233,7 @@
     {
         "type": {
             "name": "GREY PLAGUE DOCTOR",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9250,7 +9250,7 @@
     {
         "type": {
             "name": "PLAGUE DOCTOR",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9267,7 +9267,7 @@
     {
         "type": {
             "name": "PSYCHIC REVALATION CAP",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9284,7 +9284,7 @@
     {
         "type": {
             "name": "PSYCHIC REPULSION CAP",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9301,7 +9301,7 @@
     {
         "type": {
             "name": "SUB-VAMPIRE OUTFIT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9318,7 +9318,7 @@
     {
         "type": {
             "name": "FRANKENSTEIN HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9335,7 +9335,7 @@
     {
         "type": {
             "name": "PUMPKIN HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9352,7 +9352,7 @@
     {
         "type": {
             "name": "ROBOT HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9369,7 +9369,7 @@
     {
         "type": {
             "name": "SKULL HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9386,7 +9386,7 @@
     {
         "type": {
             "name": "DRAGON HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9403,24 +9403,24 @@
     {
         "type": {
             "name": "GOBLIN HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Goblin Head",
             "price": {
-                "min": 450,
-                "max": 750
+                "min": 350,
+                "max": 550
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_589"
         }
     },
     {
         "type": {
             "name": "MOUTH HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9437,7 +9437,7 @@
     {
         "type": {
             "name": "MAD SCIENTIS WIG",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9454,7 +9454,7 @@
     {
         "type": {
             "name": "LAGOON LURKER",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9471,7 +9471,7 @@
     {
         "type": {
             "name": "ANUBIS MASK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9488,7 +9488,7 @@
     {
         "type": {
             "name": "SPIDER HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9505,7 +9505,7 @@
     {
         "type": {
             "name": "CLEOPATRA WIG",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9522,7 +9522,7 @@
     {
         "type": {
             "name": "BRIDE OF FRANKENSTEIN WIG",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9539,7 +9539,7 @@
     {
         "type": {
             "name": "MEDUSA WIG",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9556,7 +9556,7 @@
     {
         "type": {
             "name": "HUNTER'S HAT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9573,7 +9573,7 @@
     {
         "type": {
             "name": "WITCH'S HAT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9590,7 +9590,7 @@
     {
         "type": {
             "name": "BAT MASK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9607,7 +9607,7 @@
     {
         "type": {
             "name": "BIG EYES",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9624,7 +9624,7 @@
     {
         "type": {
             "name": "SKINLESS HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9641,7 +9641,7 @@
     {
         "type": {
             "name": "SKINLESS SHIRT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9658,7 +9658,7 @@
     {
         "type": {
             "name": "SKINLESS PANTS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9675,7 +9675,7 @@
     {
         "type": {
             "name": "SKELLIE SUIT SHIRT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9692,7 +9692,7 @@
     {
         "type": {
             "name": "SKELLIE SUIT PANTS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9709,7 +9709,7 @@
     {
         "type": {
             "name": "DARK TRAVELLER HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9726,7 +9726,7 @@
     {
         "type": {
             "name": "DARK TRAVELLER TOP",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9743,7 +9743,7 @@
     {
         "type": {
             "name": "DARK TRAVELLER PANTS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9760,41 +9760,41 @@
     {
         "type": {
             "name": "MUMMY WRAP HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Mummy Wrap Head",
             "price": {
                 "min": 1500,
-                "max": 2500
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_273"
         }
     },
     {
         "type": {
             "name": "MUMMY WRAP SHIRT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Mummy Wrap Shirt",
             "price": {
-                "min": 4000,
-                "max": 5000
+                "min": 3500,
+                "max": 4500
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_274"
         }
     },
     {
         "type": {
             "name": "MUMMY WRAP PANTS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9811,41 +9811,41 @@
     {
         "type": {
             "name": "ZOMBIE HEAD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Zombie Head",
             "price": {
-                "min": 18000,
-                "max": 20000
+                "min": 17000,
+                "max": 19000
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_093"
         }
     },
     {
         "type": {
             "name": "ZOMBIE SHIRT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Zombie Shirt",
             "price": {
-                "min": 10000,
-                "max": 12000
+                "min": 8000,
+                "max": 10000
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_390"
         }
     },
     {
         "type": {
             "name": "ZOMBIE PANTS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9862,7 +9862,7 @@
     {
         "type": {
             "name": "SKELETAL WINGS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9879,24 +9879,24 @@
     {
         "type": {
             "name": "WEB WINGS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
             "name": "Web Wings",
             "price": {
-                "min": 15000,
-                "max": 17500
+                "min": 13500,
+                "max": 15500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_510"
         }
     },
     {
         "type": {
             "name": "BIGHEAD MASK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9913,7 +9913,7 @@
     {
         "type": {
             "name": "WITCH MASK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9930,7 +9930,7 @@
     {
         "type": {
             "name": "GOBLIN MASK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9947,7 +9947,7 @@
     {
         "type": {
             "name": "KILLER MASK V2",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9964,7 +9964,7 @@
     {
         "type": {
             "name": "KILLER MASK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9981,7 +9981,7 @@
     {
         "type": {
             "name": "NINJA MASK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -9998,7 +9998,7 @@
     {
         "type": {
             "name": "KATANDA ON BACK",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10015,7 +10015,7 @@
     {
         "type": {
             "name": "NINJA SHIRT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10032,7 +10032,7 @@
     {
         "type": {
             "name": "NINJA PANTS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10049,7 +10049,7 @@
     {
         "type": {
             "name": "DINOSAUR HOOD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10066,7 +10066,7 @@
     {
         "type": {
             "name": "DINOSAUR SHIRT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10083,7 +10083,7 @@
     {
         "type": {
             "name": "DINOSAUR PANTS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10100,7 +10100,7 @@
     {
         "type": {
             "name": "DINOSAUR TAIL",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10117,7 +10117,7 @@
     {
         "type": {
             "name": "BLACK CAT HOOD",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10134,7 +10134,7 @@
     {
         "type": {
             "name": "BLACK CAT SHIRT",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10151,7 +10151,7 @@
     {
         "type": {
             "name": "BLACK CAT PANTS",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10168,7 +10168,7 @@
     {
         "type": {
             "name": "BLACK CAT TAIL",
-            "section": "HALLOWEEN PACK"
+            "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween Pack",
@@ -10185,7 +10185,7 @@
     {
         "type": {
             "name": "TRUMPET HAT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10194,7 +10194,7 @@
                 "min": 350000,
                 "max": 400000
             },
-            "state": "Decreasing",
+            "state": "Stable",
             "last_updated": "25/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_516"
         }
@@ -10202,7 +10202,7 @@
     {
         "type": {
             "name": "BEARD",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10219,7 +10219,7 @@
     {
         "type": {
             "name": "PLAID HUNTING CAP",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10236,7 +10236,7 @@
     {
         "type": {
             "name": "TURKEY HEAD",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10253,10 +10253,10 @@
     {
         "type": {
             "name": "TURKEY BOLO",
-            "section": "EVENT"
+            "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Event",
+            "section": "Thanksgiving",
             "name": "Turkey Bolo",
             "price": {
                 "min": 25000,
@@ -10270,10 +10270,10 @@
     {
         "type": {
             "name": "PUMPKIN HAT",
-            "section": "EVENT"
+            "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Event",
+            "section": "Thanksgiving",
             "name": "Pumpkin Hat",
             "price": {
                 "min": 25000,
@@ -10287,10 +10287,10 @@
     {
         "type": {
             "name": "PUMPKIN STAFF",
-            "section": "EVENT"
+            "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Event",
+            "section": "Thanksgiving",
             "name": "Pumpkin Staff",
             "price": {
                 "min": 10000,
@@ -10304,10 +10304,10 @@
     {
         "type": {
             "name": "TURKEY STAFF",
-            "section": "EVENT"
+            "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Event",
+            "section": "Thanksgiving",
             "name": "Turkey Staff",
             "price": {
                 "min": 4000,
@@ -10321,7 +10321,7 @@
     {
         "type": {
             "name": "DRY LEAF STAFF",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10338,7 +10338,7 @@
     {
         "type": {
             "name": "DRY LEAF MASK",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10355,7 +10355,7 @@
     {
         "type": {
             "name": "DRY LEAVES TOP",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10372,7 +10372,7 @@
     {
         "type": {
             "name": "DRY LEAVES PANTS",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10389,41 +10389,41 @@
     {
         "type": {
             "name": "ACORN HAT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
             "name": "Acorn Hat",
             "price": {
-                "min": 350,
-                "max": 650
+                "min": 250,
+                "max": 450
             },
             "state": "Stable",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_601"
         }
     },
     {
         "type": {
             "name": "ACORN BACKPACK",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
             "name": "Acorn Backpack",
             "price": {
-                "min": 500,
-                "max": 1000
+                "min": 350,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_600"
         }
     },
     {
         "type": {
             "name": "BROWN SUIT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10440,7 +10440,7 @@
     {
         "type": {
             "name": "BROWN PANTS",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10457,24 +10457,24 @@
     {
         "type": {
             "name": "PILGRIM HAT BUSH",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
             "name": "Pilgrim Hat Bush",
             "price": {
-                "min": 350,
-                "max": 550
+                "min": 250,
+                "max": 450
             },
             "state": "Stable",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_517"
         }
     },
     {
         "type": {
             "name": "PILGRIM'S HAT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10491,41 +10491,41 @@
     {
         "type": {
             "name": "PILGRIM'S COAT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
             "name": "Pilgrim's Coat",
             "price": {
-                "min": 4000,
-                "max": 6000
+                "min": 10000,
+                "max": 20000
             },
-            "state": "Stable",
-            "last_updated": "11/Sep/2022",
+            "state": "Increasing",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_280"
         }
     },
     {
         "type": {
             "name": "PILGRIM PANTS",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
             "name": "Pilgrim Pants",
             "price": {
-                "min": 4000,
-                "max": 6000
+                "min": 7500,
+                "max": 12500
             },
-            "state": "Stable",
-            "last_updated": "11/Sep/2022",
+            "state": "Increasing",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_327"
         }
     },
     {
         "type": {
             "name": "PILGRIM BONNET",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10542,7 +10542,7 @@
     {
         "type": {
             "name": "PILGRIM SKIRT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10559,7 +10559,7 @@
     {
         "type": {
             "name": "TURKEY BEAK",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10576,7 +10576,7 @@
     {
         "type": {
             "name": "TURKEY TAIL",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10593,7 +10593,7 @@
     {
         "type": {
             "name": "FESTIVAL SHIRT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10610,7 +10610,7 @@
     {
         "type": {
             "name": "FESTIVAL PANTS",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10627,7 +10627,7 @@
     {
         "type": {
             "name": "SHOULDER TOP",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10644,24 +10644,24 @@
     {
         "type": {
             "name": "JEANS",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
             "name": "Jeans",
             "price": {
                 "min": 1000,
-                "max": 1500
+                "max": 1250
             },
             "state": "Stable",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_514"
         }
     },
     {
         "type": {
             "name": "MONO FESTIVAL HAT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10678,7 +10678,7 @@
     {
         "type": {
             "name": "FESTIVAL HAT",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10695,7 +10695,7 @@
     {
         "type": {
             "name": "BLUE FOOTBALL HELMET",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10712,7 +10712,7 @@
     {
         "type": {
             "name": "RED FOOTBALL HELMET",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
@@ -10729,24 +10729,24 @@
     {
         "type": {
             "name": "GREEN DELUXE HUNTING NET",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanksgiving Pack",
             "name": "Green Deluxe Hunting Net",
             "price": {
-                "min": 800,
-                "max": 1000
+                "min": 1000,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "02/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_609"
         }
     },
     {
         "type": {
             "name": "HUNTING NET",
-            "section": "THANKSGIVING PACK"
+            "section": "THANKSGIVING"
         },
         "item": {
             "section": "Thanks++egiving Pack",
@@ -10763,7 +10763,7 @@
     {
         "type": {
             "name": "MR. CHRISTMAS COSTUME",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10772,7 +10772,7 @@
                 "min": 120000,
                 "max": 130000
             },
-            "state": "Decreasing",
+            "state": "Stable",
             "last_updated": "20/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_189"
         }
@@ -10780,24 +10780,24 @@
     {
         "type": {
             "name": "SNOWMAN COSTUME",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
             "name": "Snowman Costume",
             "price": {
-                "min": 15000,
-                "max": 18000
+                "min": 14000,
+                "max": 16000
             },
             "state": "Stable",
-            "last_updated": "18/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_331"
         }
     },
     {
         "type": {
             "name": "CHRISTMAS GIFTBOX COSTUME",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10814,7 +10814,7 @@
     {
         "type": {
             "name": "KRAMPUS MASK",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10831,24 +10831,24 @@
     {
         "type": {
             "name": "KRAMPUS MASK 2018",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
             "name": "Krampus Mask 2018",
             "price": {
-                "min": 60000,
-                "max": 70000
+                "min": 55000,
+                "max": 60000
             },
             "state": "Stable",
-            "last_updated": "16/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_402"
         }
     },
     {
         "type": {
             "name": "CHEAP FAKE KRAMPUS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10865,24 +10865,24 @@
     {
         "type": {
             "name": "KRAMPUS MASK 2020",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
             "name": "Krampus Mask 2020",
             "price": {
-                "min": 8500,
-                "max": 10000
+                "min": 7000,
+                "max": 9000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_622"
         }
     },
     {
         "type": {
             "name": "KRAMPUS SHIRT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10899,7 +10899,7 @@
     {
         "type": {
             "name": "KRAMPUS PANTS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10916,7 +10916,7 @@
     {
         "type": {
             "name": "ICE HEAD",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10925,7 +10925,7 @@
                 "min": 75000,
                 "max": 85000
             },
-            "state": "Stable",
+            "state": "Increasing",
             "last_updated": "20/Sep/2022",
             "url": "ItemIcons_Wear__Tile/IMG_530"
         }
@@ -10933,7 +10933,7 @@
     {
         "type": {
             "name": "ICE SHIRT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10950,7 +10950,7 @@
     {
         "type": {
             "name": "ICE PANTS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10967,7 +10967,7 @@
     {
         "type": {
             "name": "SNOW QBEE HEAD",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -10984,7 +10984,7 @@
     {
         "type": {
             "name": "SNOW QBEE TOP",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11001,7 +11001,7 @@
     {
         "type": {
             "name": "SNOW QBEE PANTS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11018,24 +11018,24 @@
     {
         "type": {
             "name": "GINGERBREAD HEAD",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
             "name": "Gingerbread Head",
             "price": {
-                "min": 4500,
-                "max": 6500
+                "min": 6000,
+                "max": 9000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_285"
         }
     },
     {
         "type": {
             "name": "GINGERBREAD SHIRT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11052,7 +11052,7 @@
     {
         "type": {
             "name": "GINGERBREAD PANTS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11069,24 +11069,24 @@
     {
         "type": {
             "name": "TOY SOLDIER GUN",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
             "name": "Toy Soldier Gun",
             "price": {
-                "min": 9000,
-                "max": 11000
+                "min": 7000,
+                "max": 9000
             },
             "state": "Decreasing",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_625"
         }
     },
     {
         "type": {
             "name": "TOY SOLDIER CAP 2020",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11103,7 +11103,7 @@
     {
         "type": {
             "name": "TOY SOLDIER SHIRT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11120,7 +11120,7 @@
     {
         "type": {
             "name": "TOY SOLDIER PANTS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11137,7 +11137,7 @@
     {
         "type": {
             "name": "DOLL WIG",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11154,7 +11154,7 @@
     {
         "type": {
             "name": "DOLL SHIRT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11171,7 +11171,7 @@
     {
         "type": {
             "name": "DOLL DRESS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11188,7 +11188,7 @@
     {
         "type": {
             "name": "FANCY ELF HAT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11205,7 +11205,7 @@
     {
         "type": {
             "name": "ELF CAP",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11222,7 +11222,7 @@
     {
         "type": {
             "name": "ELF HAT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11239,7 +11239,7 @@
     {
         "type": {
             "name": "ELF SHIRT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11256,7 +11256,7 @@
     {
         "type": {
             "name": "ELF PANTS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11273,7 +11273,7 @@
     {
         "type": {
             "name": "SANTA HAT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11290,7 +11290,7 @@
     {
         "type": {
             "name": "SANTA BEARD",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11307,7 +11307,7 @@
     {
         "type": {
             "name": "SANTA SHIRT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11324,7 +11324,7 @@
     {
         "type": {
             "name": "SANTA PANTS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11341,7 +11341,7 @@
     {
         "type": {
             "name": "MRS SANTA HAT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11358,7 +11358,7 @@
     {
         "type": {
             "name": "MRS. CLAUS SKIRT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11375,7 +11375,7 @@
     {
         "type": {
             "name": "UGLY CHRISTMAS SWEATER",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11392,7 +11392,7 @@
     {
         "type": {
             "name": "CHRISTMAS OUTFIT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11409,7 +11409,7 @@
     {
         "type": {
             "name": "ELF GLASSES",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11426,7 +11426,7 @@
     {
         "type": {
             "name": "CHRISTMAS GLASSES",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11443,7 +11443,7 @@
     {
         "type": {
             "name": "ORANGE & YELLOW SCARF",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11460,24 +11460,24 @@
     {
         "type": {
             "name": "BLUE & WHITE SCARF",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
             "name": "Blue & White Scarf",
             "price": {
-                "min": 14000,
-                "max": 16000
+                "min": 13500,
+                "max": 15500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_138"
         }
     },
     {
         "type": {
             "name": "RED & GREEN SCARF",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11494,7 +11494,7 @@
     {
         "type": {
             "name": "STARRY SCARF",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11511,7 +11511,7 @@
     {
         "type": {
             "name": "PURPLE SCARF",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11528,7 +11528,7 @@
     {
         "type": {
             "name": "XMAS SCARF",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11545,7 +11545,7 @@
     {
         "type": {
             "name": "WINTER SCARF",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11562,7 +11562,7 @@
     {
         "type": {
             "name": "GIFT BACKPACK 2",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11579,7 +11579,7 @@
     {
         "type": {
             "name": "GIFT BACKPACK",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11596,7 +11596,7 @@
     {
         "type": {
             "name": "SANTA PACK",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11613,7 +11613,7 @@
     {
         "type": {
             "name": "ICY WINGS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11630,24 +11630,24 @@
     {
         "type": {
             "name": "WINTER UMBRELLA",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
             "name": "Winter Umbrella",
             "price": {
-                "min": 35000,
-                "max": 40000
+                "min": 30000,
+                "max": 35000
             },
             "state": "Stable",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_524"
         }
     },
     {
         "type": {
             "name": "CARRY CANE",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11664,7 +11664,7 @@
     {
         "type": {
             "name": "SNOWFLAKE STAFF",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11681,7 +11681,7 @@
     {
         "type": {
             "name": "ICY POP",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11698,7 +11698,7 @@
     {
         "type": {
             "name": "ICE POP 2",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11715,7 +11715,7 @@
     {
         "type": {
             "name": "BLUE SKI GOGGLES",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11732,7 +11732,7 @@
     {
         "type": {
             "name": "RED SKI GOGGLES",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11749,7 +11749,7 @@
     {
         "type": {
             "name": "BLUE SKI MASK",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11766,7 +11766,7 @@
     {
         "type": {
             "name": "RED SKI MASK",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11783,7 +11783,7 @@
     {
         "type": {
             "name": "CHRISTMAS GROUCH",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11800,7 +11800,7 @@
     {
         "type": {
             "name": "YETI HEAD",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11817,7 +11817,7 @@
     {
         "type": {
             "name": "REINDEER CAP",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11834,7 +11834,7 @@
     {
         "type": {
             "name": "ANTLERS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11851,7 +11851,7 @@
     {
         "type": {
             "name": "SHINY NOSE",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11868,7 +11868,7 @@
     {
         "type": {
             "name": "CARROT NOSE",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11885,7 +11885,7 @@
     {
         "type": {
             "name": "WINTER KNIT CAP",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11902,7 +11902,7 @@
     {
         "type": {
             "name": "WINTER CAP",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11919,7 +11919,7 @@
     {
         "type": {
             "name": "SNOW CAP",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11936,7 +11936,7 @@
     {
         "type": {
             "name": "EARMUFFS",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11953,7 +11953,7 @@
     {
         "type": {
             "name": "YUTE BELL BOW",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11970,7 +11970,7 @@
     {
         "type": {
             "name": "CHRISTMAS TOP HAT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -11987,7 +11987,7 @@
     {
         "type": {
             "name": "TOY SOLDIER CAP",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -12004,7 +12004,7 @@
     {
         "type": {
             "name": "YULE XMAS HAT",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -12021,7 +12021,7 @@
     {
         "type": {
             "name": "MISTLETOE LURE",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -12038,7 +12038,7 @@
     {
         "type": {
             "name": "HOLLY CROWN",
-            "section": "YULETIDE PACK"
+            "section": "YULETIDE"
         },
         "item": {
             "section": "Yuletide Pack",
@@ -12055,7 +12055,7 @@
     {
         "type": {
             "name": "YELLOW PARTY HAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12072,7 +12072,7 @@
     {
         "type": {
             "name": "BLUE PARTY HAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12089,24 +12089,24 @@
     {
         "type": {
             "name": "PURPLE PARTY HAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
             "name": "Purple Party Hat",
             "price": {
-                "min": 3500,
-                "max": 4000
+                "min": 3000,
+                "max": 3500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_292"
         }
     },
     {
         "type": {
             "name": "SHORT PARTY HAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12123,7 +12123,7 @@
     {
         "type": {
             "name": "TALL PARTY HAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12140,7 +12140,7 @@
     {
         "type": {
             "name": "YELLOW ORANGE PARTY TRUMPET",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12157,7 +12157,7 @@
     {
         "type": {
             "name": "BLUE GREEN PARTY TRUMPET",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12174,7 +12174,7 @@
     {
         "type": {
             "name": "RED PURPLE PARTY TRUMPET",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12191,24 +12191,24 @@
     {
         "type": {
             "name": "FIREWORK BACKPACK",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
             "name": "Firework Backpack",
             "price": {
                 "min": 80000,
-                "max": 90000
+                "max": 85000
             },
             "state": "Stable",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_411"
         }
     },
     {
         "type": {
             "name": "PREMIUM 2019 NEW YEAR'S HAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12225,7 +12225,7 @@
     {
         "type": {
             "name": "STRAWBERRY CAKEHAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12242,7 +12242,7 @@
     {
         "type": {
             "name": "VANILLA CAKEHAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12259,7 +12259,7 @@
     {
         "type": {
             "name": "CHOCOLATE CAKEHAT",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12276,7 +12276,7 @@
     {
         "type": {
             "name": "FIREWORK GLASSES",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12293,7 +12293,7 @@
     {
         "type": {
             "name": "PIN WHEEL",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12310,7 +12310,7 @@
     {
         "type": {
             "name": "CUBE BALLOON",
-            "section": "NEW YEAR PACK"
+            "section": "NEW YEAR"
         },
         "item": {
             "section": "New Year Pack",
@@ -12333,11 +12333,11 @@
             "section": "Slymecorp Pack",
             "name": "Slymegood Head",
             "price": {
-                "min": 300,
-                "max": 500
+                "min": 200,
+                "max": 400
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "02/Oct/2022",
             "url": ""
         }
     },
@@ -12520,11 +12520,11 @@
             "section": "Slymecorp Pack",
             "name": "Pipe Wrench",
             "price": {
-                "min": 7000,
-                "max": 8000
+                "min": 3000,
+                "max": 4000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "02/Oct/2022",
             "url": ""
         }
     },
@@ -12721,7 +12721,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack 2021",
+            "section": "Halloween Pack",
             "name": "Dracu Mobile Key",
             "price": {
                 "min": 30000,
@@ -12738,14 +12738,14 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack 2021",
+            "section": "Halloween Pack",
             "name": "Floating Witch's Broom Key",
             "price": {
-                "min": 65000,
-                "max": 75000
+                "min": 80000,
+                "max": 90000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Misc__Tile/257"
         }
     },
@@ -12755,7 +12755,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack 2021",
+            "section": "Halloween Pack",
             "name": "Haunted Carriage",
             "price": {
                 "min": 95000,
@@ -12772,14 +12772,14 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Yuletide Pack 2017",
+            "section": "Yuletide Pack",
             "name": "Sled Key",
             "price": {
                 "min": 55000,
-                "max": 65000
+                "max": 60000
             },
             "state": "Stable",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Misc__Tile/177"
         }
     },
@@ -12792,11 +12792,11 @@
             "section": "Car",
             "name": "Rocket Sled",
             "price": {
-                "min": 125000,
-                "max": 150000
+                "min": 120000,
+                "max": 140000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Misc__Tile/228"
         }
     },
@@ -12806,7 +12806,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Yuletide Pack 2021",
+            "section": "Yuletide Pack",
             "name": "Christmas Key",
             "price": {
                 "min": 7500,
