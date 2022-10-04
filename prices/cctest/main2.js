@@ -14,7 +14,7 @@ $.ajax({
         //txt += `<div class='item'><img src=${img}><p>${name}</p></div>`;
 
         for (data[item]["item"]["url"] == "") {
-            txt = `<div class='item'><span src="../cctest/error.png"></span><p>${name}</p></div>`;
+            txt = `<div class='item'><img src="../cctest/error.png"></span><p>${name}</p></div>`;
         }
 
         document.getElementById('prices').innerHTML += txt;
