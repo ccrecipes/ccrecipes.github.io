@@ -11500,11 +11500,11 @@
             "section": "Yuletide",
             "name": "Starry Scarf",
             "price": {
-                "min": 6000,
-                "max": 8000
+                "min": 7000,
+                "max": 9000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "04/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_288"
         }
     },
