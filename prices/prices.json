@@ -3915,14 +3915,14 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Scifi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Cosmic Cow Head",
             "price": {
-                "min": 15000,
-                "max": 20000
+                "min": 10000,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "24/07/2022",
+            "last_updated": "03/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_440"
         }
     },
@@ -3932,7 +3932,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Scifi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Scanner",
             "price": {
                 "min": 350,
@@ -3949,7 +3949,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Scifi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Moonar Helmet",
             "price": {
                 "min": 200,
@@ -3966,7 +3966,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Scifi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Modern Astronaut Helmet",
             "price": {
                 "min": 200,
@@ -3983,8 +3983,8 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Scifi Pack",
-            "name": "Scifi Astronaut Helmet",
+            "section": "Sci-Fi Pack",
+            "name": "Sci-Fi Astronaut Helmet",
             "price": {
                 "min": 200,
                 "max": 350
@@ -4000,7 +4000,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Scifi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Moonar Jacket",
             "price": {
                 "min": 250,
@@ -4017,7 +4017,7 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Scifi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Moonar Pants",
             "price": {
                 "min": 250,
@@ -4034,7 +4034,7 @@
             "section": "SCIFI PACK+"
         },
         "item": {
-            "section": "Scifi Pack",
+            "section": "Sci-Fi Pack",
             "name": "Moonar Pack",
             "price": {
                 "min": 200,
@@ -4051,8 +4051,8 @@
             "section": "SCIFI PACK"
         },
         "item": {
-            "section": "Scifi Pack",
-            "name": "Scifi O2 Tank",
+            "section": "Sci-Fi Pack",
+            "name": "Sci-Fi O2 Tank",
             "price": {
                 "min": 200,
                 "max": 400
@@ -4816,7 +4816,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Fool's Cap",
             "price": {
                 "min": 45000,
@@ -4833,7 +4833,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Lesser Fool's Cap",
             "price": {
                 "min": 20000,
@@ -4850,7 +4850,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Least Fool's Cap",
             "price": {
                 "min": 8000,
@@ -4867,7 +4867,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Motley Shirt",
             "price": {
                 "min": 275000,
@@ -4884,7 +4884,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Motley Pants",
             "price": {
                 "min": 275000,
@@ -4901,7 +4901,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Jester Pack",
             "price": {
                 "min": 15000,
@@ -4918,7 +4918,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Jester's Cane",
             "price": {
                 "min": 70000,
@@ -4935,11 +4935,11 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Clown Mask",
             "price": {
-                "min": 50000,
-                "max": 60000
+                "min": 45000,
+                "max": 55000
             },
             "state": "Stable",
             "last_updated": "29/Sep/2022",
@@ -4952,7 +4952,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Dirt Block Head",
             "price": {
                 "min": 6000,
@@ -4969,7 +4969,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Banana Split Hat",
             "price": {
                 "min": 25000,
@@ -4986,7 +4986,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Beaglepuss",
             "price": {
                 "min": 6000,
@@ -5003,7 +5003,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Hipno Shadez",
             "price": {
                 "min": 15000,
@@ -5020,7 +5020,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Hipno Shades",
             "price": {
                 "min": 4000,
@@ -5037,7 +5037,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Worn Hat",
             "price": {
                 "min": 2500,
@@ -5054,7 +5054,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Broken Glasses",
             "price": {
                 "min": 2500,
@@ -5071,7 +5071,7 @@
             "section": "APRIL"
         },
         "item": {
-            "section": "April Pack",
+            "section": "April Fools' Day",
             "name": "Half Hat",
             "price": {
                 "min": 1500,
@@ -5173,7 +5173,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Easter Umbrella",
             "price": {
                 "min": 1900000,
@@ -5190,7 +5190,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Umbrella",
             "price": {
                 "min": 90000,
@@ -5207,7 +5207,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "New Easter Umbrella",
             "price": {
                 "min": 16000,
@@ -5224,7 +5224,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Red Cherry Blossom Umbrella",
             "price": {
                 "min": 8000,
@@ -5241,7 +5241,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Pink Cherry Blossom Umbrella",
             "price": {
                 "min": 8000,
@@ -5258,7 +5258,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Red Traditional Umbrella",
             "price": {
                 "min": 40000,
@@ -5275,7 +5275,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Easter Wand",
             "price": {
                 "min": 8000,
@@ -5292,7 +5292,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Green Flower Wand",
             "price": {
                 "min": 150,
@@ -5309,7 +5309,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Orange Flower Wand",
             "price": {
                 "min": 150,
@@ -5326,7 +5326,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Carrot Wand",
             "price": {
                 "min": 3000,
@@ -5343,7 +5343,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Epic Greek Orthodox Easter Crown",
             "price": {
                 "min": 15000,
@@ -5360,7 +5360,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Bunny Tophat",
             "price": {
                 "min": 20000,
@@ -5377,7 +5377,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Easter Tophat",
             "price": {
                 "min": 7500,
@@ -5394,7 +5394,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Easter Bonnet",
             "price": {
                 "min": 4500,
@@ -5411,7 +5411,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Easter Hat",
             "price": {
                 "min": 15000,
@@ -5428,7 +5428,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Purple Easter Hat",
             "price": {
                 "min": 12500,
@@ -5445,7 +5445,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "White Boater Hat",
             "price": {
                 "min": 3500,
@@ -5462,7 +5462,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Ant Cap",
             "price": {
                 "min": 750,
@@ -5479,7 +5479,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Red Ant Cap",
             "price": {
                 "min": 750,
@@ -5496,7 +5496,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Duck Hat",
             "price": {
                 "min": 17500,
@@ -5513,7 +5513,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Rabbit Head",
             "price": {
                 "min": 750,
@@ -5530,7 +5530,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Frog Head",
             "price": {
                 "min": 750,
@@ -5547,7 +5547,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Mushroom Hat",
             "price": {
                 "min": 40000,
@@ -5564,7 +5564,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Snail Backpack",
             "price": {
                 "min": 30000,
@@ -5581,7 +5581,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Ladybug Helmet",
             "price": {
                 "min": 1500,
@@ -5598,7 +5598,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Ladybug Wings",
             "price": {
                 "min": 1500,
@@ -5615,7 +5615,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Caterpillar Hoodie",
             "price": {
                 "min": 200,
@@ -5632,7 +5632,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Caterpillar Knapsack",
             "price": {
                 "min": 450,
@@ -5649,7 +5649,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Bee Helmet",
             "price": {
                 "min": 300,
@@ -5666,7 +5666,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Bee Backpack",
             "price": {
                 "min": 700,
@@ -5683,7 +5683,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Egg Cap",
             "price": {
                 "min": 1250,
@@ -5700,7 +5700,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Chicken Hat",
             "price": {
                 "min": 7500,
@@ -5717,7 +5717,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Chick Hat",
             "price": {
                 "min": 3500,
@@ -5734,7 +5734,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Egg Hat",
             "price": {
                 "min": 1500,
@@ -5751,7 +5751,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Carrot Hat",
             "price": {
                 "min": 450,
@@ -5768,7 +5768,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "I Am a Flower",
             "price": {
                 "min": 350,
@@ -5785,7 +5785,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Lonely Branch",
             "price": {
                 "min": 150,
@@ -5802,7 +5802,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Carrot Headband",
             "price": {
                 "min": 150,
@@ -5819,7 +5819,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Fab Bunny Ears",
             "price": {
                 "min": 200,
@@ -5836,7 +5836,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Purplelicous Bunny Ears",
             "price": {
                 "min": 200,
@@ -5853,7 +5853,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Pinktastic Bunny Ears",
             "price": {
                 "min": 200,
@@ -5870,7 +5870,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Fab Yellow Bunny Ears",
             "price": {
                 "min": 200,
@@ -5887,7 +5887,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Keen Green Bunny Ears",
             "price": {
                 "min": 200,
@@ -5904,7 +5904,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Bunny Pyjamas",
             "price": {
                 "min": 400000,
@@ -5921,7 +5921,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Floral Crown",
             "price": {
                 "min": 500,
@@ -5938,7 +5938,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Purple Floral Crown",
             "price": {
                 "min": 500,
@@ -5955,7 +5955,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Yellow Floral Crown",
             "price": {
                 "min": 500,
@@ -5972,7 +5972,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Pink Floral Crown",
             "price": {
                 "min": 500,
@@ -5989,7 +5989,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Green Floral Crown",
             "price": {
                 "min": 500,
@@ -6006,7 +6006,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Garden Backpack",
             "price": {
                 "min": 750,
@@ -6023,7 +6023,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Cookie Backpack",
             "price": {
                 "min": 30000,
@@ -6040,7 +6040,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Bunny Backpack",
             "price": {
                 "min": 1000,
@@ -6057,7 +6057,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Green Easter BackPack",
             "price": {
                 "min": 1500,
@@ -6074,7 +6074,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Yellow Easter BackPack",
             "price": {
                 "min": 1500,
@@ -6091,7 +6091,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Easter BackPack",
             "price": {
                 "min": 750,
@@ -6108,7 +6108,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Red Easter BackPack",
             "price": {
                 "min": 750,
@@ -6125,7 +6125,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Pink Rabbit Hood",
             "price": {
                 "min": 750,
@@ -6142,7 +6142,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Pink Rabbit Shirt",
             "price": {
                 "min": 750,
@@ -6159,7 +6159,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Pink Rabbit Pants",
             "price": {
                 "min": 750,
@@ -6176,7 +6176,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Kimono Shirt",
             "price": {
                 "min": 1000,
@@ -6193,7 +6193,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Kimono Skirt",
             "price": {
                 "min": 1000,
@@ -6210,7 +6210,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Pink Kimono Shirt",
             "price": {
                 "min": 1000,
@@ -6227,7 +6227,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Pink Kimono Skirt",
             "price": {
                 "min": 1000,
@@ -6244,7 +6244,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Easter Pattern Shirt",
             "price": {
                 "min": 500,
@@ -6261,7 +6261,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Easter Egg Shirt",
             "price": {
                 "min": 500,
@@ -6278,7 +6278,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Egg Sunglasses",
             "price": {
                 "min": 350,
@@ -6295,7 +6295,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Sunflower Glasses",
             "price": {
                 "min": 250,
@@ -6312,7 +6312,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Egg Head",
             "price": {
                 "min": 6000,
@@ -6329,7 +6329,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Rabbit Hood",
             "price": {
                 "min": 7500,
@@ -6346,7 +6346,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Rabbit Shirt",
             "price": {
                 "min": 7500,
@@ -6363,7 +6363,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Blue Rabbit Pants",
             "price": {
                 "min": 7500,
@@ -6380,7 +6380,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Floral Hat",
             "price": {
                 "min": 9000,
@@ -6397,7 +6397,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Floral Shirt",
             "price": {
                 "min": 9000,
@@ -6414,7 +6414,7 @@
             "section": "EASTER"
         },
         "item": {
-            "section": "Easter Pack",
+            "section": "Easter",
             "name": "Floral Pants",
             "price": {
                 "min": 9000,
@@ -6448,7 +6448,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cupid's Halo",
             "price": {
                 "min": 1800000,
@@ -6465,7 +6465,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cupid's Wings",
             "price": {
                 "min": 85000,
@@ -6482,8 +6482,8 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
-            "name": "Valentine Wings",
+            "section": "Valentine's Day",
+            "name": "Valentine's Day Wings",
             "price": {
                 "min": 30000,
                 "max": 35000
@@ -6499,7 +6499,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Heart Wings",
             "price": {
                 "min": 3000,
@@ -6516,7 +6516,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Wuvva Scarf",
             "price": {
                 "min": 7500,
@@ -6533,7 +6533,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Heart BackPack",
             "price": {
                 "min": 2000,
@@ -6550,7 +6550,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Mouse BackPack",
             "price": {
                 "min": 600,
@@ -6567,7 +6567,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Stuff Toy BackPack",
             "price": {
                 "min": 150,
@@ -6584,7 +6584,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Turtle BackPack",
             "price": {
                 "min": 250,
@@ -6601,7 +6601,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "White Wuvva Shirt",
             "price": {
                 "min": 1500,
@@ -6618,7 +6618,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Pink Wuvva Shirt",
             "price": {
                 "min": 1000,
@@ -6635,7 +6635,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Red Wuvva Shirt",
             "price": {
                 "min": 1000,
@@ -6652,7 +6652,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Half Heart Left",
             "price": {
                 "min": 50,
@@ -6669,7 +6669,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Half Heart Right",
             "price": {
                 "min": 50,
@@ -6686,7 +6686,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Yellow Princess Top",
             "price": {
                 "min": 150,
@@ -6703,7 +6703,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Yellow Princess Dress",
             "price": {
                 "min": 150,
@@ -6720,7 +6720,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Green Princess Top",
             "price": {
                 "min": 150,
@@ -6737,7 +6737,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Green Princess Dress",
             "price": {
                 "min": 150,
@@ -6754,7 +6754,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Queen's Crown",
             "price": {
                 "min": 10000,
@@ -6771,7 +6771,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "King's Crown",
             "price": {
                 "min": 200,
@@ -6788,7 +6788,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Panda Hat",
             "price": {
                 "min": 25000,
@@ -6805,7 +6805,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Alien Hat",
             "price": {
                 "min": 100,
@@ -6822,7 +6822,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Fake Halo",
             "price": {
                 "min": 150,
@@ -6839,7 +6839,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Heart Hat",
             "price": {
                 "min": 100,
@@ -6856,7 +6856,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Apple O'Love",
             "price": {
                 "min": 100,
@@ -6873,7 +6873,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Heart Beads",
             "price": {
                 "min": 150,
@@ -6890,7 +6890,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Romantic Flower",
             "price": {
                 "min": 150,
@@ -6907,7 +6907,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Heart Ears",
             "price": {
                 "min": 100,
@@ -6924,7 +6924,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Heart Tail",
             "price": {
                 "min": 100,
@@ -6941,7 +6941,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Love Balloon",
             "price": {
                 "min": 500000,
@@ -6958,7 +6958,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Pink Balloon",
             "price": {
                 "min": 5000,
@@ -6975,7 +6975,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Wuvva Umbrella",
             "price": {
                 "min": 3000,
@@ -6992,7 +6992,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Take This Flower",
             "price": {
                 "min": 750,
@@ -7009,7 +7009,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Love Wand",
             "price": {
                 "min": 150,
@@ -7026,7 +7026,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Knight's Sword",
             "price": {
                 "min": 2000,
@@ -7043,7 +7043,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Knight's Helmet",
             "price": {
                 "min": 10000,
@@ -7060,7 +7060,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Knight's Shield",
             "price": {
                 "min": 250,
@@ -7077,7 +7077,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Teddy Bear Head",
             "price": {
                 "min": 270000,
@@ -7094,7 +7094,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Teddy Bear Shirt",
             "price": {
                 "min": 450,
@@ -7111,7 +7111,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Teddy Bear Pants",
             "price": {
                 "min": 450,
@@ -7128,7 +7128,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rainbow Unicorn Top",
             "price": {
                 "min": 3500,
@@ -7145,7 +7145,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rainbow Unicorn Shirt",
             "price": {
                 "min": 3500,
@@ -7162,7 +7162,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rainbow Unicorn Pants",
             "price": {
                 "min": 3500,
@@ -7179,7 +7179,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rainbow Unicorn Tail",
             "price": {
                 "min": 3500,
@@ -7196,7 +7196,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Flower Top",
             "price": {
                 "min": 250,
@@ -7213,7 +7213,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Flower Shirt",
             "price": {
                 "min": 250,
@@ -7230,7 +7230,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Flower Pants",
             "price": {
                 "min": 250,
@@ -7247,7 +7247,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cute Bee Top",
             "price": {
                 "min": 150,
@@ -7264,7 +7264,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cute Bee Shirt",
             "price": {
                 "min": 150,
@@ -7281,7 +7281,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cute Bee Pants",
             "price": {
                 "min": 150,
@@ -7298,7 +7298,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rabbit M Top",
             "price": {
                 "min": 250,
@@ -7315,7 +7315,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rabbit M Shirt",
             "price": {
                 "min": 250,
@@ -7332,7 +7332,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rabbit M Pants",
             "price": {
                 "min": 250,
@@ -7349,7 +7349,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rabbit F Top",
             "price": {
                 "min": 250,
@@ -7366,7 +7366,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rabbit F Shirt",
             "price": {
                 "min": 250,
@@ -7383,7 +7383,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rabbit F Pants",
             "price": {
                 "min": 250,
@@ -7400,7 +7400,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Mother Owl Top",
             "price": {
                 "min": 150,
@@ -7417,7 +7417,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Mother Owl Shirt",
             "price": {
                 "min": 150,
@@ -7434,7 +7434,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Mother Owl Pants",
             "price": {
                 "min": 150,
@@ -7451,7 +7451,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Baby Owl Top",
             "price": {
                 "min": 150,
@@ -7468,7 +7468,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Baby Owl Shirt",
             "price": {
                 "min": 150,
@@ -7485,7 +7485,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Baby Owl Pants",
             "price": {
                 "min": 150,
@@ -7502,7 +7502,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Red Top Hat",
             "price": {
                 "min": 3500,
@@ -7519,7 +7519,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Rose on the Mouth",
             "price": {
                 "min": 2500,
@@ -7536,7 +7536,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Red Tuxedo Top",
             "price": {
                 "min": 3500,
@@ -7553,7 +7553,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Red Tuxedo Pants",
             "price": {
                 "min": 3500,
@@ -7570,7 +7570,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Red Dress Top",
             "price": {
                 "min": 500,
@@ -7587,7 +7587,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Red Dress",
             "price": {
                 "min": 500,
@@ -7604,7 +7604,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Heart Umbrella",
             "price": {
                 "min": 2000,
@@ -7621,7 +7621,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cupid Bow",
             "price": {
                 "min": 1250,
@@ -7638,7 +7638,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cupid Wig",
             "price": {
                 "min": 350,
@@ -7655,7 +7655,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cupid Wings 2",
             "price": {
                 "min": 3000,
@@ -7672,7 +7672,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cupid Top",
             "price": {
                 "min": 500,
@@ -7689,7 +7689,7 @@
             "section": "VALENTINE"
         },
         "item": {
-            "section": "Valentine Pack",
+            "section": "Valentine's Day",
             "name": "Cupid Pants",
             "price": {
                 "min": 500,
@@ -7706,7 +7706,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "UV Shades",
             "price": {
                 "min": 700000,
@@ -7723,7 +7723,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Scuba Mask",
             "price": {
                 "min": 220000,
@@ -7740,7 +7740,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Blue Hawaiian Shirt",
             "price": {
                 "min": 175000,
@@ -7757,7 +7757,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Black Hawaiian Shirt",
             "price": {
                 "min": 55000,
@@ -7774,7 +7774,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Hairy Guy On The Beach Chest",
             "price": {
                 "min": 55000,
@@ -7791,7 +7791,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Hairy Guy On The Beach Thong",
             "price": {
                 "min": 100000,
@@ -7808,7 +7808,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Black Bikini Top",
             "price": {
                 "min": 30000,
@@ -7825,7 +7825,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Black Bikini Bottoms",
             "price": {
                 "min": 55000,
@@ -7842,7 +7842,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Pink Bikini Top",
             "price": {
                 "min": 6000,
@@ -7859,7 +7859,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Pink Bikini Bottoms",
             "price": {
                 "min": 6000,
@@ -7876,7 +7876,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Red Tankini Top",
             "price": {
                 "min": 2000,
@@ -7893,7 +7893,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Red Bikini Bottoms",
             "price": {
                 "min": 2000,
@@ -7910,7 +7910,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Blue Tankini Top",
             "price": {
                 "min": 2000,
@@ -7927,7 +7927,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Blue Bikini Bottoms",
             "price": {
                 "min": 2000,
@@ -7944,7 +7944,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Yellow Tankini Top",
             "price": {
                 "min": 2000,
@@ -7961,7 +7961,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Yellow Bikini Bottoms",
             "price": {
                 "min": 2000,
@@ -7978,7 +7978,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Fishing Rod",
             "price": {
                 "min": 10000,
@@ -7995,7 +7995,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Grilling Tongs",
             "price": {
                 "min": 20000,
@@ -8012,7 +8012,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Ranger Hat",
             "price": {
                 "min": 7500,
@@ -8029,7 +8029,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Fishing Hat",
             "price": {
                 "min": 3500,
@@ -8046,7 +8046,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Fishing Vest",
             "price": {
                 "min": 4000,
@@ -8063,7 +8063,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Fishing Pants",
             "price": {
                 "min": 4000,
@@ -8080,7 +8080,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Leather Backpack",
             "price": {
                 "min": 22000,
@@ -8097,7 +8097,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Camo Backpack",
             "price": {
                 "min": 20000,
@@ -8114,7 +8114,7 @@
             "section": "SUMMER"
         },
         "item": {
-            "section": "Summer Pack",
+            "section": "Summer",
             "name": "Blue Backpack",
             "price": {
                 "min": 20000,
@@ -8131,7 +8131,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Devil's Halo",
             "price": {
                 "min": 65000,
@@ -8148,7 +8148,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Red Angel Wings",
             "price": {
                 "min": 2000,
@@ -8165,7 +8165,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Orange Angel Wings",
             "price": {
                 "min": 2000,
@@ -8182,7 +8182,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Yellow Angel Wings",
             "price": {
                 "min": 2000,
@@ -8199,7 +8199,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Green Angel Wings",
             "price": {
                 "min": 2000,
@@ -8216,7 +8216,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Cyan Angel Wings",
             "price": {
                 "min": 4000,
@@ -8233,7 +8233,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Blue Angel Wings",
             "price": {
                 "min": 2000,
@@ -8250,7 +8250,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Violet Angel Wings",
             "price": {
                 "min": 2000,
@@ -8267,7 +8267,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Pink Angel Wings",
             "price": {
                 "min": 5000,
@@ -8284,7 +8284,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Double Sword Back",
             "price": {
                 "min": 500,
@@ -8301,7 +8301,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Black Beard",
             "price": {
                 "min": 400,
@@ -8318,7 +8318,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Walking Cane",
             "price": {
                 "min": 750,
@@ -8335,7 +8335,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Ice Cream Cone Wand",
             "price": {
                 "min": 500,
@@ -8352,7 +8352,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Pencil Wand",
             "price": {
                 "min": 450,
@@ -8369,7 +8369,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Cow Head",
             "price": {
                 "min": 500,
@@ -8386,7 +8386,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Cow Shirt",
             "price": {
                 "min": 1000,
@@ -8403,7 +8403,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Cow Pants",
             "price": {
                 "min": 1000,
@@ -8420,7 +8420,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Cow's Tail",
             "price": {
                 "min": 1000,
@@ -8437,7 +8437,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Jail Prisoner's Hat",
             "price": {
                 "min": 300,
@@ -8454,7 +8454,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Jail Prisoner's Shirt",
             "price": {
                 "min": 500,
@@ -8471,7 +8471,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Jail Prisoner's Pants",
             "price": {
                 "min": 4000,
@@ -8488,7 +8488,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Safari Shirt",
             "price": {
                 "min": 2000,
@@ -8505,7 +8505,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Safari Pants",
             "price": {
                 "min": 2000,
@@ -8522,7 +8522,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Safety Vest",
             "price": {
                 "min": 750,
@@ -8539,7 +8539,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Watermelon Hat",
             "price": {
                 "min": 1000,
@@ -8556,7 +8556,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Pineapple Hat",
             "price": {
                 "min": 1000,
@@ -8573,7 +8573,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Lemon Hat",
             "price": {
                 "min": 1000,
@@ -8590,7 +8590,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Qbeets Headphone",
             "price": {
                 "min": 7000,
@@ -8607,7 +8607,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Enlarged Qbee Head",
             "price": {
                 "min": 550,
@@ -8624,7 +8624,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Queen Cyborg Head",
             "price": {
                 "min": 550,
@@ -8641,7 +8641,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Cyclops Eye Mask",
             "price": {
                 "min": 3000,
@@ -8658,7 +8658,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Fish Head",
             "price": {
                 "min": 1000,
@@ -8675,7 +8675,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Blue Viking Helmet",
             "price": {
                 "min": 250,
@@ -8692,7 +8692,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Anime Pigtail Hairstyle",
             "price": {
                 "min": 500,
@@ -8709,7 +8709,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Princess Tiara",
             "price": {
                 "min": 350,
@@ -8726,7 +8726,7 @@
             "section": "FAN"
         },
         "item": {
-            "section": "Fan Pack",
+            "section": "Fan",
             "name": "Tincan Helmet",
             "price": {
                 "min": 300,
@@ -8743,7 +8743,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Scythe",
             "price": {
                 "min": 850000,
@@ -8760,7 +8760,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Skull Balloon",
             "price": {
                 "min": 60000,
@@ -8777,7 +8777,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Spriderbrella",
             "price": {
                 "min": 2500,
@@ -8794,7 +8794,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Pumpkin Balloon",
             "price": {
                 "min": 2000,
@@ -8811,7 +8811,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Jack-O-Brella",
             "price": {
                 "min": 2000,
@@ -8828,7 +8828,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Trick or Treat Bag",
             "price": {
                 "min": 9000,
@@ -8845,7 +8845,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Pumpkin Pack",
             "price": {
                 "min": 500000,
@@ -8862,7 +8862,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Egyptian Staff",
             "price": {
                 "min": 450,
@@ -8879,7 +8879,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Pitchfork",
             "price": {
                 "min": 450,
@@ -8896,7 +8896,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Wizard's Wand",
             "price": {
                 "min": 350,
@@ -8913,7 +8913,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Nature's Staff",
             "price": {
                 "min": 300,
@@ -8930,7 +8930,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Witch's Broom",
             "price": {
                 "min": 300,
@@ -8947,7 +8947,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Head Vampire Outfit",
             "price": {
                 "min": 180000,
@@ -8964,7 +8964,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Vampire's Cloak",
             "price": {
                 "min": 2000,
@@ -8981,7 +8981,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Headlnessness",
             "price": {
                 "min": 800000,
@@ -8998,7 +8998,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Ghost Costume",
             "price": {
                 "min": 425000,
@@ -9015,7 +9015,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Slyme Costume",
             "price": {
                 "min": 165000,
@@ -9032,7 +9032,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dino Head",
             "price": {
                 "min": 230000,
@@ -9049,7 +9049,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Monster Head",
             "price": {
                 "min": 180000,
@@ -9066,7 +9066,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Shark Head",
             "price": {
                 "min": 100000,
@@ -9083,7 +9083,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Werewolf Head",
             "price": {
                 "min": 60000,
@@ -9100,7 +9100,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Pyramid Head",
             "price": {
                 "min": 16000,
@@ -9117,7 +9117,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Twobee Head",
             "price": {
                 "min": 8000,
@@ -9134,7 +9134,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Beakbee Head",
             "price": {
                 "min": 6500,
@@ -9151,7 +9151,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Toothbee Head",
             "price": {
                 "min": 6500,
@@ -9168,7 +9168,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Cyclobee Head",
             "price": {
                 "min": 6500,
@@ -9185,7 +9185,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Alien Mask",
             "price": {
                 "min": 22500,
@@ -9202,7 +9202,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dark Visitor",
             "price": {
                 "min": 14500,
@@ -9219,7 +9219,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Black Plague Doctor",
             "price": {
                 "min": 4000,
@@ -9236,7 +9236,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Grey Plague Doctor",
             "price": {
                 "min": 3500,
@@ -9253,7 +9253,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Plague Doctor",
             "price": {
                 "min": 400,
@@ -9270,7 +9270,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Psychic Revalation Cap",
             "price": {
                 "min": 1250,
@@ -9287,7 +9287,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Psychic Repulsion Cap",
             "price": {
                 "min": 1250,
@@ -9304,7 +9304,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Sub-Vampire Outfit",
             "price": {
                 "min": 3500,
@@ -9321,7 +9321,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Frankenstein Head",
             "price": {
                 "min": 500,
@@ -9338,7 +9338,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Pumpkin Head",
             "price": {
                 "min": 200,
@@ -9355,7 +9355,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Robot Head",
             "price": {
                 "min": 150,
@@ -9372,7 +9372,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Skull Head",
             "price": {
                 "min": 250,
@@ -9389,7 +9389,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dragon Head",
             "price": {
                 "min": 3000,
@@ -9406,7 +9406,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Goblin Head",
             "price": {
                 "min": 350,
@@ -9423,7 +9423,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Mouth Head",
             "price": {
                 "min": 500,
@@ -9440,7 +9440,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Mad Scientis Wig",
             "price": {
                 "min": 400,
@@ -9457,7 +9457,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Lagoon Lurker",
             "price": {
                 "min": 150,
@@ -9474,7 +9474,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Anubis Mask",
             "price": {
                 "min": 250,
@@ -9491,7 +9491,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Spider Head",
             "price": {
                 "min": 150,
@@ -9508,7 +9508,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Cleopatra Wig",
             "price": {
                 "min": 250,
@@ -9525,7 +9525,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Bride of Frankenstein Wig",
             "price": {
                 "min": 150,
@@ -9542,7 +9542,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Medusa Wig",
             "price": {
                 "min": 150,
@@ -9559,7 +9559,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Hunter's Hat",
             "price": {
                 "min": 350,
@@ -9576,7 +9576,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Witch's Hat",
             "price": {
                 "min": 350,
@@ -9593,7 +9593,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Bat Mask",
             "price": {
                 "min": 450,
@@ -9610,7 +9610,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Big Eyes",
             "price": {
                 "min": 450,
@@ -9627,7 +9627,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Skinless Head",
             "price": {
                 "min": 500,
@@ -9644,7 +9644,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Skinless Shirt",
             "price": {
                 "min": 500,
@@ -9661,7 +9661,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Skinless Pants",
             "price": {
                 "min": 500,
@@ -9678,7 +9678,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Skellie Suit Shirt",
             "price": {
                 "min": 750,
@@ -9695,7 +9695,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Skellie Suit Pants",
             "price": {
                 "min": 750,
@@ -9712,7 +9712,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dark Traveller Head",
             "price": {
                 "min": 1250,
@@ -9729,7 +9729,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dark Traveller Top",
             "price": {
                 "min": 6500,
@@ -9746,7 +9746,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dark Traveller Pants",
             "price": {
                 "min": 6500,
@@ -9763,7 +9763,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Mummy Wrap Head",
             "price": {
                 "min": 1500,
@@ -9780,7 +9780,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Mummy Wrap Shirt",
             "price": {
                 "min": 3500,
@@ -9797,7 +9797,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Mummy Wrap Pants",
             "price": {
                 "min": 11000,
@@ -9814,7 +9814,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Zombie Head",
             "price": {
                 "min": 17000,
@@ -9831,7 +9831,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Zombie Shirt",
             "price": {
                 "min": 8000,
@@ -9848,7 +9848,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Zombie Pants",
             "price": {
                 "min": 12500,
@@ -9865,7 +9865,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Skeletal Wings",
             "price": {
                 "min": 40000,
@@ -9882,7 +9882,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Web Wings",
             "price": {
                 "min": 13500,
@@ -9899,7 +9899,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "BigHead Mask",
             "price": {
                 "min": 300,
@@ -9916,7 +9916,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Witch Mask",
             "price": {
                 "min": 300,
@@ -9933,7 +9933,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Goblin Mask",
             "price": {
                 "min": 300,
@@ -9950,7 +9950,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Killer Mask V2",
             "price": {
                 "min": 750,
@@ -9967,7 +9967,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Killer Mask",
             "price": {
                 "min": 500,
@@ -9984,7 +9984,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Ninja Mask",
             "price": {
                 "min": 1000,
@@ -10001,7 +10001,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Katanda on Back",
             "price": {
                 "min": 10000,
@@ -10018,7 +10018,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Ninja Shirt",
             "price": {
                 "min": 1500,
@@ -10035,7 +10035,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Ninja Pants",
             "price": {
                 "min": 5500,
@@ -10052,7 +10052,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dinosaur Hood",
             "price": {
                 "min": 7500,
@@ -10069,7 +10069,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dinosaur Shirt",
             "price": {
                 "min": 6500,
@@ -10086,7 +10086,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dinosaur Pants",
             "price": {
                 "min": 6500,
@@ -10103,7 +10103,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dinosaur Tail",
             "price": {
                 "min": 6500,
@@ -10120,7 +10120,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Black Cat Hood",
             "price": {
                 "min": 1000,
@@ -10137,7 +10137,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Black Cat Shirt",
             "price": {
                 "min": 1000,
@@ -10154,7 +10154,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Black Cat Hat",
             "price": {
                 "min": 1000,
@@ -10171,7 +10171,7 @@
             "section": "HALLOWEEN"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Black Cat Tail",
             "price": {
                 "min": 1000,
@@ -10188,7 +10188,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Trumpet Hat",
             "price": {
                 "min": 350000,
@@ -10205,7 +10205,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Beard",
             "price": {
                 "min": 550000,
@@ -10222,7 +10222,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Plaid Hunting Cap",
             "price": {
                 "min": 190000,
@@ -10239,7 +10239,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Turkey Head",
             "price": {
                 "min": 12500,
@@ -10324,7 +10324,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Dry Leaf Staff",
             "price": {
                 "min": 2000,
@@ -10341,7 +10341,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Dry Leaf Mask",
             "price": {
                 "min": 2000,
@@ -10358,7 +10358,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Dry Leaves Top",
             "price": {
                 "min": 1500,
@@ -10375,7 +10375,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Dry Leaves Pants",
             "price": {
                 "min": 1500,
@@ -10392,7 +10392,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Acorn Hat",
             "price": {
                 "min": 250,
@@ -10409,7 +10409,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Acorn Backpack",
             "price": {
                 "min": 350,
@@ -10426,7 +10426,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Brown Suit",
             "price": {
                 "min": 1000,
@@ -10443,7 +10443,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Brown Pants",
             "price": {
                 "min": 1000,
@@ -10460,7 +10460,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Pilgrim Hat Bush",
             "price": {
                 "min": 250,
@@ -10477,7 +10477,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Pilgrim's Hat",
             "price": {
                 "min": 350,
@@ -10494,7 +10494,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Pilgrim's Coat",
             "price": {
                 "min": 10000,
@@ -10511,7 +10511,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Pilgrim Pants",
             "price": {
                 "min": 7500,
@@ -10528,7 +10528,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Pilgrim Bonnet",
             "price": {
                 "min": 400,
@@ -10545,7 +10545,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Pilgrim Skirt",
             "price": {
                 "min": 750,
@@ -10562,7 +10562,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Turkey Beak",
             "price": {
                 "min": 250,
@@ -10579,7 +10579,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Turkey Tail",
             "price": {
                 "min": 800,
@@ -10596,7 +10596,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Festival Shirt",
             "price": {
                 "min": 600,
@@ -10613,7 +10613,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Festival Pants",
             "price": {
                 "min": 600,
@@ -10630,7 +10630,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Shoulder Top",
             "price": {
                 "min": 800,
@@ -10647,7 +10647,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Jeans",
             "price": {
                 "min": 1000,
@@ -10664,7 +10664,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Mono Festival Hat",
             "price": {
                 "min": 400,
@@ -10681,7 +10681,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Festival Hat",
             "price": {
                 "min": 250,
@@ -10698,7 +10698,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Blue Football Helmet",
             "price": {
                 "min": 200,
@@ -10715,7 +10715,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Red Football Helmet",
             "price": {
                 "min": 200,
@@ -10732,7 +10732,7 @@
             "section": "THANKSGIVING"
         },
         "item": {
-            "section": "Thanksgiving Pack",
+            "section": "Thanksgiving",
             "name": "Green Deluxe Hunting Net",
             "price": {
                 "min": 1000,
@@ -10766,7 +10766,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Mr. Christmas Costume",
             "price": {
                 "min": 120000,
@@ -10783,7 +10783,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Snowman Costume",
             "price": {
                 "min": 14000,
@@ -10800,7 +10800,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Christmas Giftbox Costume",
             "price": {
                 "min": 2000,
@@ -10817,7 +10817,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Krampus Mask",
             "price": {
                 "min": 1000000,
@@ -10834,7 +10834,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Krampus Mask 2018",
             "price": {
                 "min": 55000,
@@ -10851,7 +10851,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Cheap fake Krampus",
             "price": {
                 "min": 14000,
@@ -10868,7 +10868,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Krampus Mask 2020",
             "price": {
                 "min": 7000,
@@ -10885,7 +10885,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Krampus Shirt",
             "price": {
                 "min": 500,
@@ -10902,7 +10902,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Krampus Pants",
             "price": {
                 "min": 500,
@@ -10919,7 +10919,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Ice Head",
             "price": {
                 "min": 75000,
@@ -10936,7 +10936,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Ice Shirt",
             "price": {
                 "min": 400,
@@ -10953,7 +10953,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Ice Pants",
             "price": {
                 "min": 400,
@@ -10970,7 +10970,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Snow Qbee Head",
             "price": {
                 "min": 500,
@@ -10987,7 +10987,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Snow Qbee Top",
             "price": {
                 "min": 500,
@@ -11004,7 +11004,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Snow Qbee Pants",
             "price": {
                 "min": 500,
@@ -11021,7 +11021,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Gingerbread Head",
             "price": {
                 "min": 6000,
@@ -11038,7 +11038,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Gingerbread Shirt",
             "price": {
                 "min": 200,
@@ -11055,7 +11055,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Gingerbread Pants",
             "price": {
                 "min": 200,
@@ -11072,7 +11072,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Toy Soldier Gun",
             "price": {
                 "min": 7000,
@@ -11089,7 +11089,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Toy Soldier Cap 2020",
             "price": {
                 "min": 500,
@@ -11106,7 +11106,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Toy Soldier Shirt",
             "price": {
                 "min": 500,
@@ -11123,7 +11123,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Toy Soldier Pants",
             "price": {
                 "min": 500,
@@ -11140,7 +11140,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Doll Wig",
             "price": {
                 "min": 250,
@@ -11157,7 +11157,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Doll Shirt",
             "price": {
                 "min": 250,
@@ -11174,7 +11174,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Doll Dress",
             "price": {
                 "min": 250,
@@ -11191,7 +11191,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Fancy Elf Hat",
             "price": {
                 "min": 200,
@@ -11208,7 +11208,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Elf Cap",
             "price": {
                 "min": 150,
@@ -11225,7 +11225,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Elf Hat",
             "price": {
                 "min": 150,
@@ -11242,7 +11242,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Elf Shirt",
             "price": {
                 "min": 150,
@@ -11259,7 +11259,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Elf Pants",
             "price": {
                 "min": 200,
@@ -11276,7 +11276,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Santa Hat",
             "price": {
                 "min": 150,
@@ -11293,7 +11293,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Santa Beard",
             "price": {
                 "min": 350,
@@ -11310,7 +11310,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Santa Shirt",
             "price": {
                 "min": 150,
@@ -11327,7 +11327,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Santa Pants",
             "price": {
                 "min": 150,
@@ -11344,7 +11344,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Mrs Santa Hat",
             "price": {
                 "min": 150,
@@ -11361,7 +11361,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Mrs. Claus Skirt",
             "price": {
                 "min": 350,
@@ -11378,7 +11378,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Ugly Christmas Sweater",
             "price": {
                 "min": 200,
@@ -11395,7 +11395,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Christmas Outfit",
             "price": {
                 "min": 150,
@@ -11412,7 +11412,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Elf Glasses",
             "price": {
                 "min": 150,
@@ -11429,7 +11429,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Christmas Glasses",
             "price": {
                 "min": 150,
@@ -11446,7 +11446,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Orange & Yellow Scarf",
             "price": {
                 "min": 85000,
@@ -11463,7 +11463,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Blue & White Scarf",
             "price": {
                 "min": 13500,
@@ -11480,7 +11480,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Red & Green Scarf",
             "price": {
                 "min": 12000,
@@ -11497,7 +11497,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Starry Scarf",
             "price": {
                 "min": 6000,
@@ -11514,7 +11514,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Purple Scarf",
             "price": {
                 "min": 800,
@@ -11531,7 +11531,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Xmas Scarf",
             "price": {
                 "min": 400,
@@ -11548,7 +11548,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Winter Scarf",
             "price": {
                 "min": 3500,
@@ -11565,7 +11565,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Gift BackPack 2",
             "price": {
                 "min": 4500,
@@ -11582,7 +11582,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Gift BackPack",
             "price": {
                 "min": 4500,
@@ -11599,7 +11599,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Santa Pack",
             "price": {
                 "min": 2500,
@@ -11616,7 +11616,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Icy Wings",
             "price": {
                 "min": 1000,
@@ -11633,7 +11633,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Winter Umbrella",
             "price": {
                 "min": 30000,
@@ -11650,7 +11650,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Carry Cane",
             "price": {
                 "min": 500,
@@ -11667,7 +11667,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Snowflake Staff",
             "price": {
                 "min": 1000,
@@ -11684,7 +11684,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Icy Pop",
             "price": {
                 "min": 350,
@@ -11701,7 +11701,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Ice Pop 2",
             "price": {
                 "min": 350,
@@ -11718,7 +11718,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Blue Ski Goggles",
             "price": {
                 "min": 250,
@@ -11735,7 +11735,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Red Ski Goggles",
             "price": {
                 "min": 250,
@@ -11752,7 +11752,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Blue Ski Mask",
             "price": {
                 "min": 250,
@@ -11769,7 +11769,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Red Ski Mask",
             "price": {
                 "min": 250,
@@ -11786,7 +11786,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Christmas Grouch",
             "price": {
                 "min": 5000,
@@ -11803,7 +11803,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Yeti Head",
             "price": {
                 "min": 8000,
@@ -11820,7 +11820,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Reindeer Cap",
             "price": {
                 "min": 200,
@@ -11837,7 +11837,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Antlers",
             "price": {
                 "min": 150,
@@ -11854,7 +11854,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Shiny Nose",
             "price": {
                 "min": 7000,
@@ -11871,7 +11871,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Carrot Nose",
             "price": {
                 "min": 200,
@@ -11888,7 +11888,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Winter Knit Cap",
             "price": {
                 "min": 200,
@@ -11905,7 +11905,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Winter Cap",
             "price": {
                 "min": 100,
@@ -11922,7 +11922,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Snow Cap",
             "price": {
                 "min": 100,
@@ -11939,7 +11939,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Earmuffs",
             "price": {
                 "min": 150,
@@ -11956,7 +11956,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Yute Bell Bow",
             "price": {
                 "min": 100,
@@ -11973,7 +11973,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Christmas Top Hat",
             "price": {
                 "min": 150,
@@ -11990,7 +11990,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Toy Soldier Cap",
             "price": {
                 "min": 100,
@@ -12007,7 +12007,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Yule Xmas Hat",
             "price": {
                 "min": 100,
@@ -12024,7 +12024,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Mistletoe",
             "price": {
                 "min": 200,
@@ -12041,7 +12041,7 @@
             "section": "YULETIDE"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Holly Crown",
             "price": {
                 "min": 500,
@@ -12058,7 +12058,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Yellow Party Hat",
             "price": {
                 "min": 500,
@@ -12075,7 +12075,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Blue Party Hat",
             "price": {
                 "min": 1000,
@@ -12092,7 +12092,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Purple Party Hat",
             "price": {
                 "min": 3000,
@@ -12109,7 +12109,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Short Party Hat",
             "price": {
                 "min": 1000,
@@ -12126,7 +12126,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Tall Party Hat",
             "price": {
                 "min": 2000,
@@ -12143,7 +12143,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Yellow Orange Party Trumpet",
             "price": {
                 "min": 1000,
@@ -12160,7 +12160,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Blue Green Party Trumpet",
             "price": {
                 "min": 1000,
@@ -12177,7 +12177,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Red Purple Party Trumpet",
             "price": {
                 "min": 1000,
@@ -12194,7 +12194,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Firework Backpack",
             "price": {
                 "min": 80000,
@@ -12211,8 +12211,8 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
-            "name": "Premium 2019 New Year's Hat",
+            "section": "New Year's Day",
+            "name": "Premium 2019 New Year's Day's Hat",
             "price": {
                 "min": 14500,
                 "max": 15500
@@ -12228,7 +12228,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "StrawBerry CakeHat",
             "price": {
                 "min": 2500,
@@ -12245,7 +12245,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Vanilla CakeHat",
             "price": {
                 "min": 3500,
@@ -12262,7 +12262,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Chocolate CakeHat",
             "price": {
                 "min": 4000,
@@ -12279,7 +12279,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Firework Glasses",
             "price": {
                 "min": 300,
@@ -12296,7 +12296,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Pin Wheel",
             "price": {
                 "min": 500,
@@ -12313,7 +12313,7 @@
             "section": "NEW YEAR"
         },
         "item": {
-            "section": "New Year Pack",
+            "section": "New Year's Day",
             "name": "Cube Balloon",
             "price": {
                 "min": 2000,
@@ -12670,7 +12670,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Valentine Pack 2018",
+            "section": "Valentine's Day 2018",
             "name": "Luvmobile Key",
             "price": {
                 "min": 600000,
@@ -12704,7 +12704,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Easter Pack 2017",
+            "section": "Easter 2017",
             "name": "Bunnymobile Key",
             "price": {
                 "min": 140000,
@@ -12721,7 +12721,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Dracu Mobile Key",
             "price": {
                 "min": 30000,
@@ -12738,7 +12738,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Floating Witch's Broom Key",
             "price": {
                 "min": 80000,
@@ -12755,7 +12755,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Halloween Pack",
+            "section": "Halloween",
             "name": "Haunted Carriage",
             "price": {
                 "min": 95000,
@@ -12772,7 +12772,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Sled Key",
             "price": {
                 "min": 55000,
@@ -12806,7 +12806,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Yuletide Pack",
+            "section": "Yuletide",
             "name": "Christmas Key",
             "price": {
                 "min": 7500,
