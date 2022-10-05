@@ -16,7 +16,7 @@ $.ajax({
             txt = `<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span><img src="../cctest/error.png"></span><p>${name}</p></div>`;
         }
 
-        document.getElementById('prices').innerHTML = txt;
+        document.getElementById('prices').innerHTML += txt;
     }
 
     },
