@@ -8763,11 +8763,11 @@
             "section": "Halloween",
             "name": "Skull Balloon",
             "price": {
-                "min": 60000,
-                "max": 70000
+                "min": 55000,
+                "max": 65000
             },
             "state": "Decreasing",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "05/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_508"
         }
     },
@@ -12197,11 +12197,11 @@
             "section": "New Year's Day",
             "name": "Firework Backpack",
             "price": {
-                "min": 80000,
+                "min": 75000,
                 "max": 85000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "05/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_411"
         }
     },
