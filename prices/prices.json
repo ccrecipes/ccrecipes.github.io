@@ -7981,11 +7981,11 @@
             "section": "Summer",
             "name": "Fishing Rod",
             "price": {
-                "min": 10000,
-                "max": 12500
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_365"
         }
     },
