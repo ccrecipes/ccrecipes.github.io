@@ -8086,7 +8086,7 @@
                 "min": 20000,
                 "max": 25000
             },
-            "state": "Decreasing",
+            "state": "Stable",
             "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_360"
         }
