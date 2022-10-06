@@ -11449,11 +11449,11 @@
             "section": "Yuletide",
             "name": "Orange & Yellow Scarf",
             "price": {
-                "min": 85000,
-                "max": 95000
+                "min": 90000,
+                "max": 100000
             },
             "state": "Stable",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_139"
         }
     },
