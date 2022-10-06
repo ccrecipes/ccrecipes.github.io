@@ -11552,10 +11552,10 @@
             "name": "Winter Scarf",
             "price": {
                 "min": 3500,
-                "max": 5000
+                "max": 4500
             },
             "state": "Stable",
-            "last_updated": "19/Sep/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_757"
         }
     },
