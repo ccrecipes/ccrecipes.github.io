@@ -12605,11 +12605,11 @@
             "section": "Car",
             "name": "Pinkster Key",
             "price": {
-                "min": 14000,
-                "max": 16000
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Misc__Tile/146"
         }
     },
