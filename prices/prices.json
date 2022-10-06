@@ -10259,11 +10259,11 @@
             "section": "Thanksgiving",
             "name": "Turkey Bolo",
             "price": {
-                "min": 25000,
-                "max": 30000
+                "min": 30000,
+                "max": 35000
             },
             "state": "Stable",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_607"
         }
     },
