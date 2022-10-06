@@ -468,7 +468,7 @@
             "name": "Diving Helmet",
             "price": {
                 "min": 3500,
-                "max": 4509
+                "max": 4500
             },
             "state": "Stable",
             "last_updated": "06/Oct/2022",
