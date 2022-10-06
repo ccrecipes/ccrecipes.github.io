@@ -4429,10 +4429,10 @@
             "name": "Superior Rod",
             "price": {
                 "min": 1500,
-                "max": 2500
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_604"
         }
     },
