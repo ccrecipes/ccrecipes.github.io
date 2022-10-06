@@ -3290,10 +3290,10 @@
             "name": "Koala Hat",
             "price": {
                 "min": 250000,
-                "max": 300000
+                "max": 275000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_555"
         }
     },
