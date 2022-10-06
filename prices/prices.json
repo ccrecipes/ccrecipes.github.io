@@ -11857,11 +11857,11 @@
             "section": "Yuletide",
             "name": "Shiny Nose",
             "price": {
-                "min": 7000,
-                "max": 9000
+                "min": 8000,
+                "max": 10000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_135"
         }
     },
