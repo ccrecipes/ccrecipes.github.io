@@ -6349,11 +6349,11 @@
             "section": "Easter",
             "name": "Blue Rabbit Shirt",
             "price": {
-                "min": 7500,
-                "max": 8500
+                "min": 6000,
+                "max": 7000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_772"
         }
     },
