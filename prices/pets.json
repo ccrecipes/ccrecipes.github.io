@@ -639,11 +639,11 @@
             "section": "Yuletide Pack",
             "name": "Level 49 Reindeer Kennel",
             "price": {
-                "min": 22500,
-                "max": 27500
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/00571_cropped"
         }
     },
