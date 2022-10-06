@@ -4938,11 +4938,11 @@
             "section": "April Fools' Day",
             "name": "Clown Mask",
             "price": {
-                "min": 45000,
-                "max": 55000
+                "min": 40000,
+                "max": 45000
             },
             "state": "Stable",
-            "last_updated": "29/Sep/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_357"
         }
     },
