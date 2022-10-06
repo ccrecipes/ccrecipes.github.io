@@ -8950,11 +8950,11 @@
             "section": "Halloween",
             "name": "Head Vampire Outfit",
             "price": {
-                "min": 180000,
-                "max": 220000
+                "min": 190000,
+                "max": 210000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_276"
         }
     },
