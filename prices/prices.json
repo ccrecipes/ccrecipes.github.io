@@ -773,11 +773,11 @@
             "section": "Hat Pack",
             "name": "Red Wizard's Hat",
             "price": {
-                "min": 1250,
+                "min": 1000,
                 "max": 1500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_146"
         }
     },
