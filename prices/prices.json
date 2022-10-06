@@ -756,11 +756,11 @@
             "section": "Hat Pack",
             "name": "Black Wizard's Hat",
             "price": {
-                "min": 1800,
-                "max": 2000
+                "min": 1250,
+                "max": 1750
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_147"
         }
     },
