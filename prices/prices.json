@@ -8372,11 +8372,11 @@
             "section": "Fan",
             "name": "Cow Head",
             "price": {
-                "min": 500,
+                "min": 600,
                 "max": 1000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_687"
         }
     },
