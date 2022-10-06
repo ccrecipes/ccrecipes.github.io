@@ -8851,7 +8851,7 @@
                 "min": 500000,
                 "max": 600000
             },
-            "state": "Decreasing",
+            "state": "Stable",
             "last_updated": "01/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_380"
         }
