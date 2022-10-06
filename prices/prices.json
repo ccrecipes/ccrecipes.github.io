@@ -4904,7 +4904,7 @@
             "section": "April Fools' Day",
             "name": "Jester Pack",
             "price": {
-                "min": 18000,
+                "min": 17500,
                 "max": 20000
             },
             "state": "Stable",
