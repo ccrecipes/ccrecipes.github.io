@@ -10922,11 +10922,11 @@
             "section": "Yuletide",
             "name": "Ice Head",
             "price": {
-                "min": 75000,
-                "max": 85000
+                "min": 85000,
+                "max": 100000
             },
             "state": "Increasing",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_530"
         }
     },
