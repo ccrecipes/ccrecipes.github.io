@@ -4870,11 +4870,11 @@
             "section": "April Fools' Day",
             "name": "Motley Shirt",
             "price": {
-                "min": 275000,
-                "max": 325000
+                "min": 300000,
+                "max": 350000
             },
             "state": "Stable",
-            "last_updated": "23/Aug/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_212"
         }
     },
