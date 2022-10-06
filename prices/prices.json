@@ -8083,11 +8083,11 @@
             "section": "Summer",
             "name": "Leather Backpack",
             "price": {
-                "min": 22000,
+                "min": 20000,
                 "max": 25000
             },
             "state": "Decreasing",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "06/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_360"
         }
     },
