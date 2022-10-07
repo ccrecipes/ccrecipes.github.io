@@ -4343,11 +4343,11 @@
             "section": "Adventure Pack",
             "name": "Machete",
             "price": {
-                "min": 17500,
-                "max": 22500
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "07/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_720"
         }
     },
@@ -4813,7 +4813,7 @@
     {
         "type": {
             "name": "FOOL'S CAP",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4830,7 +4830,7 @@
     {
         "type": {
             "name": "LESSER FOOL'S CAP",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4847,7 +4847,7 @@
     {
         "type": {
             "name": "LEAST FOOL'S CAP",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4864,7 +4864,7 @@
     {
         "type": {
             "name": "MOTLEY SHIRT",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4881,7 +4881,7 @@
     {
         "type": {
             "name": "MOTLEY PANTS",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4898,7 +4898,7 @@
     {
         "type": {
             "name": "JESTER PACK",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4915,7 +4915,7 @@
     {
         "type": {
             "name": "JESTER'S CANE",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4932,7 +4932,7 @@
     {
         "type": {
             "name": "CLOWN MASK",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4949,7 +4949,7 @@
     {
         "type": {
             "name": "DIRT BLOCK HEAD",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4966,7 +4966,7 @@
     {
         "type": {
             "name": "BANANA SPLIT HAT",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -4983,7 +4983,7 @@
     {
         "type": {
             "name": "BEAGLEPUSS",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -5000,7 +5000,7 @@
     {
         "type": {
             "name": "HIPNO SHADEZ",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -5017,7 +5017,7 @@
     {
         "type": {
             "name": "HIPNO SHADES",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -5034,7 +5034,7 @@
     {
         "type": {
             "name": "WORN HAT",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -5051,7 +5051,7 @@
     {
         "type": {
             "name": "BROKEN GLASSES",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -5068,7 +5068,7 @@
     {
         "type": {
             "name": "HALF HAT",
-            "section": "APRIL"
+            "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
@@ -6445,7 +6445,7 @@
     {
         "type": {
             "name": "CUPID'S HALO",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6462,7 +6462,7 @@
     {
         "type": {
             "name": "CUPID'S WINGS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6478,8 +6478,8 @@
     },
     {
         "type": {
-            "name": "VALENTINE WINGS",
-            "section": "VALENTINE"
+            "name": "VALENTINE'S DAY WINGS",
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6496,7 +6496,7 @@
     {
         "type": {
             "name": "HEART WINGS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6513,7 +6513,7 @@
     {
         "type": {
             "name": "WUVVA SCARF",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6530,7 +6530,7 @@
     {
         "type": {
             "name": "HEART BACKPACK",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6547,7 +6547,7 @@
     {
         "type": {
             "name": "MOUSE BACKPACK",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6564,7 +6564,7 @@
     {
         "type": {
             "name": "STUFF TOY BACKPACK",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6581,7 +6581,7 @@
     {
         "type": {
             "name": "TURTLE BACKPACK",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6598,7 +6598,7 @@
     {
         "type": {
             "name": "WHITE WUVVA SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6615,7 +6615,7 @@
     {
         "type": {
             "name": "PINK WUVVA SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6632,7 +6632,7 @@
     {
         "type": {
             "name": "RED WUVVA SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6649,7 +6649,7 @@
     {
         "type": {
             "name": "HALF HEART LEFT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6666,7 +6666,7 @@
     {
         "type": {
             "name": "HALF HEART RIGHT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6683,7 +6683,7 @@
     {
         "type": {
             "name": "YELLOW PRINCESS TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6700,7 +6700,7 @@
     {
         "type": {
             "name": "YELLOW PRINCESS DRESS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6717,7 +6717,7 @@
     {
         "type": {
             "name": "GREEN PRINCESS TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6734,7 +6734,7 @@
     {
         "type": {
             "name": "GREEN PRINCESS DRESS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6751,7 +6751,7 @@
     {
         "type": {
             "name": "QUEEN'S CROWN",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6768,7 +6768,7 @@
     {
         "type": {
             "name": "KING'S CROWN",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6785,7 +6785,7 @@
     {
         "type": {
             "name": "PANDA HAT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6802,7 +6802,7 @@
     {
         "type": {
             "name": "ALIEN HAT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6819,7 +6819,7 @@
     {
         "type": {
             "name": "FAKE HALO",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6836,7 +6836,7 @@
     {
         "type": {
             "name": "HEART HAT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6853,7 +6853,7 @@
     {
         "type": {
             "name": "APPLE O'LOVE",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6870,7 +6870,7 @@
     {
         "type": {
             "name": "HEART BEADS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6887,7 +6887,7 @@
     {
         "type": {
             "name": "ROMANTIC FLOWER",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6904,7 +6904,7 @@
     {
         "type": {
             "name": "HEART EARS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6921,7 +6921,7 @@
     {
         "type": {
             "name": "HEART TAIL",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6938,7 +6938,7 @@
     {
         "type": {
             "name": "LOVE BALLOON",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6955,7 +6955,7 @@
     {
         "type": {
             "name": "PINK BALLOON",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6972,7 +6972,7 @@
     {
         "type": {
             "name": "WUVVA UMBRELLA",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -6989,7 +6989,7 @@
     {
         "type": {
             "name": "TAKE THIS FLOWER",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7006,7 +7006,7 @@
     {
         "type": {
             "name": "LOVE WAND",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7023,7 +7023,7 @@
     {
         "type": {
             "name": "KNIGHT'S SWORD",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7040,7 +7040,7 @@
     {
         "type": {
             "name": "KNIGHT'S HELMET",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7057,7 +7057,7 @@
     {
         "type": {
             "name": "KNIGHT'S SHIELD",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7074,7 +7074,7 @@
     {
         "type": {
             "name": "TEDDY BEAR HEAD",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7091,7 +7091,7 @@
     {
         "type": {
             "name": "TEDDY BEAR SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7108,7 +7108,7 @@
     {
         "type": {
             "name": "TEDDY BEAR PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7125,7 +7125,7 @@
     {
         "type": {
             "name": "RAINBOW UNICORN TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7142,7 +7142,7 @@
     {
         "type": {
             "name": "RAINBOW UNICORN SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7159,7 +7159,7 @@
     {
         "type": {
             "name": "RAINBOW UNICORN PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7176,7 +7176,7 @@
     {
         "type": {
             "name": "RAINBOW UNICORN TAIL",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7193,7 +7193,7 @@
     {
         "type": {
             "name": "FLOWER TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7210,7 +7210,7 @@
     {
         "type": {
             "name": "FLOWER SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7227,7 +7227,7 @@
     {
         "type": {
             "name": "FLOWER PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7244,7 +7244,7 @@
     {
         "type": {
             "name": "CUTE BEE TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7261,7 +7261,7 @@
     {
         "type": {
             "name": "CUTE BEE SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7278,7 +7278,7 @@
     {
         "type": {
             "name": "CUTE BEE PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7295,7 +7295,7 @@
     {
         "type": {
             "name": "RABBIT M TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7312,7 +7312,7 @@
     {
         "type": {
             "name": "RABBIT M SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7329,7 +7329,7 @@
     {
         "type": {
             "name": "RABBIT M PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7346,7 +7346,7 @@
     {
         "type": {
             "name": "RABBIT F TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7363,7 +7363,7 @@
     {
         "type": {
             "name": "RABBIT F SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7380,7 +7380,7 @@
     {
         "type": {
             "name": "RABBIT F PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7397,7 +7397,7 @@
     {
         "type": {
             "name": "MOTEHR OWL TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7414,7 +7414,7 @@
     {
         "type": {
             "name": "MOTHER OWL SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7431,7 +7431,7 @@
     {
         "type": {
             "name": "MOTHER OWL PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7448,7 +7448,7 @@
     {
         "type": {
             "name": "BABY OWL TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7465,7 +7465,7 @@
     {
         "type": {
             "name": "BABY OWL SHIRT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7482,7 +7482,7 @@
     {
         "type": {
             "name": "BABY OWL PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7499,7 +7499,7 @@
     {
         "type": {
             "name": "RED TOP HAT",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7516,7 +7516,7 @@
     {
         "type": {
             "name": "ROSE ON THE MOUTH",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7533,7 +7533,7 @@
     {
         "type": {
             "name": "RED TUXEDO TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7550,7 +7550,7 @@
     {
         "type": {
             "name": "RED TUXEDO PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7567,7 +7567,7 @@
     {
         "type": {
             "name": "RED DRESS TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7584,7 +7584,7 @@
     {
         "type": {
             "name": "RED DRESS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7601,7 +7601,7 @@
     {
         "type": {
             "name": "HEART UMBRELLA",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7618,7 +7618,7 @@
     {
         "type": {
             "name": "CUPID BOW",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7635,7 +7635,7 @@
     {
         "type": {
             "name": "CUPID WIG",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7652,7 +7652,7 @@
     {
         "type": {
             "name": "CUPID WINGS 2",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7669,7 +7669,7 @@
     {
         "type": {
             "name": "CUPID TOP",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -7686,7 +7686,7 @@
     {
         "type": {
             "name": "CUPID PANTS",
-            "section": "VALENTINE"
+            "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
@@ -10763,10 +10763,10 @@
     {
         "type": {
             "name": "MR. CHRISTMAS COSTUME",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Mr. Christmas Costume",
             "price": {
                 "min": 120000,
@@ -10780,10 +10780,10 @@
     {
         "type": {
             "name": "SNOWMAN COSTUME",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Snowman Costume",
             "price": {
                 "min": 14000,
@@ -10797,10 +10797,10 @@
     {
         "type": {
             "name": "CHRISTMAS GIFTBOX COSTUME",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Christmas Giftbox Costume",
             "price": {
                 "min": 2000,
@@ -10814,10 +10814,10 @@
     {
         "type": {
             "name": "KRAMPUS MASK",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Krampus Mask",
             "price": {
                 "min": 1000000,
@@ -10831,10 +10831,10 @@
     {
         "type": {
             "name": "KRAMPUS MASK 2018",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Krampus Mask 2018",
             "price": {
                 "min": 55000,
@@ -10848,10 +10848,10 @@
     {
         "type": {
             "name": "CHEAP FAKE KRAMPUS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Cheap fake Krampus",
             "price": {
                 "min": 14000,
@@ -10865,10 +10865,10 @@
     {
         "type": {
             "name": "KRAMPUS MASK 2020",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Krampus Mask 2020",
             "price": {
                 "min": 7000,
@@ -10882,10 +10882,10 @@
     {
         "type": {
             "name": "KRAMPUS SHIRT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Krampus Shirt",
             "price": {
                 "min": 500,
@@ -10899,10 +10899,10 @@
     {
         "type": {
             "name": "KRAMPUS PANTS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Krampus Pants",
             "price": {
                 "min": 500,
@@ -10916,10 +10916,10 @@
     {
         "type": {
             "name": "ICE HEAD",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Ice Head",
             "price": {
                 "min": 85000,
@@ -10933,10 +10933,10 @@
     {
         "type": {
             "name": "ICE SHIRT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Ice Shirt",
             "price": {
                 "min": 400,
@@ -10950,10 +10950,10 @@
     {
         "type": {
             "name": "ICE PANTS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Ice Pants",
             "price": {
                 "min": 400,
@@ -10967,10 +10967,10 @@
     {
         "type": {
             "name": "SNOW QBEE HEAD",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Snow Qbee Head",
             "price": {
                 "min": 500,
@@ -10984,10 +10984,10 @@
     {
         "type": {
             "name": "SNOW QBEE TOP",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Snow Qbee Top",
             "price": {
                 "min": 500,
@@ -11001,10 +11001,10 @@
     {
         "type": {
             "name": "SNOW QBEE PANTS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Snow Qbee Pants",
             "price": {
                 "min": 500,
@@ -11018,10 +11018,10 @@
     {
         "type": {
             "name": "GINGERBREAD HEAD",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Gingerbread Head",
             "price": {
                 "min": 6000,
@@ -11035,10 +11035,10 @@
     {
         "type": {
             "name": "GINGERBREAD SHIRT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Gingerbread Shirt",
             "price": {
                 "min": 200,
@@ -11052,10 +11052,10 @@
     {
         "type": {
             "name": "GINGERBREAD PANTS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Gingerbread Pants",
             "price": {
                 "min": 200,
@@ -11069,10 +11069,10 @@
     {
         "type": {
             "name": "TOY SOLDIER GUN",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Toy Soldier Gun",
             "price": {
                 "min": 7000,
@@ -11086,10 +11086,10 @@
     {
         "type": {
             "name": "TOY SOLDIER CAP 2020",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Toy Soldier Cap 2020",
             "price": {
                 "min": 500,
@@ -11103,10 +11103,10 @@
     {
         "type": {
             "name": "TOY SOLDIER SHIRT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Toy Soldier Shirt",
             "price": {
                 "min": 500,
@@ -11120,10 +11120,10 @@
     {
         "type": {
             "name": "TOY SOLDIER PANTS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Toy Soldier Pants",
             "price": {
                 "min": 500,
@@ -11137,10 +11137,10 @@
     {
         "type": {
             "name": "DOLL WIG",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Doll Wig",
             "price": {
                 "min": 250,
@@ -11154,10 +11154,10 @@
     {
         "type": {
             "name": "DOLL SHIRT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Doll Shirt",
             "price": {
                 "min": 250,
@@ -11171,10 +11171,10 @@
     {
         "type": {
             "name": "DOLL DRESS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Doll Dress",
             "price": {
                 "min": 250,
@@ -11188,10 +11188,10 @@
     {
         "type": {
             "name": "FANCY ELF HAT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Fancy Elf Hat",
             "price": {
                 "min": 200,
@@ -11205,10 +11205,10 @@
     {
         "type": {
             "name": "ELF CAP",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Elf Cap",
             "price": {
                 "min": 150,
@@ -11222,10 +11222,10 @@
     {
         "type": {
             "name": "ELF HAT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Elf Hat",
             "price": {
                 "min": 150,
@@ -11239,10 +11239,10 @@
     {
         "type": {
             "name": "ELF SHIRT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Elf Shirt",
             "price": {
                 "min": 150,
@@ -11256,10 +11256,10 @@
     {
         "type": {
             "name": "ELF PANTS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Elf Pants",
             "price": {
                 "min": 200,
@@ -11273,10 +11273,10 @@
     {
         "type": {
             "name": "SANTA HAT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Santa Hat",
             "price": {
                 "min": 150,
@@ -11290,10 +11290,10 @@
     {
         "type": {
             "name": "SANTA BEARD",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Santa Beard",
             "price": {
                 "min": 350,
@@ -11307,10 +11307,10 @@
     {
         "type": {
             "name": "SANTA SHIRT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Santa Shirt",
             "price": {
                 "min": 150,
@@ -11324,10 +11324,10 @@
     {
         "type": {
             "name": "SANTA PANTS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Santa Pants",
             "price": {
                 "min": 150,
@@ -11341,10 +11341,10 @@
     {
         "type": {
             "name": "MRS SANTA HAT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Mrs Santa Hat",
             "price": {
                 "min": 150,
@@ -11358,10 +11358,10 @@
     {
         "type": {
             "name": "MRS. CLAUS SKIRT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Mrs. Claus Skirt",
             "price": {
                 "min": 350,
@@ -11375,10 +11375,10 @@
     {
         "type": {
             "name": "UGLY CHRISTMAS SWEATER",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Ugly Christmas Sweater",
             "price": {
                 "min": 200,
@@ -11392,10 +11392,10 @@
     {
         "type": {
             "name": "CHRISTMAS OUTFIT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Christmas Outfit",
             "price": {
                 "min": 150,
@@ -11409,10 +11409,10 @@
     {
         "type": {
             "name": "ELF GLASSES",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Elf Glasses",
             "price": {
                 "min": 150,
@@ -11426,10 +11426,10 @@
     {
         "type": {
             "name": "CHRISTMAS GLASSES",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Christmas Glasses",
             "price": {
                 "min": 150,
@@ -11443,10 +11443,10 @@
     {
         "type": {
             "name": "ORANGE & YELLOW SCARF",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Orange & Yellow Scarf",
             "price": {
                 "min": 90000,
@@ -11460,10 +11460,10 @@
     {
         "type": {
             "name": "BLUE & WHITE SCARF",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Blue & White Scarf",
             "price": {
                 "min": 13500,
@@ -11477,10 +11477,10 @@
     {
         "type": {
             "name": "RED & GREEN SCARF",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Red & Green Scarf",
             "price": {
                 "min": 12000,
@@ -11494,10 +11494,10 @@
     {
         "type": {
             "name": "STARRY SCARF",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Starry Scarf",
             "price": {
                 "min": 7000,
@@ -11511,10 +11511,10 @@
     {
         "type": {
             "name": "PURPLE SCARF",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Purple Scarf",
             "price": {
                 "min": 800,
@@ -11528,10 +11528,10 @@
     {
         "type": {
             "name": "XMAS SCARF",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Xmas Scarf",
             "price": {
                 "min": 400,
@@ -11545,10 +11545,10 @@
     {
         "type": {
             "name": "WINTER SCARF",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Winter Scarf",
             "price": {
                 "min": 3500,
@@ -11562,10 +11562,10 @@
     {
         "type": {
             "name": "GIFT BACKPACK 2",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Gift BackPack 2",
             "price": {
                 "min": 4500,
@@ -11579,10 +11579,10 @@
     {
         "type": {
             "name": "GIFT BACKPACK",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Gift BackPack",
             "price": {
                 "min": 4500,
@@ -11596,10 +11596,10 @@
     {
         "type": {
             "name": "SANTA PACK",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Santa Pack",
             "price": {
                 "min": 3000,
@@ -11613,10 +11613,10 @@
     {
         "type": {
             "name": "ICY WINGS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Icy Wings",
             "price": {
                 "min": 1000,
@@ -11630,10 +11630,10 @@
     {
         "type": {
             "name": "WINTER UMBRELLA",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Winter Umbrella",
             "price": {
                 "min": 35000,
@@ -11647,10 +11647,10 @@
     {
         "type": {
             "name": "CARRY CANE",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Carry Cane",
             "price": {
                 "min": 500,
@@ -11664,10 +11664,10 @@
     {
         "type": {
             "name": "SNOWFLAKE STAFF",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Snowflake Staff",
             "price": {
                 "min": 1000,
@@ -11681,10 +11681,10 @@
     {
         "type": {
             "name": "ICY POP",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Icy Pop",
             "price": {
                 "min": 350,
@@ -11698,10 +11698,10 @@
     {
         "type": {
             "name": "ICE POP 2",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Ice Pop 2",
             "price": {
                 "min": 350,
@@ -11715,10 +11715,10 @@
     {
         "type": {
             "name": "BLUE SKI GOGGLES",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Blue Ski Goggles",
             "price": {
                 "min": 250,
@@ -11732,10 +11732,10 @@
     {
         "type": {
             "name": "RED SKI GOGGLES",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Red Ski Goggles",
             "price": {
                 "min": 250,
@@ -11749,10 +11749,10 @@
     {
         "type": {
             "name": "BLUE SKI MASK",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Blue Ski Mask",
             "price": {
                 "min": 250,
@@ -11766,10 +11766,10 @@
     {
         "type": {
             "name": "RED SKI MASK",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Red Ski Mask",
             "price": {
                 "min": 250,
@@ -11783,10 +11783,10 @@
     {
         "type": {
             "name": "CHRISTMAS GROUCH",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Christmas Grouch",
             "price": {
                 "min": 5000,
@@ -11800,10 +11800,10 @@
     {
         "type": {
             "name": "YETI HEAD",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Yeti Head",
             "price": {
                 "min": 8000,
@@ -11817,10 +11817,10 @@
     {
         "type": {
             "name": "REINDEER CAP",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Reindeer Cap",
             "price": {
                 "min": 200,
@@ -11834,10 +11834,10 @@
     {
         "type": {
             "name": "ANTLERS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Antlers",
             "price": {
                 "min": 150,
@@ -11851,10 +11851,10 @@
     {
         "type": {
             "name": "SHINY NOSE",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Shiny Nose",
             "price": {
                 "min": 8000,
@@ -11868,10 +11868,10 @@
     {
         "type": {
             "name": "CARROT NOSE",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Carrot Nose",
             "price": {
                 "min": 200,
@@ -11885,10 +11885,10 @@
     {
         "type": {
             "name": "WINTER KNIT CAP",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Winter Knit Cap",
             "price": {
                 "min": 200,
@@ -11902,10 +11902,10 @@
     {
         "type": {
             "name": "WINTER CAP",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Winter Cap",
             "price": {
                 "min": 100,
@@ -11919,10 +11919,10 @@
     {
         "type": {
             "name": "SNOW CAP",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Snow Cap",
             "price": {
                 "min": 100,
@@ -11936,10 +11936,10 @@
     {
         "type": {
             "name": "EARMUFFS",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Earmuffs",
             "price": {
                 "min": 150,
@@ -11953,10 +11953,10 @@
     {
         "type": {
             "name": "YUTE BELL BOW",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Yute Bell Bow",
             "price": {
                 "min": 100,
@@ -11970,10 +11970,10 @@
     {
         "type": {
             "name": "CHRISTMAS TOP HAT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Christmas Top Hat",
             "price": {
                 "min": 150,
@@ -11987,10 +11987,10 @@
     {
         "type": {
             "name": "TOY SOLDIER CAP",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Toy Soldier Cap",
             "price": {
                 "min": 100,
@@ -12004,10 +12004,10 @@
     {
         "type": {
             "name": "YULE XMAS HAT",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Yule Xmas Hat",
             "price": {
                 "min": 100,
@@ -12021,10 +12021,10 @@
     {
         "type": {
             "name": "MISTLETOE LURE",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Mistletoe",
             "price": {
                 "min": 200,
@@ -12038,10 +12038,10 @@
     {
         "type": {
             "name": "HOLLY CROWN",
-            "section": "YULETIDE"
+            "section": "CHRISTMAS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Holly Crown",
             "price": {
                 "min": 500,
@@ -12055,7 +12055,7 @@
     {
         "type": {
             "name": "YELLOW PARTY HAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12072,7 +12072,7 @@
     {
         "type": {
             "name": "BLUE PARTY HAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12089,7 +12089,7 @@
     {
         "type": {
             "name": "PURPLE PARTY HAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12106,7 +12106,7 @@
     {
         "type": {
             "name": "SHORT PARTY HAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12123,7 +12123,7 @@
     {
         "type": {
             "name": "TALL PARTY HAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12140,7 +12140,7 @@
     {
         "type": {
             "name": "YELLOW ORANGE PARTY TRUMPET",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12157,7 +12157,7 @@
     {
         "type": {
             "name": "BLUE GREEN PARTY TRUMPET",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12174,7 +12174,7 @@
     {
         "type": {
             "name": "RED PURPLE PARTY TRUMPET",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12191,7 +12191,7 @@
     {
         "type": {
             "name": "FIREWORK BACKPACK",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12208,11 +12208,11 @@
     {
         "type": {
             "name": "PREMIUM 2019 NEW YEAR'S HAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
-            "name": "Premium 2019 New Year's Day's Hat",
+            "name": "Premium 2019 New Year's Hat",
             "price": {
                 "min": 14500,
                 "max": 15500
@@ -12225,7 +12225,7 @@
     {
         "type": {
             "name": "STRAWBERRY CAKEHAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12242,7 +12242,7 @@
     {
         "type": {
             "name": "VANILLA CAKEHAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12259,7 +12259,7 @@
     {
         "type": {
             "name": "CHOCOLATE CAKEHAT",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12276,7 +12276,7 @@
     {
         "type": {
             "name": "FIREWORK GLASSES",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12293,7 +12293,7 @@
     {
         "type": {
             "name": "PIN WHEEL",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12310,7 +12310,7 @@
     {
         "type": {
             "name": "CUBE BALLOON",
-            "section": "NEW YEAR"
+            "section": "NEW YEAR'S DAY"
         },
         "item": {
             "section": "New Year's Day",
@@ -12772,7 +12772,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Sled Key",
             "price": {
                 "min": 55000,
@@ -12806,7 +12806,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Yuletide",
+            "section": "Christmas",
             "name": "Christmas Key",
             "price": {
                 "min": 7500,
@@ -12874,7 +12874,7 @@
             "section": "WANDS"
         },
         "item": {
-            "section": "Wand",
+            "section": "Wands",
             "name": "Harm Wand",
             "price": {
                 "min": 20,
@@ -12891,7 +12891,7 @@
             "section": "WANDS"
         },
         "item": {
-            "section": "Wand",
+            "section": "Wands",
             "name": "Knock Back Wand",
             "price": {
                 "min": 20,
@@ -12908,7 +12908,7 @@
             "section": "WANDS"
         },
         "item": {
-            "section": "Wand",
+            "section": "Wands",
             "name": "Heal Wand",
             "price": {
                 "min": 50,
@@ -12925,7 +12925,7 @@
             "section": "WANDS"
         },
         "item": {
-            "section": "Wand",
+            "section": "Wands",
             "name": "Shrink Wand",
             "price": {
                 "min": 800,
@@ -12942,7 +12942,7 @@
             "section": "WANDS"
         },
         "item": {
-            "section": "Wand",
+            "section": "Wands",
             "name": "Necromancer's Wand",
             "price": {
                 "min": 1500,
