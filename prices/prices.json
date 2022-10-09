@@ -7080,7 +7080,7 @@
             "section": "Valentine's Day",
             "name": "Teddy Bear Head",
             "price": {
-                "min": 275000,
+                "min": 300000,
                 "max": 325000
             },
             "state": "Stable",
