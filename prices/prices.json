@@ -7794,11 +7794,11 @@
             "section": "Summer",
             "name": "Hairy Guy On The Beach Thong",
             "price": {
-                "min": 100000,
-                "max": 110000
+                "min": 95000,
+                "max": 100000
             },
             "state": "Stable",
-            "last_updated": "25/Sep/2022",
+            "last_updated": "09/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_309"
         }
     },
