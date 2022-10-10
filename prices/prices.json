@@ -4153,8 +4153,8 @@
             "section": "STEAMPUNK PACK"
         },
         "item": {
-            "section": "Steampunk Pants",
-            "name": "SteamPunk Goggles",
+            "section": "Steampunk Pack",
+            "name": "SteamPunk Pants",
             "price": {
                 "min": 1000,
                 "max": 2000
@@ -7081,10 +7081,10 @@
             "name": "Teddy Bear Head",
             "price": {
                 "min": 300000,
-                "max": 325000
+                "max": 400000
             },
             "state": "Increasing",
-            "last_updated": "09/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_545"
         }
     },
@@ -8852,7 +8852,7 @@
                 "max": 300000
             },
             "state": "Decreasing",
-            "last_updated": "09/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_380"
         }
     },
