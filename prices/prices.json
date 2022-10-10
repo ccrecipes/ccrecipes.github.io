@@ -12758,11 +12758,11 @@
             "section": "Halloween",
             "name": "Haunted Carriage",
             "price": {
-                "min": 95000,
-                "max": 105000
+                "min": 100000,
+                "max": 120000
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/256"
         }
     },
