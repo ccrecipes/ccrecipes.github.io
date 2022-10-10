@@ -11569,10 +11569,10 @@
             "name": "Gift BackPack 2",
             "price": {
                 "min": 4500,
-                "max": 6000
+                "max": 5500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_527"
         }
     },
