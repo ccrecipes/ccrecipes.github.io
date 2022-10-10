@@ -28,10 +28,10 @@
             "name": "Level 49 Ram Kennel",
             "price": {
                 "min": 2500000,
-                "max": 3000000
+                "max": 2750000
             },
             "state": "Stable",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/00496_cropped"
         }
     },
