@@ -10276,11 +10276,11 @@
             "section": "Thanksgiving",
             "name": "Pumpkin Hat",
             "price": {
-                "min": 30000,
-                "max": 40000
+                "min": 35000,
+                "max": 45000
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_608"
         }
     },
