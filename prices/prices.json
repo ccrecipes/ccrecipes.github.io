@@ -3272,11 +3272,11 @@
             "section": "Quest",
             "name": "Doc's Mirror",
             "price": {
-                "min": 375000,
-                "max": 425000
+                "min": 400000,
+                "max": 450000
             },
             "state": "Stable",
-            "last_updated": "02/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_151"
         }
     },
