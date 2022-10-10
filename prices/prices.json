@@ -12741,11 +12741,11 @@
             "section": "Halloween",
             "name": "Floating Witch's Broom Key",
             "price": {
-                "min": 80000,
-                "max": 90000
+                "min": 90000,
+                "max": 100000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/257"
         }
     },
