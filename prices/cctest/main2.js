@@ -18,7 +18,16 @@ $.ajax({
 
         //document.getElementById('prices').innerHTML += txt;
         $('#prices').append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
-    }
+    };
+
+    $(document).ready(function() {
+        $("#filterInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $(".item").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
 
     },
     error: function(){

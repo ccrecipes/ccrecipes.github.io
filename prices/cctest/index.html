@@ -15,6 +15,41 @@
 		background-image: url(../cctest/stars.png);
 	}
 
+	.searchbar {
+	    position: relative;
+	    display: table-cell;
+	    left: 50%;
+	    width: Calc(100% - 140px);
+	    transform: translate(-50%);
+	    padding: 5px;
+	    height: 25px;
+	    vertical-align: middle;
+	    float: left;
+	}
+
+	.navbar {
+	    position: absolute;
+	    z-index: 3;
+	    width: 100%;
+	    left: 0px;
+	    top: 0px;
+	    height: 50px;
+	    background: linear-gradient(99deg, rgb(3, 0, 49) 19%, rgb(0, 12, 65) 20%, rgb(0, 12, 65) 80%, rgb(3, 0, 49) 81%);
+	    box-shadow: 0px 8px 5px rgb(0 0 0 / 50%);
+	}
+
+	#filterInput {
+	    position: absolute;
+	    color: white;
+	    padding-left: 40px;
+	    background: transparent;
+	    outline: none;
+	    height: 100%;
+	    width: Calc(100% - 40px);
+	    border: none;
+	    border-bottom: solid 2px white;
+	}
+
 	.list {
 	    text-align: center;
 	}
@@ -60,11 +95,25 @@
 		transform: translate(-50%, -50%) scale(.7) !important;
 	}
 
+	.all_prices {
+	    scroll-behavior: smooth;
+	    position: absolute;
+	    width: 100%;
+	    height: Calc(100% - 50px);
+	    bottom: 0px;
+	    left: 0px;
+	    overflow-y: scroll;
+	}
+
 </style>
 <body>
-	<div id="prices" class="list">
-		<p id="test" class="text"></p>
+	<div class="navbar">
+		<div class="searchbar">
+			<input type="text" id="filterInput" placeholder="Search for item...">
 		</div>
+	</div>
+	<div class="all_prices">
+		<div id="prices" class="list"></div>
 	</div>
 </body>
 	<script src="jquery.js"></script>
