@@ -10634,7 +10634,7 @@
             "name": "Shoulder Top",
             "price": {
                 "min": 750,
-                "max": 1250
+                "max": 1000
             },
             "state": "Stable",
             "last_updated": "10/Oct/2022",
