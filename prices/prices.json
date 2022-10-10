@@ -12690,11 +12690,11 @@
             "section": "Car",
             "name": "Easterider Keys",
             "price": {
-                "min": 250000,
-                "max": 300000
+                "min": 275000,
+                "max": 325000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/195"
         }
     },
