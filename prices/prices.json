@@ -2762,8 +2762,8 @@
             "section": "Accessories Pack",
             "name": "Bandit Mask",
             "price": {
-                "min": 200,
-                "max": 300
+                "min": 250,
+                "max": 350
             },
             "state": "Stable",
             "last_updated": "10/Oct/2022",
