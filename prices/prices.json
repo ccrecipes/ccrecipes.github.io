@@ -3034,11 +3034,11 @@
             "section": "Accessories Pack",
             "name": "Blue Hair Bow",
             "price": {
-                "min": 100,
-                "max": 200
+                "min": 75,
+                "max": 150
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_014"
         }
     },
