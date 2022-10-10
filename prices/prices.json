@@ -5159,8 +5159,8 @@
             "section": "Easter",
             "name": "RoboZilla Head",
             "price": {
-                "min": 15000,
-                "max": 20000
+                "min": 10000,
+                "max": 15000
             },
             "state": "Decreasing",
             "last_updated": "10/Oct/2022",
