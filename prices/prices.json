@@ -3017,11 +3017,11 @@
             "section": "Accessories Pack",
             "name": "Headphones",
             "price": {
-                "min": 500,
+                "min": 750,
                 "max": 1000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_037"
         }
     },
