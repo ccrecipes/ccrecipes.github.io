@@ -11024,11 +11024,11 @@
             "section": "Christmas",
             "name": "Gingerbread Head",
             "price": {
-                "min": 6000,
-                "max": 9000
+                "min": 8000,
+                "max": 10000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_285"
         }
     },
