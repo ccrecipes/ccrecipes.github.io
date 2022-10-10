@@ -5162,8 +5162,8 @@
                 "min": 15000,
                 "max": 20000
             },
-            "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "state": "Decreasing",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_675"
         }
     },
@@ -12025,13 +12025,13 @@
         },
         "item": {
             "section": "Christmas",
-            "name": "Mistletoe",
+            "name": "Mistletoe Lure",
             "price": {
-                "min": 150,
-                "max": 250
+                "min": 200,
+                "max": 500
             },
             "state": "Stable",
-            "last_updated": "10/Oct/2022",
+            "last_updated": "17/07/2022",
             "url": "ItemIcons_Wear__Tile/IMG_140"
         }
     },
