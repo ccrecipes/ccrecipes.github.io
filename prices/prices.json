@@ -12775,11 +12775,11 @@
             "section": "Christmas",
             "name": "Sled Key",
             "price": {
-                "min": 55000,
+                "min": 50000,
                 "max": 60000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/177"
         }
     },
