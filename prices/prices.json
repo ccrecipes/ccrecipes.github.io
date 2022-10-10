@@ -11585,7 +11585,7 @@
             "section": "Christmas",
             "name": "Gift BackPack",
             "price": {
-                "min": 4000,
+                "min": 4500,
                 "max": 5500
             },
             "state": "Stable",
