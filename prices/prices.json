@@ -2745,11 +2745,11 @@
             "section": "Accessories Pack",
             "name": "Eyepatch",
             "price": {
-                "min": 6000,
-                "max": 8000
+                "min": 8000,
+                "max": 9000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_168"
         }
     },
@@ -2763,10 +2763,10 @@
             "name": "Bandit Mask",
             "price": {
                 "min": 250,
-                "max": 450
+                "max": 350
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_103"
         }
     },
@@ -2881,11 +2881,11 @@
             "section": "Accessories Pack",
             "name": "Cat's Eye Glasses",
             "price": {
-                "min": 100,
+                "min": 150,
                 "max": 250
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_118"
         }
     },
@@ -2916,10 +2916,10 @@
             "name": "Striped Shades",
             "price": {
                 "min": 1500,
-                "max": 3000
+                "max": 2500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_450"
         }
     },
@@ -3000,11 +3000,11 @@
             "section": "Accessories Pack",
             "name": "Antennae",
             "price": {
-                "min": 200,
-                "max": 400
+                "min": 250,
+                "max": 350
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_038"
         }
     },
@@ -3017,11 +3017,11 @@
             "section": "Accessories Pack",
             "name": "Headphones",
             "price": {
-                "min": 500,
+                "min": 750,
                 "max": 1000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_037"
         }
     },
@@ -3034,11 +3034,11 @@
             "section": "Accessories Pack",
             "name": "Blue Hair Bow",
             "price": {
-                "min": 100,
-                "max": 200
+                "min": 75,
+                "max": 150
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_014"
         }
     },
@@ -3051,11 +3051,11 @@
             "section": "Accessories Pack",
             "name": "Red Hair Bow",
             "price": {
-                "min": 100,
-                "max": 200
+                "min": 75,
+                "max": 150
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_005"
         }
     },
@@ -3272,11 +3272,11 @@
             "section": "Quest",
             "name": "Doc's Mirror",
             "price": {
-                "min": 375000,
-                "max": 425000
+                "min": 400000,
+                "max": 450000
             },
             "state": "Stable",
-            "last_updated": "02/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_151"
         }
     },
@@ -3289,11 +3289,11 @@
             "section": "Quest",
             "name": "Koala Hat",
             "price": {
-                "min": 275000,
-                "max": 300000
+                "min": 300000,
+                "max": 350000
             },
             "state": "Stable",
-            "last_updated": "09/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_555"
         }
     },
@@ -4904,11 +4904,11 @@
             "section": "April Fools' Day",
             "name": "Jester Pack",
             "price": {
-                "min": 17500,
-                "max": 20000
+                "min": 15000,
+                "max": 17500
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_427"
         }
     },
@@ -5143,10 +5143,10 @@
             "name": "Red Balloon",
             "price": {
                 "min": 85000,
-                "max": 95000
+                "max": 90000
             },
             "state": "Stable",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_208"
         }
     },
@@ -5159,11 +5159,11 @@
             "section": "Easter",
             "name": "RoboZilla Head",
             "price": {
-                "min": 15000,
-                "max": 20000
+                "min": 10000,
+                "max": 15000
             },
-            "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "state": "Decreasing",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_675"
         }
     },
@@ -5177,10 +5177,10 @@
             "name": "Easter Umbrella",
             "price": {
                 "min": 1900000,
-                "max": 2000000
+                "max": 2100000
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_197"
         }
     },
@@ -5907,11 +5907,11 @@
             "section": "Easter",
             "name": "Bunny Pyjamas",
             "price": {
-                "min": 425000,
-                "max": 475000
+                "min": 450000,
+                "max": 500000
             },
             "state": "Increasing",
-            "last_updated": "09/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_196"
         }
     },
@@ -7080,8 +7080,8 @@
             "section": "Valentine's Day",
             "name": "Teddy Bear Head",
             "price": {
-                "min": 300000,
-                "max": 400000
+                "min": 400000,
+                "max": 500000
             },
             "state": "Increasing",
             "last_updated": "10/Oct/2022",
@@ -7760,11 +7760,11 @@
             "section": "Summer",
             "name": "Black Hawaiian Shirt",
             "price": {
-                "min": 65000,
-                "max": 75000
+                "min": 80000,
+                "max": 100000
             },
             "state": "Increasing",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_310"
         }
     },
@@ -8763,11 +8763,11 @@
             "section": "Halloween",
             "name": "Skull Balloon",
             "price": {
-                "min": 50000,
-                "max": 60000
+                "min": 45000,
+                "max": 55000
             },
             "state": "Decreasing",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_508"
         }
     },
@@ -8848,7 +8848,7 @@
             "section": "Halloween",
             "name": "Pumpkin Pack",
             "price": {
-                "min": 200000,
+                "min": 250000,
                 "max": 300000
             },
             "state": "Decreasing",
@@ -9018,11 +9018,11 @@
             "section": "Halloween",
             "name": "Slyme Costume",
             "price": {
-                "min": 165000,
-                "max": 175000
+                "min": 160000,
+                "max": 170000
             },
             "state": "Stable",
-            "last_updated": "04/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_177"
         }
     },
@@ -10242,11 +10242,11 @@
             "section": "Thanksgiving",
             "name": "Turkey Head",
             "price": {
-                "min": 12500,
-                "max": 15000
+                "min": 15000,
+                "max": 17500
             },
             "state": "Stable",
-            "last_updated": "26/Sep/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_321"
         }
     },
@@ -10260,10 +10260,10 @@
             "name": "Turkey Bolo",
             "price": {
                 "min": 30000,
-                "max": 35000
+                "max": 40000
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_607"
         }
     },
@@ -10276,11 +10276,11 @@
             "section": "Thanksgiving",
             "name": "Pumpkin Hat",
             "price": {
-                "min": 30000,
-                "max": 40000
+                "min": 35000,
+                "max": 45000
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_608"
         }
     },
@@ -10565,11 +10565,11 @@
             "section": "Thanksgiving",
             "name": "Turkey Beak",
             "price": {
-                "min": 250,
-                "max": 450
+                "min": 200,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_322"
         }
     },
@@ -10582,11 +10582,11 @@
             "section": "Thanksgiving",
             "name": "Turkey Tail",
             "price": {
-                "min": 800,
-                "max": 1000
+                "min": 500,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_181"
         }
     },
@@ -10633,11 +10633,11 @@
             "section": "Thanksgiving",
             "name": "Shoulder Top",
             "price": {
-                "min": 800,
-                "max": 1200
+                "min": 750,
+                "max": 1000
             },
             "state": "Stable",
-            "last_updated": "25/Aug/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_513"
         }
     },
@@ -10871,11 +10871,11 @@
             "section": "Christmas",
             "name": "Krampus Mask 2020",
             "price": {
-                "min": 7000,
-                "max": 9000
+                "min": 6000,
+                "max": 8000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_622"
         }
     },
@@ -10922,11 +10922,11 @@
             "section": "Christmas",
             "name": "Ice Head",
             "price": {
-                "min": 85000,
-                "max": 100000
+                "min": 75000,
+                "max": 85000
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_530"
         }
     },
@@ -11024,11 +11024,11 @@
             "section": "Christmas",
             "name": "Gingerbread Head",
             "price": {
-                "min": 6000,
+                "min": 7000,
                 "max": 9000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_285"
         }
     },
@@ -11041,11 +11041,11 @@
             "section": "Christmas",
             "name": "Gingerbread Shirt",
             "price": {
-                "min": 200,
-                "max": 400
+                "min": 150,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_404"
         }
     },
@@ -11058,11 +11058,11 @@
             "section": "Christmas",
             "name": "Gingerbread Pants",
             "price": {
-                "min": 200,
-                "max": 400
+                "min": 150,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_405"
         }
     },
@@ -11483,11 +11483,11 @@
             "section": "Christmas",
             "name": "Red & Green Scarf",
             "price": {
-                "min": 12000,
-                "max": 14000
+                "min": 11000,
+                "max": 13000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_137"
         }
     },
@@ -11552,10 +11552,10 @@
             "name": "Winter Scarf",
             "price": {
                 "min": 3500,
-                "max": 4500
+                "max": 4000
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_757"
         }
     },
@@ -11569,10 +11569,10 @@
             "name": "Gift BackPack 2",
             "price": {
                 "min": 4500,
-                "max": 6000
+                "max": 5500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_527"
         }
     },
@@ -11586,10 +11586,10 @@
             "name": "Gift BackPack",
             "price": {
                 "min": 4500,
-                "max": 6000
+                "max": 5500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_526"
         }
     },
@@ -11602,11 +11602,11 @@
             "section": "Christmas",
             "name": "Santa Pack",
             "price": {
-                "min": 3000,
-                "max": 4000
+                "min": 2500,
+                "max": 3500
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_403"
         }
     },
@@ -11636,11 +11636,11 @@
             "section": "Christmas",
             "name": "Winter Umbrella",
             "price": {
-                "min": 35000,
-                "max": 40000
+                "min": 32500,
+                "max": 37500
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_524"
         }
     },
@@ -11670,11 +11670,11 @@
             "section": "Christmas",
             "name": "Snowflake Staff",
             "price": {
-                "min": 1000,
-                "max": 1500
+                "min": 750,
+                "max": 1250
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_756"
         }
     },
@@ -11721,11 +11721,11 @@
             "section": "Christmas",
             "name": "Blue Ski Goggles",
             "price": {
-                "min": 250,
-                "max": 400
+                "min": 150,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_745"
         }
     },
@@ -11738,11 +11738,11 @@
             "section": "Christmas",
             "name": "Red Ski Goggles",
             "price": {
-                "min": 250,
-                "max": 400
+                "min": 150,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_751"
         }
     },
@@ -11755,11 +11755,11 @@
             "section": "Christmas",
             "name": "Blue Ski Mask",
             "price": {
-                "min": 250,
-                "max": 400
+                "min": 150,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_746"
         }
     },
@@ -11772,11 +11772,11 @@
             "section": "Christmas",
             "name": "Red Ski Mask",
             "price": {
-                "min": 250,
-                "max": 400
+                "min": 150,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_752"
         }
     },
@@ -12025,7 +12025,7 @@
         },
         "item": {
             "section": "Christmas",
-            "name": "Mistletoe",
+            "name": "Mistletoe Lure",
             "price": {
                 "min": 200,
                 "max": 500
@@ -12197,11 +12197,11 @@
             "section": "New Year's Day",
             "name": "Firework Backpack",
             "price": {
-                "min": 75000,
-                "max": 85000
+                "min": 80000,
+                "max": 90000
             },
             "state": "Stable",
-            "last_updated": "05/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_411"
         }
     },
@@ -12572,10 +12572,10 @@
             "name": "Sportsmobile Keys",
             "price": {
                 "min": 6500,
-                "max": 8000
+                "max": 7500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/142"
         }
     },
@@ -12690,11 +12690,11 @@
             "section": "Car",
             "name": "Easterider Keys",
             "price": {
-                "min": 250000,
-                "max": 300000
+                "min": 275000,
+                "max": 325000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/195"
         }
     },
@@ -12707,11 +12707,11 @@
             "section": "Easter 2017",
             "name": "Bunnymobile Key",
             "price": {
-                "min": 140000,
-                "max": 180000
+                "min": 165000,
+                "max": 185000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/148"
         }
     },
@@ -12741,11 +12741,11 @@
             "section": "Halloween",
             "name": "Floating Witch's Broom Key",
             "price": {
-                "min": 80000,
-                "max": 90000
+                "min": 90000,
+                "max": 100000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/257"
         }
     },
@@ -12758,11 +12758,11 @@
             "section": "Halloween",
             "name": "Haunted Carriage",
             "price": {
-                "min": 95000,
-                "max": 105000
+                "min": 100000,
+                "max": 120000
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/256"
         }
     },
@@ -12775,11 +12775,11 @@
             "section": "Christmas",
             "name": "Sled Key",
             "price": {
-                "min": 55000,
+                "min": 50000,
                 "max": 60000
             },
             "state": "Stable",
-            "last_updated": "01/Oct/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/177"
         }
     },
@@ -12809,11 +12809,11 @@
             "section": "Christmas",
             "name": "Christmas Key",
             "price": {
-                "min": 7500,
+                "min": 8500,
                 "max": 10000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/351"
         }
     },
@@ -12843,11 +12843,11 @@
             "section": "Car",
             "name": "Golden Rocket Key",
             "price": {
-                "min": 30000,
-                "max": 35000
+                "min": 32500,
+                "max": 37500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "10/Oct/2022",
             "url": "ItemIcons_Misc__Tile/232"
         }
     },
