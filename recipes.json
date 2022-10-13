@@ -6667,6 +6667,82 @@
             [
                 {
                     "amount": 1,
+                    "item": "Any Trunk"
+                },
+                {
+                    "amount": 4,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 2,
+                    "item": "Tacks"
+                },
+                {
+                    "amount": 1,
+                    "item": "White Dye"
+                }
+            ]
+        ],
+        "tool": "Any Hammer",
+        "item": {
+            "amount": 1,
+            "item": "White Wood Picket Fence"
+        },
+        "type": "tool"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Any Trunk"
+                },
+                {
+                    "amount": 4,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 2,
+                    "item": "Tacks"
+                }
+            ]
+        ],
+        "tool": "Any Hammer",
+        "item": {
+            "amount": 1,
+            "item": "New Wood Picket Fence"
+        },
+        "type": "tool"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Any Trunk"
+                },
+                {
+                    "amount": 4,
+                    "item": "Sticks"
+                },
+                {
+                    "amount": 2,
+                    "item": "Tacks"
+                }
+            ]
+        ],
+        "tool": "Any Hammer",
+        "item": {
+            "amount": 1,
+            "item": "Old Wood Picket Fence"
+        },
+        "type": "tool"
+    }
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
                     "item": "Tacks"
                 },
                 {
@@ -10951,26 +11027,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "Any Trunk"
-                },
-                {
-                    "amount": 4,
-                    "item": "Sticks"
-                },
-                {
-                    "amount": 2,
-                    "item": "Tacks"
+                    "item": "Jellymean"
                 },
                 {
                     "amount": 1,
-                    "item": "White Dye"
+                    "item": "SlimeyWorm"
                 }
             ]
         ],
-        "tool": "Any Hammer",
         "item": {
             "amount": 1,
-            "item": "White Wood Picket Fence"
+            "item": "TongueAndSweet"
         },
         "type": "new"
     },
@@ -10979,22 +11046,17 @@
             [
                 {
                     "amount": 1,
-                    "item": "Any Trunk"
+                    "item": "Ripcake"
                 },
                 {
-                    "amount": 4,
-                    "item": "Sticks"
-                },
-                {
-                    "amount": 2,
-                    "item": "Tacks"
+                    "amount": 1,
+                    "item": "Glow-in-a-pop"
                 }
             ]
         ],
-        "tool": "Any Hammer",
         "item": {
             "amount": 1,
-            "item": "New Wood Picket Fence"
+            "item": "Pandan Munch-kin"
         },
         "type": "new"
     },
@@ -11003,22 +11065,63 @@
             [
                 {
                     "amount": 1,
-                    "item": "Any Trunk"
+                    "item": "Choco Coffin"
                 },
                 {
-                    "amount": 4,
-                    "item": "Sticks"
-                },
-                {
-                    "amount": 2,
-                    "item": "Tacks"
+                    "amount": 1,
+                    "item": "Ghost Chalk"
                 }
             ]
         ],
-        "tool": "Any Hammer",
         "item": {
             "amount": 1,
-            "item": "Old Wood Picket Fence"
+            "item": "Ghostly Wafer"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "Choco Nugget"
+                },
+                {
+                    "amount": 1,
+                    "item": "Minty Hollow"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Eyebreaker"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
+                    "item": "TongueAndSweet"
+                },
+                {
+                    "amount": 1,
+                    "item": "Pandan Munch-kin"
+                },
+                {
+                    "amount": 1,
+                    "item": "Ghostly Wafer"
+                },
+                {
+                    "amount": 1,
+                    "item": "Eyebreaker"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Ultimate Candy 2"
         },
         "type": "new"
     }
