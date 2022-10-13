@@ -11039,7 +11039,8 @@
             "amount": 1,
             "item": "TongueAndSweet"
         },
-        "type": "new"
+        "type": "new",
+        "station": "Stove"
     },
     {
         "recipe": [
@@ -11058,7 +11059,8 @@
             "amount": 1,
             "item": "Pandan Munch-kin"
         },
-        "type": "new"
+        "type": "new",
+        "station": "Stove"
     },
     {
         "recipe": [
@@ -11077,7 +11079,8 @@
             "amount": 1,
             "item": "Ghostly Wafer"
         },
-        "type": "new"
+        "type": "new",
+        "station": "Stove"
     },
     {
         "recipe": [
@@ -11096,7 +11099,8 @@
             "amount": 1,
             "item": "Eyebreaker"
         },
-        "type": "new"
+        "type": "new",
+        "station": "Stove"
     },
     {
         "recipe": [
@@ -11123,6 +11127,8 @@
             "amount": 1,
             "item": "Ultimate Candy 2"
         },
-        "type": "new"
+        "type": "new",
+        "station": "Stove"
+        
     }
 ]
