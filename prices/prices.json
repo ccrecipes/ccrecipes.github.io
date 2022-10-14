@@ -11263,7 +11263,7 @@
             "name": "Elf Pants",
             "price": {
                 "min": 150,
-                "max": 250
+                "max": 300
             },
             "state": "Stable",
             "last_updated": "14/Oct/2022",
