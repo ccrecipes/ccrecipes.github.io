@@ -2422,7 +2422,7 @@
             "section": "Critter Suit Pack",
             "name": "Elephant Ears",
             "price": {
-                "min": 350,
+                "min": 300,
                 "max": 450
             },
             "state": "Stable",
