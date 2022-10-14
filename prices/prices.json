@@ -2575,11 +2575,11 @@
             "section": "Critter Suit Pack",
             "name": "Bull Horns",
             "price": {
-                "min": 200,
-                "max": 350
+                "min": 150,
+                "max": 250
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_462"
         }
     },
