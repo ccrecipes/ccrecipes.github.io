@@ -11756,10 +11756,10 @@
             "name": "Blue Ski Mask",
             "price": {
                 "min": 150,
-                "max": 300
+                "max": 250
             },
             "state": "Stable",
-            "last_updated": "10/Oct/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_746"
         }
     },
