@@ -2967,10 +2967,10 @@
             "name": "Aviator Sunglasses",
             "price": {
                 "min": 200,
-                "max": 400
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_445"
         }
     },
