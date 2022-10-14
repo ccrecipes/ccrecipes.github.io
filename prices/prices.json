@@ -4768,11 +4768,11 @@
             "section": "Chess Pack",
             "name": "Black Knight Head",
             "price": {
-                "min": 350,
-                "max": 550
+                "min": 250,
+                "max": 450
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": ""
         }
     },
