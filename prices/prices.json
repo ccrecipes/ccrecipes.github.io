@@ -6418,7 +6418,7 @@
             "name": "Floral Pants",
             "price": {
                 "min": 8500,
-                "max": 100000
+                "max": 10000
             },
             "state": "Stable",
             "last_updated": "14/Oct/2022",
