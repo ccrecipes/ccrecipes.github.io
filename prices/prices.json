@@ -10106,11 +10106,11 @@
             "section": "Halloween",
             "name": "Dinosaur Tail",
             "price": {
-                "min": 6500,
-                "max": 7500
+                "min": 2500,
+                "max": 3500
             },
             "state": "Stable",
-            "last_updated": "17/Sep/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_734"
         }
     },
