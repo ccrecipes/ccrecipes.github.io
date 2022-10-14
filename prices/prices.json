@@ -2167,11 +2167,11 @@
             "section": "Critter Suit Pack",
             "name": "Racoon Tail",
             "price": {
-                "min": 200,
-                "max": 400
+                "min": 150,
+                "max": 250
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_102"
         }
     },
