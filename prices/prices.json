@@ -2898,11 +2898,11 @@
             "section": "Accessories Pack",
             "name": "Rainbow Shield Sunglasses",
             "price": {
-                "min": 1500,
+                "min": 1750,
                 "max": 2500
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_449"
         }
     },
