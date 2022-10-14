@@ -12725,10 +12725,10 @@
             "name": "Dracu Mobile Key",
             "price": {
                 "min": 30000,
-                "max": 35000
+                "max": 40000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Misc__Tile/255"
         }
     },
