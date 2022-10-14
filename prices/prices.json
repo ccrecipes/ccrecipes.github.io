@@ -4887,11 +4887,11 @@
             "section": "April Fools' Day",
             "name": "Motley Pants",
             "price": {
-                "min": 300000,
-                "max": 350000
+                "min": 325000,
+                "max": 375000
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_213"
         }
     },
