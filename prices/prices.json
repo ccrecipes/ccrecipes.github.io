@@ -3204,11 +3204,11 @@
             "section": "Clothes Pack",
             "name": "Chef's Coat",
             "price": {
-                "min": 200,
+                "min": 150,
                 "max": 250
             },
             "state": "Stable",
-            "last_updated": "28/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_144"
         }
     },
