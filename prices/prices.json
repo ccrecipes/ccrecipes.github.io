@@ -3000,11 +3000,11 @@
             "section": "Accessories Pack",
             "name": "Antennae",
             "price": {
-                "min": 250,
-                "max": 350
+                "min": 150,
+                "max": 250
             },
             "state": "Stable",
-            "last_updated": "10/Oct/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_038"
         }
     },
