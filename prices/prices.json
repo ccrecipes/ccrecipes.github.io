@@ -4190,11 +4190,11 @@
             "section": "Adventure Pack",
             "name": "Brown Explorer Hat",
             "price": {
-                "min": 1500,
-                "max": 2500
+                "min": 1000,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_714"
         }
     },
