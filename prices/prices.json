@@ -4361,7 +4361,7 @@
             "name": "Torch",
             "price": {
                 "min": 2500,
-                "max": 3509
+                "max": 3500
             },
             "state": "Stable",
             "last_updated": "14/Oct/2022",
