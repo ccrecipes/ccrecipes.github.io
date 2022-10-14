@@ -2542,10 +2542,10 @@
             "name": "Ram Horns",
             "price": {
                 "min": 250,
-                "max": 450
+                "max": 350
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_071"
         }
     },
