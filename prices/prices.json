@@ -11212,10 +11212,10 @@
             "name": "Elf Cap",
             "price": {
                 "min": 150,
-                "max": 250
+                "max": 200
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_406"
         }
     },
