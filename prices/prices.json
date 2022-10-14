@@ -5162,7 +5162,7 @@
                 "min": 10000,
                 "max": 12500
             },
-            "state": "Decreasing",
+            "state": "Stable",
             "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_675"
         }
