@@ -12010,11 +12010,11 @@
             "section": "Christmas",
             "name": "Yule Xmas Hat",
             "price": {
-                "min": 100,
-                "max": 200
+                "min": 75,
+                "max": 150
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_400"
         }
     },
