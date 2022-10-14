@@ -11722,7 +11722,7 @@
             "name": "Blue Ski Goggles",
             "price": {
                 "min": 150,
-                "max": 259
+                "max": 250
             },
             "state": "Stable",
             "last_updated": "14/Oct/2022",
