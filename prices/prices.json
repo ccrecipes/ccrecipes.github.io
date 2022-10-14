@@ -6417,11 +6417,11 @@
             "section": "Easter",
             "name": "Floral Pants",
             "price": {
-                "min": 9000,
-                "max": 11000
+                "min": 8500,
+                "max": 100000
             },
             "state": "Stable",
-            "last_updated": "19/Sep/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_778"
         }
     },
