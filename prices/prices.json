@@ -3409,10 +3409,10 @@
             "name": "Iron Mask",
             "price": {
                 "min": 2500,
-                "max": 3250
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "24/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_171"
         }
     },
