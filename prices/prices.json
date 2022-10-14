@@ -11534,11 +11534,11 @@
             "section": "Christmas",
             "name": "Xmas Scarf",
             "price": {
-                "min": 400,
-                "max": 600
+                "min": 450,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_287"
         }
     },
