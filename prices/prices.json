@@ -2456,8 +2456,8 @@
             "section": "Critter Suit Pack",
             "name": "Feelers",
             "price": {
-                "min": 100,
-                "max": 200
+                "min": 150,
+                "max": 250
             },
             "state": "Stable",
             "last_updated": "14/Oct/2022",
