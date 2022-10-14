@@ -2847,7 +2847,7 @@
             "section": "Accessories Pack",
             "name": "Star Glasses",
             "price": {
-                "min": 300,
+                "min": 350,
                 "max": 450
             },
             "state": "Stable",
