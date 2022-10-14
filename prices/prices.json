@@ -3391,11 +3391,11 @@
             "section": "Dungeon Pack",
             "name": "Executioner's Mask",
             "price": {
-                "min": 4000,
-                "max": 5000
+                "min": 4250,
+                "max": 4750
             },
             "state": "Stable",
-            "last_updated": "12/Sep/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_167"
         }
     },
