@@ -5160,10 +5160,10 @@
             "name": "RoboZilla Head",
             "price": {
                 "min": 10000,
-                "max": 15000
+                "max": 12500
             },
             "state": "Decreasing",
-            "last_updated": "10/Oct/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_675"
         }
     },
