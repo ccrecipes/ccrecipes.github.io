@@ -11007,8 +11007,8 @@
             "section": "Christmas",
             "name": "Snow Qbee Pants",
             "price": {
-                "min": 500,
-                "max": 759
+                "min": 450,
+                "max": 750
             },
             "state": "Stable",
             "last_updated": "14/Oct/2022",
