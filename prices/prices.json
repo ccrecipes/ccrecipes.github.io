@@ -10973,11 +10973,11 @@
             "section": "Christmas",
             "name": "Snow Qbee Head",
             "price": {
-                "min": 500,
+                "min": 750,
                 "max": 1000
             },
             "state": "Stable",
-            "last_updated": "27/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_755"
         }
     },
