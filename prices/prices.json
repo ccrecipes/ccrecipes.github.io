@@ -5126,10 +5126,10 @@
             "name": "RoboSlyme Costume",
             "price": {
                 "min": 225000,
-                "max": 250000
+                "max": 275000
             },
             "state": "Stable",
-            "last_updated": "09/Oct/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_782"
         }
     },
