@@ -4309,11 +4309,11 @@
             "section": "Adventure Pack",
             "name": "Green Explorer Pants",
             "price": {
-                "min": 3000,
-                "max": 4000
+                "min": 2000,
+                "max": 2500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_718"
         }
     },
