@@ -11126,11 +11126,11 @@
             "section": "Christmas",
             "name": "Toy Soldier Pants",
             "price": {
-                "min": 500,
-                "max": 800
+                "min": 450,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "14/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_628"
         }
     },
