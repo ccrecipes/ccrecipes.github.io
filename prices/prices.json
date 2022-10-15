@@ -1572,11 +1572,11 @@
             "section": "Hat Pack",
             "name": "Green Grande Dame Wig",
             "price": {
-                "min": 800,
-                "max": 1200
+                "min": 750,
+                "max": 1250
             },
             "state": "Stable",
-            "last_updated": "23/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_238"
         }
     },
