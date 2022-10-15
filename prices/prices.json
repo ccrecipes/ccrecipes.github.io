@@ -4054,7 +4054,7 @@
             "section": "Sci-Fi Pack",
             "name": "Sci-Fi O2 Tank",
             "price": {
-                "min": 200,
+                "min": 300,
                 "max": 400
             },
             "state": "Stable",
