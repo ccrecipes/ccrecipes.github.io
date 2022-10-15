@@ -7396,7 +7396,7 @@
     },
     {
         "type": {
-            "name": "MOTEHR OWL TOP",
+            "name": "MOTHER OWL TOP",
             "section": "VALENTINE'S DAY"
         },
         "item": {
@@ -7404,7 +7404,7 @@
             "name": "Mother Owl Top",
             "price": {
                 "min": 150,
-                "max": 300
+                "max": 250
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
