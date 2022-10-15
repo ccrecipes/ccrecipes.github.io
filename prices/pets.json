@@ -729,11 +729,11 @@
             "section": "Yuletide Pack",
             "name": "Level 0 Husky Kennel",
             "price": {
-                "min": 9000,
-                "max": 12000
+                "min": 10000,
+                "max": 12500
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/01682_cropped"
         }
     },
