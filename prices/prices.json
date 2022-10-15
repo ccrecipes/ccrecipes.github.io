@@ -12928,7 +12928,7 @@
             "section": "Wands",
             "name": "Shrink Wand",
             "price": {
-                "min": 800,
+                "min": 500,
                 "max": 1000
             },
             "state": "Stable",
