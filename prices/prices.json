@@ -10310,8 +10310,8 @@
             "section": "Thanksgiving",
             "name": "Turkey Staff",
             "price": {
-                "min": 4000,
-                "max": 6000
+                "min": 3500,
+                "max": 5500
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
