@@ -9392,11 +9392,11 @@
             "section": "Halloween",
             "name": "Dragon Head",
             "price": {
-                "min": 3000,
-                "max": 4000
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "27/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_592"
         }
     },
