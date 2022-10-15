@@ -819,11 +819,11 @@
             "section": "Yuletide Event",
             "name": "Level 49 Mini Krampus Kennel",
             "price": {
-                "min": 9500,
-                "max": 11500
+                "min": 10000,
+                "max": 12500
             },
             "state": "Stable",
-            "last_updated": "05/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/01681_cropped"
         }
     },
