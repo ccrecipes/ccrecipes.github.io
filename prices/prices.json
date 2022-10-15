@@ -7472,7 +7472,7 @@
             "name": "Baby Owl Shirt",
             "price": {
                 "min": 150,
-                "max": 300
+                "max": 250
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
