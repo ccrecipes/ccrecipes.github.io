@@ -8814,11 +8814,11 @@
             "section": "Halloween",
             "name": "Jack-O-Brella",
             "price": {
-                "min": 2000,
-                "max": 3000
+                "min": 1500,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_502"
         }
     },
