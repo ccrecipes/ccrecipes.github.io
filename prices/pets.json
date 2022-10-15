@@ -333,11 +333,11 @@
             "section": "Halloween Pack",
             "name": "Level 0 Spider Den",
             "price": {
-                "min": 85000,
-                "max": 95000
+                "min": 90000,
+                "max": 100000
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/00897_cropped"
         }
     },
