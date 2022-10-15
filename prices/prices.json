@@ -8304,11 +8304,11 @@
             "section": "Fan",
             "name": "Black Beard",
             "price": {
-                "min": 400,
-                "max": 800
+                "min": 450,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_677"
         }
     },
@@ -10155,7 +10155,7 @@
         },
         "item": {
             "section": "Halloween",
-            "name": "Black Cat Hat",
+            "name": "Black Cat Pants",
             "price": {
                 "min": 1000,
                 "max": 2000
