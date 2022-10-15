@@ -8117,8 +8117,8 @@
             "section": "Summer",
             "name": "Blue Backpack",
             "price": {
-                "min": 22500,
-                "max": 27500
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
