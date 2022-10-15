@@ -9375,11 +9375,11 @@
             "section": "Halloween",
             "name": "Skull Head",
             "price": {
-                "min": 250,
-                "max": 500
+                "min": 150,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "28/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_107"
         }
     },
