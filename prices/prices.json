@@ -9988,10 +9988,10 @@
             "name": "Ninja Mask",
             "price": {
                 "min": 1000,
-                "max": 2000
+                "max": 1500
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_735"
         }
     },
