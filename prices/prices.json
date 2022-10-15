@@ -6852,12 +6852,12 @@
     },
     {
         "type": {
-            "name": "APPLE O'LOVE",
+            "name": "APPLE O' LOVE",
             "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
-            "name": "Apple O'Love",
+            "name": "Apple O' Love",
             "price": {
                 "min": 150,
                 "max": 250
@@ -7489,7 +7489,7 @@
             "name": "Baby Owl Pants",
             "price": {
                 "min": 150,
-                "max": 300
+                "max": 250
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
