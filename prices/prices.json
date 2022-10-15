@@ -4479,11 +4479,11 @@
             "section": "Fishing Pack",
             "name": "Yellow Fishing Hat",
             "price": {
-                "min": 4500,
-                "max": 5500
+                "min": 4000,
+                "max": 5000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_611"
         }
     },
