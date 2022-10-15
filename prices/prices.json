@@ -10480,8 +10480,8 @@
             "section": "Thanksgiving",
             "name": "Pilgrim's Hat",
             "price": {
-                "min": 350,
-                "max": 550
+                "min": 250,
+                "max": 350
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
