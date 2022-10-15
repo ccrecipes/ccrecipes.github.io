@@ -10515,7 +10515,7 @@
             "name": "Pilgrim Pants",
             "price": {
                 "min": 5000,
-                "max": 10000
+                "max": 7500
             },
             "state": "Decreasing",
             "last_updated": "15/Oct/2022",
