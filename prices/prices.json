@@ -416,11 +416,11 @@
             "section": "Hat Pack",
             "name": "Hard Hat",
             "price": {
-                "min": 80,
-                "max": 120
+                "min": 75,
+                "max": 100
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_173"
         }
     },
