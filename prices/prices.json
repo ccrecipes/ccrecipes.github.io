@@ -1793,8 +1793,8 @@
             "section": "Wing Pack",
             "name": "Angel Wings",
             "price": {
-                "min": 3750,
-                "max": 4500
+                "min": 3500,
+                "max": 4000
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
