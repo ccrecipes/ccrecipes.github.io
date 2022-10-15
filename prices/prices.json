@@ -417,7 +417,7 @@
             "name": "Hard Hat",
             "price": {
                 "min": 75,
-                "max": 100
+                "max": 125
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
