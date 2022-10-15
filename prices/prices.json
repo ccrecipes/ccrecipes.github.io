@@ -4122,8 +4122,8 @@
             "section": "Steampunk Pack",
             "name": "Clockwerk Hat",
             "price": {
-                "min": 500,
-                "max": 800
+                "min": 450,
+                "max": 750
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
