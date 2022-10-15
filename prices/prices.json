@@ -9121,10 +9121,10 @@
             "name": "Twobee Head",
             "price": {
                 "min": 8000,
-                "max": 10000
+                "max": 9000
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_314"
         }
     },
