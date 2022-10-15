@@ -10413,7 +10413,7 @@
             "name": "Acorn Backpack",
             "price": {
                 "min": 350,
-                "max": 750
+                "max": 550
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
