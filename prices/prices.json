@@ -10718,7 +10718,7 @@
             "section": "Thanksgiving",
             "name": "Red Football Helmet",
             "price": {
-                "min": 200,
+                "min": 300,
                 "max": 400
             },
             "state": "Stable",
