@@ -10684,7 +10684,7 @@
             "section": "Thanksgiving",
             "name": "Festival Hat",
             "price": {
-                "min": 250,
+                "min": 350,
                 "max": 450
             },
             "state": "Stable",
