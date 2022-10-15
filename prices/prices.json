@@ -9035,11 +9035,11 @@
             "section": "Halloween",
             "name": "Dino Head",
             "price": {
-                "min": 230000,
-                "max": 260000
+                "min": 250000,
+                "max": 275000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_094"
         }
     },
