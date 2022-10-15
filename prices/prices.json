@@ -4088,8 +4088,8 @@
             "section": "Steampunk Pack",
             "name": "SteamPunk Goggles 2",
             "price": {
-                "min": 750,
-                "max": 1500
+                "min": 500,
+                "max": 1000
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
