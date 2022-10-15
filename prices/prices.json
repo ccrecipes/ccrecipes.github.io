@@ -7522,8 +7522,8 @@
             "section": "Valentine's Day",
             "name": "Rose on the Mouth",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
