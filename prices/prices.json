@@ -3979,7 +3979,7 @@
     },
     {
         "type": {
-            "name": "SCIFI ASTRONAUT HELMET",
+            "name": "SCI-FI ASTRONAUT HELMET",
             "section": "SCI-FI PACK"
         },
         "item": {
@@ -3987,7 +3987,7 @@
             "name": "Sci-Fi Astronaut Helmet",
             "price": {
                 "min": 200,
-                "max": 350
+                "max": 300
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
