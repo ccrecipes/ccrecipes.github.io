@@ -10446,7 +10446,7 @@
             "section": "Thanksgiving",
             "name": "Brown Pants",
             "price": {
-                "min": 1000,
+                "min": 1500,
                 "max": 2000
             },
             "state": "Stable",
