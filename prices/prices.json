@@ -10599,7 +10599,7 @@
             "section": "Thanksgiving",
             "name": "Festival Shirt",
             "price": {
-                "min": 600,
+                "min": 750,
                 "max": 1000
             },
             "state": "Stable",
