@@ -10616,7 +10616,7 @@
             "section": "Thanksgiving",
             "name": "Festival Pants",
             "price": {
-                "min": 600,
+                "min": 750,
                 "max": 1000
             },
             "state": "Stable",
