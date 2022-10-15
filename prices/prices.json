@@ -6978,7 +6978,7 @@
             "section": "Valentine's Day",
             "name": "Wuvva Umbrella",
             "price": {
-                "min": 3000,
+                "min": 2500,
                 "max": 3500
             },
             "state": "Stable",
