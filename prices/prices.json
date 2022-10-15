@@ -3912,7 +3912,7 @@
     {
         "type": {
             "name": "COSMIC COW HEAD",
-            "section": "SCIFI PACK"
+            "section": "SCI-FI PACK"
         },
         "item": {
             "section": "Sci-Fi Pack",
@@ -3929,7 +3929,7 @@
     {
         "type": {
             "name": "SCANNER",
-            "section": "SCIFI PACK"
+            "section": "SCI-FI PACK"
         },
         "item": {
             "section": "Sci-Fi Pack",
@@ -3946,7 +3946,7 @@
     {
         "type": {
             "name": "MOONAR HELMET",
-            "section": "SCIFI PACK"
+            "section": "SCI-FI PACK"
         },
         "item": {
             "section": "Sci-Fi Pack",
@@ -3963,24 +3963,24 @@
     {
         "type": {
             "name": "MODERN ASTRONAUT HELMET",
-            "section": "SCIFI PACK"
+            "section": "SCI-FI PACK"
         },
         "item": {
             "section": "Sci-Fi Pack",
             "name": "Modern Astronaut Helmet",
             "price": {
                 "min": 200,
-                "max": 350
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_441"
         }
     },
     {
         "type": {
             "name": "SCIFI ASTRONAUT HELMET",
-            "section": "SCIFI PACK"
+            "section": "SCI-FI PACK"
         },
         "item": {
             "section": "Sci-Fi Pack",
@@ -3997,7 +3997,7 @@
     {
         "type": {
             "name": "MOONAR JACKET",
-            "section": "SCIFI PACK"
+            "section": "SCI-FI PACK"
         },
         "item": {
             "section": "Sci-Fi Pack",
@@ -4014,7 +4014,7 @@
     {
         "type": {
             "name": "MOONAR PANTS",
-            "section": "SCIFI PACK"
+            "section": "SCI-FI PACK"
         },
         "item": {
             "section": "Sci-Fi Pack",
@@ -4031,7 +4031,7 @@
     {
         "type": {
             "name": "MOONAR PACK",
-            "section": "SCIFI PACK+"
+            "section": "SCI-FI PACK+"
         },
         "item": {
             "section": "Sci-Fi Pack",
@@ -4048,7 +4048,7 @@
     {
         "type": {
             "name": "SCIFI O2 TANK",
-            "section": "SCIFI PACK"
+            "section": "SCI-FI PACK"
         },
         "item": {
             "section": "Sci-Fi Pack",
