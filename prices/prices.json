@@ -8967,11 +8967,11 @@
             "section": "Halloween",
             "name": "Vampire's Cloak",
             "price": {
-                "min": 2000,
-                "max": 3000
+                "min": 2500,
+                "max": 3500
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_384"
         }
     },
