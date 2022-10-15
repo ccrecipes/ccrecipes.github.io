@@ -1861,7 +1861,7 @@
             "section": "Wing Pack",
             "name": "Flamingo Wings",
             "price": {
-                "min": 50,
+                "min": 75,
                 "max": 125
             },
             "state": "Stable",
