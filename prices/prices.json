@@ -4020,11 +4020,11 @@
             "section": "Sci-Fi Pack",
             "name": "Moonar Pants",
             "price": {
-                "min": 250,
+                "min": 350,
                 "max": 450
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_439"
         }
     },
