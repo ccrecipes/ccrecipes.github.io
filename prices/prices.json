@@ -8015,7 +8015,7 @@
             "section": "Summer",
             "name": "Ranger Hat",
             "price": {
-                "min": 7500,
+                "min": 10000,
                 "max": 12500
             },
             "state": "Stable",
