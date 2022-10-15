@@ -3748,8 +3748,8 @@
             "section": "Ocean Pack",
             "name": "Shell Backpack",
             "price": {
-                "min": 550,
-                "max": 850
+                "min": 450,
+                "max": 750
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
