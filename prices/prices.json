@@ -6485,8 +6485,8 @@
             "section": "Valentine's Day",
             "name": "Valentine's Day Wings",
             "price": {
-                "min": 30000,
-                "max": 35000
+                "min": 32500,
+                "max": 37500
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
