@@ -6468,7 +6468,7 @@
             "section": "Valentine's Day",
             "name": "Cupid's Wings",
             "price": {
-                "min": 85000,
+                "min": 80000,
                 "max": 90000
             },
             "state": "Stable",
