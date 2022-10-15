@@ -382,11 +382,11 @@
             "section": "Hat Pack",
             "name": "Princess Cap",
             "price": {
-                "min": 50,
-                "max": 100
+                "min": 75,
+                "max": 125
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_012"
         }
     },
