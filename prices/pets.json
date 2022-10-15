@@ -366,7 +366,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Halloween Event",
+            "section": "Halloween",
             "name": "Level 0 Mutant Hopper",
             "price": {
                 "min": 25000,
@@ -384,7 +384,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Halloween Event",
+            "section": "Halloween",
             "name": "Level 49 Mutant Hopper",
             "price": {
                 "min": 35000,
@@ -402,7 +402,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Halloween Event",
+            "section": "Halloween",
             "name": "Level 0 Mutant MeeMew",
             "price": {
                 "min": 3000,
@@ -420,7 +420,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Halloween Event 2019",
+            "section": "Halloween 2019",
             "name": "Level 49 Mutant MeeMew",
             "price": {
                 "min": 10000,
@@ -438,7 +438,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Halloween Event",
+            "section": "Halloween",
             "name": "Level 0 Mutant Doog",
             "price": {
                 "min": 2500,
@@ -456,7 +456,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Halloween Event 2019",
+            "section": "Halloween 2019",
             "name": "Level 49 Mutant Doog",
             "price": {
                 "min": 10000,
@@ -762,7 +762,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Yuletide Event",
+            "section": "Christmas",
             "name": "Level 0 Mini Grouch Kennel",
             "price": {
                 "min": 4000,
@@ -780,7 +780,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Yuletide Event",
+            "section": "Christmas",
             "name": "Level 49 Mini Grouch Kennel",
             "price": {
                 "min": 12500,
@@ -798,7 +798,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Yuletide Event",
+            "section": "Christmas",
             "name": "Level 0 Mini Krampus Kennel",
             "price": {
                 "min": 2500,
@@ -816,7 +816,7 @@
             "section": "PETS"
         },
         "item": {
-            "section": "Yuletide Event",
+            "section": "Christmas",
             "name": "Level 49 Mini Krampus Kennel",
             "price": {
                 "min": 10000,
