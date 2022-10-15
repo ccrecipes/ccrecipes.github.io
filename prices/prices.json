@@ -6774,8 +6774,8 @@
             "section": "Valentine's Day",
             "name": "King's Crown",
             "price": {
-                "min": 200,
-                "max": 400
+                "min": 250,
+                "max": 350
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
