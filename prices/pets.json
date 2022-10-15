@@ -783,11 +783,11 @@
             "section": "Yuletide Event",
             "name": "Level 49 Mini Grouch Kennel",
             "price": {
-                "min": 9000,
-                "max": 12000
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "20/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/01680_cropped"
         }
     },
