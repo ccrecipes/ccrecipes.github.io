@@ -4513,11 +4513,11 @@
             "section": "Fishing Pack",
             "name": "Blue Checkered Fishing Vest",
             "price": {
-                "min": 25000,
-                "max": 30000
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_617"
         }
     },
