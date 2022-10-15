@@ -9448,7 +9448,7 @@
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
-            "url": "ItemIcons_Wear__Tile/IMG_596"
+            "url": "ItemIcons_Wear__Tile/IMG_595"
         }
     },
     {
@@ -9970,11 +9970,11 @@
             "section": "Halloween",
             "name": "Killer Mask",
             "price": {
-                "min": 500,
-                "max": 750
+                "min": 350,
+                "max": 550
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_593"
         }
     },
