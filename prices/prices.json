@@ -6553,8 +6553,8 @@
             "section": "Valentine's Day",
             "name": "Mouse BackPack",
             "price": {
-                "min": 600,
-                "max": 800
+                "min": 400,
+                "max": 550
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
