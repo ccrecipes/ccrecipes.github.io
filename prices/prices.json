@@ -1759,11 +1759,11 @@
             "section": "Hat Pack",
             "name": "Robin Hood Hat",
             "price": {
-                "min": 300,
-                "max": 400
+                "min": 250,
+                "max": 350
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_070"
         }
     },
