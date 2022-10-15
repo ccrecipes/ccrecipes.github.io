@@ -4139,7 +4139,7 @@
             "section": "Steampunk Pack",
             "name": "SteamPunk Top",
             "price": {
-                "min": 1000,
+                "min": 1500,
                 "max": 2000
             },
             "state": "Stable",
