@@ -3731,7 +3731,7 @@
             "section": "Ocean Pack",
             "name": "Clam Hat",
             "price": {
-                "min": 500,
+                "min": 450,
                 "max": 750
             },
             "state": "Stable",
