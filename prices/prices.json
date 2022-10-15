@@ -8814,7 +8814,7 @@
             "section": "Halloween",
             "name": "Jack-O-Brella",
             "price": {
-                "min": 1500,
+                "min": 1000,
                 "max": 2000
             },
             "state": "Stable",
