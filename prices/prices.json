@@ -8831,11 +8831,11 @@
             "section": "Halloween",
             "name": "Trick or Treat Bag",
             "price": {
-                "min": 9000,
-                "max": 11000
+                "min": 1000,
+                "max": 1500
             },
             "state": "Stable",
-            "last_updated": "21/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_387"
         }
     },
