@@ -405,11 +405,11 @@
             "section": "Halloween Event",
             "name": "Level 0 Mutant MeeMew",
             "price": {
-                "min": 2500,
-                "max": 3000
+                "min": 3000,
+                "max": 3500
             },
             "state": "Stable",
-            "last_updated": "06/Oct/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/01216_cropped"
         }
     },
