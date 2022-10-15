@@ -711,11 +711,11 @@
             "section": "Yuletide Pack",
             "name": "Level 49 Penguin Pad",
             "price": {
-                "min": 20000,
-                "max": 25000
+                "min": 25000,
+                "max": 30000
             },
             "state": "Stable",
-            "last_updated": "24/Aug/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/0987_cropped"
         }
     },
