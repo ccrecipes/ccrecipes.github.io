@@ -6842,8 +6842,8 @@
             "section": "Valentine's Day",
             "name": "Heart Hat",
             "price": {
-                "min": 100,
-                "max": 200
+                "min": 150,
+                "max": 250
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
