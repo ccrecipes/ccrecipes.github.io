@@ -6519,8 +6519,8 @@
             "section": "Valentine's Day",
             "name": "Wuvva Scarf",
             "price": {
-                "min": 7500,
-                "max": 10000
+                "min": 7000,
+                "max": 9000
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
