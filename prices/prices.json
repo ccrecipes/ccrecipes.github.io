@@ -3765,11 +3765,11 @@
             "section": "Ocean Pack",
             "name": "Blue Scuba Mask",
             "price": {
-                "min": 600,
-                "max": 1000
+                "min": 550,
+                "max": 850
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_587"
         }
     },
