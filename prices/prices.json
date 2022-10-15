@@ -8763,11 +8763,11 @@
             "section": "Halloween",
             "name": "Skull Balloon",
             "price": {
-                "min": 45000,
+                "min": 50000,
                 "max": 55000
             },
             "state": "Decreasing",
-            "last_updated": "10/Oct/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_508"
         }
     },
