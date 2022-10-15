@@ -8899,11 +8899,11 @@
             "section": "Halloween",
             "name": "Wizard's Wand",
             "price": {
-                "min": 350,
-                "max": 500
+                "min": 250,
+                "max": 350
             },
             "state": "Stable",
-            "last_updated": "17/07/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_386"
         }
     },
