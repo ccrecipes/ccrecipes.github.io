@@ -6826,7 +6826,7 @@
             "name": "Fake Halo",
             "price": {
                 "min": 150,
-                "max": 250
+                "max": 300
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
