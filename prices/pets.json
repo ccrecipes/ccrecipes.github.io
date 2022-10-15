@@ -693,11 +693,11 @@
             "section": "Yuletide Pack",
             "name": "Level 0 Penguin Pad",
             "price": {
-                "min": 15000,
-                "max": 17500
+                "min": 13500,
+                "max": 15500
             },
             "state": "Stable",
-            "last_updated": "19/Sep/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/00987_cropped"
         }
     },
