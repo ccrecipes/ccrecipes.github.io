@@ -7760,8 +7760,8 @@
             "section": "Summer",
             "name": "Black Hawaiian Shirt",
             "price": {
-                "min": 80000,
-                "max": 100000
+                "min": 90000,
+                "max": 110000
             },
             "state": "Stable",
             "last_updated": "15/Oct/2022",
