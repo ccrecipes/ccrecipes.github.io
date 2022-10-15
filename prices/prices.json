@@ -10429,7 +10429,7 @@
             "section": "Thanksgiving",
             "name": "Brown Suit",
             "price": {
-                "min": 1000,
+                "min": 1500,
                 "max": 2000
             },
             "state": "Stable",
