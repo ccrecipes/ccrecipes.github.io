@@ -263,11 +263,11 @@
             "section": "Hat Pack",
             "name": "Knight's Helmet",
             "price": {
-                "min": 300,
-                "max": 500
+                "min": 250,
+                "max": 450
             },
             "state": "Stable",
-            "last_updated": "26/Aug/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_268"
         }
     },
@@ -7046,11 +7046,11 @@
             "section": "Valentine's Day",
             "name": "Knight's Helmet",
             "price": {
-                "min": 10000,
-                "max": 15000
+                "min": 250,
+                "max": 450
             },
             "state": "Stable",
-            "last_updated": "26/Aug/2022",
+            "last_updated": "15/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_550"
         }
     },
