@@ -25,7 +25,7 @@ $.ajax({
             };
         }
         if (data[item]["type"]["section"] == "CARS") {
-            $("#cars_pets").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
+            $("#cars_prices").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
         };
     };
 
