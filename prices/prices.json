@@ -8849,10 +8849,10 @@
             "name": "Pumpkin Pack",
             "price": {
                 "min": 150000,
-                "max": 200000
+                "max": 175000
             },
             "state": "Decreasing",
-            "last_updated": "17/Oct/2022",
+            "last_updated": "18/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_380"
         }
     },
