@@ -15,6 +15,55 @@
 		background-image: url(../cctest/stars.png);
 	}
 
+@media screen and (max-width: 767px) {
+	.item {
+		position: relative;
+		height: 90px !important;
+		width: 63px !important;
+		margin: 3px;
+		bottom: -15px;
+		background: linear-gradient(165deg, rgb(19, 48, 136) 19%, rgb(19, 78, 180) 20%, rgb(19, 78, 180) 80%, rgba(19, 48, 136) 81%);
+		box-shadow:  2px 2px rgb(0 29 80), 5px 5px rgb(0 0 0 / 50%);
+		border-radius: 3px;
+		transition-duration: .4s;
+		cursor: pointer;
+		display: inline-block
+	}
+
+	.item span {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%) scale(.5) !important;
+	}
+}
+	.sections {
+		position: absolute;
+		width: 225px;
+		height: 500px;
+		background: rgba(0, 0, 44, 0.9);
+		box-shadow:  2px 2px rgb(0, 0, 44), 5px 5px rgb(0 0 0 / 50%);
+		display: none;
+		top: 7%;
+		overflow-y: scroll;
+		scrollbar-width: none;
+	}
+
+	.sections h1 {
+		position: relative;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		font-family: 'Arial';
+		text-shadow: -1px -1px 0 rgb(0 0 0), -1px 0px 0 rgb(0 0 0), 1px -1px 0 rgb(0 0 0), 1px 0px 0 rgb(0 0 0), -1px 1px 0 rgb(0 0 0), 0px 1px 0 rgb(0 0 0), 0px -1px rgb(0 0 0), 1px 1px 0 rgb(0 0 0);
+		cursor: pointer;
+		transition-duration: .4s;
+	}
+
+	.sections h1:hover {
+		transform: scale(1.15);
+	}
+
 	.searchbar {
 	    position: relative;
 	    display: table-cell;
@@ -52,6 +101,32 @@
 
 	.list {
 	    text-align: center;
+	    overflow: hidden;
+	}
+
+	.header {
+	    position: relative;
+	    font-family: Luckiest Guy;
+	    color: white;
+	    letter-spacing: 2px;
+	    text-align: center;
+	    text-shadow: -0.15vw -0.15vw 0 #000, -0.15vw 0px 0 #000, 0.15vw -0.15vw 0 #000, 0.15vw 0px 0 #000, -0.15vw 0.15vw 0 #000, 0px 0.15vw 0 #000, 0.225vw 0.225vw 0 #000, 0px -0.15vw 0 #000, 0.075vw 0.075vw 0 #000, 0.15vw 0.15vw 0 #000, 0.3vw 0.3vw 0 #000, 0.375vw 0.375vw 0 #000, 0.45vw 0.45vw 0 #000, -0.15vw 0.075vw 0 #000, -0.075vw 0.15vw 0 #000, 0px 0.225vw 0 #000, 0.075vw 0.3vw 0 #000, 0.15vw 0.375vw 0 #000, 0.225vw 0.45vw 0 #000, 0.075vw -0.15vw 0 #000, 0.15vw -0.075vw 0 #000, 0.225vw 0px 0 #000, 0.3vw 0.075vw 0 #000, 0.375vw 0.15vw 0 #000, 0.45vw 0.225vw 0 #000;
+	    width: 100%;
+	    background: linear-gradient(100deg, rgb(255, 202, 27) 19%, rgb(255, 233, 31) 20%, rgb(255, 233, 31) 80%, rgba(255, 202, 27) 81%);
+	    height: 50px;
+	    box-shadow: 0px 0px 0px 3px black;
+	    z-index: -1;
+	    left: 50%;
+	    user-select: none;
+	    transform: translate(-50%, 20%);
+	}
+
+	.header h1 {
+		position: absolute;
+		text-align: center;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		font-size: 32px;
 	}
 
 	.item {
@@ -110,11 +185,38 @@
 <body>
 	<div class="navbar">
 		<div class="searchbar">
+			<span src="burger_arrow.png">&#9776</span>
 			<input type="text" id="filterInput" placeholder="Search for item...">
 		</div>
 	</div>
 	<div class="all_prices">
-		<div id="prices" class="list"></div>
+		<div id="wearables_prices" class="list">
+			<div class="header">
+				<h1>Wearables</h1>
+			</div>
+		</div>
+		<div id="cars_prices" class="list">
+			<div class="header">
+				<h1>Cars</h1>
+			</div>
+		</div>
+	</div>
+	<div class="sections">
+		<h1>Halloween</h1>
+		<h1>Summer</h1>
+		<h1>Christmas</h1>
+		<h1>Fool April</h1>
+		<h1>Summer</h1>
+		<h1>Fan</h1>
+		<h1>Easter</h1>
+		<h1>Thanksgiving</h1>
+		<h1>New Year</h1>
+		<h1>Hat Pack</h1>
+		<h1>Adventure Pack</h1>
+		<h1>Ocean Pack</h1>
+		<h1>Clothes Pack</h1>
+		<h1>Slymecorp Pack</h1>
+		<h1>Chess Pack</h1>
 	</div>
 </body>
 	<script src="jquery.js"></script>
