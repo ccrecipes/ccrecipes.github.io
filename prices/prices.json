@@ -6026,11 +6026,11 @@
             "section": "Easter",
             "name": "Cookie Backpack",
             "price": {
-                "min": 30000,
+                "min": 27500,
                 "max": 32500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "20/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_566"
         }
     },
