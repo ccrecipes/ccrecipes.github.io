@@ -5142,11 +5142,11 @@
             "section": "Easter",
             "name": "Red Balloon",
             "price": {
-                "min": 80000,
-                "max": 85000
+                "min": 85000,
+                "max": 95000
             },
             "state": "Stable",
-            "last_updated": "19/Oct/2022",
+            "last_updated": "21/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_208"
         }
     },
