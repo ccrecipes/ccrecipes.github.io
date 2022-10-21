@@ -5108,11 +5108,11 @@
             "section": "Easter",
             "name": "Rainbow Umbrella",
             "price": {
-                "min": 700000,
-                "max": 800000
+                "min": 800000,
+                "max": 900000
             },
             "state": "Increasing",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "20/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_781"
         }
     },
@@ -5145,8 +5145,8 @@
                 "min": 85000,
                 "max": 95000
             },
-            "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "state": "Increasing",
+            "last_updated": "21/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_208"
         }
     },
@@ -5329,11 +5329,11 @@
             "section": "Easter",
             "name": "Carrot Wand",
             "price": {
-                "min": 3000,
-                "max": 4000
+                "min": 5000,
+                "max": 7500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "20/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_774"
         }
     },
@@ -6026,11 +6026,11 @@
             "section": "Easter",
             "name": "Cookie Backpack",
             "price": {
-                "min": 30000,
+                "min": 27500,
                 "max": 32500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "20/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_566"
         }
     },
@@ -6468,11 +6468,11 @@
             "section": "Valentine's Day",
             "name": "Cupid's Wings",
             "price": {
-                "min": 80000,
-                "max": 90000
+                "min": 90000,
+                "max": 100000
             },
-            "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "state": "Increasing",
+            "last_updated": "21/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_150"
         }
     },
@@ -6995,11 +6995,11 @@
             "section": "Valentine's Day",
             "name": "Take This Flower",
             "price": {
-                "min": 750,
-                "max": 1250
+                "min": 1000,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "20/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_336"
         }
     },
@@ -8848,11 +8848,11 @@
             "section": "Halloween",
             "name": "Pumpkin Pack",
             "price": {
-                "min": 150000,
-                "max": 200000
+                "min": 140000,
+                "max": 170000
             },
             "state": "Decreasing",
-            "last_updated": "17/Oct/2022",
+            "last_updated": "18/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_380"
         }
     },
@@ -10922,11 +10922,11 @@
             "section": "Christmas",
             "name": "Ice Head",
             "price": {
-                "min": 90000,
-                "max": 110000
+                "min": 95000,
+                "max": 100000
             },
-            "state": "Increasing",
-            "last_updated": "15/Oct/2022",
+            "state": "Stable",
+            "last_updated": "21/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_530"
         }
     },
@@ -11517,11 +11517,11 @@
             "section": "Christmas",
             "name": "Purple Scarf",
             "price": {
-                "min": 750,
-                "max": 1000
+                "min": 1000,
+                "max": 1500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "21/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_286"
         }
     },
