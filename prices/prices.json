@@ -10922,8 +10922,8 @@
             "section": "Christmas",
             "name": "Ice Head",
             "price": {
-                "min": 90000,
-                "max": 110000
+                "min": 95000,
+                "max": 100000
             },
             "state": "Stable",
             "last_updated": "21/Oct/2022",
