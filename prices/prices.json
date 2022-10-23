@@ -7743,11 +7743,11 @@
             "section": "Summer",
             "name": "Blue Hawaiian Shirt",
             "price": {
-                "min": 175000,
-                "max": 200000
+                "min": 135000,
+                "max": 165000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_311"
         }
     },
