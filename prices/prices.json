@@ -1,4 +1,5 @@
-[{
+[
+    {
         "type": {
             "name": "TOP HAT",
             "section": "HAT PACK"
@@ -6477,12 +6478,12 @@
     },
     {
         "type": {
-            "name": "VALENTINE'S DAY WINGS",
+            "name": "VALENTINE WINGS",
             "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
-            "name": "Valentine's Day Wings",
+            "name": "Valentine Wings",
             "price": {
                 "min": 32500,
                 "max": 37500
@@ -10292,11 +10293,11 @@
             "section": "Thanksgiving",
             "name": "Pumpkin Staff",
             "price": {
-                "min": 25000,
-                "max": 40000
+                "min": 20000,
+                "max": 30000
             },
             "state": "Increasing",
-            "last_updated": "17/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_741"
         }
     },
