@@ -5177,10 +5177,10 @@
             "name": "Easter Umbrella",
             "price": {
                 "min": 1900000,
-                "max": 2000000
+                "max": 1950000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_197"
         }
     },
