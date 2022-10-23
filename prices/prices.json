@@ -4921,7 +4921,7 @@
             "section": "April Fools' Day",
             "name": "Jester's Cane",
             "price": {
-                "min": 80000,
+                "min": 90000,
                 "max": 100000
             },
             "state": "Stable",
