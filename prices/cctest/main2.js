@@ -57,7 +57,7 @@ $.ajax({
 
     for (section in data) {
         $(".sections h1").on("click", function(event) {
-            location.assign("section.html");
+            location.assign("section");
             if (data[section]["type"]["section"] == "HALLOWEEN") {
                 console.log(data[section]["item"]["name"])
             }
