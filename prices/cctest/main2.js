@@ -49,6 +49,21 @@ $.ajax({
         });
     });
 
+    sections = ["Hat Pack","Wing Pack","Critter Suit Pack","Accessories Pack","Clothes Pack","Clothes Item","Quest","Virus","Dungeon Pack","Track Pack","Kitchen Pack","Ocean Pack","Sci-fi Pack","Steampunk Pack","Adventure Pack","Fishing Pack","April Fools' Day","Easter","Valentine's Day","Summer","Fan","Halloween","Thanksgiving","Christmas","Farm Pack","Wands","New Year's Day"]
+
+    for (section in sections) {
+        $(".sections").append(`<h1>${sections[section]}</h1>`);
+    }
+
+    for (section in data) {
+        $(".sections h1").on("click", function(event) {
+            location.assign("section.html");
+            if (data[section]["type"]["section"] == "HALLOWEEN") {
+                console.log(data[section]["item"]["name"])
+            }
+        });
+    }
+
     },
     error: function(){
         alert("json not found");
