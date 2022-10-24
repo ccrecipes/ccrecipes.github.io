@@ -1,4 +1,5 @@
-[{
+[
+    {
         "type": {
             "name": "TOP HAT",
             "section": "HAT PACK"
@@ -4920,11 +4921,11 @@
             "section": "April Fools' Day",
             "name": "Jester's Cane",
             "price": {
-                "min": 80000,
+                "min": 90000,
                 "max": 100000
             },
-            "state": "Increasing",
-            "last_updated": "15/Oct/2022",
+            "state": "Stable",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_358"
         }
     },
@@ -5090,11 +5091,11 @@
             "section": "Easter",
             "name": "Golden Egg Costume",
             "price": {
-                "min": 500000,
-                "max": 550000
+                "min": 450000,
+                "max": 500000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_673"
         }
     },
@@ -5110,8 +5111,8 @@
                 "min": 800000,
                 "max": 900000
             },
-            "state": "Increasing",
-            "last_updated": "20/Oct/2022",
+            "state": "Stable",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_781"
         }
     },
@@ -5141,11 +5142,11 @@
             "section": "Easter",
             "name": "Red Balloon",
             "price": {
-                "min": 85000,
-                "max": 95000
+                "min": 90000,
+                "max": 100000
             },
             "state": "Increasing",
-            "last_updated": "21/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_208"
         }
     },
@@ -5176,10 +5177,10 @@
             "name": "Easter Umbrella",
             "price": {
                 "min": 1900000,
-                "max": 2000000
+                "max": 1950000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_197"
         }
     },
@@ -5379,11 +5380,11 @@
             "section": "Easter",
             "name": "Easter Tophat",
             "price": {
-                "min": 7000,
-                "max": 8000
+                "min": 8000,
+                "max": 10000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_153"
         }
     },
@@ -5906,11 +5907,11 @@
             "section": "Easter",
             "name": "Bunny Pyjamas",
             "price": {
-                "min": 500000,
-                "max": 550000
+                "min": 450000,
+                "max": 500000
             },
-            "state": "Increasing",
-            "last_updated": "15/Oct/2022",
+            "state": "Stable",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_196"
         }
     },
@@ -6450,11 +6451,11 @@
             "section": "Valentine's Day",
             "name": "Cupid's Halo",
             "price": {
-                "min": 1800000,
-                "max": 1900000
+                "min": 1900000,
+                "max": 2000000
             },
-            "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "state": "Increasing",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_149"
         }
     },
@@ -6471,18 +6472,18 @@
                 "max": 100000
             },
             "state": "Increasing",
-            "last_updated": "21/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_150"
         }
     },
     {
         "type": {
-            "name": "VALENTINE'S DAY WINGS",
+            "name": "VALENTINE WINGS",
             "section": "VALENTINE'S DAY"
         },
         "item": {
             "section": "Valentine's Day",
-            "name": "Valentine's Day Wings",
+            "name": "Valentine Wings",
             "price": {
                 "min": 32500,
                 "max": 37500
@@ -6756,11 +6757,11 @@
             "section": "Valentine's Day",
             "name": "Queen's Crown",
             "price": {
-                "min": 10000,
-                "max": 15000
+                "min": 15000,
+                "max": 20000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_417"
         }
     },
@@ -6790,11 +6791,11 @@
             "section": "Valentine's Day",
             "name": "Panda Hat",
             "price": {
-                "min": 22500,
-                "max": 27500
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_418"
         }
     },
@@ -6944,10 +6945,10 @@
             "name": "Love Balloon",
             "price": {
                 "min": 550000,
-                "max": 600000
+                "max": 650000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_295"
         }
     },
@@ -7079,11 +7080,11 @@
             "section": "Valentine's Day",
             "name": "Teddy Bear Head",
             "price": {
-                "min": 500000,
-                "max": 550000
+                "min": 400000,
+                "max": 450000
             },
-            "state": "Increasing",
-            "last_updated": "15/Oct/2022",
+            "state": "Decreasing",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_545"
         }
     },
@@ -7538,11 +7539,11 @@
             "section": "Valentine's Day",
             "name": "Red Tuxedo Top",
             "price": {
-                "min": 4500,
-                "max": 5500
+                "min": 5500,
+                "max": 6500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_768"
         }
     },
@@ -7742,11 +7743,11 @@
             "section": "Summer",
             "name": "Blue Hawaiian Shirt",
             "price": {
-                "min": 175000,
-                "max": 200000
+                "min": 135000,
+                "max": 165000
             },
-            "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "state": "Decreasing",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_311"
         }
     },
@@ -8134,10 +8135,10 @@
             "name": "Devil's Halo",
             "price": {
                 "min": 60000,
-                "max": 65000
+                "max": 70000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_711"
         }
     },
@@ -8762,11 +8763,11 @@
             "section": "Halloween",
             "name": "Skull Balloon",
             "price": {
-                "min": 40000,
-                "max": 50000
+                "min": 45000,
+                "max": 55000
             },
             "state": "Decreasing",
-            "last_updated": "16/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_508"
         }
     },
@@ -8796,11 +8797,11 @@
             "section": "Halloween",
             "name": "Pumpkin Balloon",
             "price": {
-                "min": 1500,
-                "max": 2000
+                "min": 2000,
+                "max": 2500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_319"
         }
     },
@@ -8983,11 +8984,11 @@
             "section": "Halloween",
             "name": "Headlnessness",
             "price": {
-                "min": 850000,
+                "min": 900000,
                 "max": 950000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_272"
         }
     },
@@ -9085,11 +9086,11 @@
             "section": "Halloween",
             "name": "Werewolf Head",
             "price": {
-                "min": 60000,
-                "max": 65000
+                "min": 65000,
+                "max": 70000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_320"
         }
     },
@@ -9221,11 +9222,11 @@
             "section": "Halloween",
             "name": "Black Plague Doctor",
             "price": {
-                "min": 4000,
-                "max": 5000
+                "min": 4500,
+                "max": 5500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_392"
         }
     },
@@ -9239,10 +9240,10 @@
             "name": "Grey Plague Doctor",
             "price": {
                 "min": 4000,
-                "max": 4500
+                "max": 5000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_393"
         }
     },
@@ -9816,11 +9817,11 @@
             "section": "Halloween",
             "name": "Zombie Head",
             "price": {
-                "min": 15000,
-                "max": 20000
+                "min": 17500,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_093"
         }
     },
@@ -9851,10 +9852,10 @@
             "name": "Zombie Pants",
             "price": {
                 "min": 12500,
-                "max": 15000
+                "max": 17500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_391"
         }
     },
@@ -10292,11 +10293,11 @@
             "section": "Thanksgiving",
             "name": "Pumpkin Staff",
             "price": {
-                "min": 25000,
-                "max": 40000
+                "min": 20000,
+                "max": 30000
             },
-            "state": "Increasing",
-            "last_updated": "17/Oct/2022",
+            "state": "Stable",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_741"
         }
     },
@@ -12740,11 +12741,11 @@
             "section": "Halloween",
             "name": "Floating Witch's Broom Key",
             "price": {
-                "min": 70000,
-                "max": 80000
+                "min": 75000,
+                "max": 85000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "24/Oct/2022",
             "url": "ItemIcons_Misc__Tile/257"
         }
     },
