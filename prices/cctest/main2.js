@@ -68,6 +68,6 @@ for (sectionn in basic) {
         if (basic[sectionn]["type"]["section"] == $(this).text().toUpperCase()) {
             console.log(basic[sectionn]["item"]["name"]);
         }
-        window.location.href = window.location.origin + "/section?section=" + encodeURI($(this).text().toLowerCase());
+        window.location.href = window.location.origin + "/prices/cctest/section?section=" + encodeURI($(this).text().toLowerCase());
     })
 }
