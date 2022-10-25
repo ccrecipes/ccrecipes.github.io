@@ -69,7 +69,7 @@ $(".sections h1").on("click", function(event) {
         names = basic[section]["item"]["name"]+"<br>"+basic[section]["item"]["price"]["min"]+" - "+basic[section]["item"]["price"]["max"];
         imgs = "https://www.cubiccastles.com/recipe_html/"+basic[section]["item"]["url"]+".png";
         if (basic[section]["type"]["section"] == $(this).text().toUpperCase()) {
-            $("#section2").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`);
+            $("#section2").append(`<div style="border-bottom: ${color[basic[section]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`);
             console.log(basic[section]["item"]["name"]);
         };
     }
