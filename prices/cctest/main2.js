@@ -62,12 +62,15 @@ for (section in sections) {
     $(".sections").append(`<h1>${sections[section]}</h1>`);
 }
 
-for (sectionn in basic) {
-    $(".sections h1").on("click", function(event) {
-        //console.log($(this).text().toUpperCase());
-        if (basic[sectionn]["type"]["section"] == $(this).text().toUpperCase()) {
-            console.log(basic[sectionn]["item"]["name"]);
-        }
-        window.location.href = window.location.origin + "/prices/cctest/section?section=" + encodeURI($(this).text().toLowerCase());
-    })
-}
+$(".sections h1").on("click", function(event) {
+    window.location.href = window.location.origin + "/prices/cctest/section?section=" + encodeURI($(this).text().toLowerCase());
+    for (section in basic) {
+        color = {"Stable":"5px solid #ffffff","Increasing":"5px solid #1fc44b","Decreasing":"5px solid #c41a1a"};
+        names = basic[section]["item"]["name"]+"<br>"+basic[section]["item"]["price"]["min"]+" - "+basic[section]["item"]["price"]["max"];
+        imgs = "https://www.cubiccastles.com/recipe_html/"+basic[section]["item"]["url"]+".png";
+        if (basic[section]["type"]["section"] == $(this).text().toUpperCase()) {
+            $("#section2").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`);
+            console.log(basic[section]["item"]["name"]);
+        };
+    }
+})
