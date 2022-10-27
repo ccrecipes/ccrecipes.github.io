@@ -5244,11 +5244,11 @@
             "section": "Easter",
             "name": "Pink Cherry Blossom Umbrella",
             "price": {
-                "min": 9000,
-                "max": 10000
+                "min": 10000,
+                "max": 12500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_671"
         }
     },
