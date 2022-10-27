@@ -9120,11 +9120,11 @@
             "section": "Halloween",
             "name": "Twobee Head",
             "price": {
-                "min": 8000,
-                "max": 9000
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_314"
         }
     },
