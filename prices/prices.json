@@ -5431,11 +5431,11 @@
             "section": "Easter",
             "name": "Purple Easter Hat",
             "price": {
-                "min": 12500,
-                "max": 15000
+                "min": 15000,
+                "max": 17500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_348"
         }
     },
