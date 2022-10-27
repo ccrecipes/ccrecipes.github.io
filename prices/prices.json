@@ -5448,11 +5448,11 @@
             "section": "Easter",
             "name": "White Boater Hat",
             "price": {
-                "min": 3500,
-                "max": 4500
+                "min": 5000,
+                "max": 6000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_352"
         }
     },
