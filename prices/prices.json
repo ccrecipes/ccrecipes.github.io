@@ -10277,10 +10277,10 @@
             "name": "Pumpkin Hat",
             "price": {
                 "min": 35000,
-                "max": 45000
+                "max": 40000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_608"
         }
     },
