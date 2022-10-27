@@ -10007,7 +10007,7 @@
                 "min": 5500,
                 "max": 7500
             },
-            "state": "Decreasing",
+            "state": "Stable",
             "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_738"
         }
