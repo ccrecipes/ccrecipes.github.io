@@ -9715,11 +9715,11 @@
             "section": "Halloween",
             "name": "Dark Traveller Head",
             "price": {
-                "min": 1500,
-                "max": 2500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "16/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_497"
         }
     },
