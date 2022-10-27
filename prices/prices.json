@@ -4853,11 +4853,11 @@
             "section": "April Fools' Day",
             "name": "Least Fool's Cap",
             "price": {
-                "min": 8000,
-                "max": 10000
+                "min": 9000,
+                "max": 11000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_211"
         }
     },
