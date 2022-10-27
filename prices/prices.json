@@ -5415,10 +5415,10 @@
             "name": "Easter Hat",
             "price": {
                 "min": 15000,
-                "max": 17500
+                "max": 20000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_152"
         }
     },
