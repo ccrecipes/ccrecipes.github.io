@@ -747,11 +747,11 @@
             "section": "Christmas",
             "name": "Level 49 Husky Kennel",
             "price": {
-                "min": 15000,
-                "max": 20000
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Blocks__Tile/01682_cropped"
         }
     },
