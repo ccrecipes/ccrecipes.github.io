@@ -9749,11 +9749,11 @@
             "section": "Halloween",
             "name": "Dark Traveller Pants",
             "price": {
-                "min": 7000,
-                "max": 8000
+                "min": 9000,
+                "max": 10000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "27/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_498"
         }
     },
