@@ -10004,7 +10004,7 @@
             "section": "Halloween",
             "name": "Katanda on Back",
             "price": {
-                "min": 5500,
+                "min": 5000,
                 "max": 7500
             },
             "state": "Stable",
