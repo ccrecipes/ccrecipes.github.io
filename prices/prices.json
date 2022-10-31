@@ -9732,7 +9732,7 @@
             "section": "Halloween",
             "name": "Dark Traveller Top",
             "price": {
-                "min": 8000,
+                "min": 9000,
                 "max": 10000
             },
             "state": "Stable",
