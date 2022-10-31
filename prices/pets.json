@@ -415,6 +415,42 @@
     },
     {
         "type": {
+            "name": "MUTANT RAM KENNEL",
+            "level": 0,
+            "section": "PETS"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Level 0 Mutant Ram Kennel",
+            "price": {
+                "min": 90000,
+                "max": 100000
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "MUTANT WUVVA PIG KENNEL",
+            "level": 0,
+            "section": "PETS"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Level 0 Mutant Wuvva Pig Kennel",
+            "price": {
+                "min": 1500,
+                "max": 2000
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
             "name": "MUTANT MEEMEW",
             "level": 49,
             "section": "PETS"
