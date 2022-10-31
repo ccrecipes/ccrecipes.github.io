@@ -4925,7 +4925,7 @@
                 "max": 90000
             },
             "state": "Stable",
-            "last_updated": "26/Oct/2022",
+            "last_updated": "31/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_358"
         }
     },
@@ -10184,6 +10184,193 @@
     },
     {
         "type": {
+            "name": "WIZARD'S SPELLBOOK",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Wizard's Spellbook",
+            "price": {
+                "min": 15000,
+                "max": 20000
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "KNIFE",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Knife",
+            "price": {
+                "min": 10000,
+                "max": 15000
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "FLASHLIGHT",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Flashlight",
+            "price": {
+                "min": 3000,
+                "max": 4000
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "CANDLE HAT",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Candle Hat",
+            "price": {
+                "min": 1000,
+                "max": 1500
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "THIRD EYE",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Third Eye",
+            "price": {
+                "min": 800,
+                "max": 1200
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "HAIR OVER FACE",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Hair Over Face",
+            "price": {
+                "min": 2000,
+                "max": 3000
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "GHOST DESIGNED JACKET",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Ghost Designed Jacket",
+            "price": {
+                "min": 1500,
+                "max": 2000
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "PUMPKIN SHIRT",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Pumpkin Shirt",
+            "price": {
+                "min": 800,
+                "max": 1200
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "PUMPKIN PANTS",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Pumpkin Pants",
+            "price": {
+                "min": 800,
+                "max": 1200
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "DEMON MASK",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Demon Mask",
+            "price": {
+                "min": 1000,
+                "max": 1500
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
+            "name": "GOLDEN DEMON MASK",
+            "section": "HALLOWEEN"
+        },
+        "item": {
+            "section": "Halloween",
+            "name": "Golden Demon Mask",
+            "price": {
+                "min": 1000,
+                "max": 1500
+            },
+            "state": "Stable",
+            "last_updated": "31/Oct/2022",
+            "url": ""
+        }
+    },
+    {
+        "type": {
             "name": "TRUMPET HAT",
             "section": "THANKSGIVING"
         },
@@ -13319,11 +13506,11 @@
             "section": "Stamps",
             "name": "Halloween Night",
             "price": {
-                "min": 4000,
-                "max": 5000
+                "min": 6000,
+                "max": 8000
             },
             "state": "Stable",
-            "last_updated": "21/Oct/2022",
+            "last_updated": "31/Oct/2022",
             "url": "ItemIcons_Special__TILE/IMG_073"
         }
     },
