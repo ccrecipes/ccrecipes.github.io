@@ -10701,11 +10701,11 @@
             "section": "Thanksgiving",
             "name": "Pilgrim Pants",
             "price": {
-                "min": 5000,
-                "max": 7500
+                "min": 4000,
+                "max": 6000
             },
             "state": "Decreasing",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_327"
         }
     },
