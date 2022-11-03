@@ -10684,11 +10684,11 @@
             "section": "Thanksgiving",
             "name": "Pilgrim's Coat",
             "price": {
-                "min": 10000,
-                "max": 12500
+                "min": 7500,
+                "max": 10000
             },
             "state": "Decreasing",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "03/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_280"
         }
     },
