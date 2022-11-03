@@ -4948,18 +4948,18 @@
     },
     {
         "type": {
-            "name": "DIRT BLOCK HEAD",
+            "name": "DIRT BLOCK HAT",
             "section": "APRIL FOOLS' DAY"
         },
         "item": {
             "section": "April Fools' Day",
-            "name": "Dirt Block Head",
+            "name": "Dirt Block Hat",
             "price": {
-                "min": 7000,
-                "max": 9000
+                "min": 9000,
+                "max": 10000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_559"
         }
     },
