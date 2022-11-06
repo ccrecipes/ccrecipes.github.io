@@ -10089,11 +10089,11 @@
             "section": "Halloween",
             "name": "Dinosaur Pants",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "06/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_733"
         }
     },
