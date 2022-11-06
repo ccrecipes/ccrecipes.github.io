@@ -441,11 +441,11 @@
             "section": "Halloween",
             "name": "Level 0 Mutant Wuvva Pig Kennel",
             "price": {
-                "min": 1500,
-                "max": 2000
+                "min": 1250,
+                "max": 1750
             },
             "state": "Stable",
-            "last_updated": "31/Oct/2022",
+            "last_updated": "06/Nov/2022",
             "url": ""
         }
     },
