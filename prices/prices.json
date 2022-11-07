@@ -3289,8 +3289,8 @@
             "section": "Quest",
             "name": "Koala Hat",
             "price": {
-                "min": 325000,
-                "max": 375000
+                "min": 300000,
+                "max": 325000
             },
             "state": "Decreasing",
             "last_updated": "07/Nov/2022",
