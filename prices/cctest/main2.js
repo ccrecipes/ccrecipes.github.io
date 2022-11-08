@@ -78,6 +78,7 @@ for (item in basic) {
 }
 
 $(".sections h1").click(function() {
+    window.location.pathname = window.location.origin + "/prices/cctest/" + encodeURI($(this).text().toLowerCase());
     tittle_section = $(this).text();
     id_section = $(this).text().toLowerCase().replace(" ","_").replace("'s ","").replace("' ","_");
     $(".all_prices").append(`<div id=${id_section} class="list"><h1 class="header">${tittle_section}</h1></div>`);
@@ -93,7 +94,6 @@ $(".sections h1").click(function() {
             $("#wearables_prices").hide();
             $("#cars_prices").hide();
             $("#blurred").hide();
-            window.location.href = window.location.origin + "/prices/cctest/" + encodeURI($(this).text().toLowerCase());
         }
     }
 
