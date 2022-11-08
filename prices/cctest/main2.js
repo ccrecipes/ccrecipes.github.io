@@ -14,32 +14,32 @@ $(".searchbar span").on("click", function(event) {
     $("#blurred").css("display","block")
 })
 
-for (item in basic) {
-    $(".searchbar span").on("click", function(event) {
-        $(".sections").css({"display":"block"});
-        $(".searchbar span").hide();
-    })
 
-    $(document).mouseup(function(event) {
-        var sections = $(".sections");
-        var blurred = $(".blurred");
-        var menu = $(".searchbar span");
-        if (!sections.is(event.target) && sections.has(event.target).length === 0) {
-            sections.hide();
-            blurred.hide();
-            menu.show();
-        }
-    });
+$(".searchbar span").on("click", function(event) {
+    $(".sections").css({"display":"block"});
+    $(".searchbar span").hide();
+})
 
-    $(document).ready(function() {
-        $("#filterInput").on("keyup", function() {
-            var value = $(this).val().toLowerCase();
-            $(".item").filter(function() {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
+$(document).mouseup(function(event) {
+    var sections = $(".sections");
+    var blurred = $(".blurred");
+    var menu = $(".searchbar span");
+    if (!sections.is(event.target) && sections.has(event.target).length === 0) {
+        sections.hide();
+        blurred.hide();
+        menu.show();
+    }
+});
+
+$(document).ready(function() {
+    $("#filterInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $(".item").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
-}
+});
+
 
 sections = ["Hat Pack","Wing Pack","Critter Suit Pack","Accessories Pack","Clothes Pack","Clothes Item","Quest","Virus","Dungeon Pack","Track Pack","Kitchen Pack","Ocean Pack","Sci-fi Pack","Steampunk Pack","Adventure Pack","Fishing Pack","April Fools' Day","Easter","Valentine's Day","Summer","Fan","Halloween","Thanksgiving","Christmas","Farm Pack","Wands","New Year's Day"]
 
