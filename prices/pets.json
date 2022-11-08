@@ -423,11 +423,11 @@
             "section": "Halloween",
             "name": "Level 0 Mutant Ram Kennel",
             "price": {
-                "min": 90000,
-                "max": 100000
+                "min": 95000,
+                "max": 105000
             },
             "state": "Stable",
-            "last_updated": "31/Oct/2022",
+            "last_updated": "08/Nov/2022",
             "url": ""
         }
     },
