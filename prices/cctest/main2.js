@@ -69,11 +69,11 @@ for (item in basic) {
 
     for (wearable in wearables) {
         if (basic[item]["type"]["section"] == wearables[wearable].toUpperCase()) {
-            $("#wearables_prices").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
-        };
+            $("#wearables_prices").append(`<div style="border-bottom: ${color[basic[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
+        }
     }
     if (basic[item]["type"]["section"] == "CARS") {
-        $("#cars_prices").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
+        $("#cars_prices").append(`<div style="border-bottom: ${color[basic[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
     }
 }
 
@@ -87,7 +87,7 @@ $(".sections h1").click(function() {
         name = basic[item]["item"]["name"]+"<br>"+basic[item]["item"]["price"]["min"].toLocaleString()+"<b> - </b>"+basic[item]["item"]["price"]["max"].toLocaleString()
         img = basic[item]["item"]["url"];        
         if (basic[section]["type"]["section"] == $(this).text().toUpperCase()) {
-            $("#"+id_section).append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`);
+            $("#"+id_section).append(`<div style="border-bottom: ${color[basic[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`);
             //window.location.pathname += "/"+$(this).text().toLowerCase()
             $(".sections").hide();
             $("#wearables_prices").hide();
