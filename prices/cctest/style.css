@@ -100,7 +100,7 @@ body {
 	    z-index: -1;
 	    user-select: none;
 	    font-size: 4.5vw !important;
-	    height: 6vw !important;
+	    height: 7vw !important;
 	}
 }
 .sections {
@@ -110,7 +110,6 @@ body {
 	background: rgba(0, 0, 44, 0.95);
 	box-shadow:  2px 2px rgb(0, 0, 44), 5px 5px rgb(0 0 0 / 50%);
 	display: none;
-	top: 7%;
 	overflow-y: scroll;
 	scrollbar-width: none;
 	border-radius: 10px;
