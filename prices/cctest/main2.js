@@ -4,40 +4,30 @@ $.ajax({
     'global': true,
     'url': "prices.json",
     'dataType': "json",
-    success: function(data) {
+    'success': function(data) {
         basic = data
+    }
+});
 
-    for (item in data) {
-        color = {"Stable":"5px solid #ffffff","Increasing":"5px solid #1fc44b","Decreasing":"5px solid #c41a1a"};
-        name = data[item]["item"]["name"]+"<br>"+data[item]["item"]["price"]["min"].toLocaleString()+"<b> - </b>"+data[item]["item"]["price"]["max"].toLocaleString()
-        img = data[item]["item"]["url"];
+$(".searchbar span").on("click", function(event) {
+    $("#blurred").append("<div class='blurred'></div>");
+    $("#blurred").css("display","block")
+})
 
-        if (data[item]["item"]["url"] == "") {
-            txt = `<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span><img src="../cctest/error.png"></span><p>${name}</p></div>`;
-        }
-
-        //$('#prices').append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
-
-        wearables = ["Hat Pack","Wing Pack","Critter Suit Pack","Accessories Pack","Clothes Pack","Clothes Item","Quest","Virus","Dungeon Pack","Track Pack","Kitchen Pack","Ocean Pack","Sci-fi Pack","Steampunk Pack","Adventure Pack","Fishing Pack","April Fools' Day","Easter","Valentine's Day'","Summer","Fan","Halloween","Thanksgiving","Christmas","Farm Pack","Wands","New Year's Day"]
-
-        for (wearable in wearables) {
-            if (data[item]["type"]["section"] == wearables[wearable].toUpperCase()) {
-                $("#wearables_prices").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
-            };
-        }
-        if (data[item]["type"]["section"] == "CARS") {
-            $("#cars_prices").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
-        };
-    };
-
+for (item in basic) {
     $(".searchbar span").on("click", function(event) {
-        $(".sections").css({"display":"block"})
-    });
+        $(".sections").css({"display":"block"});
+        $(".searchbar span").hide();
+    })
 
     $(document).mouseup(function(event) {
         var sections = $(".sections");
+        var blurred = $(".blurred");
+        var menu = $(".searchbar span");
         if (!sections.is(event.target) && sections.has(event.target).length === 0) {
             sections.hide();
+            blurred.hide();
+            menu.show();
         }
     });
 
@@ -49,12 +39,7 @@ $.ajax({
             });
         });
     });
-
-    },
-    error: function(){
-        alert("json not found");
-    }
-});
+}
 
 sections = ["Hat Pack","Wing Pack","Critter Suit Pack","Accessories Pack","Clothes Pack","Clothes Item","Quest","Virus","Dungeon Pack","Track Pack","Kitchen Pack","Ocean Pack","Sci-fi Pack","Steampunk Pack","Adventure Pack","Fishing Pack","April Fools' Day","Easter","Valentine's Day","Summer","Fan","Halloween","Thanksgiving","Christmas","Farm Pack","Wands","New Year's Day"]
 
@@ -62,7 +47,7 @@ for (section in sections) {
     $(".sections").append(`<h1>${sections[section]}</h1>`);
 }
 
-$(".sections h1").on("click", function(event) {
+/*$(".sections h1").on("click", function(event) {
     window.location.href = window.location.origin + "/prices/cctest/section?section=" + encodeURI($(this).text().toLowerCase());
     for (section in basic) {
         color = {"Stable":"5px solid #ffffff","Increasing":"5px solid #1fc44b","Decreasing":"5px solid #c41a1a"};
@@ -73,4 +58,54 @@ $(".sections h1").on("click", function(event) {
             console.log(basic[section]["item"]["name"]);
         };
     }
+})*/
+
+wearables = ["Hat Pack","Wing Pack","Critter Suit Pack","Accessories Pack","Clothes Pack","Clothes Item","Quest","Virus","Dungeon Pack","Track Pack","Kitchen Pack","Ocean Pack","Sci-fi Pack","Steampunk Pack","Adventure Pack","Fishing Pack","April Fools' Day","Easter","Valentine's Day'","Summer","Fan","Halloween","Thanksgiving","Christmas","Farm Pack","Wands","New Year's Day"]
+
+for (item in basic) {
+    color = {"Stable":"5px solid #ffffff","Increasing":"5px solid #1fc44b","Decreasing":"5px solid #c41a1a"};
+    name = basic[item]["item"]["name"]+"<br>"+basic[item]["item"]["price"]["min"].toLocaleString()+"<b> - </b>"+basic[item]["item"]["price"]["max"].toLocaleString()
+    img = basic[item]["item"]["url"];
+
+    for (wearable in wearables) {
+        if (basic[item]["type"]["section"] == wearables[wearable].toUpperCase()) {
+            $("#wearables_prices").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
+        };
+    }
+    if (basic[item]["type"]["section"] == "CARS") {
+        $("#cars_prices").append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`)
+    }
+}
+
+$(".sections h1").click(function() {
+    tittle_section = $(this).text();
+    id_section = $(this).text().toLowerCase().replace(" ","_").replace("'s ","").replace("' ","_");
+    $(".all_prices").append(`<div id=${id_section} class="list"><h1 class="header">${tittle_section}</h1></div>`);
+    $(".searchbar span").show();
+    for (section in basic) {
+        color = {"Stable":"5px solid #ffffff","Increasing":"5px solid #1fc44b","Decreasing":"5px solid #c41a1a"};
+        name = basic[item]["item"]["name"]+"<br>"+basic[item]["item"]["price"]["min"].toLocaleString()+"<b> - </b>"+basic[item]["item"]["price"]["max"].toLocaleString()
+        img = basic[item]["item"]["url"];        
+        if (basic[section]["type"]["section"] == $(this).text().toUpperCase()) {
+            $("#"+id_section).append(`<div style="border-bottom: ${color[data[item]["item"]["state"]]}" class='item'><span class='${img} sprite'></span><p>${name}</p></div>`);
+            //window.location.pathname += "/"+$(this).text().toLowerCase()
+            $(".sections").hide();
+            $("#wearables_prices").hide();
+            $("#cars_prices").hide();
+            $("#blurred").hide();
+        }
+    }
+
+    if ($(this).text() == "Back") {
+        $("#wearables_prices").show();
+        $("#cars_prices").show();
+        $("#"+id_section).remove();
+        $(".searchbar p").hide();
+        $(".sections").hide();
+        $("#blurred").hide();
+    }
+
+    $(".sections h1").mouseup(function(event) {
+        $("#"+id_section).remove();
+    })
 })
