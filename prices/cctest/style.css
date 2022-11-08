@@ -118,6 +118,10 @@ body {
 	top: 54%;
 }
 
+.sections::-webkit-scrollbar {
+  display: none;
+}
+
 .sections h1 {
 	position: relative;
 	color: white;
