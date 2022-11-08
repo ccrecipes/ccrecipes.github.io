@@ -54,12 +54,12 @@ body {
 		background: rgba(0, 0, 44, 0.95);
 		box-shadow:  2px 2px rgb(0, 0, 44), 5px 5px rgb(0 0 0 / 50%);
 		display: none;
-		top: 7%;
 		overflow-y: scroll;
 		scrollbar-width: none;
 		border-radius: 10px;
-		transform: translate(0%,-50%);
-		top: 53%;
+		transform: translate(-50%,-50%);
+		top: 54%;
+		left: 50%;
 	}
 
 	.sections h1 {
@@ -99,8 +99,8 @@ body {
 	overflow-y: scroll;
 	scrollbar-width: none;
 	border-radius: 10px;
-	transform: translate(0%,-50%);
-	top: 53%;
+	transform: translate(3%,-50%);
+	top: 54%;
 }
 
 .sections h1 {
@@ -178,7 +178,7 @@ body {
     position: relative;
     font-family: Luckiest Guy;
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-align: center;
     text-shadow: -0.15vw -0.15vw 0 #000, -0.15vw 0px 0 #000, 0.15vw -0.15vw 0 #000, 0.15vw 0px 0 #000, -0.15vw 0.15vw 0 #000, 0px 0.15vw 0 #000, 0.225vw 0.225vw 0 #000, 0px -0.15vw 0 #000, 0.075vw 0.075vw 0 #000, 0.15vw 0.15vw 0 #000, 0.3vw 0.3vw 0 #000, 0.375vw 0.375vw 0 #000, 0.45vw 0.45vw 0 #000, -0.15vw 0.075vw 0 #000, -0.075vw 0.15vw 0 #000, 0px 0.225vw 0 #000, 0.075vw 0.3vw 0 #000, 0.15vw 0.375vw 0 #000, 0.225vw 0.45vw 0 #000, 0.075vw -0.15vw 0 #000, 0.15vw -0.075vw 0 #000, 0.225vw 0px 0 #000, 0.3vw 0.075vw 0 #000, 0.375vw 0.15vw 0 #000, 0.45vw 0.225vw 0 #000;
     background: linear-gradient(100deg, rgb(255, 202, 27) 19%, rgb(255, 233, 31) 20%, rgb(255, 233, 31) 80%, rgba(255, 202, 27) 81%);
@@ -187,7 +187,7 @@ body {
     left: 50%;
     user-select: none;
     transform: translate(-50%, 0%);
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 .item {
