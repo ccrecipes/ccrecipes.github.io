@@ -100,7 +100,7 @@ body {
 	    z-index: -1;
 	    user-select: none;
 	    font-size: 4.5vw !important;
-	    height: 6vw;
+	    height: 6vw !important;
 	}
 }
 .sections {
