@@ -76,11 +76,11 @@
             "section": "Quest",
             "name": "Redwood Forest Cap",
             "price": {
-                "min": 350,
-                "max": 550
+                "min": 400,
+                "max": 600
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "07/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_145"
         }
     },
@@ -3289,11 +3289,11 @@
             "section": "Quest",
             "name": "Koala Hat",
             "price": {
-                "min": 325000,
-                "max": 375000
+                "min": 300000,
+                "max": 325000
             },
-            "state": "Stable",
-            "last_updated": "02/Nov/2022",
+            "state": "Decreasing",
+            "last_updated": "07/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_555"
         }
     },
@@ -5329,11 +5329,11 @@
             "section": "Easter",
             "name": "Carrot Wand",
             "price": {
-                "min": 5000,
-                "max": 7500
+                "min": 2500,
+                "max": 3500
             },
             "state": "Stable",
-            "last_updated": "20/Oct/2022",
+            "last_updated": "06/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_774"
         }
     },
@@ -5363,11 +5363,11 @@
             "section": "Easter",
             "name": "Bunny Tophat",
             "price": {
-                "min": 20000,
-                "max": 25000
+                "min": 19000,
+                "max": 23000
             },
-            "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "state": "Decreasing",
+            "last_updated": "06/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_155"
         }
     },
@@ -8763,11 +8763,11 @@
             "section": "Halloween",
             "name": "Skull Balloon",
             "price": {
-                "min": 45000,
-                "max": 55000
+                "min": 40000,
+                "max": 50000
             },
             "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "06/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_508"
         }
     },
@@ -9341,11 +9341,11 @@
             "section": "Halloween",
             "name": "Pumpkin Head",
             "price": {
-                "min": 150,
-                "max": 300
+                "min": 750,
+                "max": 1250
             },
-            "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "state": "Increasing",
+            "last_updated": "07/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_176"
         }
     },
@@ -10055,11 +10055,11 @@
             "section": "Halloween",
             "name": "Dinosaur Hood",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "06/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_731"
         }
     },
@@ -10072,11 +10072,11 @@
             "section": "Halloween",
             "name": "Dinosaur Shirt",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "06/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_732"
         }
     },
@@ -10089,11 +10089,11 @@
             "section": "Halloween",
             "name": "Dinosaur Pants",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "06/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_733"
         }
     },
@@ -10106,11 +10106,11 @@
             "section": "Halloween",
             "name": "Dinosaur Tail",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "06/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_734"
         }
     },
@@ -10209,10 +10209,10 @@
             "name": "Knife",
             "price": {
                 "min": 10000,
-                "max": 15000
+                "max": 12500
             },
             "state": "Stable",
-            "last_updated": "31/Oct/2022",
+            "last_updated": "07/Nov/2022",
             "url": ""
         }
     },
