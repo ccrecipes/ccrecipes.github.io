@@ -80,7 +80,10 @@ for (item in basic) {
 $(".sections h1").click(function() {
     //window.location.href += encodeURI($(this).text().toLowerCase());
     //window.location.href = window.location.origin + "/prices/cctest/section?section=" + encodeURI($(this).text().toLowerCase());
-    window.location.pathname += $(this).text().toLowerCase();
+    let music = encodeURIComponent($(this).text());
+
+    let url = `https://www.ccrecipes.com/prices/cctest/search?q=${music}`;
+    window.location.href = url
     tittle_section = $(this).text();
     id_section = $(this).text().toLowerCase().replace(" ","_").replace("'s ","").replace("' ","_");
     $(".all_prices").append(`<div id=${id_section} class="list"><h1 class="header">${tittle_section}</h1></div>`);
