@@ -5108,11 +5108,11 @@
             "section": "Easter",
             "name": "Rainbow Umbrella",
             "price": {
-                "min": 800000,
-                "max": 900000
+                "min": 825000,
+                "max": 875000
             },
             "state": "Stable",
-            "last_updated": "23/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_781"
         }
     },
@@ -5434,8 +5434,8 @@
                 "min": 15000,
                 "max": 17500
             },
-            "state": "Increasing",
-            "last_updated": "27/Oct/2022",
+            "state": "Stable",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_348"
         }
     },
@@ -6332,11 +6332,11 @@
             "section": "Easter",
             "name": "Blue Rabbit Hood",
             "price": {
-                "min": 6000,
-                "max": 7000
+                "min": 5500,
+                "max": 6500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_771"
         }
     },
@@ -6349,11 +6349,11 @@
             "section": "Easter",
             "name": "Blue Rabbit Shirt",
             "price": {
-                "min": 6000,
-                "max": 7000
+                "min": 5500,
+                "max": 6500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_772"
         }
     },
@@ -6366,11 +6366,11 @@
             "section": "Easter",
             "name": "Blue Rabbit Pants",
             "price": {
-                "min": 6000,
-                "max": 7000
+                "min": 5500,
+                "max": 6500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_773"
         }
     },
@@ -7760,11 +7760,11 @@
             "section": "Summer",
             "name": "Black Hawaiian Shirt",
             "price": {
-                "min": 90000,
-                "max": 110000
+                "min": 80000,
+                "max": 90000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_310"
         }
     },
@@ -8848,11 +8848,11 @@
             "section": "Halloween",
             "name": "Pumpkin Pack",
             "price": {
-                "min": 125000,
-                "max": 150000
+                "min": 110000,
+                "max": 130000
             },
-            "state": "Stable",
-            "last_updated": "30/Oct/2022",
+            "state": "Decreasing",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_380"
         }
     },
@@ -9086,11 +9086,11 @@
             "section": "Halloween",
             "name": "Werewolf Head",
             "price": {
-                "min": 65000,
-                "max": 70000
+                "min": 60000,
+                "max": 65000
             },
             "state": "Stable",
-            "last_updated": "23/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_320"
         }
     },
@@ -9715,11 +9715,11 @@
             "section": "Halloween",
             "name": "Dark Traveller Head",
             "price": {
-                "min": 2000,
+                "min": 2500,
                 "max": 3000
             },
             "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_497"
         }
     },
@@ -10463,11 +10463,11 @@
             "section": "Thanksgiving",
             "name": "Pumpkin Hat",
             "price": {
-                "min": 35000,
-                "max": 40000
+                "min": 25000,
+                "max": 30000
             },
-            "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "state": "Decreasing",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_608"
         }
     },
@@ -11636,11 +11636,11 @@
             "section": "Christmas",
             "name": "Orange & Yellow Scarf",
             "price": {
-                "min": 90000,
-                "max": 95000
+                "min": 100000,
+                "max": 120000
             },
-            "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "state": "Increasing",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_139"
         }
     },
@@ -11827,7 +11827,7 @@
                 "max": 35000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_524"
         }
     },
@@ -12384,11 +12384,11 @@
             "section": "New Year's Day",
             "name": "Firework Backpack",
             "price": {
-                "min": 80000,
-                "max": 90000
+                "min": 65000,
+                "max": 75000
             },
-            "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "state": "Decreasing",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_411"
         }
     },
