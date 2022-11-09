@@ -6366,11 +6366,11 @@
             "section": "Easter",
             "name": "Blue Rabbit Pants",
             "price": {
-                "min": 6000,
-                "max": 7000
+                "min": 5500,
+                "max": 6500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_773"
         }
     },
