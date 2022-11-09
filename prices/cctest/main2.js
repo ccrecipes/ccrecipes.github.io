@@ -82,7 +82,7 @@ $(".sections h1").click(function() {
     //window.location.href = window.location.origin + "/prices/cctest/section?section=" + encodeURI($(this).text().toLowerCase());
     let music = encodeURIComponent($(this).text());
 
-    let url = `https://www.ccrecipes.com/prices/cctest/search?q=${music}`;
+    let url = `https://www.ccrecipes.com/prices/cctest/${music}`;
     window.location.href = url
     tittle_section = $(this).text();
     id_section = $(this).text().toLowerCase().replace(" ","_").replace("'s ","").replace("' ","_");
