@@ -12384,11 +12384,11 @@
             "section": "New Year's Day",
             "name": "Firework Backpack",
             "price": {
-                "min": 80000,
-                "max": 90000
+                "min": 65000,
+                "max": 75000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "09/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_411"
         }
     },
