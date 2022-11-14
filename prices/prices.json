@@ -10956,11 +10956,11 @@
             "section": "Christmas",
             "name": "Mr. Christmas Costume",
             "price": {
-                "min": 120000,
-                "max": 130000
+                "min": 140000,
+                "max": 150000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "14/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_189"
         }
     },
@@ -12857,7 +12857,7 @@
             "section": "CARS"
         },
         "item": {
-            "section": "Valentine's Day 2018",
+            "section": "Valentine's Day",
             "name": "Luvmobile Key",
             "price": {
                 "min": 600000,
