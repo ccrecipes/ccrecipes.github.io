@@ -11109,11 +11109,11 @@
             "section": "Christmas",
             "name": "Ice Head",
             "price": {
-                "min": 95000,
+                "min": 85000,
                 "max": 100000
             },
             "state": "Stable",
-            "last_updated": "21/Oct/2022",
+            "last_updated": "24/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_530"
         }
     },
