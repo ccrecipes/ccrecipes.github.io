@@ -11636,11 +11636,11 @@
             "section": "Christmas",
             "name": "Orange & Yellow Scarf",
             "price": {
-                "min": 140000,
-                "max": 150000
+                "min": 200000,
+                "max": 250000
             },
             "state": "Increasing",
-            "last_updated": "16/Nov/2022",
+            "last_updated": "24/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_139"
         }
     },
