@@ -9069,8 +9069,8 @@
             "section": "Halloween",
             "name": "Shark Head",
             "price": {
-                "min": 100000,
-                "max": 120000
+                "min": 110000,
+                "max": 130000
             },
             "state": "Increasing",
             "last_updated": "24/Nov/2022",
