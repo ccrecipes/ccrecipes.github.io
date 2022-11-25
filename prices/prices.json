@@ -9817,11 +9817,11 @@
             "section": "Halloween",
             "name": "Zombie Head",
             "price": {
-                "min": 17500,
-                "max": 22500
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "25/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_093"
         }
     },
