@@ -10548,11 +10548,11 @@
             "section": "Thanksgiving",
             "name": "Dry Leaves Top",
             "price": {
-                "min": 1500,
-                "max": 2500
+                "min": 400,
+                "max": 600
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "28/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_743"
         }
     },
