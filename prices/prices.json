@@ -11024,11 +11024,11 @@
             "section": "Christmas",
             "name": "Krampus Mask 2018",
             "price": {
-                "min": 52500,
-                "max": 57500
+                "min": 50000,
+                "max": 60000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_402"
         }
     },
