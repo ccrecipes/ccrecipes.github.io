@@ -5142,8 +5142,8 @@
             "section": "Easter",
             "name": "Red Balloon",
             "price": {
-                "min": 85000,
-                "max": 95000
+                "min": 90000,
+                "max": 100000
             },
             "state": "Increasing",
             "last_updated": "30/Nov/2022",
