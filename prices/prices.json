@@ -9072,7 +9072,7 @@
                 "min": 110000,
                 "max": 130000
             },
-            "state": "Increasing",
+            "state": "Stable",
             "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_381"
         }
