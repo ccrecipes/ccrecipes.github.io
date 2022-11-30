@@ -263,8 +263,8 @@
             "section": "Hat Pack",
             "name": "Knight's Helmet",
             "price": {
-                "min": 17500,
-                "max": 22500
+                "min": 250,
+                "max": 450
             },
             "state": "Stable",
             "last_updated": "30/Nov/2022",
@@ -6945,10 +6945,10 @@
             "name": "Love Balloon",
             "price": {
                 "min": 550000,
-                "max": 600000
+                "max": 650000
             },
             "state": "Stable",
-            "last_updated": "30/Nov/2022",
+            "last_updated": "23/Oct/2022",
             "url": "ItemIcons_Wear__Tile/IMG_295"
         }
     },
@@ -9749,11 +9749,11 @@
             "section": "Halloween",
             "name": "Dark Traveller Pants",
             "price": {
-                "min": 9000,
-                "max": 10000
+                "min": 10000,
+                "max": 12500
             },
             "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_498"
         }
     },
