@@ -12996,11 +12996,11 @@
             "section": "Christmas",
             "name": "Christmas Key",
             "price": {
-                "min": 8500,
-                "max": 10000
+                "min": 10000,
+                "max": 12500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Misc__Tile/351"
         }
     },
