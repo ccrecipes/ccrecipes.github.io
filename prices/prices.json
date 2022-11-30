@@ -9732,11 +9732,11 @@
             "section": "Halloween",
             "name": "Dark Traveller Top",
             "price": {
-                "min": 9000,
-                "max": 10000
+                "min": 10000,
+                "max": 12500
             },
             "state": "Stable",
-            "last_updated": "31/Oct/2022",
+            "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_499"
         }
     },
