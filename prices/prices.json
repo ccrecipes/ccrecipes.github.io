@@ -7083,8 +7083,8 @@
                 "min": 400000,
                 "max": 450000
             },
-            "state": "Decreasing",
-            "last_updated": "23/Oct/2022",
+            "state": "Stable",
+            "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_545"
         }
     },
