@@ -8134,11 +8134,11 @@
             "section": "Fan",
             "name": "Devil's Halo",
             "price": {
-                "min": 55000,
-                "max": 65000
+                "min": 60000,
+                "max": 70000
             },
             "state": "Stable",
-            "last_updated": "02/Nov/2022",
+            "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_711"
         }
     },
