@@ -7828,11 +7828,11 @@
             "section": "Summer",
             "name": "Black Bikini Bottoms",
             "price": {
-                "min": 55000,
-                "max": 65000
+                "min": 45000,
+                "max": 55000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_307"
         }
     },
