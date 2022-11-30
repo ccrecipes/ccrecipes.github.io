@@ -6945,10 +6945,10 @@
             "name": "Love Balloon",
             "price": {
                 "min": 550000,
-                "max": 650000
+                "max": 600000
             },
             "state": "Stable",
-            "last_updated": "23/Oct/2022",
+            "last_updated": "30/Nov/2022",
             "url": "ItemIcons_Wear__Tile/IMG_295"
         }
     },
