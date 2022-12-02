@@ -5279,7 +5279,7 @@
             "name": "Easter Wand",
             "price": {
                 "min": 10000,
-                "max": 150000
+                "max": 15000
             },
             "state": "Stable",
             "last_updated": "02/Dec/2022",
