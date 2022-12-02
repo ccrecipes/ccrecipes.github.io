@@ -9868,11 +9868,11 @@
             "section": "Halloween",
             "name": "Skeletal Wings",
             "price": {
-                "min": 40000,
-                "max": 45000
+                "min": 35000,
+                "max": 40000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "02/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_507"
         }
     },
