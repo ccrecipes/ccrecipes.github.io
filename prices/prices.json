@@ -6486,10 +6486,10 @@
             "name": "Valentine Wings",
             "price": {
                 "min": 30000,
-                "max": 35000
+                "max": 40000
             },
             "state": "Stable",
-            "last_updated": "30/Nov/2022",
+            "last_updated": "02/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_343"
         }
     },
