@@ -4462,8 +4462,8 @@
             "section": "Fishing Pack",
             "name": "Fishing Cap",
             "price": {
-                "min": 4000,
-                "max": 5000
+                "min": 6000,
+                "max": 7500
             },
             "state": "Stable",
             "last_updated": "02/Dec/2022",
