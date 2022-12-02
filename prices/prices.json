@@ -8321,11 +8321,11 @@
             "section": "Fan",
             "name": "Walking Cane",
             "price": {
-                "min": 750,
-                "max": 1250
+                "min": 1500,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "02/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_698"
         }
     },
