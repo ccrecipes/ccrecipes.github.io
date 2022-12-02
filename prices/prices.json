@@ -5414,11 +5414,11 @@
             "section": "Easter",
             "name": "Easter Hat",
             "price": {
-                "min": 15000,
+                "min": 17500,
                 "max": 20000
             },
             "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "02/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_152"
         }
     },
