@@ -8151,11 +8151,11 @@
             "section": "Fan",
             "name": "Red Angel Wings",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 3000,
+                "max": 4000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "02/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_684"
         }
     },
