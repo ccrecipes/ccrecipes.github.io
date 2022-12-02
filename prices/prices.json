@@ -5278,11 +5278,11 @@
             "section": "Easter",
             "name": "Easter Wand",
             "price": {
-                "min": 8000,
-                "max": 10000
+                "min": 10000,
+                "max": 150000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "02/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_572"
         }
     },
