@@ -12282,11 +12282,11 @@
             "section": "New Year's Day",
             "name": "Purple Party Hat",
             "price": {
-                "min": 2500,
+                "min": 3000,
                 "max": 3500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_292"
         }
     },
