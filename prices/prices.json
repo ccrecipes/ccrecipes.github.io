@@ -9818,10 +9818,10 @@
             "name": "Zombie Head",
             "price": {
                 "min": 20000,
-                "max": 25000
+                "max": 30000
             },
             "state": "Increasing",
-            "last_updated": "25/Nov/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_093"
         }
     },
