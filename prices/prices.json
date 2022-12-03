@@ -10905,11 +10905,11 @@
             "section": "Thanksgiving",
             "name": "Red Football Helmet",
             "price": {
-                "min": 300,
-                "max": 400
+                "min": 350,
+                "max": 450
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_323"
         }
     },
