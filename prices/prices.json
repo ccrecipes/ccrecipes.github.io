@@ -8984,11 +8984,11 @@
             "section": "Halloween",
             "name": "Headlnessness",
             "price": {
-                "min": 850000,
+                "min": 875000,
                 "max": 900000
             },
             "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_272"
         }
     },
