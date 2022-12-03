@@ -10736,10 +10736,10 @@
             "name": "Pilgrim Skirt",
             "price": {
                 "min": 750,
-                "max": 1000
+                "max": 1250
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_325"
         }
     },
