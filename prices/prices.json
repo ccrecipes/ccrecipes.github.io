@@ -9222,11 +9222,11 @@
             "section": "Halloween",
             "name": "Black Plague Doctor",
             "price": {
-                "min": 4500,
-                "max": 5500
+                "min": 4000,
+                "max": 6000
             },
             "state": "Stable",
-            "last_updated": "23/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_392"
         }
     },
