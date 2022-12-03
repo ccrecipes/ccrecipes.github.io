@@ -9783,11 +9783,11 @@
             "section": "Halloween",
             "name": "Mummy Wrap Shirt",
             "price": {
-                "min": 4500,
-                "max": 5500
+                "min": 5000,
+                "max": 7000
             },
             "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_274"
         }
     },
