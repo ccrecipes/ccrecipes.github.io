@@ -11789,11 +11789,11 @@
             "section": "Christmas",
             "name": "Santa Pack",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 4000,
+                "max": 5500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_403"
         }
     },
