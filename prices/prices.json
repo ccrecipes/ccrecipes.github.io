@@ -7862,11 +7862,11 @@
             "section": "Summer",
             "name": "Pink Bikini Bottoms",
             "price": {
-                "min": 8000,
+                "min": 7500,
                 "max": 9000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_305"
         }
     },
