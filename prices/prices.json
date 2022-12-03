@@ -9800,11 +9800,11 @@
             "section": "Halloween",
             "name": "Mummy Wrap Pants",
             "price": {
-                "min": 15000,
-                "max": 17500
+                "min": 17500,
+                "max": 22500
             },
             "state": "Stable",
-            "last_updated": "30/Nov/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_275"
         }
     },
