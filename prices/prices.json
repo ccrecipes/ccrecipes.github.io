@@ -10310,11 +10310,11 @@
             "section": "Halloween",
             "name": "Pumpkin Shirt",
             "price": {
-                "min": 800,
-                "max": 1200
+                "min": 750,
+                "max": 1250
             },
             "state": "Stable",
-            "last_updated": "31/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": ""
         }
     },
