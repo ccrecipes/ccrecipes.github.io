@@ -4955,11 +4955,11 @@
             "section": "April Fools' Day",
             "name": "Dirt Block Hat",
             "price": {
-                "min": 9000,
+                "min": 8000,
                 "max": 10000
             },
             "state": "Stable",
-            "last_updated": "03/Nov/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_559"
         }
     },
