@@ -12401,11 +12401,11 @@
             "section": "New Year's Day",
             "name": "Premium 2019 New Year's Hat",
             "price": {
-                "min": 14500,
-                "max": 15500
+                "min": 17500,
+                "max": 20000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_410"
         }
     },
