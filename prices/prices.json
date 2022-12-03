@@ -10582,11 +10582,11 @@
             "section": "Thanksgiving",
             "name": "Acorn Hat",
             "price": {
-                "min": 250,
-                "max": 350
+                "min": 100,
+                "max": 200
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_601"
         }
     },
