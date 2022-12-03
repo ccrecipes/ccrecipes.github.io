@@ -10531,11 +10531,11 @@
             "section": "Thanksgiving",
             "name": "Dry Leaf Mask",
             "price": {
-                "min": 400,
-                "max": 600
+                "min": 350,
+                "max": 550
             },
             "state": "Stable",
-            "last_updated": "28/Nov/2022",
+            "last_updated": "03/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_739"
         }
     },
