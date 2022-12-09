@@ -5910,8 +5910,8 @@
                 "min": 550000,
                 "max": 650000
             },
-            "state": "Increasing",
-            "last_updated": "02/Dec/2022",
+            "state": "Stable",
+            "last_updated": "09/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_196"
         }
     },
