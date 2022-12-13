@@ -8,11 +8,11 @@
             "section": "Hat Pack",
             "name": "Top Hat",
             "price": {
-                "min": 100,
-                "max": 200
+                "min": 50,
+                "max": 100
             },
             "state": "Stable",
-            "last_updated": "09/Dec/2022",
+            "last_updated": "13/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_001"
         }
     },
