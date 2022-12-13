@@ -11687,11 +11687,11 @@
             "section": "Christmas",
             "name": "Starry Scarf",
             "price": {
-                "min": 12500,
-                "max": 15000
+                "min": 15000,
+                "max": 20000
             },
             "state": "Stable",
-            "last_updated": "30/Nov/2022",
+            "last_updated": "13/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_288"
         }
     },
