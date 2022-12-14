@@ -11874,11 +11874,11 @@
             "section": "Christmas",
             "name": "Icy Pop",
             "price": {
-                "min": 350,
-                "max": 550
+                "min": 200,
+                "max": 400
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "14/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_748"
         }
     },
