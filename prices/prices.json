@@ -3255,11 +3255,11 @@
             "section": "Quest",
             "name": "Nurse's Hat",
             "price": {
-                "min": 1100000,
-                "max": 1200000
+                "min": 950000,
+                "max": 1100000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "14/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_156"
         }
     },
