@@ -5261,11 +5261,11 @@
             "section": "Easter",
             "name": "Red Traditional Umbrella",
             "price": {
-                "min": 50000,
+                "min": 45000,
                 "max": 55000
             },
             "state": "Stable",
-            "last_updated": "30/Nov/2022",
+            "last_updated": "14/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_669"
         }
     },
