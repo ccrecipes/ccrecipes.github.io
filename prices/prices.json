@@ -12843,11 +12843,11 @@
             "section": "Car",
             "name": "Moon Buggy Key",
             "price": {
-                "min": 25000,
-                "max": 30000
+                "min": 27500,
+                "max": 32500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "14/Dec/2022",
             "url": "ItemIcons_Misc__Tile/230"
         }
     },
