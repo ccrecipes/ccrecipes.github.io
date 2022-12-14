@@ -4989,11 +4989,11 @@
             "section": "April Fools' Day",
             "name": "Beaglepuss",
             "price": {
-                "min": 8000,
+                "min": 7500,
                 "max": 10000
             },
             "state": "Stable",
-            "last_updated": "03/Dec/2022",
+            "last_updated": "14/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_296"
         }
     },
