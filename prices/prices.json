@@ -5908,10 +5908,10 @@
             "name": "Bunny Pyjamas",
             "price": {
                 "min": 550000,
-                "max": 650000
+                "max": 625000
             },
             "state": "Stable",
-            "last_updated": "09/Dec/2022",
+            "last_updated": "14/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_196"
         }
     },
