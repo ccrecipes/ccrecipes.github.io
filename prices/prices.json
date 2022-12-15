@@ -5924,11 +5924,11 @@
             "section": "Easter",
             "name": "Blue Floral Crown",
             "price": {
-                "min": 550,
-                "max": 750
+                "min": 750,
+                "max": 1000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_205"
         }
     },
