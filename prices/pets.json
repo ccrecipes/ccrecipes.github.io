@@ -81,11 +81,11 @@
             "section": "Pet",
             "name": "Level 0 Bunny Kennel",
             "price": {
-                "min": 16000,
-                "max": 18000
+                "min": 15000,
+                "max": 17500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/00495_cropped"
         }
     },
