@@ -8576,11 +8576,11 @@
             "section": "Fan",
             "name": "Lemon Hat",
             "price": {
-                "min": 500,
-                "max": 750
+                "min": 350,
+                "max": 650
             },
             "state": "Stable",
-            "last_updated": "03/Nov/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_699"
         }
     },
