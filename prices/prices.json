@@ -6315,11 +6315,11 @@
             "section": "Easter",
             "name": "Egg Head",
             "price": {
-                "min": 7000,
+                "min": 7500,
                 "max": 9000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_775"
         }
     },
