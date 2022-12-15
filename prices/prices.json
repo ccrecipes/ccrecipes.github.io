@@ -12265,11 +12265,11 @@
             "section": "New Year's Day",
             "name": "Blue Party Hat",
             "price": {
-                "min": 1000,
-                "max": 1500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_291"
         }
     },
