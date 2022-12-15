@@ -5210,11 +5210,11 @@
             "section": "Easter",
             "name": "New Easter Umbrella",
             "price": {
-                "min": 17500,
-                "max": 20000
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_430"
         }
     },
