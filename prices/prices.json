@@ -8287,11 +8287,11 @@
             "section": "Fan",
             "name": "Double Sword Back",
             "price": {
-                "min": 1500,
-                "max": 2500
+                "min": 1000,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_689"
         }
     },
