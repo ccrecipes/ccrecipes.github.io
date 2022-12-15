@@ -261,11 +261,11 @@
             "section": "Halloween",
             "name": "Level 0 Black Cat Kennel",
             "price": {
-                "min": 600000,
-                "max": 650000
+                "min": 550000,
+                "max": 625000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/00525_cropped"
         }
     },
