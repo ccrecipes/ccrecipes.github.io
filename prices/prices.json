@@ -8304,11 +8304,11 @@
             "section": "Fan",
             "name": "Black Beard",
             "price": {
-                "min": 450,
-                "max": 750
+                "min": 500,
+                "max": 1000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_677"
         }
     },
