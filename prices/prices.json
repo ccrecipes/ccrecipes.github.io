@@ -2745,11 +2745,11 @@
             "section": "Accessories Pack",
             "name": "Eyepatch",
             "price": {
-                "min": 7500,
-                "max": 8500
+                "min": 7000,
+                "max": 8000
             },
             "state": "Stable",
-            "last_updated": "14/Dec/2022",
+            "last_updated": "15/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_168"
         }
     },
