@@ -567,11 +567,11 @@
             "section": "Pet Pack",
             "name": "Level 49 Kangaroo Kennel",
             "price": {
-                "min": 155000,
-                "max": 175000
+                "min": 165000,
+                "max": 185000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/01102_cropped"
         }
     },
