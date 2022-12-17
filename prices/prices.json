@@ -13285,7 +13285,7 @@
             "section": "Stamps",
             "name": "Bottomles Twilight",
             "price": {
-                "min": 9500,
+                "min": 9000,
                 "max": 11000
             },
             "state": "Stable",
