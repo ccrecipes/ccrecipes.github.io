@@ -13370,8 +13370,8 @@
             "section": "Stamps",
             "name": "Thunderstorm",
             "price": {
-                "min": 1250,
-                "max": 2000
+                "min": 1000,
+                "max": 1500
             },
             "state": "Stable",
             "last_updated": "17/Dec/2022",
