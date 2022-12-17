@@ -8118,10 +8118,10 @@
             "name": "Blue Backpack",
             "price": {
                 "min": 17500,
-                "max": 20000
+                "max": 22500
             },
             "state": "Stable",
-            "last_updated": "30/Nov/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_359"
         }
     },
