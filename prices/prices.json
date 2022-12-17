@@ -11653,7 +11653,7 @@
             "section": "Christmas",
             "name": "Blue & White Scarf",
             "price": {
-                "min": 25000,
+                "min": 20000,
                 "max": 30000
             },
             "state": "Stable",
