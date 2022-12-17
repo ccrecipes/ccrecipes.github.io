@@ -13540,11 +13540,11 @@
             "section": "Stamps",
             "name": "Moonar Low Grav",
             "price": {
-                "min": 12000,
-                "max": 15000
+                "min": 10000,
+                "max": 13500
             },
             "state": "Stable",
-            "last_updated": "14/Sep/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Special__TILE/IMG_083"
         }
     },
