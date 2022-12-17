@@ -13506,11 +13506,11 @@
             "section": "Stamps",
             "name": "Halloween Night",
             "price": {
-                "min": 6000,
-                "max": 8000
+                "min": 5000,
+                "max": 7500
             },
             "state": "Stable",
-            "last_updated": "31/Oct/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Special__TILE/IMG_073"
         }
     },
