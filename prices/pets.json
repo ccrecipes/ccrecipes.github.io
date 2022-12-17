@@ -513,11 +513,11 @@
             "section": "Pet Pack",
             "name": "Level 0 Ostrich Pit",
             "price": {
-                "min": 160000,
-                "max": 180000
+                "min": 170000,
+                "max": 190000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/01103_cropped"
         }
     },
