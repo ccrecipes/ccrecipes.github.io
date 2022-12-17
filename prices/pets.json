@@ -45,11 +45,11 @@
             "section": "Pet",
             "name": "Level 0 Dragon Lair",
             "price": {
-                "min": 18500,
-                "max": 23500
+                "min": 17500,
+                "max": 22500
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/00497_cropped"
         }
     },
