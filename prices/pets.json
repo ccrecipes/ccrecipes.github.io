@@ -621,11 +621,11 @@
             "section": "Christmas",
             "name": "Level 0 Elf Hut",
             "price": {
-                "min": 65000,
-                "max": 75000
+                "min": 70000,
+                "max": 80000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/00576_cropped"
         }
     },
