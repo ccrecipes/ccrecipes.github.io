@@ -621,8 +621,8 @@
             "section": "Christmas",
             "name": "Level 0 Elf Hut",
             "price": {
-                "min": 70000,
-                "max": 80000
+                "min": 80000,
+                "max": 90000
             },
             "state": "Stable",
             "last_updated": "17/Dec/2022",
