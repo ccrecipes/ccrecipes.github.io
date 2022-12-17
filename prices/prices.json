@@ -11755,11 +11755,11 @@
             "section": "Christmas",
             "name": "Gift BackPack 2",
             "price": {
-                "min": 7500,
-                "max": 10000
+                "min": 5500,
+                "max": 7500
             },
             "state": "Stable",
-            "last_updated": "03/Dec/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_527"
         }
     },
