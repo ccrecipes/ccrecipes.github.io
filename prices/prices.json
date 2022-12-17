@@ -13234,11 +13234,11 @@
             "section": "Stamps",
             "name": "Darkness",
             "price": {
-                "min": 8000,
-                "max": 10000
+                "min": 7500,
+                "max": 8500
             },
             "state": "Stable",
-            "last_updated": "14/Sep/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Special__TILE/IMG_033"
         }
     },
