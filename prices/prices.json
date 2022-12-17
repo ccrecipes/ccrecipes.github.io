@@ -13438,11 +13438,11 @@
             "section": "Stamps",
             "name": "Blizzard",
             "price": {
-                "min": 1250,
-                "max": 1750
+                "min": 1000,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "14/Sep/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Special__TILE/IMG_057"
         }
     },
