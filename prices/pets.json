@@ -369,11 +369,11 @@
             "section": "Halloween",
             "name": "Level 0 Mutant Hopper",
             "price": {
-                "min": 25000,
-                "max": 30000
+                "min": 40000,
+                "max": 50000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/01217_cropped"
         }
     },
