@@ -9188,8 +9188,8 @@
             "section": "Halloween",
             "name": "Alien Mask",
             "price": {
-                "min": 22500,
-                "max": 27500
+                "min": 25000,
+                "max": 30000
             },
             "state": "Stable",
             "last_updated": "17/Dec/2022",
