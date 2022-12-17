@@ -13387,7 +13387,7 @@
             "section": "Stamps",
             "name": "Bottomles Thunderstorm",
             "price": {
-                "min": 1750,
+                "min": 1500,
                 "max": 2500
             },
             "state": "Stable",
