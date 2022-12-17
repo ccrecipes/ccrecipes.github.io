@@ -13285,11 +13285,11 @@
             "section": "Stamps",
             "name": "Bottomles Twilight",
             "price": {
-                "min": 9000,
-                "max": 12500
+                "min": 9500,
+                "max": 11000
             },
             "state": "Stable",
-            "last_updated": "14/Sep/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Special__TILE/IMG_088"
         }
     },
