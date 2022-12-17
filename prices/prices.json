@@ -13523,11 +13523,11 @@
             "section": "Stamps",
             "name": "Stars",
             "price": {
-                "min": 8500,
-                "max": 10000
+                "min": 8000,
+                "max": 9000
             },
             "state": "Stable",
-            "last_updated": "14/Sep/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Special__TILE/IMG_084"
         }
     },
