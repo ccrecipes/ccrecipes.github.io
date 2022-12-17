@@ -6537,10 +6537,10 @@
             "name": "Heart BackPack",
             "price": {
                 "min": 1750,
-                "max": 2500
+                "max": 2250
             },
             "state": "Stable",
-            "last_updated": "27/Oct/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_542"
         }
     },
