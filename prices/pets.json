@@ -387,11 +387,11 @@
             "section": "Halloween",
             "name": "Level 49 Mutant Hopper",
             "price": {
-                "min": 35000,
-                "max": 40000
+                "min": 45000,
+                "max": 55000
             },
             "state": "Stable",
-            "last_updated": "15/Oct/2022",
+            "last_updated": "17/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/01217_cropped"
         }
     },
