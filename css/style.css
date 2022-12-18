@@ -979,3 +979,14 @@ footer a {
 	right: 2px;
 	cursor: pointer;
 }
+
+.prices_bot {
+	position: absolute;
+	width: 4%;
+	border-radius: 50%;
+	box-shadow: 0 8px 5px rgba(0,0,0,.5);
+	border: solid 3px white;
+	top: 92%;
+	left: 96%;
+	transform: translate(-50%, -50%);
+}
