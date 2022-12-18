@@ -143,6 +143,17 @@ body {
 		max-width: 100% !important;
 		width: 90% !important;
 	}
+
+	.prices_bot {
+		position: absolute;
+		width: 12% !important;
+		border-radius: 50%;
+		box-shadow: 0 8px 5px rgba(0,0,0,.5);
+		border: solid 3px white;
+		top: 94% !important;
+		left: 92% !important;
+		transform: translate(-50%, -50%);
+	}
 }
 
 .all_recipes {
