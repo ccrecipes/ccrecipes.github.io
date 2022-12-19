@@ -150,7 +150,7 @@ body {
 		border-radius: 50%;
 		box-shadow: 0 8px 5px rgba(0,0,0,.5);
 		border: solid 3px white;
-		top: 94% !important;
+		top: 95% !important;
 		left: 92% !important;
 		transform: translate(-50%, -50%);
 		z-index: 999;
@@ -840,7 +840,7 @@ footer a {
 	border-radius: 50%;
 	box-shadow: 0 8px 5px rgba(0,0,0,.5);
 	border: solid 3px white;
-	top: 92%;
+	top: 93%;
 	left: 96%;
 	transform: translate(-50%, -50%);
 	z-index: 999;
