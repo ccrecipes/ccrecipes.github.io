@@ -145,7 +145,7 @@ body {
 	}
 
 	.prices_bot {
-		position: absolute;
+		position: fixed;
 		width: 12% !important;
 		border-radius: 50%;
 		box-shadow: 0 8px 5px rgba(0,0,0,.5);
@@ -153,6 +153,7 @@ body {
 		top: 94% !important;
 		left: 92% !important;
 		transform: translate(-50%, -50%);
+		z-index: 999;
 	}
 }
 
@@ -834,7 +835,7 @@ footer a {
 }
 
 .prices_bot {
-	position: absolute;
+	position: fixed;
 	width: 4%;
 	border-radius: 50%;
 	box-shadow: 0 8px 5px rgba(0,0,0,.5);
@@ -842,6 +843,7 @@ footer a {
 	top: 92%;
 	left: 96%;
 	transform: translate(-50%, -50%);
+	z-index: 999;
 }
 
 .notification {
