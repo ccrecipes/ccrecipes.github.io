@@ -4513,11 +4513,11 @@
             "section": "Fishing Pack",
             "name": "Blue Checkered Fishing Vest",
             "price": {
-                "min": 20000,
-                "max": 25000
+                "min": 15000,
+                "max": 20000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "21/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_617"
         }
     },
@@ -8977,12 +8977,12 @@
     },
     {
         "type": {
-            "name": "HEADLNESSNESS",
+            "name": "HEADLESSNESS",
             "section": "HALLOWEEN"
         },
         "item": {
             "section": "Halloween",
-            "name": "Headlnessness",
+            "name": "Headlessness",
             "price": {
                 "min": 875000,
                 "max": 925000
