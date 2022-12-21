@@ -6452,7 +6452,7 @@
             "name": "Cupid's Halo",
             "price": {
                 "min": 2850000,
-                "max": 3150000
+                "max": 3000000
             },
             "state": "Increasing",
             "last_updated": "21/Dec/2022",
