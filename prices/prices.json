@@ -8746,11 +8746,11 @@
             "section": "Halloween",
             "name": "Scythe",
             "price": {
-                "min": 800000,
-                "max": 850000
+                "min": 750000,
+                "max": 800000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "26/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_383"
         }
     },
