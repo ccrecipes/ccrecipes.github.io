@@ -10881,6 +10881,23 @@
     },
     {
         "type": {
+            "name": "CUBE FESTIVAL HAT",
+            "section": "THANKSGIVING"
+        },
+        "item": {
+            "section": "Thanksgiving",
+            "name": "Cube Festival Hat",
+            "price": {
+                "min": 250,
+                "max": 450
+            },
+            "state": "Stable",
+            "last_updated": "17/Dec/2022",
+            "url": "ItemIcons_Wear__Tile/IMG_398"
+        }
+    },
+    {
+        "type": {
             "name": "BLUE FOOTBALL HELMET",
             "section": "THANKSGIVING"
         },
@@ -10957,10 +10974,10 @@
             "name": "Mr. Christmas Costume",
             "price": {
                 "min": 275000,
-                "max": 325000
+                "max": 300000
             },
             "state": "Increasing",
-            "last_updated": "24/Dec/2022",
+            "last_updated": "26/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_189"
         }
     },
