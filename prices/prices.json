@@ -11007,11 +11007,11 @@
             "section": "Christmas",
             "name": "Christmas Giftbox Costume",
             "price": {
-                "min": 3000,
-                "max": 4000
+                "min": 2500,
+                "max": 3500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "26/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_629"
         }
     },
