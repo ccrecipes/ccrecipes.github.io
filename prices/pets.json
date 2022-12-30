@@ -207,11 +207,11 @@
             "section": "Valentine's Day",
             "name": "Level 49 Wuvva Pig Kennel",
             "price": {
-                "min": 385000,
-                "max": 425000
+                "min": 400000,
+                "max": 450000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "30/Dec/2022",
             "url": "ItemIcons_Blocks__Tile/00647_cropped"
         }
     },
