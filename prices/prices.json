@@ -10973,11 +10973,11 @@
             "section": "Christmas",
             "name": "Mr. Christmas Costume",
             "price": {
-                "min": 275000,
-                "max": 300000
+                "min": 200000,
+                "max": 250000
             },
             "state": "Stable",
-            "last_updated": "26/Dec/2022",
+            "last_updated": "30/Dec/2022",
             "url": "ItemIcons_Wear__Tile/IMG_189"
         }
     },
