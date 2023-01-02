@@ -10990,11 +10990,11 @@
             "section": "Christmas",
             "name": "Snowman Costume",
             "price": {
-                "min": 25000,
-                "max": 30000
+                "min": 20000,
+                "max": 25000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "02/Jan/2023",
             "url": "ItemIcons_Wear__Tile/IMG_331"
         }
     },
