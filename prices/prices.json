@@ -12503,11 +12503,11 @@
             "section": "New Year's Day",
             "name": "Pin Wheel",
             "price": {
-                "min": 500,
-                "max": 750
+                "min": 300,
+                "max": 500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "02/Jan/2023",
             "url": "ItemIcons_Wear__Tile/IMG_630"
         }
     },
