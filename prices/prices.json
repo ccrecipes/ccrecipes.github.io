@@ -10463,11 +10463,11 @@
             "section": "Thanksgiving",
             "name": "Pumpkin Hat",
             "price": {
-                "min": 22500,
-                "max": 27500
+                "min": 15000,
+                "max": 20000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "07/Jan/2023",
             "url": "wearables/IMG_608"
         }
     },
@@ -12377,12 +12377,12 @@
     },
     {
         "type": {
-            "name": "YUTE BELL BOW",
+            "name": "YULE BELL BOW",
             "section": "CHRISTMAS"
         },
         "item": {
             "section": "Christmas",
-            "name": "Yute Bell Bow",
+            "name": "Yule Bell Bow",
             "price": {
                 "min": 100,
                 "max": 150
