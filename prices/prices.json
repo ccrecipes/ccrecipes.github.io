@@ -12860,11 +12860,11 @@
             "section": "New Year's Day",
             "name": "Firework Glasses",
             "price": {
-                "min": 350,
-                "max": 450
+                "min": 200,
+                "max": 300
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "08/Jan/2023",
             "url": "wearables/IMG_631"
         }
     },
