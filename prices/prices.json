@@ -8137,8 +8137,8 @@
                 "min": 70000,
                 "max": 80000
             },
-            "state": "Increasing",
-            "last_updated": "30/Dec/2022",
+            "state": "Stable",
+            "last_updated": "15/Jan/2023",
             "url": "wearables/IMG_711"
         }
     },
