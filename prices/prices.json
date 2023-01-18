@@ -6451,11 +6451,11 @@
             "section": "Valentine's Day",
             "name": "Cupid's Halo",
             "price": {
-                "min": 2850000,
-                "max": 3000000
+                "min": 3500000,
+                "max": 4000000
             },
             "state": "Increasing",
-            "last_updated": "21/Dec/2022",
+            "last_updated": "18/Jan/2023",
             "url": "wearables/IMG_149"
         }
     },
