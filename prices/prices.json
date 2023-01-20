@@ -10480,11 +10480,11 @@
             "section": "Thanksgiving",
             "name": "Pumpkin Staff",
             "price": {
-                "min": 17500,
-                "max": 22500
+                "min": 15000,
+                "max": 20000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "20/Jan/2023",
             "url": "wearables/IMG_741"
         }
     },
