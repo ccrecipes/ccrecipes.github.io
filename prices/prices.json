@@ -3258,8 +3258,8 @@
                 "min": 950000,
                 "max": 1050000
             },
-            "state": "Decreasing",
-            "last_updated": "17/Dec/2022",
+            "state": "Stable",
+            "last_updated": "21/Jan/2023",
             "url": "wearables/IMG_156"
         }
     },
