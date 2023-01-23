@@ -8849,7 +8849,7 @@
             "name": "Pumpkin Pack",
             "price": {
                 "min": 80000,
-                "max": 10000
+                "max": 100000
             },
             "state": "Stable",
             "last_updated": "23/Jan/2023",
