@@ -10344,11 +10344,11 @@
             "section": "Halloween",
             "name": "Demon Mask",
             "price": {
-                "min": 2000,
-                "max": 2500
+                "min": 4000,
+                "max": 6000
             },
             "state": "Increasing",
-            "last_updated": "21/Jan/2023",
+            "last_updated": "23/Jan/2023",
             "url": "wearables/error"
         }
     },
