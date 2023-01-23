@@ -5194,10 +5194,10 @@
             "name": "Umbrella",
             "price": {
                 "min": 110000,
-                "max": 130000
+                "max": 120000
             },
             "state": "Stable",
-            "last_updated": "24/Dec/2022",
+            "last_updated": "23/Jan/2023",
             "url": "wearables/IMG_297"
         }
     },
