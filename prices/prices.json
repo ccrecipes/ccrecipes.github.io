@@ -12061,11 +12061,11 @@
             "section": "Christmas",
             "name": "Winter Umbrella",
             "price": {
-                "min": 40000,
-                "max": 45000
+                "min": 30000,
+                "max": 35000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "29/Jan/2023",
             "url": "wearables/IMG_524"
         }
     },
