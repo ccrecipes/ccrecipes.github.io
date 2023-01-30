@@ -6468,11 +6468,11 @@
             "section": "Valentine's Day",
             "name": "Cupid's Wings",
             "price": {
-                "min": 110000,
-                "max": 125000
+                "min": 160000,
+                "max": 180000
             },
             "state": "Stable",
-            "last_updated": "24/Dec/2022",
+            "last_updated": "30/Jan/2023",
             "url": "wearables/IMG_150"
         }
     },
