@@ -10296,8 +10296,8 @@
                 "min": 1250,
                 "max": 1750
             },
-            "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "state": "Increasing",
+            "last_updated": "01/Feb/2023",
             "url": "wearables/error"
         }
     },
