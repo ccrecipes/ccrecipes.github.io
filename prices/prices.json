@@ -9018,11 +9018,11 @@
             "section": "Halloween",
             "name": "Slyme Costume",
             "price": {
-                "min": 225000,
-                "max": 250000
+                "min": 215000,
+                "max": 235000
             },
             "state": "Stable",
-            "last_updated": "30/Dec/2022",
+            "last_updated": "03/Feb/2023",
             "url": "wearables/IMG_177"
         }
     },
