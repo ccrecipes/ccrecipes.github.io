@@ -7709,11 +7709,11 @@
             "section": "Summer",
             "name": "UV Shades",
             "price": {
-                "min": 700000,
-                "max": 750000
+                "min": 900000,
+                "max": 1000000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "04/Feb/2023",
             "url": "wearables/IMG_312"
         }
     },
