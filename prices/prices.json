@@ -9052,11 +9052,11 @@
             "section": "Halloween",
             "name": "Monster Head",
             "price": {
-                "min": 175000,
-                "max": 200000
+                "min": 140000,
+                "max": 160000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "04/Feb/2023",
             "url": "wearables/IMG_092"
         }
     },
