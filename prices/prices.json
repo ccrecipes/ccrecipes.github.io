@@ -13251,11 +13251,11 @@
             "section": "Valentine's Day",
             "name": "Luvmobile Key",
             "price": {
-                "min": 600000,
-                "max": 650000
+                "min": 500000,
+                "max": 550000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "05/Feb/2023",
             "url": "cars/178"
         }
     },
