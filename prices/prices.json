@@ -6961,11 +6961,11 @@
             "section": "Valentine's Day",
             "name": "Pink Balloon",
             "price": {
-                "min": 6000,
-                "max": 8000
+                "min": 4000,
+                "max": 5000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "07/Feb/2023",
             "url": "wearables/IMG_651"
         }
     },
