@@ -10378,11 +10378,11 @@
             "section": "Thanksgiving",
             "name": "Trumpet Hat",
             "price": {
-                "min": 350000,
-                "max": 400000
+                "min": 300000,
+                "max": 350000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "07/Feb/2023",
             "url": "wearables/IMG_516"
         }
     },
