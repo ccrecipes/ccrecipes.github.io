@@ -6451,8 +6451,8 @@
             "section": "Valentine's Day",
             "name": "Cupid's Halo",
             "price": {
-                "min": 2500000,
-                "max": 2750000
+                "min": 2250000,
+                "max": 2500000
             },
             "state": "Decreasing",
             "last_updated": "07/Feb/2023",
