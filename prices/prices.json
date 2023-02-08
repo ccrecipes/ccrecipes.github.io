@@ -12231,11 +12231,11 @@
             "section": "Christmas",
             "name": "Yeti Head",
             "price": {
-                "min": 10000,
-                "max": 12500
+                "min": 15000,
+                "max": 17500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "08/Feb/2023",
             "url": "wearables/IMG_525"
         }
     },
