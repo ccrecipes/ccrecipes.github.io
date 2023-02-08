@@ -6536,11 +6536,11 @@
             "section": "Valentine's Day",
             "name": "Heart BackPack",
             "price": {
-                "min": 1750,
-                "max": 2250
+                "min": 1000,
+                "max": 1500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "08/Feb/2023",
             "url": "wearables/IMG_542"
         }
     },
