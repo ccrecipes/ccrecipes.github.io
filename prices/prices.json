@@ -11245,11 +11245,11 @@
             "section": "Christmas",
             "name": "Krampus Mask",
             "price": {
-                "min": 1450000,
-                "max": 1550000
+                "min": 1300000,
+                "max": 1400000
             },
             "state": "Increasing",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "09/Feb/2023",
             "url": "wearables/IMG_141"
         }
     },
