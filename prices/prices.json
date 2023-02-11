@@ -552,11 +552,11 @@
             "section": "Hat Pack",
             "name": "Leprechaun Cap",
             "price": {
-                "min": 750,
-                "max": 1000
+                "min": 500,
+                "max": 750
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "11/Feb/2023",
             "url": "wearables/IMG_456"
         }
     },
