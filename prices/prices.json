@@ -6978,11 +6978,11 @@
             "section": "Valentine's Day",
             "name": "Wuvva Umbrella",
             "price": {
-                "min": 1500,
-                "max": 2500
+                "min": 1000,
+                "max": 1500
             },
             "state": "Stable",
-            "last_updated": "07/Feb/2023",
+            "last_updated": "13/Feb/2023",
             "url": "wearables/IMG_340"
         }
     },
