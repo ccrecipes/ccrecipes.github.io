@@ -10276,11 +10276,11 @@
             "section": "Halloween",
             "name": "Hair Over Face",
             "price": {
-                "min": 1000,
-                "max": 1500
+                "min": 800,
+                "max": 1200
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "14/Feb/2023",
             "url": "wearables/error"
         }
     },
