@@ -3187,11 +3187,11 @@
             "section": "Clothes Pack",
             "name": "Suit Jacket",
             "price": {
-                "min": 1250,
-                "max": 1750
+                "min": 1000,
+                "max": 1500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "14/Feb/2023",
             "url": "wearables/IMG_195"
         }
     },
