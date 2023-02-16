@@ -7522,11 +7522,11 @@
             "section": "Valentine's Day",
             "name": "Rose on the Mouth",
             "price": {
-                "min": 2000,
-                "max": 3000
+                "min": 1500,
+                "max": 2500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "16/Feb/2023",
             "url": "wearables/IMG_770"
         }
     },
