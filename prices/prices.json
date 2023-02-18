@@ -6757,11 +6757,11 @@
             "section": "Valentine's Day",
             "name": "Queen's Crown",
             "price": {
-                "min": 12500,
-                "max": 15000
+                "min": 7500,
+                "max": 10000
             },
             "state": "Stable",
-            "last_updated": "06/Jan/2023",
+            "last_updated": "18/Feb/2023",
             "url": "wearables/IMG_417"
         }
     },
