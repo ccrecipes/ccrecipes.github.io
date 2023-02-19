@@ -10038,11 +10038,11 @@
             "section": "Halloween",
             "name": "Ninja Pants",
             "price": {
-                "min": 2500,
-                "max": 3500
+                "min": 1500,
+                "max": 2000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "19/Feb/2023",
             "url": "wearables/IMG_737"
         }
     },
