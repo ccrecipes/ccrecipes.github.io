@@ -12214,11 +12214,11 @@
             "section": "Christmas",
             "name": "Christmas Grouch",
             "price": {
-                "min": 5500,
-                "max": 7500
+                "min": 4500,
+                "max": 5500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_758"
         }
     },
