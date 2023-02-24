@@ -10395,11 +10395,11 @@
             "section": "Thanksgiving",
             "name": "Beard",
             "price": {
-                "min": 550000,
-                "max": 600000
+                "min": 450000,
+                "max": 550000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_515"
         }
     },
