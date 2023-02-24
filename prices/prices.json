@@ -5193,11 +5193,11 @@
             "section": "Easter",
             "name": "Umbrella",
             "price": {
-                "min": 105000,
-                "max": 115000
+                "min": 95000,
+                "max": 105000
             },
             "state": "Stable",
-            "last_updated": "21/Feb/2023",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_297"
         }
     },
