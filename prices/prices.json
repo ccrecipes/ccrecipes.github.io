@@ -2337,11 +2337,11 @@
             "section": "Critter Suit Pack",
             "name": "Panda Eyes",
             "price": {
-                "min": 500,
-                "max": 1000
+                "min": 600,
+                "max": 800
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_467"
         }
     },
