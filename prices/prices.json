@@ -12605,11 +12605,11 @@
             "section": "Christmas",
             "name": "Snowflake Umbrella",
             "price": {
-                "min": 8000,
-                "max": 10000
+                "min": 4000,
+                "max": 6000
             },
             "state": "Stable",
-            "last_updated": "5/Jan/2023",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/snowflake_umbrella"
         }
     },
