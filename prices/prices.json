@@ -12027,11 +12027,11 @@
             "section": "Christmas",
             "name": "Santa Pack",
             "price": {
-                "min": 4000,
-                "max": 5500
+                "min": 3500,
+                "max": 4500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_403"
         }
     },
