@@ -10803,11 +10803,11 @@
             "section": "Thanksgiving",
             "name": "Festival Pants",
             "price": {
-                "min": 450,
-                "max": 750
+                "min": 600,
+                "max": 800
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_395"
         }
     },
