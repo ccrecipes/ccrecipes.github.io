@@ -4071,11 +4071,11 @@
             "section": "Steampunk Pack",
             "name": "SteamPunk Goggles",
             "price": {
-                "min": 750,
-                "max": 1500
+                "min": 350,
+                "max": 450
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_536"
         }
     },
