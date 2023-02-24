@@ -9087,10 +9087,10 @@
             "name": "Werewolf Head",
             "price": {
                 "min": 60000,
-                "max": 70000
+                "max": 65000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_320"
         }
     },
