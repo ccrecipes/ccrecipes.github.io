@@ -9038,7 +9038,7 @@
                 "min": 200000,
                 "max": 220000
             },
-            "state": "Stable",
+            "state": "Decreasing",
             "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_094"
         }
