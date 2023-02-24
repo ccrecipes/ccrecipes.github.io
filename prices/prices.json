@@ -13404,11 +13404,11 @@
             "section": "Car",
             "name": "Rocket Key",
             "price": {
-                "min": 20000,
-                "max": 25000
+                "min": 18000,
+                "max": 22000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "cars/231"
         }
     },
