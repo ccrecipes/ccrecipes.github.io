@@ -5397,11 +5397,11 @@
             "section": "Easter",
             "name": "Easter Bonnet",
             "price": {
-                "min": 5000,
-                "max": 6000
+                "min": 4000,
+                "max": 5000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "24/Feb/2023",
             "url": "wearables/IMG_154"
         }
     },
