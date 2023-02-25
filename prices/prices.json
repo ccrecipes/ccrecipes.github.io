@@ -12333,11 +12333,11 @@
             "section": "Christmas",
             "name": "Carry Cane",
             "price": {
-                "min": 500,
-                "max": 1000
+                "min": 350,
+                "max": 650
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "25/Feb/2023",
             "url": "wearables/IMG_328"
         }
     },
