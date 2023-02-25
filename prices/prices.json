@@ -3272,8 +3272,8 @@
             "section": "Quest",
             "name": "Doc's Mirror",
             "price": {
-                "min": 325000,
-                "max": 375000
+                "min": 320000,
+                "max": 360000
             },
             "state": "Stable",
             "last_updated": "25/Feb/2023",
