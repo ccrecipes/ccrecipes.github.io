@@ -10072,11 +10072,11 @@
             "section": "Halloween",
             "name": "Zombie Head",
             "price": {
-                "min": 20000,
-                "max": 30000
+                "min": 15000,
+                "max": 20000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "25/Feb/2023",
             "url": "wearables/IMG_093"
         }
     },
