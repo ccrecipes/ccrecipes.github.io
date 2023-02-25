@@ -9324,11 +9324,11 @@
             "section": "Halloween",
             "name": "Shark Head",
             "price": {
-                "min": 110000,
-                "max": 130000
+                "min": 100000,
+                "max": 110000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "25/Feb/2023",
             "url": "wearables/IMG_381"
         }
     },
