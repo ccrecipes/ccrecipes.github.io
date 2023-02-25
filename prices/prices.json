@@ -8899,11 +8899,11 @@
             "section": "Fan",
             "name": "Cyclops Eye Mask",
             "price": {
-                "min": 5000,
-                "max": 7500
+                "min": 2000,
+                "max": 3000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "25/Feb/2023",
             "url": "wearables/IMG_688"
         }
     },
