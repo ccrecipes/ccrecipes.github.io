@@ -3493,11 +3493,11 @@
             "section": "Track Pack",
             "name": "Traffic Hat",
             "price": {
-                "min": 12500,
-                "max": 15000
+                "min": 7000,
+                "max": 9000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "25/Feb/2023",
             "url": "wearables/IMG_294"
         }
     },
