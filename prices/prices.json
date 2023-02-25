@@ -5176,11 +5176,11 @@
             "section": "Easter",
             "name": "Easter Umbrella",
             "price": {
-                "min": 1800000,
-                "max": 1900000
+                "min": 1750000,
+                "max": 1850000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "25/Feb/2023",
             "url": "wearables/IMG_197"
         }
     },
