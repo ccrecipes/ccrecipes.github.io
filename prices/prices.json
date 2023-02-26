@@ -4343,11 +4343,11 @@
             "section": "Adventure Pack",
             "name": "Machete",
             "price": {
-                "min": 7500,
-                "max": 10000
+                "min": 4000,
+                "max": 5000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "26/Feb/2023",
             "url": "wearables/IMG_720"
         }
     },
