@@ -1063,10 +1063,10 @@
             "name": "Princess Hair",
             "price": {
                 "min": 1000,
-                "max": 2000
+                "max": 1500
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "26/Feb/2023",
             "url": "wearables/IMG_214"
         }
     },
