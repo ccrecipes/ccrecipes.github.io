@@ -8236,11 +8236,11 @@
             "section": "Summer",
             "name": "Fishing Rod",
             "price": {
-                "min": 15000,
-                "max": 20000
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "26/Dec/2022",
+            "last_updated": "26/Feb/2023",
             "url": "wearables/IMG_365"
         }
     },
