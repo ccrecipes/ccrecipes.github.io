@@ -6791,11 +6791,11 @@
             "section": "Valentine's Day",
             "name": "Panda Hat",
             "price": {
-                "min": 17500,
-                "max": 22500
+                "min": 12000,
+                "max": 16000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "26/Feb/2023",
             "url": "wearables/IMG_418"
         }
     },
