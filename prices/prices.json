@@ -12146,11 +12146,11 @@
             "section": "Christmas",
             "name": "Blue & White Scarf",
             "price": {
-                "min": 17500,
-                "max": 22500
+                "min": 12500,
+                "max": 15000
             },
             "state": "Stable",
-            "last_updated": "24/Feb/2023",
+            "last_updated": "26/Feb/2023",
             "url": "wearables/IMG_138"
         }
     },
