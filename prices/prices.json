@@ -13557,11 +13557,11 @@
             "section": "Halloween",
             "name": "Dracu Mobile Key",
             "price": {
-                "min": 30000,
-                "max": 35000
+                "min": 25000,
+                "max": 30000
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "26/Feb/2023",
             "url": "cars/255"
         }
     },
