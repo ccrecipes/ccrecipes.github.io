@@ -161,11 +161,11 @@
             "section": "Hat Pack",
             "name": "Blue Hip-Hop Cap",
             "price": {
-                "min": 50,
-                "max": 100
+                "min": 40,
+                "max": 80
             },
             "state": "Stable",
-            "last_updated": "17/Dec/2022",
+            "last_updated": "27/Feb/2023",
             "url": "wearables/IMG_454"
         }
     },
