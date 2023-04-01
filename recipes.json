@@ -9564,28 +9564,22 @@
             [
                 {
                     "amount": 1,
-                    "item": "Easter Egg 1",
-                    "texture":"egg1",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 2",
-                    "texture":"egg2",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
                     "item": "Easter Egg 3",
                     "texture":"egg3",
+                    "displayName":"Easter Egg"
+                },
+                {
+                    "amount": 1,
+                    "item": "Easter Egg 5",
+                    "texture":"egg5",
                     "displayName":"Easter Egg"
                 }
             ]
         ],
         "item": {
             "amount": 1,
-            "item": "Easter Egg 4",
-                    "texture":"egg4",
+            "item": "Easter Egg 10",
+                    "texture":"egg10",
                     "displayName":"Easter Egg"
         },
         "type": "eastereggs"
@@ -9593,12 +9587,6 @@
     {
         "recipe": [
             [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 5",
-                    "texture":"egg5",
-                    "displayName":"Easter Egg"
-                },
                 {
                     "amount": 1,
                     "item": "Easter Egg 6",
@@ -9615,8 +9603,8 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Easter Egg 8",
-                    "texture":"egg8",
+            "item": "Easter Egg 11",
+                    "texture":"egg11",
                     "displayName":"Easter Egg"
         },
         "type": "eastereggs"
@@ -9640,298 +9628,6 @@
                     "amount": 1,
                     "item": "Easter Egg 11",
                     "texture":"egg11",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 12",
-                    "texture":"egg12",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 1",
-                    "texture":"egg1",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 3",
-                    "texture":"egg3",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 6",
-                    "texture":"egg6",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 13",
-                    "texture":"egg13",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 9",
-                    "texture":"egg9",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 11",
-                    "texture":"egg11",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 2",
-                    "texture":"egg2",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 14",
-                    "texture":"egg14",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 5",
-                    "texture":"egg5",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 7",
-                    "texture":"egg7",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 10",
-                    "texture":"egg10",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 21",
-                    "texture":"egg21",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 1",
-                    "texture":"egg1",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 5",
-                    "texture":"egg5",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 9",
-                    "texture":"egg9",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 15",
-                    "texture":"egg15",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 2",
-                    "texture":"egg2",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 6",
-                    "texture":"egg6",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 10",
-                    "texture":"egg10",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 16",
-                    "texture":"egg16",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 4",
-                    "texture":"egg4",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 8",
-                    "texture":"egg8",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 17",
-                    "texture":"egg17",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 12",
-                    "texture":"egg12",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 13",
-                    "texture":"egg13",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 18",
-                    "texture":"egg18",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 14",
-                    "texture":"egg14",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 21",
-                    "texture":"egg21",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 19",
-                    "texture":"egg19",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 15",
-                    "texture":"egg15",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 16",
-                    "texture":"egg16",
-                    "displayName":"Easter Egg"
-                }
-            ]
-        ],
-        "item": {
-            "amount": 1,
-            "item": "Easter Egg 20",
-                    "texture":"egg20",
-                    "displayName":"Easter Egg"
-        },
-        "type": "eastereggs"
-    },
-    {
-        "recipe": [
-            [
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 17",
-                    "texture":"egg17",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 18",
-                    "texture":"egg18",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 19",
-                    "texture":"egg19",
-                    "displayName":"Easter Egg"
-                },
-                {
-                    "amount": 1,
-                    "item": "Easter Egg 20",
-                    "texture":"egg20",
                     "displayName":"Easter Egg"
                 }
             ]
@@ -11039,7 +10735,7 @@
             "amount": 1,
             "item": "TongueAndSweet"
         },
-        "type": "new",
+        "type": "basic",
         "station": "Stove"
     },
     {
@@ -11059,7 +10755,7 @@
             "amount": 1,
             "item": "Pandan Munch-kin"
         },
-        "type": "new",
+        "type": "basic",
         "station": "Stove"
     },
     {
@@ -11079,7 +10775,7 @@
             "amount": 1,
             "item": "Ghostly Wafer"
         },
-        "type": "new",
+        "type": "basic",
         "station": "Stove"
     },
     {
@@ -11099,7 +10795,7 @@
             "amount": 1,
             "item": "Eyebreaker"
         },
-        "type": "new",
+        "type": "basic",
         "station": "Stove"
     },
     {
@@ -11127,7 +10823,7 @@
             "amount": 1,
             "item": "Ultimate Candy 2"
         },
-        "type": "new",
+        "type": "basic",
         "station": "Stove"
         
     }
