@@ -9564,6 +9564,31 @@
             [
                 {
                     "amount": 1,
+                    "item": "Easter Egg 1",
+                    "texture":"egg1",
+                    "displayName":"Easter Egg"
+                },
+                {
+                    "amount": 1,
+                    "item": "Easter Egg 2",
+                    "texture":"egg2",
+                    "displayName":"Easter Egg"
+                }
+            ]
+        ],
+        "item": {
+            "amount": 1,
+            "item": "Easter Egg 9",
+                    "texture":"egg9",
+                    "displayName":"Easter Egg"
+        },
+        "type": "new"
+    },
+    {
+        "recipe": [
+            [
+                {
+                    "amount": 1,
                     "item": "Easter Egg 3",
                     "texture":"egg3",
                     "displayName":"Easter Egg"
@@ -9582,7 +9607,7 @@
                     "texture":"egg10",
                     "displayName":"Easter Egg"
         },
-        "type": "eastereggs"
+        "type": "new"
     },
     {
         "recipe": [
@@ -9607,7 +9632,7 @@
                     "texture":"egg11",
                     "displayName":"Easter Egg"
         },
-        "type": "eastereggs"
+        "type": "new"
     },
     {
         "recipe": [
@@ -9636,7 +9661,7 @@
             "amount": 1,
             "item": "Easter Pow Gift!"
         },
-        "type": "eastereggs"
+        "type": "new"
     },
     {
         "recipe": [
