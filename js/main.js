@@ -79,22 +79,8 @@ $(".item_recipe").on("click",  function (e) {
       	clicked_on = $(this).text();
       	window.location.href = window.location.origin + "/recipe?recipe=" + encodeURI(clicked_on)
       })
-})
 
-      
-
-
-      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      	$(".burger a").on("click", function() {
-      		$(".hide_burger").unbind("click");
-      		$(".hide_burger").toggleClass("show_burger");
-      		$(".hide_burger").toggleClass("hide_burger");
-      		$(".burger").css("top","-150px");
-      		showBurger();
-      	})
-      }
-
-     url_recipe = new URLSearchParams(window.location.search).get("recipe");
+url_recipe = new URLSearchParams(window.location.search).get("recipe");
      startedAtRecipe = false;
 
      if(url_recipe !== null) {
@@ -104,6 +90,20 @@ $(".item_recipe").on("click",  function (e) {
      	(adsbygoogle = window.adsbygoogle || []).push({});
      	(adsbygoogle = window.adsbygoogle || []).push({});
      }
+
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      	$(".burger a").on("click", function() {
+      		$(".hide_burger").unbind("click");
+      		$(".hide_burger").toggleClass("show_burger");
+      		$(".hide_burger").toggleClass("hide_burger");
+      		$(".burger").css("top","-150px");
+      		showBurger();
+      	})
+      }
+})
+
+
+     
 
       $(document).on("dragstart", function () {
       	return false;
