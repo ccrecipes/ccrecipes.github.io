@@ -39,6 +39,46 @@ $(document).ready(function() {
       	}
 
       }
+
+	$(".bookmark").on("click", function () {
+      	current_state = $(this).attr("class");
+      	bookmarked_item = $(this).parent().find("p").text();
+      	if (current_state == "bookmark") {
+      		$(this).attr("src", "images/ui/bookmark_filled.png");
+      		$(this).attr("class", "bookmark_filled");
+      		bookmarked.push(bookmarked_item);
+      	} else {
+      		$(this).attr("src", "images/ui/bookmark_empty.png");
+      		$(this).attr("class", "bookmark");
+      		index_bookmark = bookmarked.indexOf(bookmarked_item);
+      		bookmarked.splice(index_bookmark, 1);
+      		if (bm_only == 1) {
+      			$(this).parent().css({ "display": "none", "visibility": "hidden" });
+      		}
+      	}
+      });
+
+      $(".show_bookmark").on("click", function () {
+      	if (bm_only == 0) {
+      		bm_only = 1;
+      		$(this).attr("src", "images/ui/bookmark_filled.png");
+      		$(this).attr("title", "Show all recipes!");
+      		$(".bookmark").parent().css({ "display": "none", "visibility": "hidden" });
+      	} else {
+      		bm_only = 0;
+      		$(this).attr("src", "images/ui/bookmark_empty.png");
+      		$(this).attr("title", "Show bookmarked recipes only!");
+      		$(".bookmark").parent().css({ "display": "inline-block", "visibility": "visible" });
+      	}
+      })
+
+$(".item_recipe").on("click",  function (e) {
+      	if (e.target == $(this).find(".bookmark, .bookmark_filled")[0]) {
+      		return false;
+      	}
+      	clicked_on = $(this).text();
+      	window.location.href = window.location.origin + "/recipe?recipe=" + encodeURI(clicked_on)
+      })
 })
 
       
@@ -115,37 +155,7 @@ $(document).ready(function() {
       }
 
 
-      $(".bookmark").on("click", function () {
-      	current_state = $(this).attr("class");
-      	bookmarked_item = $(this).parent().find("p").text();
-      	if (current_state == "bookmark") {
-      		$(this).attr("src", "images/ui/bookmark_filled.png");
-      		$(this).attr("class", "bookmark_filled");
-      		bookmarked.push(bookmarked_item);
-      	} else {
-      		$(this).attr("src", "images/ui/bookmark_empty.png");
-      		$(this).attr("class", "bookmark");
-      		index_bookmark = bookmarked.indexOf(bookmarked_item);
-      		bookmarked.splice(index_bookmark, 1);
-      		if (bm_only == 1) {
-      			$(this).parent().css({ "display": "none", "visibility": "hidden" });
-      		}
-      	}
-      });
-
-      $(".show_bookmark").on("click", function () {
-      	if (bm_only == 0) {
-      		bm_only = 1;
-      		$(this).attr("src", "images/ui/bookmark_filled.png");
-      		$(this).attr("title", "Show all recipes!");
-      		$(".bookmark").parent().css({ "display": "none", "visibility": "hidden" });
-      	} else {
-      		bm_only = 0;
-      		$(this).attr("src", "images/ui/bookmark_empty.png");
-      		$(this).attr("title", "Show bookmarked recipes only!");
-      		$(".bookmark").parent().css({ "display": "inline-block", "visibility": "visible" });
-      	}
-      })
+      
 
       function showRecipe(recipeitemname) {
 		$(".all_recipes").css("display","none");
@@ -258,13 +268,7 @@ $(document).ready(function() {
       	})
       }
 
-      $(".item_recipe").on("click",  function (e) {
-      	if (e.target == $(this).find(".bookmark, .bookmark_filled")[0]) {
-      		return false;
-      	}
-      	clicked_on = $(this).text();
-      	window.location.href = window.location.origin + "/recipe?recipe=" + encodeURI(clicked_on)
-      })
+      
 
 function itemClickEvent() {
 	$(".item_recipe_shown[craftable]").on("click", function () {
