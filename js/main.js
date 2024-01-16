@@ -1,8 +1,9 @@
       bookmarked = [];
       bm_only = 0;
       pink = false;
-      
-      $.ajax({
+
+$(document).ready(function() {
+	$.ajax({
       	'async': false,
       	'global': true,
       	'url': "recipes.json",
@@ -21,6 +22,26 @@
       		image_data = data;
       	}
       });
+
+	for (recipe in basic) {
+      	item_name = basic[recipe]["item"]["item"];
+      	recipe_type = basic[recipe]["type"];
+      	if (basic[recipe]["item"]["image"] != undefined) {
+      		item_image = basic[recipe]["item"]["image"];
+      		$("#" + recipe_type + "_recipes").append("<div class=\"item_recipe\"><img class=\"bookmark\" src=\"images/ui/bookmark_empty.png\"><img alt=\"" + item_name + "\" src=\"" + item_image + "\"></span><br><p>" + item_name + "</p></div>");
+      	} else {
+      		if (basic[recipe]["item"]["texture"] != undefined) {
+      			item_image = basic[recipe]["item"]["texture"];
+      		} else {
+      			item_image = image_data[item_name];
+      		}
+      		$("#" + recipe_type + "_recipes").append("<div class=\"item_recipe\"><img class=\"bookmark\" src=\"images/ui/bookmark_empty.png\"><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p></div>");
+      	}
+
+      }
+})
+
+      
 
 
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -93,23 +114,6 @@
       	}
       }
 
-
-      for (recipe in basic) {
-      	item_name = basic[recipe]["item"]["item"];
-      	recipe_type = basic[recipe]["type"];
-      	if (basic[recipe]["item"]["image"] != undefined) {
-      		item_image = basic[recipe]["item"]["image"];
-      		$("#" + recipe_type + "_recipes").append("<div class=\"item_recipe\"><img class=\"bookmark\" src=\"images/ui/bookmark_empty.png\"><img alt=\"" + item_name + "\" src=\"" + item_image + "\"></span><br><p>" + item_name + "</p></div>");
-      	} else {
-      		if (basic[recipe]["item"]["texture"] != undefined) {
-      			item_image = basic[recipe]["item"]["texture"];
-      		} else {
-      			item_image = image_data[item_name];
-      		}
-      		$("#" + recipe_type + "_recipes").append("<div class=\"item_recipe\"><img class=\"bookmark\" src=\"images/ui/bookmark_empty.png\"><span class='" + item_image + " sprite'></span><br><p>" + item_name + "</p></div>");
-      	}
-
-      }
 
       $(".bookmark").on("click", function () {
       	current_state = $(this).attr("class");
