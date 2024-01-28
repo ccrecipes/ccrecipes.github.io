@@ -637,6 +637,7 @@ form input[type="image"] {
 	display: inline-block;
 	outline: none;
 	width: auto;
+	height: 80px;
 }
 
 .navbar {
