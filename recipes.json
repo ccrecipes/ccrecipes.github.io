@@ -10128,9 +10128,7 @@
         ],
         "item": {
             "amount": 1,
-            "item": "Slyme Egg 9",
-                    "texture":"i_IMG_788",
-                    "displayName":"Slymegood Head"
+            "item": "Slymegood Head"
         },
         "type": "basic"
     },
