@@ -146,15 +146,7 @@ body {
 	}
 
 	.prices_bot {
-		position: fixed;
-		width: 12% !important;
-		border-radius: 50%;
-		box-shadow: 0 8px 5px rgba(0,0,0,.5);
-		border: solid 3px white;
-		top: 95% !important;
-		left: 92% !important;
-		transform: translate(-50%, -50%);
-		z-index: 999;
+		left: calc(100% - 60px) !important;
 	}
 }
 
@@ -842,13 +834,12 @@ footer a {
 
 .prices_bot {
 	position: fixed;
-	width: 4%;
+	height: 50px;
 	border-radius: 50%;
 	box-shadow: 0 8px 5px rgba(0,0,0,.5);
 	border: solid 3px white;
-	top: 93%;
-	left: 96%;
-	transform: translate(-50%, -50%);
+	bottom: 16px;
+	left: calc(100% - 85px)
 	z-index: 999;
 }
 
