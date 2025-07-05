@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TR vs SK - Player Statistics</title>
+    <link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/components.css">
+<link rel="stylesheet" href="/css/players.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="players-page">
+    <div class="cs2-container">
+        <div id="navbar-container"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        initNavbar('players');
+    });
+</script>
+
+        <main class="cs2-main">
+            <section class="cs2-section">
+                <div class="section-header">
+                    <h2>PLAYER PERFORMANCE</h2>
+                    <div class="filter-controls">
+                        <select id="team-filter" class="cs2-select">
+                            <option value="all">All Teams</option>
+                            <option value="turkey">Türkiye</option>
+                            <option value="slovakia">Slovakia</option>
+                        </select>
+                        <select id="stat-filter" class="cs2-select">
+                            <option value="kills">Sort by Kills</option>
+                            <option value="kd">Sort by K/D Ratio</option>
+                            <option value="winrate">Sort by Win Rate</option>
+                            <option value="matches">Sort by Matches Played</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="players-grid" id="players-container">
+                    <!-- Player cards will be loaded here -->
+                </div>
+            </section>
+        </main>
+
+        <script src="players.js"></script>
+        <script src="navbar.js"></script>
+    </div>
+</body>
+</html>

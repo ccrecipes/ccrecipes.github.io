@@ -1,0 +1,336 @@
+/* overview.css - Overview page specific styles */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, var(--cs-dark) 0%, var(--cs-darker) 100%);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid var(--cs-gray);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.team-display {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.team-turkey {
+    justify-content: flex-start;
+}
+
+.team-slovakia {
+    justify-content: flex-end;
+}
+
+.team-flag {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cs-darkest);
+    border: 2px solid var(--cs-gray-light);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-info {
+    text-align: center;
+}
+
+.team-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.team-turkey .team-name {
+    color: var(--turkish-red);
+}
+
+.team-slovakia .team-name {
+    color: var(--slovak-blue);
+}
+
+.team-score {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--cs-text);
+    background-color: var(--cs-darkest);
+    padding: 5px 15px;
+    border-radius: 6px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.series-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 0 30px;
+}
+
+.series-title {
+    font-size: 0.9rem;
+    color: var(--cs-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.series-score {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--cs-text);
+    margin: 5px 0;
+}
+
+.score-divider {
+    color: var(--cs-text-secondary);
+}
+
+.series-rounds {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--cs-primary);
+}
+
+/* Overview match cards */
+.matches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.match-card {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--cs-dark) 0%, var(--cs-darker) 100%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--cs-gray);
+}
+
+.match-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.match-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.match-card.winner-turkey::after {
+    background: linear-gradient(90deg, rgba(227, 10, 23, 0.3) 0%, rgba(227, 10, 23, 0) 50%);
+}
+
+.match-card.winner-slovak::after {
+    background: linear-gradient(270deg, rgba(11, 78, 162, 0.3) 0%, rgba(11, 78, 162, 0) 50%);
+}
+
+.match-map {
+    position: relative;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.match-map::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.match-winner {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 4;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.match-winner.winner-turkey {
+    background-color: rgba(227, 10, 23, 0.9);
+    color: white;
+}
+
+.match-winner.winner-slovak {
+    background-color: rgba(11, 78, 162, 0.9);
+    color: white;
+}
+
+.match-info {
+    position: relative;
+    padding: 15px;
+    z-index: 3;
+}
+
+.match-teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.match-teams .team-name {
+    font-size: 1rem;
+    font-weight: 600;
+    flex: 1;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.match-date {
+    color: var(--cs-text-secondary);
+    font-size: 0.85rem;
+    text-align: right;
+}
+
+/* Score Panel */
+.cs2-score-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, var(--cs-dark) 0%, var(--cs-darker) 100%);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid var(--cs-gray);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.team-display {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.team-turkey {
+    justify-content: flex-start;
+}
+
+.team-slovakia {
+    justify-content: flex-end;
+}
+
+.team-flag {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cs-darkest);
+    border: 2px solid var(--cs-gray-light);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-info {
+    text-align: center;
+}
+
+.team-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.team-turkey .team-name {
+    color: var(--turkish-red);
+}
+
+.team-slovakia .team-name {
+    color: var(--slovak-blue);
+}
+
+.team-score {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--cs-text);
+    background-color: var(--cs-darkest);
+    padding: 5px 15px;
+    border-radius: 6px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.series-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 0 30px;
+}
+
+.series-title {
+    font-size: 0.9rem;
+    color: var(--cs-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.series-score {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--cs-text);
+    margin: 5px 0;
+}
+
+.series-score span {
+    min-width: 40px;
+    text-align: center;
+}
+
+.score-divider {
+    color: var(--cs-text-secondary);
+}
+
+.series-rounds {
+    font-size: 0.9rem;
+    color: var(--cs-text-secondary);
+}

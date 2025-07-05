@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TR vs SK - Map Statistics</title>
+    <link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/components.css">
+<link rel="stylesheet" href="/css/maps.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="maps-page">
+    <div class="cs2-container">
+        <div id="navbar-container"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        initNavbar('maps');
+    });
+</script>
+
+        <main class="cs2-main">
+            <section class="cs2-section">
+                <div class="section-header">
+                    <h2>MAP PERFORMANCE</h2>
+                    <div class="filter-controls">
+                        <select id="stat-filter" class="cs2-select">
+                            <option value="matches">Sort by Matches Played</option>
+                            <option value="winrate">Sort by TÜRKİYE Win Rate</option>
+                            <option value="rounds">Sort by Total Rounds</option>
+                            <option value="kills">Sort by Total Kills</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="maps-grid" id="maps-container">
+                    <!-- Map cards will be loaded here -->
+                </div>
+            </section>
+        </main>
+
+        <script src="maps.js"></script>
+        <script src="navbar.js"></script>
+    </div>
+</body>
+</html>

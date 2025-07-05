@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TR vs SK - Match History</title>
+    <link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/components.css">
+<link rel="stylesheet" href="/css/matches.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cs2-container">
+        <div id="navbar-container"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        initNavbar('matches');
+    });
+</script>
+
+        <main class="cs2-main">
+            <section class="cs2-section">
+                <div class="section-header">
+                    <h2>ALL MATCHES</h2>
+                    <div class="filter-controls">
+                        <select id="map-filter" class="cs2-select">
+                            <option value="all">All Maps</option>
+                            <option value="inferno">Inferno</option>
+                            <option value="mirage">Mirage</option>
+                            <!-- Add other map options -->
+                        </select>
+                        <select id="team-filter" class="cs2-select">
+                            <option value="all">All Teams</option>
+                            <option value="turkey">Türkiye</option>
+                            <option value="slovakia">Slovakia</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="matches-grid" id="matches-container">
+                    <!-- Matches will be loaded here -->
+                </div>
+            </section>
+        </main>
+
+        <script src="matches.js"></script>
+        <script src="navbar.js"></script>
+    </div>
+</body>
+</html>

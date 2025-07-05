@@ -1,0 +1,54 @@
+/* base.css - Shared foundational styles */
+:root {
+    --cs-primary: #f7931a;
+    --cs-primary-dark: #e07e0a;
+    --cs-dark: #1a1a1a;
+    --cs-darker: #121212;
+    --cs-darkest: #0a0a0a;
+    --cs-light: #e6e6e6;
+    --cs-lighter: #f2f2f2;
+    --cs-gray: #2d2d2d;
+    --cs-gray-light: #3d3d3d;
+    --cs-blue: #4a90e2;
+    --cs-red: #e74c3c;
+    --turkish-red: #e30a17;
+    --slovak-blue: #0b4ea2;
+    --cs-accent: #f7931a;
+    --cs-text: #ffffff;
+    --cs-text-secondary: #b8b8b8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--cs-darkest);
+    color: var(--cs-text);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.cs2-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    color: var(--cs-primary);
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

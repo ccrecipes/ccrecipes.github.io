@@ -1,0 +1,386 @@
+/* components.css - Reusable components */
+/* Navbar */
+.cs2-header {
+    background-color: rgba(26, 26, 26, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--cs-gray);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.cs2-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.cs2-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--cs-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cs2-tabs {
+    display: flex;
+    gap: 5px;
+}
+
+.cs2-tab {
+    background: none;
+    border: none;
+    color: var(--cs-text-secondary);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+
+.cs2-tab.active {
+    color: var(--cs-text);
+    background-color: var(--cs-gray-light);
+}
+
+.cs2-tab:hover {
+    color: var(--cs-text);
+    background-color: var(--cs-gray);
+}
+
+.cs2-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.cs2-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--cs-gray-light);
+    color: var(--cs-text);
+    border: none;
+    padding: 8px 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+
+.cs2-button:hover {
+    background-color: var(--cs-gray);
+}
+
+.refresh-btn {
+    background-color: var(--cs-primary-dark);
+}
+
+.refresh-btn:hover {
+    background-color: var(--cs-primary);
+}
+
+/* Utility Classes */
+.section-header {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--cs-gray);
+}
+
+.section-header h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cs-text);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.error, .no-matches, .no-players, .no-maps {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px dashed var(--cs-gray);
+}
+
+.error {
+    color: var(--cs-red);
+}
+
+.filter-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.cs2-select {
+    background-color: var(--cs-gray);
+    color: var(--cs-text);
+    border: 1px solid var(--cs-gray-light);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+}
+
+.cs2-select:focus {
+    outline: none;
+    border-color: var(--cs-primary);
+}
+
+.map-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+/* Modal Styles */
+.cs2-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow-y: auto;
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background: linear-gradient(135deg, var(--cs-dark) 0%, var(--cs-darker) 100%);
+    margin: 50px auto;
+    padding: 0;
+    max-width: 900px;
+    border-radius: 8px;
+    border: 1px solid var(--cs-gray);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--cs-gray);
+}
+
+.modal-header h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cs-text);
+    text-transform: uppercase;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: var(--cs-text-secondary);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+    color: var(--cs-text);
+}
+
+.match-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.map-preview {
+    position: relative;
+    width: 200px;
+    height: 120px;
+    border-radius: 6px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.map-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.map-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.match-score-display {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    justify-content: center;
+}
+
+.match-score-display .team-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    min-width: 100px;
+    text-align: center;
+}
+
+.match-score-display .score {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--cs-primary);
+    min-width: 100px;
+    text-align: center;
+}
+
+.match-date {
+    color: var(--cs-text-secondary);
+    font-size: 0.9rem;
+    min-width: 100px;
+    text-align: right;
+}
+
+.player-stats-container {
+    display: flex;
+    padding: 0;
+}
+
+.team-stats {
+    flex: 1;
+    padding: 0;
+}
+
+.team-header {
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team-header.turkish {
+    background-color: rgba(227, 10, 23, 0.1);
+    color: var(--turkish-red);
+    border-bottom: 1px solid rgba(227, 10, 23, 0.3);
+}
+
+.team-header.slovak {
+    background-color: rgba(11, 78, 162, 0.1);
+    color: var(--slovak-blue);
+    border-bottom: 1px solid rgba(11, 78, 162, 0.3);
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stats-table th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--cs-text-secondary);
+    text-transform: uppercase;
+    background-color: var(--cs-darkest);
+}
+
+.stats-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--cs-gray);
+    font-weight: 500;
+}
+
+.stats-table tr:last-child td {
+    border-bottom: none;
+}
+
+.stats-table .player-col {
+    width: 40%;
+}
+
+.stats-table tr:hover td {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.cs2-main {
+    padding: 30px 0;
+}
+
+.cs2-section {
+    margin-bottom: 40px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--cs-gray);
+}
+
+.section-header h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cs-text);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.team-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.match-result {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cs-primary);
+    margin: 0 15px;
+    min-width: 60px;
+    text-align: center;
+}
+
+.match-teams .slovak {
+    text-align: right;
+}

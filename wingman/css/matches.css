@@ -1,0 +1,181 @@
+/* matches.css - Matches page specific styles */
+.filter-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.cs2-select {
+    background-color: var(--cs-gray);
+    color: var(--cs-text);
+    border: 1px solid var(--cs-gray-light);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+}
+
+.cs2-select:focus {
+    outline: none;
+    border-color: var(--cs-primary);
+}
+
+/* Expanded match cards */
+.match-card.large {
+    grid-column: span 2;
+}
+
+.match-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--cs-gray-light);
+}
+
+.player-performance, .match-stats {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.player-performance h4, .match-stats h4 {
+    margin-bottom: 10px;
+    color: var(--cs-primary);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.team-performers h5 {
+    color: var(--cs-text-secondary);
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+.player-stat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .match-card.large {
+        grid-column: span 1;
+    }
+    
+    .match-details {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-controls {
+        flex-direction: column;
+    }
+}
+
+.matches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.match-card {
+    background: linear-gradient(135deg, var(--cs-dark) 0%, var(--cs-darker) 100%);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--cs-gray);
+    position: relative;
+    overflow: hidden;
+}
+
+.match-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+/* Turkey win gradient */
+.match-card.winner-turkey::after {
+    background: linear-gradient(90deg, rgba(227, 10, 23, 0.3) 0%, rgba(227, 10, 23, 0) 50%);
+}
+
+/* Slovakia win gradient */
+.match-card.winner-slovak::after {
+    background: linear-gradient(270deg, rgba(11, 78, 162, 0.3) 0%, rgba(11, 78, 162, 0) 50%);
+}
+
+.match-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    border-color: var(--cs-gray-light);
+}
+
+.match-map {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+.match-map::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.map-name {
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 700;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.match-info {
+    padding: 15px;
+    position: relative;
+    z-index: 3;
+}
+
+.match-winner {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 4;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.match-winner.winner-turkey {
+    background-color: rgba(227, 10, 23, 0.9);
+    color: white;
+}
+
+.match-winner.winner-slovak {
+    background-color: rgba(11, 78, 162, 0.9);
+    color: white;
+}
+
+.match-teams {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,73 @@
+/* maps.css - Maps page specific styles */
+.maps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.map-card {
+    background: linear-gradient(135deg, var(--cs-dark) 0%, var(--cs-darker) 100%);
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid var(--cs-gray);
+    transition: transform 0.3s ease;
+}
+
+.map-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.map-header {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.map-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    filter: brightness(0.7);
+}
+
+.map-stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.stat-label {
+    color: var(--cs-text-secondary);
+}
+
+.stat-value {
+    font-weight: 600;
+}
+
+.cs2-select {
+    background-color: var(--cs-gray);
+    color: var(--cs-text);
+    border: 1px solid var(--cs-gray-light);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+}
+
+.cs2-select:focus {
+    outline: none;
+    border-color: var(--cs-primary);
+}
+
+@media (max-width: 768px) {
+    .maps-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,93 @@
+/* players.css - Players page specific styles */
+.players-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.player-card {
+    background: linear-gradient(135deg, var(--cs-dark) 0%, var(--cs-darker) 100%);
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid var(--cs-gray);
+    transition: transform 0.3s ease;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.turkish-player {
+    border-left: 4px solid var(--turkish-red);
+}
+
+.slovak-player {
+    border-left: 4px solid var(--slovak-blue);
+}
+
+.player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--cs-gray);
+}
+
+.player-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.turkish-player .player-name {
+    color: var(--turkish-red);
+}
+
+.slovak-player .player-name {
+    color: var(--slovak-blue);
+}
+
+.player-team {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.turkish-player .player-team {
+    background-color: rgba(227, 10, 23, 0.1);
+    color: var(--turkish-red);
+}
+
+.slovak-player .player-team {
+    background-color: rgba(11, 78, 162, 0.1);
+    color: var(--slovak-blue);
+}
+
+.player-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-label {
+    color: var(--cs-text-secondary);
+    font-size: 0.9rem;
+}
+
+.stat-value {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .player-stats {
+        grid-template-columns: 1fr;
+    }
+}
