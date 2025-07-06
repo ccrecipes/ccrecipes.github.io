@@ -122,6 +122,7 @@ function showMatchDetails(match) {
             <td>${player.deaths}</td>
             <td>${player.assists}</td>
             <td>${kda}</td>
+            <td>${player.HSP}%</td>
         `;
         turkeyPlayersEl.appendChild(row);
     });
@@ -138,6 +139,7 @@ function showMatchDetails(match) {
             <td>${player.deaths}</td>
             <td>${player.assists}</td>
             <td>${kda}</td>
+            <td>${player.HSP}%</td>
         `;
         slovakPlayersEl.appendChild(row);
     });
