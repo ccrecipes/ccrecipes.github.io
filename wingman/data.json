@@ -67,6 +67,57 @@
                     { "name": "Sandd", "kills": 8, "deaths": 8, "assists": 2, "ADR": 54, "HSP": 12 }
                 ]
             }
+        },
+        {
+            "id": 5,
+            "map": "assembly",
+            "date": "2025-07-11T22:01:00",
+            "score": "6-9",
+            "winner": "slovakia",
+            "players": {
+                "turkey": [
+                    { "name": "Fahriredwood", "kills": 12, "deaths": 10, "assists": 1, "ADR": 93, "HSP": 25},
+                    { "name": "AsrapTr", "kills": 4, "deaths": 11, "assists": 3, "ADR": 44, "HSP": 50 }
+                ],
+                "slovakia": [
+                    { "name": "Kewbin", "kills": 12, "deaths": 8, "assists": 0, "ADR": 87, "HSP": 83 },
+                    { "name": "Sandd", "kills": 9, "deaths": 8, "assists": 2, "ADR": 75, "HSP": 44 }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "map": "whistle",
+            "date": "2025-07-11T22:38:00",
+            "score": "6-9",
+            "winner": "slovakia",
+            "players": {
+                "turkey": [
+                    { "name": "Fahriredwood", "kills": 10, "deaths": 10, "assists": 0, "ADR": 64, "HSP": 10},
+                    { "name": "AsrapTr", "kills": 6, "deaths": 12, "assists": 3, "ADR": 74, "HSP": 33 }
+                ],
+                "slovakia": [
+                    { "name": "Kewbin", "kills": 15, "deaths": 6, "assists": 1, "ADR": 104, "HSP": 46 },
+                    { "name": "Sandd", "kills": 7, "deaths": 10, "assists": 4, "ADR": 68, "HSP": 71 }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "map": "nuke",
+            "date": "2025-07-11T22:38:00",
+            "score": "9-5",
+            "winner": "turkey",
+            "players": {
+                "turkey": [
+                    { "name": "Fahriredwood", "kills": 10, "deaths": 7, "assists": 4, "ADR": 108, "HSP": 60},
+                    { "name": "AsrapTr", "kills": 11, "deaths": 6, "assists": 0, "ADR": 64, "HSP": 36 }
+                ],
+                "slovakia": [
+                    { "name": "Kewbin", "kills": 7, "deaths": 9, "assists": 1, "ADR": 59, "HSP": 42 },
+                    { "name": "Sandd", "kills": 6, "deaths": 12, "assists": 1, "ADR": 64, "HSP": 50 }
+                ]
+            }
         }
     ]
 }
