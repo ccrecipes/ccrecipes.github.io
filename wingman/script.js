@@ -65,7 +65,7 @@ function updateUI() {
     }
     
     // Add match cards (show only last 6 matches)
-    const recentMatches = matchesData.matches.slice(-6).reverse();
+    const recentMatches = matchesData.matches.slice(-8).reverse();
     recentMatches.forEach(match => {
         matchesContainerEl.appendChild(createMatchCard(match));
     });
