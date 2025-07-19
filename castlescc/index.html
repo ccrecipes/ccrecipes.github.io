@@ -390,6 +390,16 @@
         }
     });
 
+    $.ajax({
+      	'async': false,
+      	'global': true,
+      	'url': "images.json",
+      	'dataType': "json",
+      	'success': function (data) {
+      		image_data = data;
+      	}
+      });
+
     function filterRecipes() {
         filterInput = $("#filterInput").val().toUpperCase();
         recipe_divs = $(".recipe").toArray();
@@ -427,9 +437,9 @@
                     item_name = basic[tree]["recipe"][recipe][item]["item"];
                 }
                 if (basic[tree]["recipe"][recipe][item]["texture"] != undefined) {
-                    image_name = basic[tree]["recipe"][recipe][item]["texture"];
+                    image_name = image_data[item];
                 } else {
-                    image_name = item_name.toLowerCase().replaceAll(" ", "_");
+                    image_name = image_data[item];
                 }
                 item_quant = basic[tree]["recipe"][recipe][item]["amount"];
                 $(".recipe-row").last().append('<div class="item"><div class="item-bck"><span class="item-name">' + item_name + '</span><span class="' + image_name + ' sprite" /></div>' + item_quant + '</div>')
