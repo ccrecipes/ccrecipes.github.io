@@ -118,6 +118,40 @@
                     { "name": "Sandd", "kills": 6, "deaths": 12, "assists": 1, "ADR": 64, "HSP": 50 }
                 ]
             }
+        },
+        {
+            "id": 8,
+            "map": "brewery",
+            "date": "2025-07-19T17:29:00",
+            "score": "9-5",
+            "winner": "slovakia",
+            "players": {
+                "turkey": [
+                    { "name": "Fahriredwood", "kills": 6, "deaths": 9, "assists": 3, "ADR": 75, "HSP": 33},
+                    { "name": "AsrapTr", "kills": 6, "deaths": 11, "assists": 0, "ADR": 53, "HSP": 50 }
+                ],
+                "slovakia": [
+                    { "name": "Kewbin", "kills": 13, "deaths": 6, "assists": 0, "ADR": 93, "HSP": 84 },
+                    { "name": "Sandd", "kills": 7, "deaths": 7, "assists": 3, "ADR": 73, "HSP": 28 }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "map": "overpass",
+            "date": "2025-07-19T17:43:00",
+            "score": "9-2",
+            "winner": "slovakia",
+            "players": {
+                "turkey": [
+                    { "name": "Fahriredwood", "kills": 6, "deaths": 10, "assists": 0, "ADR": 68, "HSP": 66},
+                    { "name": "AsrapTr", "kills": 2, "deaths": 10, "assists": 1, "ADR": 38, "HSP": 0 }
+                ],
+                "slovakia": [
+                    { "name": "Kewbin", "kills": 13, "deaths": 3, "assists": 1, "ADR": 111, "HSP": 23 },
+                    { "name": "Sandd", "kills": 7, "deaths": 5, "assists": 3, "ADR": 74, "HSP": 28 }
+                ]
+            }
         }
     ]
 }
