@@ -713,6 +713,14 @@
             margin: 0;
         }
 
+        .modal-note {
+            font-size: 0.75rem;
+            color: var(--c-gray-400);
+            font-weight: 500;
+            margin-top: 0.5rem;
+            line-height: 1.2;
+        }
+
         .modal-close-btn {
             top: -8px;
             right: -8px;
@@ -1893,6 +1901,13 @@
                 header.className = "category-header";
                 header.textContent = category;
                 categoryWrapper.appendChild(header);
+
+                if (category === "Currency" && items.includes("Gems")) {
+                    const note = document.createElement('p');
+                    note.className = "modal-note";
+                    note.innerHTML = 'Tip: You can use approximate gem value as a replacement for any special item that is not listed here.';
+                    categoryWrapper.appendChild(note);
+                }
 
                 const grid = document.createElement('div');
                 grid.className = "modal-item-grid";
