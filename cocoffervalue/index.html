@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoC Offer Value Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- CLASH OF CLANS THEME VARIABLES --- */
+        :root {
+            --clash-bg: #4a4a4a;
+            --clash-panel-bg: #26292e;
+            --clash-panel-border: #121212;
+            --clash-yellow: #ffe65e;
+            --clash-text-stroke: 2px #000;
+            --clash-green-top: #96c40e;
+            --clash-green-bot: #6b9e03;
+            --clash-red-top: #ff5e5e;
+            --clash-red-bot: #ce1f1f;
+            --clash-blue-top: #4da6ff;
+            --clash-blue-bot: #0066cc;
+        }
+
+        body {
+            font-family: 'Rubik', sans-serif;
+            background: radial-gradient(50% 38.93% at 50% 47.22%, rgb(116, 74, 43) 0px, rgb(77, 46, 23) 100%);
+            color: #f0f0f0;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        body::before {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-image: url("img/coc-pattern.png");
+            background-repeat: repeat;
+            background-size: 260px 260px, 100%;
+            opacity: 0.15;
+            z-index: -1;
+        }
+
+        /* Titles & Headers */
+        h1, h2, h3, h4, .clash-font {
+            font-family: 'Titan One', cursive;
+            letter-spacing: 1px;
+            color: var(--clash-yellow);
+            text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+        /* --- UI COMPONENTS --- */
+
+        .clash-panel {
+            background-image: linear-gradient(180deg,#3d3836,#302b29 20.9%), linear-gradient(180deg,#3d3836,#302b29 20.9%);
+            border: 2px solid #000;
+            border-radius: 16px;
+            box-shadow: inset 0 3px 0 0 hsla(0,0%,100%,.1);
+            position: relative;
+        }
+
+        .gem-pack-card {
+            background: radial-gradient(55.62% 45.62% at 50% 45%,#857654 .5%,#301b14 68.75%,#1d1816 97.12%);
+            min-width: 100px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            transition: transform 0.1s;
+            position: relative;
+        }
+
+        .gem-pack-card::before {
+            content: "";
+            position: absolute;
+            inset: 0 0;
+            padding: 2px;
+            z-index: 1;
+            background: linear-gradient(rgba(222,185,126,.3),rgba(0,0,0,.1));
+            -webkit-mask: linear-gradient(white 0 0) content-box,linear-gradient(white 0 0);
+            mask: linear-gradient(white 0 0) content-box,linear-gradient(white 0 0);
+              mask-composite: add, add;
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            border-radius: inherit;
+            pointer-events: none;
+        }
+
+        .offer-item-card {
+            min-width: 100px;
+            height: 125px;
+            background: radial-gradient(55.62% 55.62% at 50% 50%,#857654 .5%,#301b14 68.75%,#1d1816 97.12%);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px;
+            position: relative;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+            transition: all 0.3s ease;
+        }
+
+        .offer-item-card::before {
+            content: "";
+            position: absolute;
+            inset: 0 0;
+            padding: 2px;
+            z-index: 1;
+            background: linear-gradient(rgba(222,185,126,.3),rgba(0,0,0,.1));
+            -webkit-mask: linear-gradient(white 0 0) content-box,linear-gradient(white 0 0);
+            mask: linear-gradient(white 0 0) content-box,linear-gradient(white 0 0);
+              mask-composite: add, add;
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            border-radius: inherit;
+            pointer-events: none;
+        }
+
+        /* COMPACT MODE STYLES */
+        body.compact-mode .offer-item-card {
+            min-width: 80px;
+            height: 70px; /* Much shorter */
+            justify-content: center;
+        }
+        body.compact-mode .offer-item-card img {
+            display: none; /* Hide images */
+        }
+        /* Hide the dollar sign span in compact mode */
+        body.compact-mode .offer-item-card span {
+            display: none; 
+        }
+        body.compact-mode .offer-row {
+            min-height: 90px;
+        }
+        body.compact-mode .offer-add-btn {
+            height: 70px;
+            min-width: 60px;
+        }
+        body.compact-mode .offer-result-area {
+            width: 90px;
+        }
+
+        /* Buttons */
+        .btn-clash-green {
+            background: linear-gradient(to bottom, var(--clash-green-top), var(--clash-green-bot));
+            border-radius: 8px;
+            color: white;
+            font-family: 'Titan One', cursive;
+            text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+            box-shadow: 0 4px 0 #3a5700, 0 6px 4px rgba(0,0,0,0.4);
+            transition: all 0.1s;
+            cursor: pointer;
+        }
+        .btn-clash-green:hover { filter: brightness(1.1); }
+        .btn-clash-green:active { transform: translateY(4px); box-shadow: 0 0 0 #3a5700, inset 0 2px 4px rgba(0,0,0,0.4); }
+
+        .btn-clash-blue {
+            background: linear-gradient(to bottom, var(--clash-blue-top), var(--clash-blue-bot));
+            border-radius: 8px;
+            color: white;
+            font-family: 'Titan One', cursive;
+            text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+            box-shadow: 0 4px 0 #004080, 0 6px 4px rgba(0,0,0,0.4);
+            transition: all 0.1s;
+            cursor: pointer;
+        }
+        .btn-clash-blue:hover { filter: brightness(1.1); }
+        .btn-clash-blue:active { transform: translateY(4px); box-shadow: 0 0 0 #004080, inset 0 2px 4px rgba(0,0,0,0.4); }
+
+        .btn-clash-red {
+            background: linear-gradient(to bottom, var(--clash-red-top), var(--clash-red-bot));
+            border-radius: 8px;
+            color: white;
+            font-family: 'Titan One', cursive;
+            text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+            box-shadow: 0 4px 0 #800000, 0 6px 4px rgba(0,0,0,0.4);
+            transition: all 0.1s;
+            cursor: pointer;
+        }
+        .btn-clash-red:hover { filter: brightness(1.1); }
+        .btn-clash-red:active { transform: translateY(4px); box-shadow: 0 0 0 #800000, inset 0 2px 4px rgba(0,0,0,0.4); }
+
+
+        .offer-add-btn {
+            min-width: 80px;
+            height: 120px;
+            background: rgba(0,0,0,0.2);
+            border: 3px dashed #666;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .offer-add-btn:hover { background: rgba(255, 255, 255, 0.05); border-color: #aaa; transform: scale(1.02); }
+
+        .count {
+            background: #1a1b1e;
+            box-shadow: inset 0 2px 0 0 hsla(0,0%,100%,.1);
+        }
+
+        .ghost-input {
+            background: none;
+            border-radius: 6px;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            font-weight: bold;
+            padding: 4px;
+            font-family: 'Rubik', sans-serif;
+        }
+        .ghost-input:focus { outline: none; border-color: #4da6ff; }
+        
+        /* Modal Search Input */
+        .search-input {
+            background: #2a2e33;
+            border: 2px solid #000;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            width: 100%;
+            font-family: 'Rubik', sans-serif;
+            font-size: 16px;
+            margin-bottom: 16px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+        }
+        .search-input:focus { outline: none; border-color: var(--clash-blue-top); }
+
+        
+
+        .offer-row {
+            background-image: linear-gradient(180deg,#3d3836,#302b29 20.9%), linear-gradient(180deg,#3d3836,#302b29 20.9%);
+            border: 2px solid #000;
+            border-radius: 12px;
+            display: flex;
+            align-items: stretch;
+            min-height: 145px;
+            overflow: hidden;
+            box-shadow: inset 0 3px 0 0 hsla(0,0%,100%,.1);
+            filter: drop-shadow(0 12px 6px rgba(0,0,0,.7));
+            margin-bottom: 12px;
+            transition: min-height 0.3s ease;
+        }
+
+        .offer-scroll-area {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            overflow-x: auto;
+            padding: 12px;
+            -ms-overflow-style: none;
+            scrollbar-width: none; 
+        }
+        .offer-scroll-area::-webkit-scrollbar { display: none; }
+
+        .offer-result-area {
+            width: 110px;
+            background: linear-gradient(to bottom, #2b3036, #1f2226);
+            border-left: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            text-align: center;
+            box-shadow: inset 0 3px 0 0 hsla(0,0%,100%,.1);
+            transition: width 0.3s ease;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.85);
+            z-index: 150;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(2px);
+        }
+        .modal-active { display: flex; }
+        
+        .modal-content {
+            background: radial-gradient(circle, #4a4f57 0%, #2c2f35 100%);
+            border: 4px solid #000;
+            border-radius: 20px;
+            box-shadow: 0 0 0 4px #5c626b, 0 20px 50px rgba(0,0,0,0.8);
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.9); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .animate-pop { animation: popIn 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+
+        .delete-btn {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background: linear-gradient(to bottom, var(--clash-red-top), var(--clash-red-bot));
+            color: white;
+            border-radius: 5px;
+            width: 24px;
+            height: 24px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 10;
+            box-shadow: 0 4px 0 #800000, 0 6px 4px rgba(0,0,0,0.4);
+        }
+        .delete-btn:hover { filter: brightness(1.1); }
+        .delete-btn:active { transform: translateY(4px); box-shadow: 0 0 0 #800000, inset 0 2px 4px rgba(0,0,0,0.4); }
+
+        .tutorial-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 100;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tutorial-step {
+            position: fixed;
+            max-width: 350px;
+            background: #fff;
+            color: #333;
+            padding: 20px;
+            border-radius: 12px;
+            border: 4px solid #333;
+            box-shadow: 10px 10px 0 rgba(0,0,0,0.5);
+            animation: popIn 0.3s;
+            z-index: 200;
+        }
+        .tutorial-step h4 { color: #d15600; text-shadow: none; margin-bottom: 8px; }
+
+        .highlight-target {
+            z-index: 101; 
+            position: relative;
+            box-shadow: 0 0 0 4px #ffee00, 0 0 20px 10px rgba(255, 238, 0, 0.5); 
+            border-radius: 8px;
+            transform: scale(1.02);
+            transition: all 0.3s;
+            pointer-events: auto; /* Ensure clickable */
+        }
+        
+        /* FIX: Class to lift containers above the overlay */
+        .lift-z-index {
+            z-index: 102 !important;
+            position: relative !important;
+        }
+        
+        .item-btn {
+            transition: all 0.1s;
+            border-bottom: 4px solid #1a1a1a !important;
+        }
+        .item-btn:active { transform: translateY(2px); border-bottom-width: 2px !important; }
+
+        /* Toggle Switch */
+        .toggle-checkbox:checked {
+            right: 0;
+            border-color: #68D391;
+        }
+        .toggle-checkbox:checked + .toggle-label {
+            background-color: #68D391;
+        }
+        
+        /* Toast Notification */
+        #toast {
+            visibility: hidden;
+            min-width: 250px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+            padding: 16px;
+            position: fixed;
+            z-index: 300;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            border: 2px solid var(--clash-green-top);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+        @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
+        @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0; 
+        }
+
+        input[type=number] {
+            -moz-appearance:textfield; /* Firefox */
+        }
+
+    </style>
+</head>
+<body class="p-2 md:p-6 max-w-5xl mx-auto pb-32">
+
+    <!-- TUTORIAL OVERLAY -->
+    <div id="tutorial-overlay" class="tutorial-overlay"></div>
+    <!-- TUTORIAL POPOVER -->
+    <div id="tutorial-popover" class="tutorial-step hidden">
+        <h4 class="text-xl font-bold" id="tutorial-title"></h4>
+        <p class="text-sm mb-6 font-medium" id="tutorial-text"></p>
+        <div class="flex justify-between items-center">
+            <button onclick="skipTutorial()" class="text-xs text-gray-500 hover:text-gray-800 font-bold underline transition">Skip</button>
+            <button onclick="nextTutorialStep()" id="tutorial-next-button" class="btn-clash-green py-2 px-6 text-sm">Next Step <i class="fa-solid fa-arrow-right ml-1"></i></button>
+        </div>
+    </div>
+    
+    <!-- TOAST NOTIFICATION -->
+    <div id="toast">Link copied to clipboard!</div>
+    
+    <!-- 1. TOP SECTION: Gem Pack Reference -->
+    <section class="mb-8">
+        <div class="flex items-center gap-2 mb-3 ml-2">
+            <i class="fa-solid fa-gem text-green-400 text-xl drop-shadow-md"></i>
+            <h2 class="text-xl font-bold uppercase tracking-wider clash-font">Gem Pack Prices</h2>
+        </div>
+        <div class="clash-panel p-4 overflow-x-auto">
+            <div class="flex gap-3 pb-2" id="gem-packs-container">
+                <!-- Gem Cards generated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. OFFERS SECTION -->
+    <section class="space-y-4">
+        <!-- Control Bar -->
+        <div class="flex flex-col sm:flex-row justify-between items-end sm:items-center gap-4 mb-2 ml-2 mr-2">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-scroll text-yellow-400 text-xl drop-shadow-md"></i>
+                <h2 class="text-xl font-bold uppercase tracking-wider clash-font">Your Offers</h2>
+            </div>
+            
+            <div class="flex items-center gap-3">
+                <!-- Compact Toggle -->
+                <div class="flex items-center mr-2">
+                    <span class="text-xs text-gray-400 font-bold uppercase mr-2">Compact</span>
+                    <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                        <input type="checkbox" name="toggle" id="compact-toggle" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 appearance-none cursor-pointer border-gray-300 left-0 top-0 transition-all duration-200" onclick="toggleCompactMode()"/>
+                        <label for="compact-toggle" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-600 cursor-pointer"></label>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <button onclick="shareConfiguration()" class="btn-clash-blue py-1 px-3 text-xs flex items-center gap-1">
+                    <i class="fa-solid fa-share-nodes"></i> Share
+                </button>
+                <button onclick="clearAllOffers()" class="btn-clash-red py-1 px-3 text-xs flex items-center gap-1">
+                    <i class="fa-solid fa-trash"></i> Clear All
+                </button>
+            </div>
+        </div>
+
+        <div id="offers-container">
+            <!-- Offer rows generated by JS -->
+        </div>
+    </section>
+
+    <!-- 3. ADD OFFER BUTTON -->
+    <button onclick="addNewOffer()" class="btn-clash-green w-full h-16 mt-6 flex items-center justify-center text-xl gap-2 group">
+        <i class="fa-solid fa-plus bg-black/20 rounded-full w-8 h-8 flex items-center justify-center text-sm border border-white/30"></i>
+        Add New Offer
+    </button>
+
+
+    <!-- MODAL: Item Selection -->
+    <div id="item-modal" class="modal-overlay" onclick="closeModal(event)">
+        <div class="modal-content p-6 max-w-3xl w-full mx-4 animate-pop flex flex-col max-h-[80vh]" onclick="event.stopPropagation()">
+            <div class="flex justify-between items-center mb-4 border-b-2 border-white/10 pb-4">
+                <h3 class="text-2xl font-bold clash-font text-white">Select Item</h3>
+                <button onclick="closeModal()" class="w-8 h-8 bg-red-600 rounded-md border-2 border-black text-white hover:bg-red-500 shadow-lg font-bold"><i class="fa-solid fa-times"></i></button>
+            </div>
+            
+            <!-- Search Input -->
+            <input type="text" id="modal-search" placeholder="Search items..." class="search-input" onkeyup="filterModalItems()">
+
+            <!-- Categories and Items -->
+            <div class="flex flex-col space-y-8 overflow-y-auto pr-2 custom-scrollbar flex-1" id="modal-items-container">
+                <!-- Generated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- DATA CONSTANTS ---
+        const GEM_PACK_DATA = [
+            { gems: 80, image: "img/Icon_HV_Resource_Gems_Pocketful_of_Gems.png" },
+            { gems: 500, image: "img/Icon_HV_Resource_Gems_Pile_of_Gems.png" },
+            { gems: 1200, image: "img/Icon_HV_Resource_Gems_Bag_of_Gems.png" },
+            { gems: 2500, image: "img/Icon_HV_Resource_Gems_Sack_of_Gems.png" },
+            { gems: 6500, image: "img/Icon_HV_Resource_Gems_Box_of_Gems.png" },
+            { gems: 14000, image: "img/Icon_HV_Resource_Gems_Chest_of_Gems.png" }
+        ];
+
+        const ITEM_VALUES = {
+            "Gems": { value: 1, image: "img/Icon_HV_Resource_Gem.png" },
+            "Book of Heroes": { value: 500, image: "img/Magic_Item_Book_of_Heroes.png" },
+            "Book of Fighting": { value: 925, image: "img/Magic_Item_Book_of_Troops.png" },
+            "Book of Building": { value: 925, image: "img/Magic_Item_Book_of_Buildings.png" },
+            "Book of Spells": { value: 925, image: "img/Magic_Item_Book_of_Spells.png" },
+            "Book of Everything": { value: 1000, image: "img/Magic_Item_Book_of_Everything.png" },
+            "Rune of Gold": { value: 1000, image: "img/Magic_Item_Rune_of_Gold.png" },
+            "Rune of Elixir": { value: 1000, image: "img/Magic_Item_Rune_of_Elixir.png" },
+            "Rune of DE": { value: 2000, image: "img/Magic_Item_Rune_of_Dark_Elixir.png" },
+            "Rune of Builder Elixir": { value: 1000, image: "img/Magic_Item_Rune_of_Builder_Elixir.png" },
+            "Rune of Builder Gold": { value: 1000, image: "img/Magic_Item_Rune_of_Builder_Gold.png" },
+            "Wall Ring": { value: 35, image: "img/Magic_Item_Wall_Ring.png" },
+            "Builder Pot": { value: 285, image: "img/Magic_Item_Builder_Potion.png" },
+            "Research Pot": { value: 120, image: "img/Magic_Item_Research_Potion.png" },
+            "Hero Pot": { value: 150, image: "img/Magic_Item_Hero_Potion.png" },
+            "Pet Pot": { value: 120, image: "img/Magic_Item_Pet_Potion.png" },
+            "Power Pot": { value: 150, image: "img/Magic_Item_Power_potion.png" },
+            "Shovel": { value: 500, image: "img/Magic_Item_Shovel_of_Obstacles.png" },
+        };
+        
+        const CATEGORIES = {
+            "Currency": ["Gems"],
+            "Books": ["Book of Heroes", "Book of Fighting", "Book of Building", "Book of Spells", "Book of Everything"],
+            "Runes": ["Rune of Gold", "Rune of Elixir", "Rune of DE", "Rune of Builder Elixir", "Rune of Builder Gold"],
+            "Potions": ["Builder Pot", "Research Pot", "Hero Pot", "Pet Pot", "Power Pot"],
+            "Others": ["Wall Ring", "Shovel"]
+        };
+        
+        // --- STATE ---
+        let offers = []; 
+        let activeOfferIdForModal = null;
+        let tutorialStep = 0;
+        let tutorialActive = false;
+
+        // --- TUTORIAL ---
+        const TUTORIAL_STEPS = [
+            {
+                title: "Welcome Chief!",
+                text: "To start, we need to set the standard market rate. Please enter the real-world price (e.g. 99.99) for the 14,000 Gem pack below.",
+                target: () => document.querySelector('.gem-price-input[data-gems="14000"]'),
+                position: 'bottom-right'
+            },
+            {
+                title: "Offer Cost",
+                text: "Great! Now look at the offer you want to buy. Enter its real-world price here.",
+                target: () => document.querySelector(`#offer-row-${offers[0]?.id} .offer-item-card input`),
+                position: 'right'
+            },
+            {
+                title: "Add Items",
+                text: "What's inside the offer? Tap this '+' button to add items.",
+                target: () => document.querySelector(`#offer-row-${offers[0]?.id} .offer-add-btn`),
+                position: 'right'
+            },
+            {
+                title: "Select an Item",
+                text: "Tap an item to add it to your offer calculation.",
+                target: () => document.querySelector('#modal-items-container .item-btn'), 
+                position: 'bottom'
+            },
+            {
+                title: "Value Rating",
+                text: "Here is your Value Rating! 2x or higher is usually a great deal. Good luck Chief!",
+                target: () => document.querySelector(`#offer-row-${offers[0]?.id} .offer-result-area`),
+                position: 'left'
+            }
+        ];
+
+        // --- INITIALIZATION ---
+        document.addEventListener('DOMContentLoaded', () => {
+            renderGemPacks();
+            loadStoredPrices();
+            
+            // 1. Check for Shared URL Data First
+            const hasSharedData = loadFromURL();
+            
+            // 2. If no shared data, load from LocalStorage
+            if (!hasSharedData) {
+                loadOffersFromStorage();
+            }
+
+            // 3. If still empty, add default
+            if (offers.length === 0) {
+                addNewOffer(false); // don't save yet
+            } else {
+                renderOffers();
+            }
+            
+            renderModalItems();
+            checkTutorialState();
+        });
+        
+        // --- STORAGE & SHARING LOGIC ---
+
+        function saveOffersToStorage() {
+            localStorage.setItem('coc_offers', JSON.stringify(offers));
+        }
+
+        function loadOffersFromStorage() {
+            const stored = localStorage.getItem('coc_offers');
+            if (stored) {
+                try {
+                    offers = JSON.parse(stored);
+                } catch(e) {
+                    console.error("Failed to load offers", e);
+                    offers = [];
+                }
+            }
+        }
+
+        function clearAllOffers() {
+            if(confirm("Are you sure you want to clear all offers?")) {
+                offers = [];
+                document.getElementById('offers-container').innerHTML = '';
+                addNewOffer(); // Adds one fresh empty offer
+                saveOffersToStorage();
+                // Clear URL params
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        }
+
+        function shareConfiguration() {
+            // New Encoding Strategy:
+            // 1. Minify structure: [[price, [[itemIdx, qty], [itemIdx, qty]]], ...]
+            // 2. Base64 encode the stringified result
+            
+            const itemKeys = Object.keys(ITEM_VALUES).sort(); // Deterministic order
+            
+            const minified = offers.map(o => {
+                const minItems = o.items.map(i => {
+                    const idx = itemKeys.indexOf(i.name);
+                    // store as [index, qty]
+                    return [idx, parseFloat(i.qty) || 0];
+                });
+                // store as [price, items]
+                return [parseFloat(o.price) || 0, minItems];
+            });
+
+            const jsonString = JSON.stringify(minified);
+            // Simple Base64 encode (safe for this content as it's numbers/brackets)
+            const b64 = btoa(jsonString);
+            
+            const url = `${window.location.protocol}//${window.location.host}${window.location.pathname}?s=${b64}`;
+            
+            navigator.clipboard.writeText(url).then(() => {
+                showToast("Short link copied to clipboard!");
+            }).catch(err => {
+                console.error('Could not copy text: ', err);
+                prompt("Copy this link:", url);
+            });
+        }
+
+        function loadFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            
+            // NEW FORMAT Check: 's' parameter (Short)
+            const shareData = params.get('s');
+            if (shareData) {
+                try {
+                    const json = atob(shareData);
+                    const minified = JSON.parse(json);
+                    
+                    const itemKeys = Object.keys(ITEM_VALUES).sort();
+                    
+                    offers = minified.map(minOffer => {
+                        const [price, minItems] = minOffer;
+                        const items = minItems.map(mi => {
+                            const [idx, qty] = mi;
+                            return { name: itemKeys[idx], qty: qty };
+                        });
+                        return { id: Date.now() + Math.random(), price, items };
+                    });
+                    
+                    // Clean URL
+                    // window.history.replaceState({}, document.title, window.location.pathname);
+                    return true;
+                } catch (e) {
+                    console.error("Invalid short share data", e);
+                }
+            }
+
+            // OLD FORMAT Check: 'data' parameter
+            const data = params.get('data');
+            if (data) {
+                try {
+                    const parsedOffers = JSON.parse(decodeURIComponent(data));
+                    if (Array.isArray(parsedOffers) && parsedOffers.length > 0) {
+                        offers = parsedOffers;
+                        return true;
+                    }
+                } catch (e) {
+                    console.error("Invalid shared data", e);
+                }
+            }
+            return false;
+        }
+
+        // --- TUTORIAL LOGIC ---
+        function checkTutorialState() {
+            if (localStorage.getItem('coc_tutorial_complete') !== 'true') {
+                tutorialActive = true; 
+                document.getElementById('tutorial-overlay').style.display = 'flex';
+                showTutorialStep(0);
+                localStorage.setItem('coc_tutorial_complete', 'true');
+            }
+        }
+
+        function skipTutorial() {
+            tutorialActive = false; 
+            document.getElementById('tutorial-overlay').style.display = 'none';
+            document.getElementById('tutorial-popover').classList.add('hidden'); 
+            document.querySelectorAll('.highlight-target').forEach(el => el.classList.remove('highlight-target'));
+            // Remove parent lifts
+            document.querySelectorAll('.lift-z-index').forEach(el => el.classList.remove('lift-z-index'));
+        }
+
+        function nextTutorialStep() {
+            if (!tutorialActive) return;
+
+            if (tutorialStep === 0) {
+                const input = TUTORIAL_STEPS[0].target();
+                if (!input || parseFloat(input.value) <= 0) { input?.focus(); return; }
+            } else if (tutorialStep === 1) {
+                const input = TUTORIAL_STEPS[1].target();
+                if (!input || parseFloat(input.value) <= 0) { input?.focus(); return; }
+            } else if (tutorialStep === 2) {
+                return;
+            }
+            
+            if (tutorialStep >= TUTORIAL_STEPS.length - 1) {
+                skipTutorial();
+                return;
+            }
+
+            tutorialStep++;
+            showTutorialStep(tutorialStep);
+        }
+
+        function showTutorialStep(stepIndex) {
+            if (!tutorialActive) return;
+
+            const step = TUTORIAL_STEPS[stepIndex];
+            const popover = document.getElementById('tutorial-popover');
+            const nextButton = document.getElementById('tutorial-next-button');
+            const target = step.target();
+
+            document.querySelectorAll('.highlight-target').forEach(el => el.classList.remove('highlight-target'));
+            
+            // CLEANUP: Remove previous lifts so only the current step is highlighted/lifted
+            document.querySelectorAll('.lift-z-index').forEach(el => el.classList.remove('lift-z-index'));
+
+            if (!target) {
+                popover.classList.add('hidden');
+                return;
+            }
+            
+            nextButton.innerHTML = (stepIndex === TUTORIAL_STEPS.length - 1) 
+                ? 'Finish <i class="fa-solid fa-check ml-1"></i>' 
+                : 'Next <i class="fa-solid fa-arrow-right ml-1"></i>';
+
+            target.classList.add('highlight-target');
+            
+            // FIX: Lift parents that create stacking contexts (like .offer-row with filter, or .clash-panel)
+            // This ensures the target is actually above the tutorial overlay.
+            const parentRow = target.closest('.offer-row');
+            if (parentRow) parentRow.classList.add('lift-z-index');
+            
+            const parentPanel = target.closest('.clash-panel');
+            if (parentPanel) parentPanel.classList.add('lift-z-index');
+            
+            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            
+            document.getElementById('tutorial-title').textContent = step.title;
+            document.getElementById('tutorial-text').textContent = step.text;
+
+            const targetRect = target.getBoundingClientRect();
+            const viewportWidth = window.innerWidth;
+            const viewportHeight = window.innerHeight;
+            
+            popover.classList.remove('hidden');
+            popover.style.transform = 'none';
+            
+            // Simple positioning logic
+            let top = targetRect.bottom + 10;
+            let left = targetRect.left;
+
+             if (step.position === 'bottom-right') {
+                left = targetRect.right - popover.offsetWidth;
+            } else if (step.position === 'right') {
+                top = targetRect.top;
+                left = targetRect.right + 15;
+            } else if (step.position === 'left') {
+                top = targetRect.top;
+                left = targetRect.left - popover.offsetWidth - 15;
+            } 
+            
+            // Basic bounds check
+            if (left < 10) left = 10;
+            if (left + popover.offsetWidth > viewportWidth) left = viewportWidth - popover.offsetWidth - 10;
+            if (top + popover.offsetHeight > viewportHeight) top = targetRect.top - popover.offsetHeight - 10;
+
+            popover.style.top = `${top}px`;
+            popover.style.left = `${left}px`;
+
+            if (stepIndex === 1) step.target()?.focus();
+        }
+
+        // --- GEM PACKS LOGIC ---
+        function renderGemPacks() {
+            const container = document.getElementById('gem-packs-container');
+            container.innerHTML = '';
+            
+            GEM_PACK_DATA.forEach(pack => {
+                const card = document.createElement('div');
+                card.className = "gem-pack-card";
+                card.innerHTML = `
+                    <div class="text-green-400 font-black text-sm mb-1 drop-shadow-md">${pack.gems.toLocaleString()}</div>
+                    <img src="${pack.image}" 
+                            class="object-contain mb-2 drop-shadow-lg"
+                            onerror="this.onerror=null;this.src='https://placehold.co/40x40/1a1a1d/ffffff?text=?';"
+                            alt="${pack.gems} Gems">
+                    <div class="w-full relative count rounded p-1">
+                        <input type="number" step="0.01" data-gems="${pack.gems}" 
+                            class="ghost-input text-sm gem-price-input" 
+                            placeholder="0.00" oninput="handlePriceChange()">
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function handlePriceChange() {
+            savePrices();
+            recalculateAllOffers();
+        }
+
+        function savePrices() {
+            const inputs = document.querySelectorAll('.gem-price-input');
+            const prices = {};
+            inputs.forEach(input => {
+                prices[input.dataset.gems] = input.value;
+            });
+            localStorage.setItem('coc_gem_prices_v2', JSON.stringify(prices));
+        }
+
+        function loadStoredPrices() {
+            const stored = localStorage.getItem('coc_gem_prices_v2') || localStorage.getItem('coc_gem_prices'); 
+            if (stored) {
+                const prices = JSON.parse(stored);
+                setTimeout(() => {
+                    const inputs = document.querySelectorAll('.gem-price-input');
+                    inputs.forEach(input => {
+                        if (prices[input.dataset.gems]) {
+                            input.value = prices[input.dataset.gems];
+                        }
+                    });
+                    recalculateAllOffers();
+                }, 0);
+            }
+        }
+
+        // --- OFFERS LOGIC ---
+
+        function addNewOffer(save = true) {
+            const id = Date.now();
+            const newOffer = {
+                id: id,
+                price: 0,
+                items: []
+            };
+            offers.push(newOffer);
+            if(save) saveOffersToStorage();
+            
+            const container = document.getElementById('offers-container');
+            container.appendChild(createOfferRowElement(newOffer));
+
+             if (offers.length === 1 && tutorialActive) {
+                 if (tutorialStep === 0) setTimeout(() => showTutorialStep(0), 100);
+             }
+        }
+
+        function deleteOffer(id) {
+            offers = offers.filter(o => o.id !== id);
+            saveOffersToStorage();
+            const row = document.getElementById(`offer-row-${id}`);
+            if(row) row.remove();
+        }
+
+        function addItemToOffer(itemName) {
+            if (!activeOfferIdForModal) return;
+            
+            const offer = offers.find(o => o.id === activeOfferIdForModal);
+            if (offer) {
+                offer.items.push({
+                    name: itemName,
+                    qty: 1
+                });
+                saveOffersToStorage();
+                refreshOfferRow(activeOfferIdForModal);
+                closeModal();
+
+                // TUTORIAL
+                if (tutorialActive && tutorialStep === 3) {
+                    if (offers.length === 1 && offers[0].items.length === 1) {
+                         tutorialStep = 4;
+                         setTimeout(() => showTutorialStep(4), 100);
+                    }
+                }
+            }
+        }
+
+        function deleteItemFromOffer(offerId, itemIndex) {
+            const offer = offers.find(o => o.id === offerId);
+            if (offer) {
+                offer.items.splice(itemIndex, 1);
+                saveOffersToStorage();
+                refreshOfferRow(offerId);
+            }
+        }
+
+        function updateOfferPrice(id, newPrice) {
+            const offer = offers.find(o => o.id === id);
+            if (offer) {
+                offer.price = parseFloat(newPrice) || 0;
+                saveOffersToStorage();
+                updateOfferResultUI(id); 
+            }
+        }
+
+        function updateItemQty(offerId, itemIndex, newQty) {
+            const offer = offers.find(o => o.id === offerId);
+            if (offer) {
+                offer.items[itemIndex].qty = parseFloat(newQty) || 0;
+                saveOffersToStorage();
+                updateOfferResultUI(offerId);
+            }
+        }
+
+        // --- UI ---
+        
+        function toggleCompactMode() {
+            document.body.classList.toggle('compact-mode');
+        }
+
+        function generateOfferRowContent(offer) {
+            const calculation = calculateSingleOffer(offer);
+            
+            let itemsHtml = '';
+            offer.items.forEach((item, idx) => {
+                const itemData = ITEM_VALUES[item.name];
+                itemsHtml += `
+                    <div class="offer-item-card">
+                        <div onclick="deleteItemFromOffer(${offer.id}, ${idx})" class="delete-btn hover:bg-red-600"><i class="fa-solid fa-times"></i></div>
+                        <div class="text-[10px] text-gray-400 text-center leading-tight h-6 overflow-hidden uppercase font-bold tracking-wide">${item.name}</div>
+                        <img src="${itemData.image}" 
+                                onerror="this.onerror=null;this.src='https://placehold.co/32x32/38383b/white?text=?';" 
+                                class="w-10 h-10 object-contain mb-1 drop-shadow-md" alt="${item.name}">
+                        <div class="w-full count rounded mt-1">
+                            <input type="number" value="${item.qty}" min="1" 
+                                class="ghost-input text-sm p-1"
+                                oninput="updateItemQty(${offer.id}, ${idx}, this.value)">
+                        </div>
+                    </div>
+                `;
+            });
+
+            return `
+                <button onclick="deleteOffer(${offer.id})" class="absolute top-0 left-0 bg-red-900/90 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-br z-20 opacity-0 group-hover:opacity-100 transition-opacity">Delete</button>
+
+                <div class="offer-scroll-area">
+                    <div class="offer-item-card">
+                        <div class="text-[10px] text-yellow-400 font-black uppercase tracking-wider">Price</div>
+                        <span class="text-3xl font-bold text-white drop-shadow-md">$</span>
+                        <div class="w-full count rounded">
+                            <input type="number" step="0.01" value="${offer.price || ''}" 
+                                class="ghost-input text-lg p-1" placeholder="0.00"
+                                oninput="updateOfferPrice(${offer.id}, this.value)">
+                        </div>
+                    </div>
+
+                    ${itemsHtml}
+
+                    <div onclick="openItemModal(${offer.id})" class="offer-add-btn group-hover:border-white transition-colors">
+                        <i class="fa-solid fa-plus text-3xl text-gray-500 group-hover:text-white transition-colors"></i>
+                    </div>
+                </div>
+
+                <div class="offer-result-area">
+                    <div class="text-xs text-gray-400 uppercase font-bold mb-1 tracking-wider">Value</div>
+                    <div class="text-3xl font-black ${calculation.colorClass} drop-shadow-lg" id="result-val-${offer.id}">${calculation.multiplier}x</div>
+                    <div class="text-[9px] mb-1" id="result-stars-${offer.id}">${calculation.starsHtml}</div>
+                    <div class="text-[10px] text-gray-400 font-bold" id="result-gem-${offer.id}">${calculation.totalGems.toLocaleString()} Gems</div>
+                </div>
+            `;
+        }
+
+        function createOfferRowElement(offer) {
+            const row = document.createElement('div');
+            row.className = "offer-row animate-pop relative group";
+            row.id = `offer-row-${offer.id}`;
+            row.innerHTML = generateOfferRowContent(offer);
+            return row;
+        }
+
+        function renderOffers() {
+            const container = document.getElementById('offers-container');
+            container.innerHTML = '';
+
+            offers.forEach(offer => {
+                container.appendChild(createOfferRowElement(offer));
+            });
+            
+            if (tutorialActive) {
+                if (tutorialStep === 0) setTimeout(() => showTutorialStep(0), 100); 
+                else if (tutorialStep === 1 && offers[0].price === 0) setTimeout(() => showTutorialStep(1), 100);
+                else if (tutorialStep === 2) setTimeout(() => showTutorialStep(2), 100);
+            }
+        }
+
+        function refreshOfferRow(offerId) {
+             const offer = offers.find(o => o.id === offerId);
+             if(!offer) return;
+             const row = document.getElementById(`offer-row-${offerId}`);
+             if(row) {
+                 row.innerHTML = generateOfferRowContent(offer);
+             }
+        }
+
+        // --- CALCULATION LOGIC ---
+
+        function recalculateAllOffers() {
+            offers.forEach(offer => updateOfferResultUI(offer.id));
+        }
+
+        function updateOfferResultUI(offerId) {
+            const offer = offers.find(o => o.id === offerId);
+            if (!offer) return;
+            
+            const calc = calculateSingleOffer(offer);
+            
+            const resultValEl = document.getElementById(`result-val-${offerId}`);
+            const resultGemEl = document.getElementById(`result-gem-${offerId}`);
+            const resultStarsEl = document.getElementById(`result-stars-${offerId}`);
+            
+            if(resultValEl) {
+                resultValEl.textContent = `${calc.multiplier}x`;
+                resultValEl.className = `text-3xl font-black ${calc.colorClass} drop-shadow-lg`;
+            }
+            if(resultGemEl) {
+                resultGemEl.textContent = `${calc.totalGems.toLocaleString()} Gems`;
+            }
+            if(resultStarsEl) {
+                resultStarsEl.innerHTML = calc.starsHtml;
+            }
+        }
+
+        function calculateSingleOffer(offer) {
+            let totalGems = 0;
+            offer.items.forEach(item => {
+                const val = ITEM_VALUES[item.name]?.value || 0;
+                totalGems += val * (parseFloat(item.qty) || 0);
+            });
+
+            if (!offer.price || offer.price <= 0 || totalGems === 0) {
+                return { multiplier: '---', totalGems: totalGems, colorClass: 'text-gray-500', starsHtml: '' };
+            }
+
+            const packData = getGemPackData();
+            // Default calculation logic
+            let rawCost = 0;
+            if (packData.length === 0) {
+                rawCost = totalGems * (1/100);
+            } else {
+                packData.sort((a, b) => (b.price / b.gems) - (a.price / a.gems));
+                const bestPack = packData[packData.length - 1]; 
+                rawCost = totalGems * (bestPack.price / bestPack.gems);
+            }
+
+            const multiplier = rawCost / offer.price;
+            const mVal = parseFloat(multiplier.toFixed(1));
+
+            let color = "text-white";
+            let starsHtml = "";
+
+            if (mVal < 1.5) {
+                color = "text-red-400";
+                starsHtml = '<span class="text-red-400">Bad Deal</span>';
+            } else if (mVal < 2.0) {
+                color = "text-gray-300";
+                starsHtml = '<i class="fa-solid fa-star text-gray-400"></i>';
+            } else if (mVal < 3.5) {
+                color = "text-yellow-400";
+                starsHtml = '<i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i>';
+            } else {
+                color = "text-purple-400";
+                starsHtml = '<i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i>';
+            }
+
+            return {
+                multiplier: multiplier.toFixed(1),
+                totalGems: totalGems,
+                colorClass: color,
+                starsHtml: starsHtml
+            };
+        }
+
+        function getGemPackData() {
+            const packs = [];
+            const inputs = document.querySelectorAll('.gem-price-input');
+            inputs.forEach(input => {
+                const gems = parseFloat(input.dataset.gems);
+                const price = parseFloat(input.value);
+                if (price > 0 && gems > 0) {
+                    packs.push({ gems, price });
+                }
+            });
+            return packs;
+        }
+
+        // --- MODAL LOGIC ---
+        
+        function filterModalItems() {
+            const searchText = document.getElementById('modal-search').value.toLowerCase();
+            const itemBtns = document.querySelectorAll('.item-btn');
+            
+            itemBtns.forEach(btn => {
+                const name = btn.querySelector('span').textContent.toLowerCase();
+                // Find parent category wrapper to hide if empty? (optional enhancement)
+                if(name.includes(searchText)) {
+                    btn.style.display = 'flex';
+                } else {
+                    btn.style.display = 'none';
+                }
+            });
+            
+            // Hide empty categories
+            document.querySelectorAll('#modal-items-container > div').forEach(catDiv => {
+                const visibleItems = catDiv.querySelectorAll('.item-btn[style="display: flex;"], .item-btn:not([style*="display: none"])');
+                if(visibleItems.length === 0) {
+                    catDiv.style.display = 'none';
+                } else {
+                    catDiv.style.display = 'block';
+                }
+            });
+        }
+
+        function renderModalItems() {
+            const container = document.getElementById('modal-items-container');
+            container.innerHTML = '';
+            
+            for (const [category, items] of Object.entries(CATEGORIES)) {
+                const categoryWrapper = document.createElement('div');
+                
+                const header = document.createElement('h4');
+                header.className = "text-gray-400 font-bold mb-3 uppercase text-sm tracking-wider border-b border-gray-600 pb-1 clash-font";
+                header.textContent = category;
+                categoryWrapper.appendChild(header);
+
+                const grid = document.createElement('div');
+                grid.className = "grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4";
+                
+                items.forEach(name => {
+                    const data = ITEM_VALUES[name];
+                    if (!data) return; 
+
+                    const btn = document.createElement('div');
+                    btn.className = "item-btn bg-[#2a2d33] hover:bg-[#343840] border-2 border-black rounded-xl p-3 flex flex-col items-center cursor-pointer relative shadow-lg group";
+                    btn.onclick = () => addItemToOffer(name);
+                    btn.innerHTML = `
+                        <img src="${data.image}" 
+                            onerror="this.onerror=null;this.src='https://placehold.co/32x32/38383b/white?text=?';" 
+                            class="w-10 h-10 object-contain mb-2 drop-shadow-lg group-hover:scale-110 transition-transform" alt="${name}">
+                        <span class="text-[11px] text-center text-gray-200 font-bold leading-tight uppercase tracking-tight">${name}</span>
+                        <div class="mt-2 count rounded px-2 py-0.5 border border-white/10">
+                            <span class="text-[10px] text-green-400 font-mono">${data.value}</span>
+                        </div>
+                    `;
+                    grid.appendChild(btn);
+                });
+
+                categoryWrapper.appendChild(grid);
+                container.appendChild(categoryWrapper);
+            }
+        }
+
+        function openItemModal(offerId) {
+            activeOfferIdForModal = offerId;
+            document.getElementById('item-modal').classList.add('modal-active');
+            
+            // Focus search
+            setTimeout(() => document.getElementById('modal-search').focus(), 100);
+            
+            if (tutorialActive && tutorialStep === 2) {
+                tutorialStep = 3; 
+                setTimeout(() => showTutorialStep(3), 100);
+            }
+        }
+
+        function closeModal(event) {
+            if (event && event.target !== document.getElementById('item-modal') && !event.target.closest('#item-modal button')) return; 
+            document.getElementById('item-modal').classList.remove('modal-active');
+            activeOfferIdForModal = null;
+        }
+
+    </script>
+</body>
+</html>
