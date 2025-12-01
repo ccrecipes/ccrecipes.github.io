@@ -618,6 +618,105 @@
         body.compact-mode .add-item-card { height: 70px; min-width: 60px; }
         body.compact-mode .offer-result-area { width: 90px; }
 
+        /* --- MOBILE OPTIMIZATION (SMALL SCREENS) --- */
+        @media (max-width: 767px) {
+            
+            /* 1. Gem Grid Layout */
+            .gem-scroll-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.5rem;
+                overflow-x: visible;
+                padding-bottom: 0;
+                scroll-snap-type: none;
+            }
+            .gem-pack-card {
+                min-width: 0;
+                scroll-snap-align: none;
+                width: 100%;
+            }
+
+            .gem-price-input {
+                font-size: 0.8rem;
+            }
+
+            /* 2. Offer Row Grid Layout */
+            .offer-row {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.5rem;
+                padding: 0.75rem;
+                height: auto;
+                min-height: auto;
+            }
+
+            /* 3. Unwrap the scroll area so children participate in the grid */
+            .offer-scroll-area {
+                display: contents;
+            }
+
+            /* 4. Individual Card Sizing for Mobile Grid */
+            .offer-card, .add-item-card {
+                min-width: 0; /* Override default min-width */
+                width: 100%;
+                margin: 0;
+            }
+
+            .item-qty-input {
+                font-size: 0.8rem;
+            }
+
+            /* 5. PRICE CARD (First element) - Full Width at Top */
+            .offer-scroll-area > .offer-card:first-child {
+                grid-column: 1 / -1; /* Span all 3 columns */
+                width: 100%;
+                flex-direction: row; /* Make price layout horizontal */
+                height: auto;
+                padding: 0.75rem;
+                gap: 1rem;
+                order: -1; /* Move to very top */
+            }
+            /* Adjust internal Price Card elements for horizontal layout */
+            .offer-scroll-area > .offer-card:first-child .price-symbol {
+                font-size: 2rem;
+                line-height: 1;
+            }
+            .offer-scroll-area > .offer-card:first-child .price-input-wrapper {
+                width: 60%; /* Limit width a bit */
+            }
+
+            /* 6. RESULT AREA - Full Width at Bottom */
+            .offer-result-area {
+                grid-column: 1 / -1; /* Span all 3 columns */
+                width: calc(100% + 1.5rem);
+                margin: 0 -0.75rem -0.75rem -0.75rem;
+                border-left: none;
+                border-top: 2px solid #000;
+                flex-direction: row; /* Horizontal layout */
+                justify-content: space-between;
+                padding: 0.75rem 1.5rem;
+                order: 999; /* Move to very bottom */
+                background: linear-gradient(to right, #2b3036, #1f2226);
+                box-shadow: inset 0 3px 0 0 hsla(0,0%,100%,.1);
+            }
+            .result-label { display: none; } /* Hide label to save space */
+            .result-multiplier { font-size: 2rem; }
+            .result-stars { font-size: 14px; display: flex; gap: 4px; }
+            .result-gems { font-size: 12px; }
+
+            /* 7. Modal Full Screen */
+            .modal-content {
+                width: 100%;
+                height: 100%;
+                max-width: none;
+                max-height: none;
+                border-radius: 0;
+                margin: 0;
+                border: none;
+            }
+            #item-modal { padding: 0; }
+        }
+
 
         /* --- MAIN BUTTONS --- */
         .btn-add-offer {
@@ -654,6 +753,54 @@
             justify-content: center;
             font-size: 0.875rem;
             border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        /* --- FOOTER --- */
+        .app-footer {
+            margin-top: 4rem;
+            padding: 2rem;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.3);
+            border-top: 2px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            backdrop-filter: blur(5px);
+        }
+
+        .footer-socials {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .social-link {
+            color: var(--c-gray-400);
+            font-size: 1.5rem;
+            transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+        }
+
+        .social-link:hover {
+            color: var(--clash-yellow);
+            background: rgba(255, 255, 255, 0.1);
+            transform: scale(1.1);
+            border-color: var(--clash-yellow);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .footer-text {
+            color: var(--c-gray-500);
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin: 0;
         }
 
         /* --- MODAL --- */
@@ -781,8 +928,8 @@
 
         .modal-item-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 0.5rem;
+            grid-template-columns: repeat(4, 1fr); /* CHANGED: Default (Mobile) to 4 cols */
+            gap: 0.35rem; /* CHANGED: Default (Mobile) gap balanced */
         }
         @media (min-width: 640px) {
             .modal-item-grid { grid-template-columns: repeat(4, 1fr); gap: 1rem; }
@@ -793,14 +940,14 @@
 
 
         .modal-item-btn {
-            min-width: 100px;
+            min-width: 0; /* CHANGED: Default (Mobile) can shrink */
             background: radial-gradient(55.62% 55.62% at 50% 50%,#857654 .5%,#301b14 68.75%,#1d1816 97.12%);
-            border-radius: 12px;
+            border-radius: 8px; /* CHANGED: Default (Mobile) smaller radius */
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            padding: 15px;
+            padding: 6px 4px; /* CHANGED: Default (Mobile) reduced padding */
             position: relative;
             box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
             transition: all 0.3s ease;
@@ -825,10 +972,10 @@
         }
 
         .modal-item-img {
-            width: 2.5rem;
-            height: 2.5rem;
+            width: 1.75rem; /* CHANGED: Default (Mobile) smaller image */
+            height: 1.75rem; /* CHANGED: Default (Mobile) smaller image */
             object-fit: contain;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem; /* CHANGED: Default (Mobile) smaller margin */
             filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
             transition: transform 0.15s;
         }
@@ -837,24 +984,47 @@
         .modal-item-name {
             color: var(--c-gray-200);
             font-weight: 500;
-            line-height: 1.25;
+            line-height: 1.1; /* CHANGED: Default (Mobile) tighter line height */
             text-transform: uppercase;
             letter-spacing: -0.025em;
-            font-size: 11px;
+            font-size: 9px; /* CHANGED: Default (Mobile) smaller font */
             text-align: center;
+            word-break: break-word; /* Ensure long words break on tiny columns */
         }
 
         .modal-item-value-badge {
-            margin-top: 0.5rem;
+            margin-top: 0.25rem; /* CHANGED: Default (Mobile) smaller margin */
             background: #000;
             box-shadow: inset 0 2px 0 0 hsla(0,0%,100%,.2);
             border-radius: 0.25rem;
-            padding: 0.125rem 0.5rem;
+            padding: 0.125rem 0.25rem; /* CHANGED: Default (Mobile) smaller padding */
         }
 
         .modal-item-value-text {
             color: var(--c-green-400);
             font-size: 10px;
+        }
+
+        /* RESTORE DESKTOP/TABLET STYLES */
+        @media (min-width: 640px) {
+            .modal-item-btn {
+                min-width: 100px;
+                padding: 15px;
+                border-radius: 12px;
+            }
+            .modal-item-img {
+                width: 2.5rem;
+                height: 2.5rem;
+                margin-bottom: 0.5rem;
+            }
+            .modal-item-name {
+                font-size: 11px;
+                line-height: 1.25;
+            }
+            .modal-item-value-badge {
+                margin-top: 0.5rem;
+                padding: 0.125rem 0.5rem;
+            }
         }
 
         /* --- TUTORIAL & TOAST --- */
@@ -1047,6 +1217,19 @@
         </div>
         Add New Offer
     </button>
+    
+    <!-- 4. FOOTER -->
+    <footer class="app-footer">
+        <div class="footer-socials">
+            <a href="https://www.youtube.com/@Kewb1n" class="social-link" target="_blank" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://ko-fi.com/kewbin" class="social-link" target="_blank" aria-label="Ko-fi">
+                <i class="fa-solid fa-mug-hot"></i>
+            </a>
+        </div>
+        <p class="footer-text">Created by Kewbin</p>
+    </footer>
 
 
     <!-- MODAL: Item Selection -->
