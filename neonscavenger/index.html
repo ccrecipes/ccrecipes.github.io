@@ -473,8 +473,7 @@
                         const content = container.querySelector('.marquee-content');
                         if(content.scrollWidth > container.clientWidth) {
                             const dist = container.clientWidth - content.scrollWidth;
-                            // Set custom property for animation
-                            content.style.setProperty('--scroll-dist', (dist - 10) + 'px'); // extra padding
+                            content.style.setProperty('--scroll-dist', (dist - 10) + 'px'); 
                             content.classList.add('animate-marquee');
                         }
                     }
@@ -482,16 +481,13 @@
             }, 0);
         }
         
-        // Auto-play listener unlocker
         const unlockAudio = () => {
             if (audio.ctx && audio.ctx.state === 'suspended') {
                 audio.ctx.resume();
             }
-            // Try playing if paused and selected
             if (audio.element.paused && audio.element.src) {
                  audio.element.play().catch(e => {});
             }
-            // Remove listeners after interaction
             if (audio.ctx && audio.ctx.state === 'running') {
                 document.removeEventListener('click', unlockAudio);
                 document.removeEventListener('keydown', unlockAudio);
@@ -501,10 +497,8 @@
         document.addEventListener('click', unlockAudio);
         document.addEventListener('keydown', unlockAudio);
 
-        // Init Track List and Attempt Autoplay
         renderTrackList();
         
-        // Try initial autoplay of first track
         setTimeout(() => {
              playPreview(0);
         }, 500);
@@ -516,7 +510,7 @@
                 const customIdx = tracks.findIndex(t => t.id === 'custom');
                 const newTrack = { 
                     id: 'custom',
-                    title: f.name.replace(/\.[^/.]+$/, ""), // Remove extension
+                    title: f.name.replace(/\.[^/.]+$/, ""), 
                     artist: "Custom Upload", 
                     src: url, 
                     cover: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop", 
@@ -537,7 +531,6 @@
             const track = tracks[index];
             if(!track || !track.src) return;
 
-            // Init Audio Context logic
             if(!audio.ctx) {
                 audio.ctx = new (window.AudioContext || window.webkitAudioContext)();
                 audio.analyser = audio.ctx.createAnalyser();
@@ -559,13 +552,13 @@
             }
             
             audio.element.currentTime = 0;
-            audio.element.volume = 0.5; // Menu volume
-            audio.element.loop = true;  // Menu loop
+            audio.element.volume = 0.5; 
+            audio.element.loop = true;  
             
             var playPromise = audio.element.play();
             if (playPromise !== undefined) {
                 playPromise.catch(error => {
-                    console.log("Auto-play was prevented by browser policy. Waiting for user interaction.");
+                    console.log("Auto-play was prevented by browser policy.");
                 });
             }
         }
@@ -1010,7 +1003,7 @@
             const drawPoly = (g) => {
                 const R = arenaApothem / Math.cos(Math.PI/8);
                 for(let i=0; i<=8; i++) {
-                    const theta = i * Math.PI / 4; // FIXED ANGLE
+                    const theta = (i * Math.PI / 4) + (Math.PI / 8); 
                     const vx = Math.cos(theta) * R;
                     const vy = Math.sin(theta) * R;
                     if(i===0) g.moveTo(vx, vy);
@@ -1211,10 +1204,17 @@
             }
 
             if (!gameState.isDying) {
-                gameState.spawnTimer += dt;
-                const rate = Math.max(20, 120 - (gameState.score / 50));
+                // BEAT REACTIVE SPAWNING
+                // Increase timer by more if beat is high
+                // Base increment 1.0. With max beat (1.0), increment is 11.0.
+                gameState.spawnTimer += dt * (1 + audio.beatValue * 10.0);
+                
+                // Difficulty Scaling
+                // Base threshold decreases with score to spawn faster
+                const baseThreshold = Math.max(30, 120 - (gameState.score / 100));
+                
                 const cap = 5 + (gameState.score / 100);
-                if (gameState.spawnTimer > rate && entities.enemies.length < cap) {
+                if (gameState.spawnTimer > baseThreshold && entities.enemies.length < cap) {
                     entities.enemies.push(new Enemy());
                     gameState.spawnTimer = 0;
                 }
@@ -1416,5 +1416,4 @@
         drawBorder();
     </script>
 </body>
-
 </html>
