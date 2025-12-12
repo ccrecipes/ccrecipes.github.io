@@ -1,0 +1,69 @@
+==========================================
+SYSTEM UPDATE: VERSION 2.0.4
+STATUS: COMPLETED
+==========================================
+
+[ NEW FEATURE: THE NANO-FABRICATOR ]
+------------------------------------------
+> SHIP CUSTOMIZATION: 
+  Added the "Nano-Fabricator" menu to the main screen. 
+  Spend Shards on cosmetic upgrades.
+
+> NEW CHASSIS MODELS: 
+  Unlock 5 new ship designs, including "Crimson Reaper," 
+  "Void Phantom," and the "Celestial Seraph."
+
+> COLOR PALETTES: 
+  Over 10 new color schemes available (e.g., "Magma Core", "Arctic Ops").
+
+> SPECIAL FX SKINS: 
+  Added premium skins with active effects:
+  - "Holofoil" (Pulsing)
+  - "RGB Overload" (Rainbow Cycle)
+
+[ GAMEPLAY & BALANCE ]
+------------------------------------------
+> LIVES SYSTEM: 
+  Health Bar replaced with a 3-Life (Heart) System. 
+  Emphasis shifted to dodging; all hits remove 1 heart.
+
+> TECH LAB EXPANSION:
+  + Homing System: Projectiles steer toward enemies.
+  + Split Barrel: Fire multiple projectiles in a spread.
+
+> VISUAL CLARITY: 
+  Tech Lab now displays visual "pips" for upgrade levels.
+
+[ AUDIO & TRACKS ]
+------------------------------------------
+> NEW TRACKS:
+  + "Spoiler" by Hyper
+  + "Through The Fire And Flames" by DragonForce
+
+> DIFFICULTY RATINGS: 
+  Added Easy, Medium, Hard, and Extreme ratings to the track list.
+
+> COLOR-CODED INTENSITY: 
+  UI reacts to difficulty (Green for Easy, Flames for Extreme).
+
+[ VISUALS & ATMOSPHERE ]
+------------------------------------------
+> BACKGROUND OVERHAUL: 
+  Added dynamic Synthwave atmosphere with retro "Sun" visualizer.
+
+> UI REDESIGN: 
+  Stylized cyber-interface for Game Over and Mission Complete screens.
+
+> NAVIGATION: 
+  Added "Return to Menu" button to post-game screens.
+
+> HUD UPDATE: 
+  Added retro heart display for lives.
+
+[ QUALITY OF LIFE ]
+------------------------------------------
+> MENU FLOW: Smoother transitions between screens.
+> SHOP CLARITY: Clearer costs and "Maxed" indicators.
+
+==========================================
+END OF LOG
